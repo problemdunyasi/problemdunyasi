@@ -77,5 +77,4 @@ async function initSayfa(){
   await regenerate();
 }
 function initIndex(){
-document.getElementById("ap_kaydet")?.addEventListener("click",saveUserProblem);document.getElementById("feedbackBtn")?.addEventListener("click",openFeedback)}
-window.initSayfa=initSayfa; window.initIndex=initIndex;
+document.getElementById("ap_kaydet")?.addEventListener("click",saveUserProblem);window.initSayfa=initSayfa; window.initIndex=initIndex;
