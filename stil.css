@@ -31,14 +31,7 @@ h1,h2,h3{font-family:'Baloo 2','Poppins',sans-serif;margin:0}
 .card .chip{display:inline-block;background:var(--ink);color:#fff;font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px}
 .card h2{font-size:18px;margin:8px 0 0}
 
-/* STATS */
-.stats-wrap{max-width:1100px;margin:0 auto 24px;padding:0 22px}
-.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
-.stat-card{background:#fff;border-radius:14px;padding:14px;box-shadow:0 8px 24px rgba(0,0,0,.12);transition:transform .3s ease,color .3s ease}
-.stat-card:hover{transform:translateY(-2px) scale(1.02)}
-.stat-label{font-size:12.5px;color:#475569}
-.stat-value{font-size:28px;font-weight:700;margin-top:6px}
-
+/* STATS removed */
 /* ADD PROBLEM */
 .add-problem{max-width:900px;margin:0 auto 40px;padding:0 22px}
 .add-form{border-radius:16px;padding:16px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -102,7 +95,6 @@ h1,h2,h3{font-family:'Baloo 2','Poppins',sans-serif;margin:0}
   .page-header,.controls,.site-footer,.feedback-btn{display:none!important}
   .paper{box-shadow:none;margin:0;border-radius:0}
 }
-
 
 /* === Overrides applied 2025-10-14T17:17:52 ===
    Purpose: Make A4 question boxes larger but still fit; ensure text visibility.
