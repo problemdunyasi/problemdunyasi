@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problem Dünyası – Çalışma Kâğıdı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stil.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', ()=> document.body.classList.add('loaded'));
+    window.addEventListener('pageshow', ()=> document.body.classList.add('loaded'));
+  </script>
+</head>
+<body class="page fade">
+  <header class="page-header">
+    <a class="back" href="index.html">← Ana Sayfa</a>
+    <h1 id="baslik">Problem Dünyası</h1>
+  </header>
+
+  <section class="controls glass fade-in-up">
+    <div class="control-row">
+      <select id="konuSelect" class="control-select"></select>
+      <select id="zorluk" class="control-select">
+        <option value="kolay">Kolay</option>
+        <option value="orta" selected>Orta</option>
+        <option value="zor">Zor</option>
+      </select>
+      <input id="adSoyad" placeholder="Ad Soyad">
+      <input id="tarih" type="date">
+      <input id="okul" placeholder="Okul">
+    </div>
+
+    <div class="control-row btn-row">
+      <button id="olusturBtn" class="btn primary glow">🎲 Yeni Kâğıt</button>
+      <button id="pdfBtn" class="btn">📄 PDF İndir</button>
+      <button id="cevapBtn" class="btn">📘 Cevap Anahtarı</button>
+      <button id="printBtn" class="btn">🖨️ Yazdır</button>
+    </div>
+  </section>
+
+  <section class="questions shadow paper fade-in-up" id="printArea">
+    <header class="paper-header">
+      <h2 id="sayfaBaslik" class="paper-title">Konu Başlığı</h2>
+      <div class="header-grid">
+        <div><strong>Adı Soyadı:</strong> <span id="h_ad"></span></div>
+        <div><strong>Tarih:</strong> <span id="h_tarih"></span></div>
+        <div><strong>Okulu:</strong> <span id="h_okul"></span></div>
+        <div><strong>Zorluk:</strong> <span id="h_zorluk"></span></div>
+      </div>
+    </header>
+
+    <div class="paper-body">
+      <ol id="soruListe" class="two-col"></ol>
+    </div>
+
+    <footer class="paper-footer">© 2025 Problem Dünyası – Tüm Hakları Saklıdır.</footer>
+  </section>
+
+  <div id="cevapModal" class="modal hidden">
+    <div class="modal-content">
+      <h3>📘 Cevap Anahtarı</h3>
+      <ul id="cevapList"></ul>
+      <button id="closeModal" class="btn">Kapat</button>
+    </div>
+  </div>
+
+  <footer class="site-footer small">Not: Yazdır ve PDF yalnızca beyaz A4 alanını alır.</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+  <script>window.addEventListener('DOMContentLoaded',()=>window.initSayfa?.());</script>
+</body>
+</html>

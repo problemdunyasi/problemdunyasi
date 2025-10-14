@@ -1,0 +1,115 @@
+/* 🌈 Problem Dünyası v10.1 – Animasyonlu Tema */
+*{box-sizing:border-box}
+:root{
+  --sun:#FFB703;--sky:#219EBC;--sky2:#8ECAE6;--ink:#023047;
+  --muted:#64748b;--glass:rgba(255,255,255,.6)
+}
+html,body{margin:0;padding:0;min-height:100vh;color:var(--ink);
+  font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:linear-gradient(135deg,var(--sun),var(--sky2));
+  scroll-behavior:smooth;
+}
+
+/* Fade page transition */
+.fade{opacity:0;transition:opacity .6s ease}
+.loaded.fade{opacity:1}
+
+h1,h2,h3{font-family:'Baloo 2','Poppins',sans-serif;margin:0}
+
+/* HERO */
+.home .hero{text-align:center;padding:60px 16px 20px;color:#fff}
+.hero-inner{max-width:900px;margin:0 auto}
+.hero h1{font-size:48px}
+.badge{background:rgba(0,0,0,.25);color:#fff;padding:6px 12px;border-radius:999px;font-weight:700;display:inline-block;margin-top:12px}
+.wave{height:60px;background:linear-gradient(180deg,rgba(255,255,255,0) 0,rgba(255,255,255,.18) 100%);filter:blur(10px);margin-top:24px}
+
+/* GRID CARDS */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:1100px;margin:0 auto;padding:22px}
+.card{background:#fff;border-radius:18px;padding:20px;text-decoration:none;color:var(--ink);
+  box-shadow:0 12px 40px rgba(0,0,0,.12);transition:transform .3s ease, box-shadow .3s ease, filter .3s ease}
+.card:hover{transform:scale(1.03) rotate(.2deg);box-shadow:0 22px 60px rgba(0,0,0,.18);filter:saturate(1.05)}
+.card .chip{display:inline-block;background:var(--ink);color:#fff;font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px}
+.card h2{font-size:18px;margin:8px 0 0}
+
+/* STATS */
+.stats-wrap{max-width:1100px;margin:0 auto 24px;padding:0 22px}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.stat-card{background:#fff;border-radius:14px;padding:14px;box-shadow:0 8px 24px rgba(0,0,0,.12);transition:transform .3s ease,color .3s ease}
+.stat-card:hover{transform:translateY(-2px) scale(1.02)}
+.stat-label{font-size:12.5px;color:#475569}
+.stat-value{font-size:28px;font-weight:700;margin-top:6px}
+
+/* ADD PROBLEM */
+.add-problem{max-width:900px;margin:0 auto 40px;padding:0 22px}
+.add-form{border-radius:16px;padding:16px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.glass-card{background:var(--glass);backdrop-filter:blur(8px);box-shadow:0 10px 30px rgba(0,0,0,.15)}
+.add-form textarea{grid-column:1/-1;resize:vertical}
+.add-form input,.add-form select,.add-form textarea{width:100%;border:1px solid #e5e7eb;border-radius:10px;padding:10px;font-size:14px;background:#fff}
+.muted{color:#64748b;font-size:12px;grid-column:1/-1}
+
+/* BUTTONS */
+.btn{padding:10px 14px;border:0;border-radius:10px;background:#111827;color:#fff;cursor:pointer;font-weight:700;transition:transform .2s ease, box-shadow .2s ease, background .2s ease}
+.btn:hover{transform:translateY(-1px);box-shadow:0 10px 20px rgba(0,0,0,.15)}
+.btn.primary{background:linear-gradient(135deg,#0b2545,#33658a)}
+.btn.primary:hover{background:linear-gradient(135deg,#0b2545,#4a7aa3)}
+.glow{box-shadow:0 6px 18px rgba(51,101,138,.35)}
+
+/* PAGE HEADER */
+.page .page-header{display:flex;gap:10px;align-items:center;justify-content:center;padding:16px;background:rgba(255,255,255,.5);backdrop-filter:blur(8px)}
+.page .back{color:var(--ink);font-weight:700;text-decoration:none}
+
+/* CONTROLS */
+.controls{margin:14px auto;background:var(--glass);backdrop-filter:blur(10px);border-radius:14px;padding:14px 16px;max-width:900px;box-shadow:0 8px 26px rgba(0,0,0,.12)}
+.control-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:center}
+.control-select,.controls input{border:1px solid #E5E7EB;border-radius:8px;padding:8px 10px;font-size:14px;background:#fff}
+.btn-row{margin-top:10px;display:flex;justify-content:center;flex-wrap:wrap;gap:8px}
+
+/* PAPER (A4) */
+.paper{width:210mm;height:297mm;background:#fff;margin:20px auto;padding:18mm 16mm;border-radius:8px;box-shadow:0 0 10px rgba(0,0,0,.15);overflow:hidden}
+.paper-header{margin-bottom:6mm}
+.paper-title{text-align:center;font-size:16pt;font-weight:700;margin-bottom:6mm}
+.header-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:4px 10px;font-size:12px}
+.paper-body{height:calc(297mm - 40mm)}
+.two-col{list-style:none;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(5,1fr);gap:8mm 10mm;margin:0;padding:0}
+.qbox{border:1px solid #CBD5E1;border-radius:6mm;padding:4mm;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
+.qrow{display:flex;gap:4mm;align-items:flex-start}
+.qnum{font-weight:700}
+.qtext{font-size:12.5px;line-height:1.4;word-wrap:break-word}
+.qspacer{flex:1 1 auto}
+.paper-footer{text-align:right;font-size:10px;color:var(--muted);margin-top:6mm}
+
+/* MODAL */
+.modal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.modal-content{background:#fff;border-radius:10px;padding:20px;width:320px;max-height:70vh;overflow-y:auto;box-shadow:0 8px 26px rgba(0,0,0,.2)}
+.hidden{display:none}
+
+/* Floating feedback */
+.feedback-btn{position:fixed;right:16px;bottom:16px;background:#fff;color:#111827;border:1px solid #E5E7EB;border-radius:999px;padding:10px 14px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.18);cursor:pointer;transition:transform .2s ease}
+.shake-on-hover:hover{animation:shake .4s linear both}
+@keyframes shake{0%{transform:translateX(0)}25%{transform:translateX(-2px)}50%{transform:translateX(2px)}75%{transform:translateX(-1px)}100%{transform:translateX(0)}}
+
+/* Fade-in-up utility */
+.fade-in-up{opacity:0;transform:translateY(12px);animation:rise .6s ease forwards}
+.fade-in-up.d1{animation-delay:.1s}
+.fade-in-up.d2{animation-delay:.2s}
+.fade-in-up.d3{animation-delay:.3s}
+.fade-in-up.d4{animation-delay:.4s}
+@keyframes rise{to{opacity:1;transform:translateY(0)}}
+
+/* PRINT */
+@media print{
+  body,html{margin:0;padding:0;background:#fff}
+  .page-header,.controls,.site-footer,.feedback-btn{display:none!important}
+  .paper{box-shadow:none;margin:0;border-radius:0}
+}
+
+
+/* === Overrides applied 2025-10-14T17:17:52 ===
+   Purpose: Make A4 question boxes larger but still fit; ensure text visibility.
+   Notes: These rules override earlier ones via cascade. Adjust values if needed. */
+.paper{color:#111}
+.paper-body{height:calc(297mm - 40mm)}
+.two-col{gap:8mm 10mm}
+.qbox{border-radius:7mm;padding:5mm;min-height:42mm}
+.qrow{gap:3mm}
+.qtext{font-size:13px;line-height:1.5;color:#111}
