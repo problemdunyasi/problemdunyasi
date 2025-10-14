@@ -1,42 +1,14 @@
 [
   {
-    "soru": "Bir pastanın 4/9 si yenmiştir. Kalan kesri yaz.",
-    "cevap": ""
+    "soru": "Pastanın 1/4’ü yendi. Pastanın ne kadarı kaldı?",
+    "cevap": "3/4"
   },
   {
-    "soru": "10 parçaya bölünen bir çubuğun 15 parçası boyalı. Kesri yaz.",
-    "cevap": ""
+    "soru": "Bir çubuğun 2/8’i kırıldı. Kalan parça kaçta kaçtır?",
+    "cevap": "6/8 = 3/4"
   },
   {
-    "soru": "Bir pastanın 2/6 si yenmiştir. Kalan kesri yaz.",
-    "cevap": ""
-  },
-  {
-    "soru": "11 parçaya bölünen bir çubuğun 9 parçası boyalı. Kesri yaz.",
-    "cevap": ""
-  },
-  {
-    "soru": "Bir pastanın 10/6 si yenmiştir. Kalan kesri yaz.",
-    "cevap": ""
-  },
-  {
-    "soru": "8 parçaya bölünen bir çubuğun 2 parçası boyalı. Kesri yaz.",
-    "cevap": ""
-  },
-  {
-    "soru": "Bir pastanın 13/7 si yenmiştir. Kalan kesri yaz.",
-    "cevap": ""
-  },
-  {
-    "soru": "12 parçaya bölünen bir çubuğun 9 parçası boyalı. Kesri yaz.",
-    "cevap": ""
-  },
-  {
-    "soru": "Bir pastanın 8/12 si yenmiştir. Kalan kesri yaz.",
-    "cevap": ""
-  },
-  {
-    "soru": "9 parçaya bölünen bir çubuğun 5 parçası boyalı. Kesri yaz.",
-    "cevap": ""
+    "soru": "Bardağın yarısı su dolu. Bu hangi kesre karşılık gelir?",
+    "cevap": "1/2"
   }
 ]

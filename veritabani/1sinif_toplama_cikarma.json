@@ -1,42 +1,14 @@
 [
   {
-    "soru": "Sınıfta 8 öğrenci vardı, 4 öğrenci geldi. Sonra 8 öğrenci çıktı. Şimdi kaç kişi var?",
-    "cevap": ""
+    "soru": "Zeynep 8 sticker aldı, 3’ünü arkadaşıyla paylaştı. Şimdi kaç sticker’ı var?",
+    "cevap": "5 sticker"
   },
   {
-    "soru": "9+10-4=?",
-    "cevap": ""
+    "soru": "Can 10 bilye buldu, sonra 4 bilye daha buldu ve 6’sını kaybetti. Kaç bilyesi kaldı?",
+    "cevap": "8 bilye"
   },
   {
-    "soru": "Sınıfta 7 öğrenci vardı, 11 öğrenci geldi. Sonra 4 öğrenci çıktı. Şimdi kaç kişi var?",
-    "cevap": ""
-  },
-  {
-    "soru": "8+11-6=?",
-    "cevap": ""
-  },
-  {
-    "soru": "Sınıfta 3 öğrenci vardı, 10 öğrenci geldi. Sonra 1 öğrenci çıktı. Şimdi kaç kişi var?",
-    "cevap": ""
-  },
-  {
-    "soru": "5+10-1=?",
-    "cevap": ""
-  },
-  {
-    "soru": "Sınıfta 11 öğrenci vardı, 4 öğrenci geldi. Sonra 6 öğrenci çıktı. Şimdi kaç kişi var?",
-    "cevap": ""
-  },
-  {
-    "soru": "9+7-1=?",
-    "cevap": ""
-  },
-  {
-    "soru": "Sınıfta 13 öğrenci vardı, 12 öğrenci geldi. Sonra 6 öğrenci çıktı. Şimdi kaç kişi var?",
-    "cevap": ""
-  },
-  {
-    "soru": "6+10-4=?",
-    "cevap": ""
+    "soru": "Bahçeden 9 elma toplandı, 5’i satıldı. Sepette kaç elma var?",
+    "cevap": "4 elma"
   }
 ]

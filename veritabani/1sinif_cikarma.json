@@ -1,42 +1,14 @@
 [
   {
-    "soru": "Efe'nin 3 cevizi vardı, 2 tanesini yedi. Kaç ceviz kaldı?",
-    "cevap": ""
+    "soru": "Elif’in 15 balonu vardı, 6’sı patladı. Kaç balon kaldı?",
+    "cevap": "9 balon"
   },
   {
-    "soru": "6-8=?  Sonuç nedir?",
-    "cevap": ""
+    "soru": "Kutuda 18 kurabiye vardı, 7’si yendi. Kaç kurabiye kaldı?",
+    "cevap": "11 kurabiye"
   },
   {
-    "soru": "Efe'nin 10 cevizi vardı, 9 tanesini yedi. Kaç ceviz kaldı?",
-    "cevap": ""
-  },
-  {
-    "soru": "2-8=?  Sonuç nedir?",
-    "cevap": ""
-  },
-  {
-    "soru": "Efe'nin 7 cevizi vardı, 7 tanesini yedi. Kaç ceviz kaldı?",
-    "cevap": ""
-  },
-  {
-    "soru": "13-9=?  Sonuç nedir?",
-    "cevap": ""
-  },
-  {
-    "soru": "Efe'nin 2 cevizi vardı, 12 tanesini yedi. Kaç ceviz kaldı?",
-    "cevap": ""
-  },
-  {
-    "soru": "6-9=?  Sonuç nedir?",
-    "cevap": ""
-  },
-  {
-    "soru": "Efe'nin 2 cevizi vardı, 6 tanesini yedi. Kaç ceviz kaldı?",
-    "cevap": ""
-  },
-  {
-    "soru": "11-10=?  Sonuç nedir?",
-    "cevap": ""
+    "soru": "Mert’in 12 kaleminden 5’ini arkadaşına verdi. Kaç kalemi kaldı?",
+    "cevap": "7 kalem"
   }
 ]

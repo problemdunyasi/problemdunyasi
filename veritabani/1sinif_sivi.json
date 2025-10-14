@@ -1,42 +1,10 @@
 [
   {
-    "soru": "10 L meyve suyu ile 7 L su karıştırılıyor. Karışım kaç L?",
-    "cevap": ""
+    "soru": "1 litrelik şişeden 350 mL su içildi. Şişede kaç mL su kaldı?",
+    "cevap": "650 mL"
   },
   {
-    "soru": "11 mL'lik şişeden 11 mL içilirse kaç mL kalır?",
-    "cevap": ""
-  },
-  {
-    "soru": "5 L meyve suyu ile 11 L su karıştırılıyor. Karışım kaç L?",
-    "cevap": ""
-  },
-  {
-    "soru": "10 mL'lik şişeden 3 mL içilirse kaç mL kalır?",
-    "cevap": ""
-  },
-  {
-    "soru": "15 L meyve suyu ile 10 L su karıştırılıyor. Karışım kaç L?",
-    "cevap": ""
-  },
-  {
-    "soru": "8 mL'lik şişeden 3 mL içilirse kaç mL kalır?",
-    "cevap": ""
-  },
-  {
-    "soru": "12 L meyve suyu ile 5 L su karıştırılıyor. Karışım kaç L?",
-    "cevap": ""
-  },
-  {
-    "soru": "13 mL'lik şişeden 7 mL içilirse kaç mL kalır?",
-    "cevap": ""
-  },
-  {
-    "soru": "5 L meyve suyu ile 6 L su karıştırılıyor. Karışım kaç L?",
-    "cevap": ""
-  },
-  {
-    "soru": "9 mL'lik şişeden 7 mL içilirse kaç mL kalır?",
-    "cevap": ""
+    "soru": "Her biri 200 mL olan 3 bardak meyve suyu kaç mL eder?",
+    "cevap": "600 mL"
   }
 ]

@@ -1,42 +1,14 @@
 [
   {
-    "soru": "Ayşe 10 kalem aldı, sonra 6 kalem daha aldı. Toplam kaç kalemi oldu?",
-    "cevap": ""
+    "soru": "Ali 7 kalem aldı, akşam 5 kalem daha aldı. Toplam kaç kalemi oldu?",
+    "cevap": "12 kalem"
   },
   {
-    "soru": "6+9=?  Ali'nin cevabı nedir?",
-    "cevap": ""
+    "soru": "Ayşe sabah 6 sayfa, öğleden sonra 8 sayfa kitap okudu. Toplam kaç sayfa okudu?",
+    "cevap": "14 sayfa"
   },
   {
-    "soru": "Ayşe 8 kalem aldı, sonra 10 kalem daha aldı. Toplam kaç kalemi oldu?",
-    "cevap": ""
-  },
-  {
-    "soru": "12+3=?  Ali'nin cevabı nedir?",
-    "cevap": ""
-  },
-  {
-    "soru": "Ayşe 5 kalem aldı, sonra 8 kalem daha aldı. Toplam kaç kalemi oldu?",
-    "cevap": ""
-  },
-  {
-    "soru": "13+8=?  Ali'nin cevabı nedir?",
-    "cevap": ""
-  },
-  {
-    "soru": "Ayşe 11 kalem aldı, sonra 11 kalem daha aldı. Toplam kaç kalemi oldu?",
-    "cevap": ""
-  },
-  {
-    "soru": "4+2=?  Ali'nin cevabı nedir?",
-    "cevap": ""
-  },
-  {
-    "soru": "Ayşe 13 kalem aldı, sonra 4 kalem daha aldı. Toplam kaç kalemi oldu?",
-    "cevap": ""
-  },
-  {
-    "soru": "13+6=?  Ali'nin cevabı nedir?",
-    "cevap": ""
+    "soru": "Bir kutuda 9 bilye, diğer kutuda 4 bilye var. Toplam kaç bilye vardır?",
+    "cevap": "13 bilye"
   }
 ]
