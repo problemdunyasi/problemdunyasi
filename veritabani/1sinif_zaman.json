@@ -1,10 +1,42 @@
 [
   {
-    "soru": "Ders 40 dakika sürüyor. 15 dakikası geçtiyse geriye kaç dakika kalır?",
-    "cevap": "25 dakika"
+    "soru": "Saat 3:00'da başlayan film 5 saat sürüyor. Ne zaman biter?",
+    "cevap": ""
   },
   {
-    "soru": "Film 18.30’da başlayıp 20.00’de bitiyor. Film kaç dakika sürer?",
-    "cevap": "90 dakika"
+    "soru": "11 dakika + 9 dakika = ?",
+    "cevap": ""
+  },
+  {
+    "soru": "Saat 4:00'da başlayan film 12 saat sürüyor. Ne zaman biter?",
+    "cevap": ""
+  },
+  {
+    "soru": "3 dakika + 4 dakika = ?",
+    "cevap": ""
+  },
+  {
+    "soru": "Saat 3:00'da başlayan film 8 saat sürüyor. Ne zaman biter?",
+    "cevap": ""
+  },
+  {
+    "soru": "13 dakika + 5 dakika = ?",
+    "cevap": ""
+  },
+  {
+    "soru": "Saat 8:00'da başlayan film 10 saat sürüyor. Ne zaman biter?",
+    "cevap": ""
+  },
+  {
+    "soru": "11 dakika + 6 dakika = ?",
+    "cevap": ""
+  },
+  {
+    "soru": "Saat 6:00'da başlayan film 9 saat sürüyor. Ne zaman biter?",
+    "cevap": ""
+  },
+  {
+    "soru": "9 dakika + 5 dakika = ?",
+    "cevap": ""
   }
 ]

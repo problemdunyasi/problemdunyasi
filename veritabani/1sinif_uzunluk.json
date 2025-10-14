@@ -1,10 +1,42 @@
 [
   {
-    "soru": "Bir kurdele 35 cm, diğeri 25 cm. Birleştirince toplam uzunluk kaç cm olur?",
-    "cevap": "60 cm"
+    "soru": "7 cm uzunluğundaki kurdelenin 6 cm'si kesildi. Kalan kaç cm?",
+    "cevap": ""
   },
   {
-    "soru": "40 cm kurdelenin 12 cm’si kesildi. Kaç cm kaldı?",
-    "cevap": "28 cm"
+    "soru": "5 m + 12 m = ?  Toplam uzunluk kaç metredir?",
+    "cevap": ""
+  },
+  {
+    "soru": "13 cm uzunluğundaki kurdelenin 2 cm'si kesildi. Kalan kaç cm?",
+    "cevap": ""
+  },
+  {
+    "soru": "9 m + 9 m = ?  Toplam uzunluk kaç metredir?",
+    "cevap": ""
+  },
+  {
+    "soru": "7 cm uzunluğundaki kurdelenin 5 cm'si kesildi. Kalan kaç cm?",
+    "cevap": ""
+  },
+  {
+    "soru": "4 m + 12 m = ?  Toplam uzunluk kaç metredir?",
+    "cevap": ""
+  },
+  {
+    "soru": "2 cm uzunluğundaki kurdelenin 12 cm'si kesildi. Kalan kaç cm?",
+    "cevap": ""
+  },
+  {
+    "soru": "12 m + 5 m = ?  Toplam uzunluk kaç metredir?",
+    "cevap": ""
+  },
+  {
+    "soru": "8 cm uzunluğundaki kurdelenin 11 cm'si kesildi. Kalan kaç cm?",
+    "cevap": ""
+  },
+  {
+    "soru": "11 m + 9 m = ?  Toplam uzunluk kaç metredir?",
+    "cevap": ""
   }
 ]

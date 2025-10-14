@@ -1,10 +1,42 @@
 [
   {
-    "soru": "Bir deste kalem 10 adettir. Sınıfa 2 deste kalem geldi. Kaç kalem geldi?",
-    "cevap": "20 kalem"
+    "soru": "3 kalem kaç deste eder? (1 deste=10)",
+    "cevap": ""
   },
   {
-    "soru": "Bir düzine yumurta 12 adettir. Annem 3 düzine yumurta aldı. Kaç yumurta aldı?",
-    "cevap": "36 yumurta"
+    "soru": "11 yumurta kaç düzine eder? (1 düzine=12)",
+    "cevap": ""
+  },
+  {
+    "soru": "7 kalem kaç deste eder? (1 deste=10)",
+    "cevap": ""
+  },
+  {
+    "soru": "2 yumurta kaç düzine eder? (1 düzine=12)",
+    "cevap": ""
+  },
+  {
+    "soru": "13 kalem kaç deste eder? (1 deste=10)",
+    "cevap": ""
+  },
+  {
+    "soru": "8 yumurta kaç düzine eder? (1 düzine=12)",
+    "cevap": ""
+  },
+  {
+    "soru": "9 kalem kaç deste eder? (1 deste=10)",
+    "cevap": ""
+  },
+  {
+    "soru": "13 yumurta kaç düzine eder? (1 düzine=12)",
+    "cevap": ""
+  },
+  {
+    "soru": "3 kalem kaç deste eder? (1 deste=10)",
+    "cevap": ""
+  },
+  {
+    "soru": "15 yumurta kaç düzine eder? (1 düzine=12)",
+    "cevap": ""
   }
 ]
