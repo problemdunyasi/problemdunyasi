@@ -1,17 +1,19 @@
 
-// === GitHub Pages yol çözümleyici ===
-(function(){
-  try{
-    const parts = window.location.pathname.split('/').filter(Boolean); // ['problemdunyasi', 'sayfa.html']
-    const repo = parts.length ? parts[0] : '';
-    const base = repo ? `${window.location.origin}/${repo}/` : `${window.location.origin}/`;
-    window.__PD_BASE__ = base;
-    window.__PD_DB_BASE__ = `${base}veritabani/`;
-  }catch(e){
-    window.__PD_BASE__ = `${window.location.origin}/`;
-    window.__PD_DB_BASE__ = `${window.location.origin}/veritabani/`;
+/* === PD BASE Resolver (ES5-safe) === */
+(function () {
+  try {
+    var path = (window.location.pathname || '/').replace(/\\+/g, '/');
+    var m = path.match(/^\/(.+?)\//); // '/repo/page.html' -> 'repo'
+    var repo = m ? m[1] : '';
+    var base = window.location.origin + (repo ? '/' + repo + '/' : '/');
+    window.__PD_DB_BASE__ = base + 'veritabani/';
+  } catch (e) {
+    window.__PD_DB_BASE__ = window.location.origin + '/veritabani/';
   }
 })();
+
+
+
 
 // Problem Dünyası v10.1 – Animasyonlu Tema (yalnızca veritabanı kullanır)
 const THEMES={1:{name:"1. Sınıf"},2:{name:"2. Sınıf"},3:{name:"3. Sınıf"},4:{name:"4. Sınıf"}};
@@ -19,14 +21,23 @@ let STATE={sinif:1,konu:null,zorluk:"orta",topics:[],questions:[],adSoyad:"",tar
 
 function getParam(n){try{return new URL(window.location.href).searchParams.get(n)}catch{return null}}
 function shuffle(a){const arr=a.slice();for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
-async function safeJson(url){
-  try{
-    const path = url.replace(/^\.?\/*/, '');
-    const full = path.startsWith('http') ? path
-                : (path.startsWith('veritabani/') ? (window.__PD_DB_BASE__ + path.replace(/^veritabani\//,''))
-                   : (window.__PD_DB_BASE__ + path));
-    const finalUrl = full + (full.includes('?') ? '&' : '?') + 'v=' + Date.now();
-    const r = await fetch(finalUrl, {cache:'no-store'});
+function safeJson(url){
+  return (function(){
+    try{
+      var path = (url||'').replace(/^\.?\/+/, '');
+      var base = (typeof window.__PD_DB_BASE__==='string' && window.__PD_DB_BASE__) ? window.__PD_DB_BASE__ : (window.location.origin + '/');
+      var rel = path.indexOf('veritabani/')===0 ? path.replace(/^veritabani\//,'') : path;
+      var full = base + rel + ( (base+rel).indexOf('?')>-1 ? '&' : '?' ) + 'v=' + Date.now();
+      return fetch(full, {cache:'no-store'}).then(function(r){
+        if(!r.ok){ console.error('[PD] JSON yüklenemedi:', full, r.status, r.statusText); return null; }
+        return r.json();
+      }).catch(function(e){ console.error('[PD] JSON istisnası:', full, e); return null; });
+    }catch(e){
+      console.error('[PD] safeJson genel istisna:', e);
+      return Promise.resolve(null);
+    }
+  })();
+});
     if(!r.ok){
       console.error('[PD] JSON yüklenemedi:', finalUrl, r.status, r.statusText);
       return null;
