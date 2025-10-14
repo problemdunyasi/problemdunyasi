@@ -38,7 +38,15 @@ function updateHeader(){
 
 async function exportPDF(){
   const el=document.getElementById("printArea"); if(!el) return;
-  const canvas=await html2canvas(el,{scale:2}); const img=canvas.toDataURL("image/png");
+  const canvas=await html2canvas(el,{scale:3, backgroundColor:"#ffffff", useCORS:true});
+  const img=canvas.toDataURL("image/jpeg",1.0);
+  const {jsPDF}=window.jspdf; const pdf=new jsPDF("p","mm","a4");
+  const w=pdf.internal.pageSize.getWidth(), h=pdf.internal.pageSize.getHeight();
+  pdf.addImage(img,"JPEG",0,0,w,h,undefined,"FAST");
+  const d=new Date().toISOString().slice(0,10);
+  pdf.save(`ProblemDunyasi_${STATE.sinif}sinif_${STATE.konu}_${d}.pdf`);
+  updateStatsAfterPDF();
+}); const img=canvas.toDataURL("image/png");
   const {jsPDF}=window.jspdf; const pdf=new jsPDF("p","mm","a4");
   const w=pdf.internal.pageSize.getWidth(), h=pdf.internal.pageSize.getHeight();
   pdf.addImage(img,"PNG",0,0,w,h);
@@ -54,7 +62,25 @@ function updateStatsAfterPDF(){const s=getStats();s.toplamPDF++;const sn=String(
 function renderIndexStats(){const s=getStats();const by=(id,v)=>{const el=document.getElementById(id); if(el) el.textContent=v};by("statTotalPDF",s.toplamPDF||0);by("statPopular",s.populerKonu||"-");by("statS1",s.siniflar?.["1"]?.indirilenPDF||0);by("statS2",s.siniflar?.["2"]?.indirilenPDF||0);by("statS3",s.siniflar?.["3"]?.indirilenPDF||0);by("statS4",s.siniflar?.["4"]?.indirilenPDF||0)}
 
 // Feedback & Add Problem
-function openFeedback(){const to="superrhoca@gmail.com";const subject="Problem Dünyası – Geri Bildirim";const body="Merhaba,%0D%0A%0D%0A(Görüşlerinizi yazın)%0D%0A";window.open(`mailto:${to}?subject=${subject}&body=${body}`,"_blank")}
+function openFeedbackModal(){document.getElementById("feedbackModal")?.classList.remove("hidden");}
+function closeFeedbackModal(){document.getElementById("feedbackModal")?.classList.add("hidden");}
+function sendFeedback(){
+  const ad=document.getElementById("fb_ad")?.value?.trim()||"";
+  const metin=document.getElementById("fb_metin")?.value?.trim()||"";
+  const out=document.getElementById("fb_sonuc");
+  if(!metin){ if(out) out.textContent="Lütfen bir mesaj yazın."; return; }
+  // save locally
+  let arr=[]; try{arr=JSON.parse(localStorage.getItem("geriBildirimler")||"[]")}catch(e){arr=[]}
+  arr.push({tarih:Date.now(),ad,metin}); localStorage.setItem("geriBildirimler",JSON.stringify(arr));
+  if(out) out.textContent="Teşekkürler! Mesajınız kaydedildi.";
+  // Optional: trigger user's default mail client without opening a blank tab
+  const to="superrhoca@gmail.com";
+  const subject="Problem Dünyası – Geri Bildirim";
+  const body=encodeURIComponent((ad?("Ad: "+ad+"
+"):"")+"Mesaj:
+"+metin);
+  window.location.href=`mailto:${to}?subject=${encodeURIComponent(subject)}&body=${body}`;
+}?subject=${subject}&body=${body}`,"_blank")}
 function saveUserProblem(){const ad=document.getElementById("ap_ad")?.value?.trim()||"";const sinif=document.getElementById("ap_sinif")?.value||"1";const konu=(document.getElementById("ap_konu")?.value||"Genel").trim();const metin=(document.getElementById("ap_metin")?.value||"").trim();const out=document.getElementById("ap_sonuc");if(!metin){if(out)out.textContent="Lütfen problem metni yazın.";return}let arr;try{arr=JSON.parse(localStorage.getItem("kullaniciProblemleri")||"[]")}catch(e){arr=[]}arr.push({tarih:Date.now(),ad,sinif,konu,metin});localStorage.setItem("kullaniciProblemleri",JSON.stringify(arr));if(out)out.textContent="Kaydedildi. Teşekkürler!";document.getElementById("ap_metin").value=""}
 
 // Init
@@ -78,5 +104,10 @@ async function initSayfa(){
   document.getElementById("closeModal")?.addEventListener("click",()=>document.getElementById("cevapModal")?.classList.add("hidden"));
   await regenerate();
 }
-function initIndex(){renderIndexStats();document.getElementById("ap_kaydet")?.addEventListener("click",saveUserProblem);document.getElementById("feedbackBtn")?.addEventListener("click",openFeedback)}
+function initIndex(){renderIndexStats();document.getElementById("ap_kaydet")?.addEventListener("click",saveUserProblem);document.getElementById("feedbackBtn")?.addEventListener("click",openFeedbackModal)}
 window.initSayfa=initSayfa; window.initIndex=initIndex;
+document.addEventListener("DOMContentLoaded",()=>{
+  document.getElementById("feedbackBtn")?.addEventListener("click",openFeedbackModal);
+  document.getElementById("fb_kapat")?.addEventListener("click",closeFeedbackModal);
+  document.getElementById("fb_gonder")?.addEventListener("click",sendFeedback);
+});

@@ -31,37 +31,8 @@
       <a class="card s3 fade-in-up d3" href="sayfa.html?sinif=3"><span class="chip">3. Sınıf</span><h2>Kesir & Ölçme</h2></a>
       <a class="card s4 fade-in-up d4" href="sayfa.html?sinif=4"><span class="chip">4. Sınıf</span><h2>Alan, Çevre, Sıvı</h2></a>
     </section>
+    <!-- İstatistikler kaldırıldı -->
 
-    <!-- İstatistikler -->
-    <section class="stats-wrap fade-in-up d2">
-      <h3 class="section-title">📊 İstatistikler</h3>
-      <div class="stats-grid">
-        <div class="stat-card hover-pulse">
-          <div class="stat-label">Toplam Oluşturulan PDF</div>
-          <div class="stat-value" id="statTotalPDF">0</div>
-        </div>
-        <div class="stat-card hover-pulse">
-          <div class="stat-label">En Popüler Konu</div>
-          <div class="stat-value" id="statPopular">-</div>
-        </div>
-        <div class="stat-card hover-pulse">
-          <div class="stat-label">1. Sınıf İndirilen</div>
-          <div class="stat-value" id="statS1">0</div>
-        </div>
-        <div class="stat-card hover-pulse">
-          <div class="stat-label">2. Sınıf İndirilen</div>
-          <div class="stat-value" id="statS2">0</div>
-        </div>
-        <div class="stat-card hover-pulse">
-          <div class="stat-label">3. Sınıf İndirilen</div>
-          <div class="stat-value" id="statS3">0</div>
-        </div>
-        <div class="stat-card hover-pulse">
-          <div class="stat-label">4. Sınıf İndirilen</div>
-          <div class="stat-value" id="statS4">0</div>
-        </div>
-      </div>
-    </section>
 
     <!-- Kendi Problemini Yaz -->
     <section class="add-problem fade-in-up d3">
@@ -90,5 +61,20 @@
   <script>
     window.addEventListener('DOMContentLoaded',()=>{window.initIndex?.();});
   </script>
+
+  <!-- Geri Bildirim Modal -->
+  <div id="feedbackModal" class="modal hidden">
+    <div class="modal-content">
+      <h3>💬 Geri Bildirim</h3>
+      <input id="fb_ad" placeholder="Ad Soyad (isteğe bağlı)" style="width:100%;margin-bottom:8px;padding:10px;border:1px solid #e5e7eb;border-radius:8px;">
+      <textarea id="fb_metin" placeholder="Görüşlerinizi yazın..." style="width:100%;min-height:120px;padding:10px;border:1px solid #e5e7eb;border-radius:8px;"></textarea>
+      <div class="control-row btn-row" style="margin-top:10px">
+        <button id="fb_gonder" class="btn primary glow">Gönder</button>
+        <button id="fb_kapat" class="btn">Kapat</button>
+      </div>
+      <div id="fb_sonuc" class="muted" style="margin-top:6px"></div>
+    </div>
+  </div>
+
 </body>
 </html>
