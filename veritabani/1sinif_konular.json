@@ -8,27 +8,15 @@
     "label": "Çıkarma Problemleri"
   },
   {
-    "key": "toplama_cikarma",
-    "label": "Toplama ve Çıkarma Problemleri"
-  },
-  {
-    "key": "deste_duzine",
-    "label": "Deste ve Düzine Problemleri"
-  },
-  {
-    "key": "kesir",
-    "label": "Kesir Problemleri"
-  },
-  {
     "key": "zaman",
     "label": "Zaman Problemleri"
   },
   {
     "key": "uzunluk",
-    "label": "Uzunluk Problemleri"
+    "label": "Uzunluk Ölçme"
   },
   {
-    "key": "sivi",
-    "label": "Sıvı Problemleri"
+    "key": "paralarimiz",
+    "label": "Paralarımız"
   }
 ]

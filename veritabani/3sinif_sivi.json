@@ -1,10 +1,32 @@
 [
   {
-    "soru": "1 litrelik şişeden 350 mL su içildi. Şişede kaç mL su kaldı?",
-    "cevap": "650 mL"
+    "soru": "Bir sürahide 400 mL meyve suyu var. 150 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
   },
   {
-    "soru": "Her biri 200 mL olan 3 bardak meyve suyu kaç mL eder?",
-    "cevap": "600 mL"
+    "soru": "Bir sürahide 500 mL meyve suyu var. 200 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
+  },
+  {
+    "soru": "Bir sürahide 600 mL meyve suyu var. 250 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
+  },
+  {
+    "soru": "Bir sürahide 700 mL meyve suyu var. 300 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
+  },
+  {
+    "soru": "Bir sürahide 800 mL meyve suyu var. 350 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
+  },
+  {
+    "soru": "Bir sürahide 900 mL meyve suyu var. 400 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
+  },
+  {
+    "soru": "Bir sürahide 1000 mL meyve suyu var. 450 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
+  },
+  {
+    "soru": "Bir sürahide 1100 mL meyve suyu var. 500 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
+  },
+  {
+    "soru": "Bir sürahide 1200 mL meyve suyu var. 550 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
+  },
+  {
+    "soru": "Bir sürahide 1300 mL meyve suyu var. 600 mL'i bardağa dökülüyor. Sürahide kaç mL kalır?"
   }
 ]

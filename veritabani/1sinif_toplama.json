@@ -1,14 +1,32 @@
 [
   {
-    "soru": "Ali 7 kalem aldı, akşam 5 kalem daha aldı. Toplam kaç kalemi oldu?",
-    "cevap": "12 kalem"
+    "soru": "Ali sabah 2 elma topladı, öğleden sonra 3 elma daha topladı. Ali'nin toplam kaç elması oldu?"
   },
   {
-    "soru": "Ayşe sabah 6 sayfa, öğleden sonra 8 sayfa kitap okudu. Toplam kaç sayfa okudu?",
-    "cevap": "14 sayfa"
+    "soru": "Ali sabah 3 elma topladı, öğleden sonra 4 elma daha topladı. Ali'nin toplam kaç elması oldu?"
   },
   {
-    "soru": "Bir kutuda 9 bilye, diğer kutuda 4 bilye var. Toplam kaç bilye vardır?",
-    "cevap": "13 bilye"
+    "soru": "Ali sabah 4 elma topladı, öğleden sonra 5 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+  },
+  {
+    "soru": "Ali sabah 5 elma topladı, öğleden sonra 6 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+  },
+  {
+    "soru": "Ali sabah 6 elma topladı, öğleden sonra 7 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+  },
+  {
+    "soru": "Ali sabah 7 elma topladı, öğleden sonra 8 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+  },
+  {
+    "soru": "Ali sabah 8 elma topladı, öğleden sonra 9 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+  },
+  {
+    "soru": "Ali sabah 9 elma topladı, öğleden sonra 10 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+  },
+  {
+    "soru": "Ali sabah 10 elma topladı, öğleden sonra 11 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+  },
+  {
+    "soru": "Ali sabah 11 elma topladı, öğleden sonra 12 elma daha topladı. Ali'nin toplam kaç elması oldu?"
   }
 ]

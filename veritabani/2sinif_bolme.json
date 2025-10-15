@@ -1,10 +1,32 @@
 [
   {
-    "soru": "24 kalem 6 öğrenciye eşit paylaştırılıyor. Her öğrenci kaç kalem alır?",
-    "cevap": "4 kalem"
+    "soru": "12 oyuncağı 3 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
   },
   {
-    "soru": "30 bilye 5 kutuya eşit paylaştırılırsa her kutuda kaç bilye olur?",
-    "cevap": "6 bilye"
+    "soru": "20 oyuncağı 4 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
+  },
+  {
+    "soru": "30 oyuncağı 5 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
+  },
+  {
+    "soru": "42 oyuncağı 6 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
+  },
+  {
+    "soru": "56 oyuncağı 7 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
+  },
+  {
+    "soru": "72 oyuncağı 8 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
+  },
+  {
+    "soru": "90 oyuncağı 9 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
+  },
+  {
+    "soru": "110 oyuncağı 10 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
+  },
+  {
+    "soru": "132 oyuncağı 11 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
+  },
+  {
+    "soru": "156 oyuncağı 12 çocuğa eşit paylaştır. Kişi başı kaç oyuncak düşer?"
   }
 ]

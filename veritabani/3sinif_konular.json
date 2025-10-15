@@ -1,46 +1,22 @@
 [
   {
-    "key": "toplama",
-    "label": "Toplama İşlemi Problemleri"
-  },
-  {
-    "key": "cikarma",
-    "label": "Çıkarma İşlemi Problemleri"
-  },
-  {
-    "key": "toplama_cikarma",
-    "label": "Toplama ve Çıkarma İşlemi Problemleri"
-  },
-  {
-    "key": "carpma",
-    "label": "Çarpma İşlemi Problemleri"
-  },
-  {
-    "key": "bolme",
-    "label": "Bölme İşlemi Problemleri"
-  },
-  {
-    "key": "kesir",
-    "label": "Kesir İşlemi Problemleri"
-  },
-  {
-    "key": "paralarimiz",
-    "label": "Paralarımız Problemleri"
-  },
-  {
-    "key": "zaman",
-    "label": "Zaman Ölçme Problemleri"
-  },
-  {
-    "key": "uzunluk",
-    "label": "Uzunluk Ölçme Problemleri"
+    "key": "kesirler",
+    "label": "Kesir Problemleri"
   },
   {
     "key": "cevre",
-    "label": "Çevre Ölçme Problemleri"
+    "label": "Çevre Ölçme"
+  },
+  {
+    "key": "alan",
+    "label": "Alan Ölçme"
   },
   {
     "key": "sivi",
-    "label": "Sıvı Ölçme Problemleri"
+    "label": "Sıvı Ölçme"
+  },
+  {
+    "key": "zaman",
+    "label": "Zaman Problemleri"
   }
 ]
