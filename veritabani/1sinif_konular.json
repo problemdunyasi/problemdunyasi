@@ -1,0 +1,34 @@
+[
+  {
+    "key": "toplama",
+    "label": "Toplama Problemleri"
+  },
+  {
+    "key": "cikarma",
+    "label": "Çıkarma Problemleri"
+  },
+  {
+    "key": "toplama_cikarma",
+    "label": "Toplama ve Çıkarma Problemleri"
+  },
+  {
+    "key": "deste_duzine",
+    "label": "Deste ve Düzine Problemleri"
+  },
+  {
+    "key": "kesir",
+    "label": "Kesir Problemleri"
+  },
+  {
+    "key": "zaman",
+    "label": "Zaman Problemleri"
+  },
+  {
+    "key": "uzunluk",
+    "label": "Uzunluk Problemleri"
+  },
+  {
+    "key": "sivi",
+    "label": "Sıvı Problemleri"
+  }
+]
