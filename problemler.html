@@ -1,0 +1,32 @@
+
+<!doctype html><html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Problemler • Problemler Dünyası</title>
+<link rel="stylesheet" href="style.css">
+<!-- html2canvas + jsPDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a class="brand" href="index.html">Problemler Dünyası</a>
+      <nav>
+        <a href="konular.html?sinif=" onclick="this.href='konular.html?sinif='+qp('sinif');">Konular</a>
+        <a href="feedback.html">Geri Bildirim</a>
+      </nav>
+    </div>
+    <h1 id="title">Problemler</h1>
+    <div class="toolbar">
+      <button class="btn" id="pdf-btn">PDF İndir</button>
+      <span class="small">Liste rastgele seçilir. Yenilemek için sayfayı tazele.</span>
+    </div>
+    <div id="print-area">
+      <div id="problem-list" class="problems"></div>
+    </div>
+    <div class="footer"><a href="konular.html?sinif=" onclick="this.href='konular.html?sinif='+qp('sinif');">← Konulara dön</a></div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

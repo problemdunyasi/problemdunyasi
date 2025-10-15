@@ -1,137 +1,124 @@
 
-/* === PD BASE Resolver (ES5-safe) === */
-(function () {
-  try {
-    var path = (window.location.pathname || '/').replace(/\\+/g, '/');
-    var m = path.match(/^\/(.+?)\//); // '/repo/page.html' -> 'repo'
-    var repo = m ? m[1] : '';
-    var base = window.location.origin + (repo ? '/' + repo + '/' : '/');
-    window.__PD_DB_BASE__ = base + 'veritabani/';
-  } catch (e) {
-    window.__PD_DB_BASE__ = window.location.origin + '/veritabani/';
-  }
-})();
+// Helper: get query param
+function qp(name){const url=new URL(window.location.href);return url.searchParams.get(name)}
+// Slug util must mirror generator
+function slugify(s){return s.toLowerCase().replaceAll(" ","_").replaceAll("ç","c").replaceAll("ğ","g").replaceAll("ı","i").replaceAll("ö","o").replaceAll("ş","s").replaceAll("ü","u")}
 
+// Topics mapping (title + slug)
+const TOPICS={
+  1:[
+    "Toplama Problemleri","Çıkarma Problemleri","Toplama ve Çıkarma Problemleri",
+    "Deste ve Düzine Problemleri","Kesir Problemleri","Zaman Problemleri",
+    "Uzunluk Problemleri","Sıvı Problemleri"
+  ],
+  2:[
+    "Toplama İşlemi Problemleri","Çıkarma İşlemi Problemleri","Toplama ve Çıkarma İşlemi Problemleri",
+    "Deste ve Düzine Problemleri","Çarpma İşlemi Problemleri","Bölme İşlemi Problemleri",
+    "Kesir İşlemi Problemleri","Paralarımız Problemleri","Zaman Ölçme Problemleri",
+    "Uzunluk Ölçme Problemleri","Sıvı Ölçme Problemleri"
+  ],
+  3:[
+    "Toplama İşlemi Problemleri","Çıkarma İşlemi Problemleri","Toplama ve Çıkarma İşlemi Problemleri",
+    "Çarpma İşlemi Problemleri","Bölme İşlemi Problemleri","Kesir İşlemi Problemleri",
+    "Paralarımız Problemleri","Zaman Ölçme Problemleri","Uzunluk Ölçme Problemleri",
+    "Çevre Ölçme Problemleri","Sıvı Ölçme Problemleri"
+  ],
+  4:[
+    "Toplama İşlemi Problemleri","Çıkarma İşlemi Problemleri","Toplama ve Çıkarma İşlemi Problemleri",
+    "Çarpma İşlemi Problemleri","Bölme İşlemi Problemleri","Kesir Problemleri",
+    "Zaman Ölçme Problemleri","Uzunluk Ölçme Problemleri","Çevre Ölçme Problemleri",
+    "Alan Ölçme Problemleri","Sıvı Ölçme Problemleri"
+  ]
+};
 
-
-
-// Problem Dünyası v10.1 – Animasyonlu Tema (yalnızca veritabanı kullanır)
-const THEMES={1:{name:"1. Sınıf"},2:{name:"2. Sınıf"},3:{name:"3. Sınıf"},4:{name:"4. Sınıf"}};
-let STATE={sinif:1,konu:null,zorluk:"orta",topics:[],questions:[],adSoyad:"",tarih:"",okul:""};
-
-function getParam(n){try{return new URL(window.location.href).searchParams.get(n)}catch{return null}}
-function shuffle(a){const arr=a.slice();for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
-function safeJson(url){
-  return (function(){
-    try{
-      var path = (url||'').replace(/^\.?\/+/, '');
-      var base = (typeof window.__PD_DB_BASE__==='string' && window.__PD_DB_BASE__) ? window.__PD_DB_BASE__ : (window.location.origin + '/');
-      var rel = path.indexOf('veritabani/')===0 ? path.replace(/^veritabani\//,'') : path;
-      var full = base + rel + ( (base+rel).indexOf('?')>-1 ? '&' : '?' ) + 'v=' + Date.now();
-      return fetch(full, {cache:'no-store'}).then(function(r){
-        if(!r.ok){ console.error('[PD] JSON yüklenemedi:', full, r.status, r.statusText); return null; }
-        return r.json();
-      }).catch(function(e){ console.error('[PD] JSON istisnası:', full, e); return null; });
-    }catch(e){
-      console.error('[PD] safeJson genel istisna:', e);
-      return Promise.resolve(null);
-    }
-  })();
-});
-    if(!r.ok){
-      console.error('[PD] JSON yüklenemedi:', finalUrl, r.status, r.statusText);
-      return null;
-    }
-    return await r.json();
-  }catch(e){
-    console.error('[PD] JSON istisnası:', url, e);
-    return null;
-  }
-}catch(e){return null}}
-
-async function loadTopics(s){return await safeJson(`veritabani/${s}sinif_konular.json`)||[]}
-async function tryLoadPool(s,k){return await safeJson(`veritabani/${s}sinif_${k}.json`)||[]}
-
-function pickTen(pool){const out=[];if(!pool||pool.length===0)return out;const copy=shuffle(pool.slice());while(out.length<10){out.push(copy[out.length%copy.length]);}return out;}
-
-async function regenerate(){const pool=await tryLoadPool(STATE.sinif,STATE.konu);STATE.questions=pickTen(pool);render();updateHeader();}
-
-function render(){
-  const ol=document.getElementById("soruListe"); if(!ol) return; ol.innerHTML="";
-  const len=(STATE.questions||[]).length;
-  for(let i=0;i<10;i++){
-    const li=document.createElement("li"); li.className="qbox";
-    const row=document.createElement("div"); row.className="qrow";
-    const num=document.createElement("div"); num.className="qnum"; num.textContent=`${i+1})`;
-    const text=document.createElement("div"); text.className="qtext";
-    text.textContent= len? (STATE.questions[i%len].soru||"") : "Bu konuda henüz soru eklenmemiştir.";
-    row.appendChild(num); row.appendChild(text);
-    const spacer=document.createElement("div"); spacer.className="qspacer";
-    li.appendChild(row); li.appendChild(spacer); ol.appendChild(li);
-  }
-}
-
-function updateHeader(){
-  const lbl=STATE.topics.find(t=>t.key===STATE.konu)?.label||STATE.konu||"";
-  const set=(id,v)=>{const el=document.getElementById(id); if(el) el.textContent=v||"";}
-  set("h_ad",STATE.adSoyad||""); set("h_tarih",STATE.tarih||""); set("h_okul",STATE.okul||"");
-  set("h_zorluk",(STATE.zorluk||"orta").toUpperCase());
-  const h=document.getElementById("sayfaBaslik"); if(h) h.textContent=`${THEMES[STATE.sinif].name} – ${lbl}`;
-}
-
-async function exportPDF(){
-  const el=document.getElementById("printArea"); if(!el) return;
-  const canvas=await html2canvas(el,{scale:2}); const img=canvas.toDataURL("image/png");
-  const {jsPDF}=window.jspdf; const pdf=new jsPDF("p","mm","a4");
-  const w=pdf.internal.pageSize.getWidth(), h=pdf.internal.pageSize.getHeight();
-  pdf.addImage(img,"PNG",0,0,w,h);
-  const d=new Date().toISOString().slice(0,10);
-  pdf.save(`ProblemDunyasi_${STATE.sinif}sinif_${STATE.konu}_${d}.pdf`);
-  updateStatsAfterPDF();
-}
-
-// Stats
-function getStats(){let s;try{s=JSON.parse(localStorage.getItem("istatistik")||"{}")}catch(e){s={}};if(!s.toplamPDF)s.toplamPDF=0;if(!s.siniflar)s.siniflar={};if(!s.populerKonu)s.populerKonu="-";return s}
-function saveStats(s){localStorage.setItem("istatistik",JSON.stringify(s))}
-function updateStatsAfterPDF(){const s=getStats();s.toplamPDF++;const sn=String(STATE.sinif);if(!s.siniflar[sn])s.siniflar[sn]={indirilenPDF:0};s.siniflar[sn].indirilenPDF++;if(!s.konular)s.konular={};s.konular[STATE.konu]=(s.konular[STATE.konu]||0)+1;let mk="-",mv=-1;Object.entries(s.konular).forEach(([k,v])=>{if(v>mv){mv=v;mk=k}});s.populerKonu=mk;saveStats(s)}
-function renderIndexStats(){const s=getStats();const by=(id,v)=>{const el=document.getElementById(id); if(el) el.textContent=v};by("statTotalPDF",s.toplamPDF||0);by("statPopular",s.populerKonu||"-");by("statS1",s.siniflar?.["1"]?.indirilenPDF||0);by("statS2",s.siniflar?.["2"]?.indirilenPDF||0);by("statS3",s.siniflar?.["3"]?.indirilenPDF||0);by("statS4",s.siniflar?.["4"]?.indirilenPDF||0)}
-
-// Feedback & Add Problem
-function openFeedback(){const to="superrhoca@gmail.com";const subject="Problem Dünyası – Geri Bildirim";const body="Merhaba,%0D%0A%0D%0A(Görüşlerinizi yazın)%0D%0A";window.open(`mailto:${to}?subject=${subject}&body=${body}`,"_blank")}
-function saveUserProblem(){const ad=document.getElementById("ap_ad")?.value?.trim()||"";const sinif=document.getElementById("ap_sinif")?.value||"1";const konu=(document.getElementById("ap_konu")?.value||"Genel").trim();const metin=(document.getElementById("ap_metin")?.value||"").trim();const out=document.getElementById("ap_sonuc");if(!metin){if(out)out.textContent="Lütfen problem metni yazın.";return}let arr;try{arr=JSON.parse(localStorage.getItem("kullaniciProblemleri")||"[]")}catch(e){arr=[]}arr.push({tarih:Date.now(),ad,sinif,konu,metin});localStorage.setItem("kullaniciProblemleri",JSON.stringify(arr));if(out)out.textContent="Kaydedildi. Teşekkürler!";document.getElementById("ap_metin").value=""}
-
-// Init
-async function initSayfa(){
-  const s=parseInt(getParam("sinif")||"1",10); STATE.sinif=s;
-  const title=document.getElementById("baslik"); if(title) title.textContent=THEMES[s].name;
-  $1
-  if(!STATE.topics.length){ showWarn('Konular yüklenemedi: veritabani klasörü veya dosya adları?'); console.error('[PD] Konular boş geldi.'); }
-  const sel=document.getElementById("konuSelect");
-  if(sel){ sel.innerHTML=""; (STATE.topics||[]).forEach(t=>{const op=document.createElement("option");op.value=t.key;op.textContent=t.label;sel.appendChild(op)}); if(STATE.konu) sel.value=STATE.konu; sel.addEventListener("change",e=>{STATE.konu=e.target.value;updateHeader();regenerate()}); }
-  document.getElementById("zorluk")?.addEventListener("change",e=>STATE.zorluk=e.target.value);
-  ["adSoyad","tarih","okul"].forEach(id=>{document.getElementById(id)?.addEventListener("input",()=>{STATE.adSoyad=document.getElementById("adSoyad")?.value||"";STATE.tarih=document.getElementById("tarih")?.value||"";STATE.okul=document.getElementById("okul")?.value||"";updateHeader()})});
-  document.getElementById("olusturBtn")?.addEventListener("click",regenerate);
-  document.getElementById("pdfBtn")?.addEventListener("click",exportPDF);
-  document.getElementById("printBtn")?.addEventListener("click",()=>{updateHeader();window.print()});
-  document.getElementById("cevapBtn")?.addEventListener("click",()=>{
-    const ul=document.getElementById("cevapList"); if(!ul) return; ul.innerHTML="";
-    const len=(STATE.questions||[]).length;
-    for(let i=0;i<10;i++){const li=document.createElement("li");li.textContent=`${i+1}) `+(len?(STATE.questions[i%len].cevap||"(Cevap yok)"):"(Cevap yok)");ul.appendChild(li);}
-    document.getElementById("cevapModal")?.classList.remove("hidden");
+// Render class buttons on index
+function renderClasses(){
+  const host=document.querySelector("#classes");
+  if(!host) return;
+  [1,2,3,4].forEach(s=>{
+    const el=document.createElement("a");
+    el.className="card"; el.href=`konular.html?sinif=${s}`;
+    el.innerHTML=`<h3>${s}. Sınıf</h3><p>${TOPICS[s].length} konu <span class="badge">Matematik</span></p>`;
+    host.appendChild(el);
   });
-  document.getElementById("closeModal")?.addEventListener("click",()=>document.getElementById("cevapModal")?.classList.add("hidden"));
-  await regenerate();
 }
-function initIndex(){renderIndexStats();document.getElementById("ap_kaydet")?.addEventListener("click",saveUserProblem);document.getElementById("feedbackBtn")?.addEventListener("click",openFeedback)}
-window.initSayfa=initSayfa; window.initIndex=initIndex;
 
-function showWarn(msg){
-  try{
-    const note = document.createElement('div');
-    note.style.position='fixed'; note.style.left='50%'; note.style.transform='translateX(-50%)';
-    note.style.bottom='16px'; note.style.background='#fff'; note.style.border='1px solid #E5E7EB';
-    note.style.padding='10px 14px'; note.style.borderRadius='10px'; note.style.boxShadow='0 8px 24px rgba(0,0,0,.12)';
-    note.style.zIndex='9999'; note.style.fontWeight='700'; note.textContent = msg;
-    document.body.appendChild(note); setTimeout(()=>note.remove(), 5000);
-  }catch(e){}
+// Render topics list per class
+function renderTopics(){
+  const s=parseInt(qp("sinif")||"0",10);
+  const titleEl=document.querySelector("#title");
+  const list=document.querySelector("#topic-list");
+  if(!s||!TOPICS[s]) return;
+  titleEl.textContent=`${s}. Sınıf Matematik Konuları`;
+  TOPICS[s].forEach(t=>{
+    const slug=slugify(t);
+    const a=document.createElement("a");
+    a.href=`problemler.html?sinif=${s}&konu=${slug}`;
+    a.textContent=t;
+    list.appendChild(a);
+  })
 }
+
+// Render problems for a given topic
+async function renderProblems(){
+  const s=qp("sinif");
+  const konu=qp("konu");
+  if(!s||!konu) return;
+  document.querySelector("#title").textContent=`${s}. Sınıf - ${konu.replaceAll("_"," ").toUpperCase()}`;
+  const url=`veritabani/sinif${s}/${konu}.json`;
+  try{
+    const res=await fetch(url);
+    const data=await res.json();
+    const host=document.querySelector("#problem-list");
+    let items=[...data.problemler];
+    // Rastgele 10 seç; az ise hepsini göster
+    items=items.sort(()=>Math.random()-.5).slice(0,10);
+    items.forEach((p,idx)=>{
+      const div=document.createElement("div");
+      div.className="problem";
+      div.innerHTML=`<strong>${idx+1}.</strong> ${p.soru}`;
+      host.appendChild(div);
+    });
+  }catch(e){
+    document.querySelector("#problem-list").innerHTML=`<div class='small'>Veri alınamadı: ${e}</div>`
+  }
+}
+
+// PDF export with html2canvas + jsPDF (A4 portrait)
+async function exportPDF(){
+  const node=document.querySelector("#print-area");
+  const canvas=await html2canvas(node,{scale:2});
+  const imgData=canvas.toDataURL("image/png");
+  const pdf=new jspdf.jsPDF("p","mm","a4");
+  const pageWidth=210, pageHeight=297;
+  const imgWidth=pageWidth-20;
+  const imgHeight=canvas.height*imgWidth/canvas.width;
+  let y=10;
+  if(imgHeight<pageHeight-20){
+    pdf.addImage(imgData,"PNG",10,y,imgWidth,imgHeight);
+  }else{
+    // Slice into multiple pages if needed
+    let position=0;
+    while(position<canvas.height){
+      const pageCanvas=document.createElement("canvas");
+      const scale=imgWidth/canvas.width;
+      const sliceHeight=(pageHeight-20)/scale;
+      pageCanvas.width=canvas.width;
+      pageCanvas.height=sliceHeight;
+      const ctx=pageCanvas.getContext("2d");
+      ctx.drawImage(canvas,0,position,canvas.width,sliceHeight,0,0,canvas.width,sliceHeight);
+      const pageData=pageCanvas.toDataURL("image/png");
+      if(position>0) pdf.addPage();
+      pdf.addImage(pageData,"PNG",10,10,imgWidth,(pageHeight-20));
+      position+=sliceHeight;
+    }
+  }
+  pdf.save("problemler.pdf");
+}
+
+// Attach listeners
+document.addEventListener("DOMContentLoaded",()=>{
+  renderClasses(); renderTopics(); renderProblems();
+  const btn=document.querySelector("#pdf-btn");
+  if(btn) btn.addEventListener("click",exportPDF);
+});

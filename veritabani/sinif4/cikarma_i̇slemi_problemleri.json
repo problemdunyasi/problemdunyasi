@@ -1,0 +1,16 @@
+{
+  "konu": "Çıkarma İşlemi Problemleri",
+  "sinif": 4,
+  "problemler": [
+    {
+      "id": 1,
+      "soru": "Okulda 4 top vardı. 3 top daha geldi. Toplam kaç top oldu?",
+      "cevap": 7
+    },
+    {
+      "id": 2,
+      "soru": "Bir çiftte 12 yumurta vardır. 1 düzine kaç yumurtadır?",
+      "cevap": 12
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "konu": "Toplama ve Çıkarma Problemleri",
+  "sinif": 1,
+  "problemler": [
+    {
+      "id": 1,
+      "soru": "Ali'nin 3 kalemi vardı. 2 kalem daha aldı. Toplam kaç kalemi oldu?",
+      "cevap": 5
+    },
+    {
+      "id": 2,
+      "soru": "Bir kutuda 7 bilye var, 4 bilye çıkarıldı. Kutuda kaç bilye kaldı?",
+      "cevap": 3
+    },
+    {
+      "id": 3,
+      "soru": "Bir sınıfta 5 sıra var, her sırada 4 öğrenci oturuyor. Toplam kaç öğrenci vardır?",
+      "cevap": 20
+    }
+  ]
+}
