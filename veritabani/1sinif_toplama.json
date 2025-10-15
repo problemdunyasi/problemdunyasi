@@ -1,32 +1,3002 @@
 [
   {
-    "soru": "Ali sabah 2 elma topladı, öğleden sonra 3 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Mert sabah deniz kenarında 7 elma getirdi, öğleden sonra 4 elma daha getirdi. Mert'nin toplam kaç elma oldu?"
   },
   {
-    "soru": "Ali sabah 3 elma topladı, öğleden sonra 4 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Mehmet sabah orman kenarında 6 top buldu, öğleden sonra 3 top daha buldu. Mehmet'nin toplam kaç top oldu?"
   },
   {
-    "soru": "Ali sabah 4 elma topladı, öğleden sonra 5 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Mehmet sabah bahçede 5 armut aldı, öğleden sonra 8 armut daha aldı. Mehmet'nin toplam kaç armut oldu?"
   },
   {
-    "soru": "Ali sabah 5 elma topladı, öğleden sonra 6 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Mert sabah sokakta 7 kiraz yaptı, öğleden sonra 7 kiraz daha yaptı. Mert'nin toplam kaç kiraz oldu?"
   },
   {
-    "soru": "Ali sabah 6 elma topladı, öğleden sonra 7 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Zeynep sabah oyun alanında 6 çikolata topladı, öğleden sonra 2 çikolata daha topladı. Zeynep'nin toplam kaç çikolata oldu?"
   },
   {
-    "soru": "Ali sabah 7 elma topladı, öğleden sonra 8 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Ayşe sabah deniz kenarında 7 kalem saydı, öğleden sonra 5 kalem daha saydı. Ayşe'nin toplam kaç kalem oldu?"
   },
   {
-    "soru": "Ali sabah 8 elma topladı, öğleden sonra 9 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Zeynep sabah deniz kenarında 10 defter şişirdi, öğleden sonra 4 defter daha şişirdi. Zeynep'nin toplam kaç defter oldu?"
   },
   {
-    "soru": "Ali sabah 9 elma topladı, öğleden sonra 10 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Duru sabah okulda 9 defter saydı, öğleden sonra 2 defter daha saydı. Duru'nin toplam kaç defter oldu?"
   },
   {
-    "soru": "Ali sabah 10 elma topladı, öğleden sonra 11 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Deniz sabah bahçede 2 çiçek şişirdi, öğleden sonra 2 çiçek daha şişirdi. Deniz'nin toplam kaç çiçek oldu?"
   },
   {
-    "soru": "Ali sabah 11 elma topladı, öğleden sonra 12 elma daha topladı. Ali'nin toplam kaç elması oldu?"
+    "soru": "Zeynep sabah dağda 6 top kazandı, öğleden sonra 8 top daha kazandı. Zeynep'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 10 kitap saydı, öğleden sonra 1 kitap daha saydı. Can'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 6 çikolata saydı, öğleden sonra 8 çikolata daha saydı. Ayşe'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mehmet sabah sokakta 9 bilye topladı, öğleden sonra 1 bilye daha topladı. Mehmet'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Deniz sabah evde 10 mandalina saydı, öğleden sonra 5 mandalina daha saydı. Deniz'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Kerem sabah dağda 7 çikolata saydı, öğleden sonra 9 çikolata daha saydı. Kerem'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Deniz sabah deniz kenarında 8 bilye getirdi, öğleden sonra 9 bilye daha getirdi. Deniz'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Can sabah orman kenarında 10 top aldı, öğleden sonra 6 top daha aldı. Can'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ahmet sabah okulda 2 kek saydı, öğleden sonra 9 kek daha saydı. Ahmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Kerem sabah sokakta 6 defter getirdi, öğleden sonra 5 defter daha getirdi. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 7 kitap aldı, öğleden sonra 4 kitap daha aldı. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 4 armut şişirdi, öğleden sonra 5 armut daha şişirdi. Ece'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Deniz sabah dağda 1 ceviz getirdi, öğleden sonra 9 ceviz daha getirdi. Deniz'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 1 taş yaptı, öğleden sonra 9 taş daha yaptı. Aslı'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 3 kiraz saydı, öğleden sonra 10 kiraz daha saydı. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 7 bilye saydı, öğleden sonra 6 bilye daha saydı. Ece'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ali sabah dağda 6 kiraz saydı, öğleden sonra 5 kiraz daha saydı. Ali'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 3 kalem getirdi, öğleden sonra 1 kalem daha getirdi. Can'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Eren sabah sokakta 10 bilye şişirdi, öğleden sonra 10 bilye daha şişirdi. Eren'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Eren sabah dağda 8 kitap kazandı, öğleden sonra 7 kitap daha kazandı. Eren'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru sabah tatilde 1 armut buldu, öğleden sonra 8 armut daha buldu. Duru'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 9 çikolata aldı, öğleden sonra 1 çikolata daha aldı. Ahmet'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mert sabah bahçede 8 kalem topladı, öğleden sonra 6 kalem daha topladı. Mert'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Duru sabah deniz kenarında 9 defter şişirdi, öğleden sonra 3 defter daha şişirdi. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Can sabah evde 9 muz topladı, öğleden sonra 4 muz daha topladı. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 3 çikolata dizdi, öğleden sonra 6 çikolata daha dizdi. Ayşe'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Aslı sabah oyun alanında 3 top dizdi, öğleden sonra 9 top daha dizdi. Aslı'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ece sabah dağda 3 çikolata yaptı, öğleden sonra 5 çikolata daha yaptı. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 2 çikolata aldı, öğleden sonra 6 çikolata daha aldı. Duru'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 3 mandalina aldı, öğleden sonra 1 mandalina daha aldı. Ece'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ahmet sabah orman kenarında 7 kitap buldu, öğleden sonra 7 kitap daha buldu. Ahmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece sabah parkta 7 top getirdi, öğleden sonra 9 top daha getirdi. Ece'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 7 mandalina dizdi, öğleden sonra 2 mandalina daha dizdi. Can'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Deniz sabah deniz kenarında 8 bilye kazandı, öğleden sonra 7 bilye daha kazandı. Deniz'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 5 elma topladı, öğleden sonra 6 elma daha topladı. Eren'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Kerem sabah parkta 3 balon şişirdi, öğleden sonra 3 balon daha şişirdi. Kerem'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ali sabah okulda 3 defter getirdi, öğleden sonra 6 defter daha getirdi. Ali'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Elif sabah deniz kenarında 6 top dizdi, öğleden sonra 6 top daha dizdi. Elif'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Elif sabah bahçede 6 ceviz şişirdi, öğleden sonra 10 ceviz daha şişirdi. Elif'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Duru sabah okulda 3 mandalina dizdi, öğleden sonra 4 mandalina daha dizdi. Duru'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 7 elma saydı, öğleden sonra 10 elma daha saydı. Ayşe'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 5 ceviz topladı, öğleden sonra 8 ceviz daha topladı. Ahmet'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ali sabah tatilde 3 taş topladı, öğleden sonra 4 taş daha topladı. Ali'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 1 top buldu, öğleden sonra 6 top daha buldu. Aslı'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Deniz sabah bahçede 2 armut yaptı, öğleden sonra 8 armut daha yaptı. Deniz'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 8 taş saydı, öğleden sonra 3 taş daha saydı. Eren'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mert sabah orman kenarında 10 taş saydı, öğleden sonra 5 taş daha saydı. Mert'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah okulda 6 muz şişirdi, öğleden sonra 6 muz daha şişirdi. Deniz'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 4 muz topladı, öğleden sonra 1 muz daha topladı. Ali'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 5 balon saydı, öğleden sonra 6 balon daha saydı. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 3 kek getirdi, öğleden sonra 7 kek daha getirdi. Kerem'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Eren sabah tatilde 5 balon dizdi, öğleden sonra 8 balon daha dizdi. Eren'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Mehmet sabah parkta 10 oyuncak dizdi, öğleden sonra 10 oyuncak daha dizdi. Mehmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Zeynep sabah okulda 2 ceviz dizdi, öğleden sonra 1 ceviz daha dizdi. Zeynep'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 5 balon saydı, öğleden sonra 1 balon daha saydı. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif sabah dağda 8 top buldu, öğleden sonra 4 top daha buldu. Elif'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 10 oyuncak dizdi, öğleden sonra 5 oyuncak daha dizdi. Ece'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Eren sabah sokakta 7 oyuncak dizdi, öğleden sonra 5 oyuncak daha dizdi. Eren'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Aslı sabah tatilde 10 mandalina saydı, öğleden sonra 8 mandalina daha saydı. Aslı'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 3 taş saydı, öğleden sonra 5 taş daha saydı. Ahmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ahmet sabah parkta 4 top saydı, öğleden sonra 2 top daha saydı. Ahmet'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ece sabah dağda 10 muz şişirdi, öğleden sonra 2 muz daha şişirdi. Ece'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 10 balon saydı, öğleden sonra 8 balon daha saydı. Mehmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Eren sabah tatilde 1 armut saydı, öğleden sonra 7 armut daha saydı. Eren'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ali sabah orman kenarında 7 balon saydı, öğleden sonra 3 balon daha saydı. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ahmet sabah parkta 6 ceviz yaptı, öğleden sonra 4 ceviz daha yaptı. Ahmet'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah orman kenarında 1 mandalina yaptı, öğleden sonra 9 mandalina daha yaptı. Zeynep'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ali sabah evde 10 muz aldı, öğleden sonra 8 muz daha aldı. Ali'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Can sabah okulda 6 muz buldu, öğleden sonra 2 muz daha buldu. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Elif sabah oyun alanında 8 çiçek saydı, öğleden sonra 6 çiçek daha saydı. Elif'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah oyun alanında 2 mandalina topladı, öğleden sonra 2 mandalina daha topladı. Zeynep'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Can sabah evde 9 taş kazandı, öğleden sonra 9 taş daha kazandı. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ayşe sabah deniz kenarında 9 çikolata saydı, öğleden sonra 9 çikolata daha saydı. Ayşe'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 4 oyuncak şişirdi, öğleden sonra 3 oyuncak daha şişirdi. Ahmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ahmet sabah dağda 6 çiçek topladı, öğleden sonra 9 çiçek daha topladı. Ahmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ali sabah tatilde 7 kalem topladı, öğleden sonra 6 kalem daha topladı. Ali'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ali sabah tatilde 8 bilye saydı, öğleden sonra 2 bilye daha saydı. Ali'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 3 muz aldı, öğleden sonra 8 muz daha aldı. Aslı'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 10 elma dizdi, öğleden sonra 1 elma daha dizdi. Ayşe'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Aslı sabah oyun alanında 4 çiçek şişirdi, öğleden sonra 10 çiçek daha şişirdi. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah orman kenarında 5 kitap getirdi, öğleden sonra 4 kitap daha getirdi. Mehmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe sabah dağda 5 balon topladı, öğleden sonra 9 balon daha topladı. Ayşe'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 6 ceviz dizdi, öğleden sonra 6 ceviz daha dizdi. Ayşe'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ece sabah tatilde 5 elma dizdi, öğleden sonra 7 elma daha dizdi. Ece'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 5 muz kazandı, öğleden sonra 7 muz daha kazandı. Ayşe'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Deniz sabah sokakta 6 balon saydı, öğleden sonra 4 balon daha saydı. Deniz'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Duru sabah deniz kenarında 1 elma saydı, öğleden sonra 3 elma daha saydı. Duru'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mehmet sabah dağda 9 balon yaptı, öğleden sonra 5 balon daha yaptı. Mehmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif sabah evde 6 balon topladı, öğleden sonra 10 balon daha topladı. Elif'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Mert sabah oyun alanında 2 defter yaptı, öğleden sonra 1 defter daha yaptı. Mert'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 1 top şişirdi, öğleden sonra 4 top daha şişirdi. Ayşe'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 9 balon aldı, öğleden sonra 6 balon daha aldı. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Eren sabah bahçede 8 armut kazandı, öğleden sonra 3 armut daha kazandı. Eren'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ahmet sabah okulda 2 taş şişirdi, öğleden sonra 10 taş daha şişirdi. Ahmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah parkta 8 defter topladı, öğleden sonra 2 defter daha topladı. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Eren sabah evde 7 ceviz kazandı, öğleden sonra 7 ceviz daha kazandı. Eren'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 7 top aldı, öğleden sonra 10 top daha aldı. Ayşe'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ali sabah sokakta 3 kitap dizdi, öğleden sonra 10 kitap daha dizdi. Ali'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Zeynep sabah okulda 10 oyuncak yaptı, öğleden sonra 1 oyuncak daha yaptı. Zeynep'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ahmet sabah dağda 10 mandalina saydı, öğleden sonra 5 mandalina daha saydı. Ahmet'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 6 armut dizdi, öğleden sonra 1 armut daha dizdi. Eren'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 3 mandalina kazandı, öğleden sonra 3 mandalina daha kazandı. Duru'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ayşe sabah parkta 2 taş topladı, öğleden sonra 6 taş daha topladı. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 2 bilye saydı, öğleden sonra 6 bilye daha saydı. Zeynep'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 7 kiraz getirdi, öğleden sonra 5 kiraz daha getirdi. Kerem'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 4 mandalina aldı, öğleden sonra 8 mandalina daha aldı. Mert'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 6 taş şişirdi, öğleden sonra 10 taş daha şişirdi. Duru'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah deniz kenarında 5 defter dizdi, öğleden sonra 8 defter daha dizdi. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mert sabah sokakta 5 balon yaptı, öğleden sonra 6 balon daha yaptı. Mert'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ayşe sabah sokakta 2 kalem buldu, öğleden sonra 9 kalem daha buldu. Ayşe'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mert sabah oyun alanında 2 muz getirdi, öğleden sonra 8 muz daha getirdi. Mert'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mert sabah oyun alanında 4 oyuncak aldı, öğleden sonra 2 oyuncak daha aldı. Mert'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Aslı sabah deniz kenarında 7 armut kazandı, öğleden sonra 5 armut daha kazandı. Aslı'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Deniz sabah tatilde 8 kiraz kazandı, öğleden sonra 1 kiraz daha kazandı. Deniz'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Elif sabah sokakta 3 muz aldı, öğleden sonra 10 muz daha aldı. Elif'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 1 muz topladı, öğleden sonra 4 muz daha topladı. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 3 elma aldı, öğleden sonra 5 elma daha aldı. Can'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Aslı sabah deniz kenarında 2 oyuncak saydı, öğleden sonra 1 oyuncak daha saydı. Aslı'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 5 mandalina buldu, öğleden sonra 1 mandalina daha buldu. Ahmet'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Eren sabah tatilde 5 top saydı, öğleden sonra 3 top daha saydı. Eren'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Aslı sabah parkta 3 muz getirdi, öğleden sonra 2 muz daha getirdi. Aslı'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 8 oyuncak saydı, öğleden sonra 6 oyuncak daha saydı. Zeynep'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ece sabah oyun alanında 8 mandalina getirdi, öğleden sonra 8 mandalina daha getirdi. Ece'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Mert sabah evde 5 çiçek buldu, öğleden sonra 8 çiçek daha buldu. Mert'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Elif sabah deniz kenarında 1 muz aldı, öğleden sonra 8 muz daha aldı. Elif'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 8 balon buldu, öğleden sonra 10 balon daha buldu. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Mert sabah parkta 8 balon kazandı, öğleden sonra 8 balon daha kazandı. Mert'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep sabah tatilde 5 elma buldu, öğleden sonra 6 elma daha buldu. Zeynep'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Zeynep sabah okulda 10 kalem saydı, öğleden sonra 10 kalem daha saydı. Zeynep'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 6 oyuncak getirdi, öğleden sonra 8 oyuncak daha getirdi. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ece sabah sokakta 3 armut kazandı, öğleden sonra 7 armut daha kazandı. Ece'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Zeynep sabah okulda 8 balon saydı, öğleden sonra 5 balon daha saydı. Zeynep'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Deniz sabah tatilde 6 elma buldu, öğleden sonra 1 elma daha buldu. Deniz'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 9 bilye getirdi, öğleden sonra 8 bilye daha getirdi. Can'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 1 çikolata aldı, öğleden sonra 6 çikolata daha aldı. Ayşe'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Aslı sabah oyun alanında 10 kiraz şişirdi, öğleden sonra 9 kiraz daha şişirdi. Aslı'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 5 armut buldu, öğleden sonra 10 armut daha buldu. Mert'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem sabah parkta 6 mandalina saydı, öğleden sonra 4 mandalina daha saydı. Kerem'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Zeynep sabah sokakta 1 oyuncak saydı, öğleden sonra 8 oyuncak daha saydı. Zeynep'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Elif sabah sokakta 2 elma getirdi, öğleden sonra 10 elma daha getirdi. Elif'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 8 kitap saydı, öğleden sonra 8 kitap daha saydı. Kerem'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe sabah okulda 5 çiçek buldu, öğleden sonra 1 çiçek daha buldu. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Kerem sabah okulda 8 çikolata aldı, öğleden sonra 4 çikolata daha aldı. Kerem'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 4 taş topladı, öğleden sonra 5 taş daha topladı. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah deniz kenarında 6 top dizdi, öğleden sonra 3 top daha dizdi. Can'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Elif sabah bahçede 5 defter aldı, öğleden sonra 9 defter daha aldı. Elif'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mehmet sabah bahçede 1 elma saydı, öğleden sonra 3 elma daha saydı. Mehmet'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ahmet sabah dağda 10 taş aldı, öğleden sonra 10 taş daha aldı. Ahmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ali sabah parkta 6 kitap şişirdi, öğleden sonra 1 kitap daha şişirdi. Ali'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet sabah oyun alanında 3 balon getirdi, öğleden sonra 6 balon daha getirdi. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep sabah oyun alanında 8 balon buldu, öğleden sonra 8 balon daha buldu. Zeynep'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Eren sabah evde 9 ceviz buldu, öğleden sonra 8 ceviz daha buldu. Eren'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah sokakta 5 taş kazandı, öğleden sonra 10 taş daha kazandı. Ahmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 8 kek getirdi, öğleden sonra 9 kek daha getirdi. Elif'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Deniz sabah sokakta 3 bilye topladı, öğleden sonra 6 bilye daha topladı. Deniz'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Duru sabah parkta 9 oyuncak saydı, öğleden sonra 4 oyuncak daha saydı. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ayşe sabah parkta 5 mandalina buldu, öğleden sonra 4 mandalina daha buldu. Ayşe'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 3 taş şişirdi, öğleden sonra 1 taş daha şişirdi. Mehmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Duru sabah parkta 8 kitap buldu, öğleden sonra 2 kitap daha buldu. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 8 taş şişirdi, öğleden sonra 1 taş daha şişirdi. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ayşe sabah deniz kenarında 4 bilye buldu, öğleden sonra 2 bilye daha buldu. Ayşe'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ali sabah orman kenarında 1 kek getirdi, öğleden sonra 5 kek daha getirdi. Ali'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ali sabah evde 10 kiraz getirdi, öğleden sonra 1 kiraz daha getirdi. Ali'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah okulda 1 balon aldı, öğleden sonra 2 balon daha aldı. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Duru sabah parkta 1 elma buldu, öğleden sonra 3 elma daha buldu. Duru'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 6 kalem yaptı, öğleden sonra 8 kalem daha yaptı. Ayşe'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 3 çiçek yaptı, öğleden sonra 5 çiçek daha yaptı. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Deniz sabah sokakta 9 elma şişirdi, öğleden sonra 3 elma daha şişirdi. Deniz'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 10 muz şişirdi, öğleden sonra 5 muz daha şişirdi. Ece'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Eren sabah tatilde 2 kek aldı, öğleden sonra 8 kek daha aldı. Eren'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ece sabah oyun alanında 10 taş saydı, öğleden sonra 2 taş daha saydı. Ece'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Zeynep sabah orman kenarında 6 çiçek saydı, öğleden sonra 3 çiçek daha saydı. Zeynep'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Elif sabah bahçede 8 bilye şişirdi, öğleden sonra 3 bilye daha şişirdi. Elif'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Eren sabah oyun alanında 1 taş buldu, öğleden sonra 2 taş daha buldu. Eren'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Kerem sabah tatilde 6 bilye saydı, öğleden sonra 7 bilye daha saydı. Kerem'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Zeynep sabah parkta 1 bilye dizdi, öğleden sonra 4 bilye daha dizdi. Zeynep'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mehmet sabah dağda 10 kitap saydı, öğleden sonra 3 kitap daha saydı. Mehmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Deniz sabah sokakta 8 taş getirdi, öğleden sonra 6 taş daha getirdi. Deniz'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 8 armut dizdi, öğleden sonra 6 armut daha dizdi. Deniz'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ahmet sabah oyun alanında 8 elma saydı, öğleden sonra 7 elma daha saydı. Ahmet'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 10 mandalina topladı, öğleden sonra 9 mandalina daha topladı. Ece'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Zeynep sabah parkta 9 top saydı, öğleden sonra 5 top daha saydı. Zeynep'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 1 armut getirdi, öğleden sonra 1 armut daha getirdi. Kerem'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Can sabah parkta 7 armut topladı, öğleden sonra 3 armut daha topladı. Can'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 2 kitap getirdi, öğleden sonra 1 kitap daha getirdi. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ali sabah bahçede 7 defter saydı, öğleden sonra 4 defter daha saydı. Ali'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Zeynep sabah sokakta 3 kiraz şişirdi, öğleden sonra 5 kiraz daha şişirdi. Zeynep'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah parkta 2 çiçek saydı, öğleden sonra 3 çiçek daha saydı. Mehmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı sabah tatilde 7 kalem saydı, öğleden sonra 5 kalem daha saydı. Aslı'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mehmet sabah parkta 1 armut dizdi, öğleden sonra 4 armut daha dizdi. Mehmet'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ahmet sabah oyun alanında 8 kek şişirdi, öğleden sonra 9 kek daha şişirdi. Ahmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 2 armut saydı, öğleden sonra 7 armut daha saydı. Mehmet'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ayşe sabah deniz kenarında 5 ceviz dizdi, öğleden sonra 8 ceviz daha dizdi. Ayşe'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 7 bilye yaptı, öğleden sonra 1 bilye daha yaptı. Ahmet'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mert sabah parkta 10 bilye saydı, öğleden sonra 2 bilye daha saydı. Mert'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 10 kitap kazandı, öğleden sonra 7 kitap daha kazandı. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Mehmet sabah deniz kenarında 7 oyuncak dizdi, öğleden sonra 2 oyuncak daha dizdi. Mehmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Aslı sabah oyun alanında 8 balon saydı, öğleden sonra 5 balon daha saydı. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ahmet sabah sokakta 5 taş yaptı, öğleden sonra 7 taş daha yaptı. Ahmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Aslı sabah evde 9 kek aldı, öğleden sonra 6 kek daha aldı. Aslı'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Mert sabah sokakta 8 kek yaptı, öğleden sonra 10 kek daha yaptı. Mert'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Kerem sabah tatilde 6 balon şişirdi, öğleden sonra 8 balon daha şişirdi. Kerem'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ece sabah evde 6 çikolata getirdi, öğleden sonra 4 çikolata daha getirdi. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 8 çiçek saydı, öğleden sonra 8 çiçek daha saydı. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mert sabah sokakta 8 mandalina topladı, öğleden sonra 7 mandalina daha topladı. Mert'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ali sabah tatilde 1 kalem dizdi, öğleden sonra 2 kalem daha dizdi. Ali'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Duru sabah okulda 4 top yaptı, öğleden sonra 4 top daha yaptı. Duru'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Mehmet sabah bahçede 3 kitap şişirdi, öğleden sonra 2 kitap daha şişirdi. Mehmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Deniz sabah dağda 8 kiraz saydı, öğleden sonra 2 kiraz daha saydı. Deniz'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah evde 8 kiraz topladı, öğleden sonra 6 kiraz daha topladı. Zeynep'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah sokakta 7 defter aldı, öğleden sonra 10 defter daha aldı. Mehmet'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ece sabah deniz kenarında 5 çikolata buldu, öğleden sonra 4 çikolata daha buldu. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Zeynep sabah orman kenarında 2 muz saydı, öğleden sonra 1 muz daha saydı. Zeynep'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Aslı sabah sokakta 1 kiraz saydı, öğleden sonra 9 kiraz daha saydı. Aslı'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 7 kitap buldu, öğleden sonra 2 kitap daha buldu. Aslı'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 3 top aldı, öğleden sonra 8 top daha aldı. Kerem'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 7 kiraz buldu, öğleden sonra 1 kiraz daha buldu. Eren'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Kerem sabah okulda 10 mandalina kazandı, öğleden sonra 9 mandalina daha kazandı. Kerem'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Eren sabah evde 8 taş kazandı, öğleden sonra 9 taş daha kazandı. Eren'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah dağda 10 taş dizdi, öğleden sonra 4 taş daha dizdi. Deniz'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ece sabah sokakta 2 çikolata topladı, öğleden sonra 4 çikolata daha topladı. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mert sabah oyun alanında 6 kiraz kazandı, öğleden sonra 8 kiraz daha kazandı. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Duru sabah orman kenarında 3 mandalina dizdi, öğleden sonra 6 mandalina daha dizdi. Duru'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 8 defter dizdi, öğleden sonra 7 defter daha dizdi. Eren'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mehmet sabah tatilde 7 kiraz saydı, öğleden sonra 4 kiraz daha saydı. Mehmet'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah okulda 10 çikolata buldu, öğleden sonra 3 çikolata daha buldu. Ahmet'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 1 çikolata şişirdi, öğleden sonra 2 çikolata daha şişirdi. Kerem'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Aslı sabah dağda 1 çiçek yaptı, öğleden sonra 8 çiçek daha yaptı. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Elif sabah oyun alanında 10 armut saydı, öğleden sonra 10 armut daha saydı. Elif'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Duru sabah bahçede 9 kiraz getirdi, öğleden sonra 9 kiraz daha getirdi. Duru'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 10 armut saydı, öğleden sonra 4 armut daha saydı. Duru'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 9 bilye kazandı, öğleden sonra 5 bilye daha kazandı. Ahmet'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Aslı sabah deniz kenarında 6 elma getirdi, öğleden sonra 6 elma daha getirdi. Aslı'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 5 muz saydı, öğleden sonra 10 muz daha saydı. Mehmet'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Kerem sabah bahçede 1 kek getirdi, öğleden sonra 1 kek daha getirdi. Kerem'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 4 muz buldu, öğleden sonra 8 muz daha buldu. Ahmet'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 3 elma aldı, öğleden sonra 6 elma daha aldı. Aslı'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 9 çiçek saydı, öğleden sonra 10 çiçek daha saydı. Zeynep'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 3 elma getirdi, öğleden sonra 1 elma daha getirdi. Zeynep'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ali sabah dağda 6 muz dizdi, öğleden sonra 5 muz daha dizdi. Ali'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 1 mandalina dizdi, öğleden sonra 7 mandalina daha dizdi. Mehmet'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Eren sabah bahçede 6 ceviz topladı, öğleden sonra 7 ceviz daha topladı. Eren'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 1 defter getirdi, öğleden sonra 6 defter daha getirdi. Zeynep'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Can sabah okulda 10 kiraz dizdi, öğleden sonra 4 kiraz daha dizdi. Can'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Eren sabah sokakta 5 muz yaptı, öğleden sonra 3 muz daha yaptı. Eren'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 6 kek dizdi, öğleden sonra 9 kek daha dizdi. Eren'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Aslı sabah sokakta 2 taş dizdi, öğleden sonra 8 taş daha dizdi. Aslı'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ali sabah parkta 3 oyuncak getirdi, öğleden sonra 1 oyuncak daha getirdi. Ali'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 5 ceviz kazandı, öğleden sonra 7 ceviz daha kazandı. Zeynep'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Elif sabah okulda 8 kitap saydı, öğleden sonra 1 kitap daha saydı. Elif'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem sabah sokakta 4 muz kazandı, öğleden sonra 6 muz daha kazandı. Kerem'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah oyun alanında 7 top saydı, öğleden sonra 5 top daha saydı. Zeynep'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Aslı sabah dağda 3 kalem şişirdi, öğleden sonra 6 kalem daha şişirdi. Aslı'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Elif sabah evde 1 kek saydı, öğleden sonra 3 kek daha saydı. Elif'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Can sabah deniz kenarında 10 balon kazandı, öğleden sonra 2 balon daha kazandı. Can'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ali sabah sokakta 2 muz kazandı, öğleden sonra 3 muz daha kazandı. Ali'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mert sabah sokakta 5 taş şişirdi, öğleden sonra 8 taş daha şişirdi. Mert'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah bahçede 1 taş şişirdi, öğleden sonra 7 taş daha şişirdi. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 4 kitap dizdi, öğleden sonra 5 kitap daha dizdi. Mehmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet sabah oyun alanında 4 kek topladı, öğleden sonra 1 kek daha topladı. Ahmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah orman kenarında 3 oyuncak saydı, öğleden sonra 10 oyuncak daha saydı. Mehmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 8 kek dizdi, öğleden sonra 7 kek daha dizdi. Kerem'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 1 top yaptı, öğleden sonra 2 top daha yaptı. Ahmet'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 10 ceviz buldu, öğleden sonra 5 ceviz daha buldu. Ayşe'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 8 kiraz saydı, öğleden sonra 3 kiraz daha saydı. Ece'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 5 çiçek getirdi, öğleden sonra 5 çiçek daha getirdi. Eren'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 7 bilye şişirdi, öğleden sonra 5 bilye daha şişirdi. Ayşe'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Aslı sabah parkta 5 mandalina şişirdi, öğleden sonra 5 mandalina daha şişirdi. Aslı'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Duru sabah orman kenarında 8 top saydı, öğleden sonra 6 top daha saydı. Duru'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 2 kalem yaptı, öğleden sonra 7 kalem daha yaptı. Duru'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ali sabah parkta 5 kiraz saydı, öğleden sonra 4 kiraz daha saydı. Ali'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Duru sabah sokakta 4 kek topladı, öğleden sonra 8 kek daha topladı. Duru'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 2 kalem şişirdi, öğleden sonra 1 kalem daha şişirdi. Ahmet'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Deniz sabah evde 8 taş yaptı, öğleden sonra 6 taş daha yaptı. Deniz'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 8 kiraz saydı, öğleden sonra 8 kiraz daha saydı. Elif'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 10 kalem dizdi, öğleden sonra 3 kalem daha dizdi. Kerem'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 9 defter getirdi, öğleden sonra 10 defter daha getirdi. Ahmet'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru sabah tatilde 8 top aldı, öğleden sonra 5 top daha aldı. Duru'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Aslı sabah sokakta 10 mandalina yaptı, öğleden sonra 5 mandalina daha yaptı. Aslı'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 9 defter aldı, öğleden sonra 9 defter daha aldı. Ayşe'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Eren sabah parkta 9 mandalina dizdi, öğleden sonra 1 mandalina daha dizdi. Eren'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ayşe sabah parkta 2 elma topladı, öğleden sonra 5 elma daha topladı. Ayşe'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ali sabah bahçede 5 balon getirdi, öğleden sonra 8 balon daha getirdi. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ece sabah sokakta 10 kek yaptı, öğleden sonra 9 kek daha yaptı. Ece'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 10 taş şişirdi, öğleden sonra 2 taş daha şişirdi. Aslı'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah bahçede 2 çikolata dizdi, öğleden sonra 2 çikolata daha dizdi. Deniz'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Aslı sabah orman kenarında 5 taş saydı, öğleden sonra 7 taş daha saydı. Aslı'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Elif sabah tatilde 2 çiçek saydı, öğleden sonra 6 çiçek daha saydı. Elif'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ece sabah deniz kenarında 5 top topladı, öğleden sonra 10 top daha topladı. Ece'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 9 armut saydı, öğleden sonra 1 armut daha saydı. Ayşe'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ayşe sabah parkta 2 muz buldu, öğleden sonra 9 muz daha buldu. Ayşe'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 4 bilye aldı, öğleden sonra 2 bilye daha aldı. Duru'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 1 defter yaptı, öğleden sonra 2 defter daha yaptı. Zeynep'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru sabah sokakta 3 kiraz yaptı, öğleden sonra 5 kiraz daha yaptı. Duru'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 9 kek saydı, öğleden sonra 7 kek daha saydı. Kerem'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 4 elma buldu, öğleden sonra 7 elma daha buldu. Aslı'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ahmet sabah parkta 7 çikolata kazandı, öğleden sonra 7 çikolata daha kazandı. Ahmet'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 9 muz aldı, öğleden sonra 2 muz daha aldı. Zeynep'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Deniz sabah deniz kenarında 8 çikolata saydı, öğleden sonra 8 çikolata daha saydı. Deniz'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 3 oyuncak dizdi, öğleden sonra 6 oyuncak daha dizdi. Ece'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali sabah tatilde 3 elma aldı, öğleden sonra 1 elma daha aldı. Ali'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Duru sabah sokakta 4 defter saydı, öğleden sonra 8 defter daha saydı. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem sabah sokakta 2 ceviz aldı, öğleden sonra 9 ceviz daha aldı. Kerem'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Kerem sabah okulda 8 balon saydı, öğleden sonra 6 balon daha saydı. Kerem'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Eren sabah sokakta 6 balon kazandı, öğleden sonra 9 balon daha kazandı. Eren'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ece sabah evde 5 kek topladı, öğleden sonra 6 kek daha topladı. Ece'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 10 kitap buldu, öğleden sonra 9 kitap daha buldu. Eren'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Deniz sabah okulda 2 oyuncak yaptı, öğleden sonra 9 oyuncak daha yaptı. Deniz'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 8 kalem saydı, öğleden sonra 3 kalem daha saydı. Duru'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Duru sabah deniz kenarında 8 balon şişirdi, öğleden sonra 4 balon daha şişirdi. Duru'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 5 oyuncak aldı, öğleden sonra 9 oyuncak daha aldı. Ece'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Can sabah orman kenarında 10 çikolata dizdi, öğleden sonra 5 çikolata daha dizdi. Can'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ali sabah bahçede 5 armut yaptı, öğleden sonra 2 armut daha yaptı. Ali'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 10 mandalina şişirdi, öğleden sonra 8 mandalina daha şişirdi. Aslı'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 2 taş buldu, öğleden sonra 8 taş daha buldu. Kerem'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 3 bilye aldı, öğleden sonra 8 bilye daha aldı. Can'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Eren sabah parkta 4 kek dizdi, öğleden sonra 9 kek daha dizdi. Eren'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 10 oyuncak dizdi, öğleden sonra 1 oyuncak daha dizdi. Elif'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Duru sabah sokakta 6 bilye yaptı, öğleden sonra 2 bilye daha yaptı. Duru'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ece sabah evde 8 top saydı, öğleden sonra 3 top daha saydı. Ece'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Mehmet sabah orman kenarında 2 top getirdi, öğleden sonra 7 top daha getirdi. Mehmet'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Deniz sabah dağda 6 muz şişirdi, öğleden sonra 6 muz daha şişirdi. Deniz'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 2 kek saydı, öğleden sonra 10 kek daha saydı. Ayşe'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ece sabah tatilde 7 oyuncak buldu, öğleden sonra 10 oyuncak daha buldu. Ece'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 3 çikolata yaptı, öğleden sonra 6 çikolata daha yaptı. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Kerem sabah oyun alanında 4 mandalina şişirdi, öğleden sonra 7 mandalina daha şişirdi. Kerem'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Zeynep sabah oyun alanında 8 top buldu, öğleden sonra 2 top daha buldu. Zeynep'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 3 armut buldu, öğleden sonra 4 armut daha buldu. Ayşe'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Duru sabah parkta 2 elma saydı, öğleden sonra 3 elma daha saydı. Duru'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Aslı sabah oyun alanında 5 top buldu, öğleden sonra 5 top daha buldu. Aslı'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 6 çikolata dizdi, öğleden sonra 8 çikolata daha dizdi. Can'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mehmet sabah bahçede 10 armut saydı, öğleden sonra 10 armut daha saydı. Mehmet'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 5 elma getirdi, öğleden sonra 6 elma daha getirdi. Ali'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ece sabah dağda 9 kalem saydı, öğleden sonra 6 kalem daha saydı. Ece'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 3 top yaptı, öğleden sonra 9 top daha yaptı. Elif'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ece sabah parkta 2 kek buldu, öğleden sonra 6 kek daha buldu. Ece'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah parkta 8 defter getirdi, öğleden sonra 10 defter daha getirdi. Zeynep'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 4 çiçek saydı, öğleden sonra 10 çiçek daha saydı. Duru'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 10 balon saydı, öğleden sonra 3 balon daha saydı. Mert'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Deniz sabah parkta 5 elma dizdi, öğleden sonra 7 elma daha dizdi. Deniz'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ali sabah dağda 8 kalem dizdi, öğleden sonra 2 kalem daha dizdi. Ali'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Zeynep sabah evde 5 top şişirdi, öğleden sonra 8 top daha şişirdi. Zeynep'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Duru sabah parkta 10 muz dizdi, öğleden sonra 8 muz daha dizdi. Duru'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Eren sabah dağda 4 kitap yaptı, öğleden sonra 4 kitap daha yaptı. Eren'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Mehmet sabah sokakta 7 kiraz yaptı, öğleden sonra 10 kiraz daha yaptı. Mehmet'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 8 taş saydı, öğleden sonra 2 taş daha saydı. Duru'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 5 kalem dizdi, öğleden sonra 7 kalem daha dizdi. Ayşe'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Deniz sabah parkta 2 bilye dizdi, öğleden sonra 3 bilye daha dizdi. Deniz'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Aslı sabah evde 10 kalem kazandı, öğleden sonra 8 kalem daha kazandı. Aslı'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Aslı sabah tatilde 6 top yaptı, öğleden sonra 2 top daha yaptı. Aslı'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ahmet sabah tatilde 5 taş aldı, öğleden sonra 4 taş daha aldı. Ahmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 7 balon yaptı, öğleden sonra 6 balon daha yaptı. Can'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ayşe sabah okulda 4 taş getirdi, öğleden sonra 3 taş daha getirdi. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mehmet sabah tatilde 6 oyuncak kazandı, öğleden sonra 10 oyuncak daha kazandı. Mehmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali sabah deniz kenarında 6 defter kazandı, öğleden sonra 6 defter daha kazandı. Ali'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem sabah deniz kenarında 4 defter getirdi, öğleden sonra 8 defter daha getirdi. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem sabah sokakta 4 armut yaptı, öğleden sonra 5 armut daha yaptı. Kerem'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 9 muz buldu, öğleden sonra 2 muz daha buldu. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Elif sabah dağda 5 elma şişirdi, öğleden sonra 8 elma daha şişirdi. Elif'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 6 çikolata saydı, öğleden sonra 7 çikolata daha saydı. Deniz'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ece sabah dağda 3 oyuncak aldı, öğleden sonra 4 oyuncak daha aldı. Ece'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 6 armut buldu, öğleden sonra 5 armut daha buldu. Ali'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Elif sabah tatilde 8 çiçek buldu, öğleden sonra 5 çiçek daha buldu. Elif'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Elif sabah sokakta 1 bilye saydı, öğleden sonra 7 bilye daha saydı. Elif'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 10 çikolata saydı, öğleden sonra 2 çikolata daha saydı. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 9 balon yaptı, öğleden sonra 8 balon daha yaptı. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Mert sabah tatilde 10 elma topladı, öğleden sonra 9 elma daha topladı. Mert'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Duru sabah dağda 4 oyuncak yaptı, öğleden sonra 5 oyuncak daha yaptı. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ece sabah evde 10 defter kazandı, öğleden sonra 2 defter daha kazandı. Ece'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru sabah parkta 10 mandalina yaptı, öğleden sonra 3 mandalina daha yaptı. Duru'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 7 çiçek saydı, öğleden sonra 4 çiçek daha saydı. Can'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Deniz sabah dağda 8 çiçek aldı, öğleden sonra 9 çiçek daha aldı. Deniz'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı sabah evde 10 kek aldı, öğleden sonra 8 kek daha aldı. Aslı'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Aslı sabah parkta 6 ceviz aldı, öğleden sonra 9 ceviz daha aldı. Aslı'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Elif sabah deniz kenarında 9 oyuncak aldı, öğleden sonra 8 oyuncak daha aldı. Elif'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ahmet sabah dağda 2 çikolata aldı, öğleden sonra 2 çikolata daha aldı. Ahmet'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 3 armut yaptı, öğleden sonra 2 armut daha yaptı. Deniz'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ali sabah parkta 1 top kazandı, öğleden sonra 7 top daha kazandı. Ali'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Zeynep sabah dağda 4 kalem aldı, öğleden sonra 5 kalem daha aldı. Zeynep'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mert sabah tatilde 1 kek saydı, öğleden sonra 1 kek daha saydı. Mert'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah tatilde 6 mandalina kazandı, öğleden sonra 10 mandalina daha kazandı. Zeynep'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ali sabah deniz kenarında 8 kitap topladı, öğleden sonra 2 kitap daha topladı. Ali'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece sabah parkta 7 ceviz topladı, öğleden sonra 2 ceviz daha topladı. Ece'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Elif sabah deniz kenarında 3 oyuncak getirdi, öğleden sonra 7 oyuncak daha getirdi. Elif'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 2 taş buldu, öğleden sonra 8 taş daha buldu. Kerem'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 3 çikolata şişirdi, öğleden sonra 4 çikolata daha şişirdi. Ahmet'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mehmet sabah orman kenarında 6 kek yaptı, öğleden sonra 3 kek daha yaptı. Mehmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Kerem sabah bahçede 2 çiçek buldu, öğleden sonra 4 çiçek daha buldu. Kerem'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 10 kitap topladı, öğleden sonra 8 kitap daha topladı. Mert'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 5 bilye buldu, öğleden sonra 9 bilye daha buldu. Can'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 6 oyuncak buldu, öğleden sonra 8 oyuncak daha buldu. Eren'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali sabah deniz kenarında 10 çiçek buldu, öğleden sonra 2 çiçek daha buldu. Ali'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 9 çiçek yaptı, öğleden sonra 9 çiçek daha yaptı. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mert sabah evde 1 ceviz aldı, öğleden sonra 3 ceviz daha aldı. Mert'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Eren sabah sokakta 8 kiraz aldı, öğleden sonra 9 kiraz daha aldı. Eren'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert sabah oyun alanında 7 kalem getirdi, öğleden sonra 3 kalem daha getirdi. Mert'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 6 top saydı, öğleden sonra 2 top daha saydı. Can'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 7 çikolata yaptı, öğleden sonra 4 çikolata daha yaptı. Ahmet'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 10 elma getirdi, öğleden sonra 1 elma daha getirdi. Ece'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 9 bilye saydı, öğleden sonra 5 bilye daha saydı. Aslı'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 1 çiçek aldı, öğleden sonra 8 çiçek daha aldı. Eren'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 2 kitap şişirdi, öğleden sonra 4 kitap daha şişirdi. Ali'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ali sabah parkta 9 ceviz kazandı, öğleden sonra 9 ceviz daha kazandı. Ali'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Aslı sabah oyun alanında 4 bilye saydı, öğleden sonra 7 bilye daha saydı. Aslı'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Kerem sabah deniz kenarında 9 çikolata saydı, öğleden sonra 7 çikolata daha saydı. Kerem'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Kerem sabah bahçede 10 ceviz yaptı, öğleden sonra 4 ceviz daha yaptı. Kerem'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 6 kek topladı, öğleden sonra 4 kek daha topladı. Ece'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Can sabah bahçede 6 taş saydı, öğleden sonra 6 taş daha saydı. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Elif sabah bahçede 5 armut dizdi, öğleden sonra 5 armut daha dizdi. Elif'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem sabah parkta 8 bilye getirdi, öğleden sonra 1 bilye daha getirdi. Kerem'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Elif sabah oyun alanında 7 mandalina şişirdi, öğleden sonra 2 mandalina daha şişirdi. Elif'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ece sabah dağda 9 defter aldı, öğleden sonra 7 defter daha aldı. Ece'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Eren sabah deniz kenarında 1 elma buldu, öğleden sonra 4 elma daha buldu. Eren'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 9 armut kazandı, öğleden sonra 9 armut daha kazandı. Ece'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ali sabah evde 1 oyuncak yaptı, öğleden sonra 2 oyuncak daha yaptı. Ali'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 6 top yaptı, öğleden sonra 9 top daha yaptı. Duru'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Kerem sabah oyun alanında 9 çikolata yaptı, öğleden sonra 7 çikolata daha yaptı. Kerem'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Kerem sabah deniz kenarında 9 armut aldı, öğleden sonra 8 armut daha aldı. Kerem'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ayşe sabah sokakta 2 mandalina aldı, öğleden sonra 7 mandalina daha aldı. Ayşe'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ayşe sabah dağda 6 kiraz yaptı, öğleden sonra 1 kiraz daha yaptı. Ayşe'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 6 çiçek topladı, öğleden sonra 5 çiçek daha topladı. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Kerem sabah deniz kenarında 9 kitap şişirdi, öğleden sonra 7 kitap daha şişirdi. Kerem'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 7 kitap kazandı, öğleden sonra 1 kitap daha kazandı. Eren'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru sabah tatilde 7 çikolata saydı, öğleden sonra 6 çikolata daha saydı. Duru'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ali sabah parkta 9 kalem getirdi, öğleden sonra 7 kalem daha getirdi. Ali'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mert sabah okulda 6 muz buldu, öğleden sonra 8 muz daha buldu. Mert'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mert sabah bahçede 5 elma getirdi, öğleden sonra 9 elma daha getirdi. Mert'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Elif sabah sokakta 1 bilye getirdi, öğleden sonra 8 bilye daha getirdi. Elif'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mert sabah tatilde 8 kek saydı, öğleden sonra 4 kek daha saydı. Mert'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 2 defter saydı, öğleden sonra 4 defter daha saydı. Ahmet'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 1 kalem buldu, öğleden sonra 5 kalem daha buldu. Deniz'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 5 balon yaptı, öğleden sonra 1 balon daha yaptı. Mehmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif sabah sokakta 8 ceviz dizdi, öğleden sonra 3 ceviz daha dizdi. Elif'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 2 armut yaptı, öğleden sonra 8 armut daha yaptı. Ayşe'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ali sabah orman kenarında 6 ceviz getirdi, öğleden sonra 6 ceviz daha getirdi. Ali'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Can sabah evde 2 bilye buldu, öğleden sonra 2 bilye daha buldu. Can'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Can sabah parkta 1 balon şişirdi, öğleden sonra 1 balon daha şişirdi. Can'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 4 kek şişirdi, öğleden sonra 6 kek daha şişirdi. Mert'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 4 taş saydı, öğleden sonra 3 taş daha saydı. Elif'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 4 kiraz aldı, öğleden sonra 8 kiraz daha aldı. Ece'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Kerem sabah dağda 9 ceviz yaptı, öğleden sonra 4 ceviz daha yaptı. Kerem'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 2 armut şişirdi, öğleden sonra 2 armut daha şişirdi. Ayşe'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Aslı sabah oyun alanında 2 muz yaptı, öğleden sonra 8 muz daha yaptı. Aslı'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 3 mandalina şişirdi, öğleden sonra 10 mandalina daha şişirdi. Deniz'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 10 balon getirdi, öğleden sonra 6 balon daha getirdi. Kerem'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 4 kitap aldı, öğleden sonra 2 kitap daha aldı. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Eren sabah evde 6 defter şişirdi, öğleden sonra 3 defter daha şişirdi. Eren'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Deniz sabah sokakta 7 kitap saydı, öğleden sonra 7 kitap daha saydı. Deniz'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Zeynep sabah tatilde 3 bilye dizdi, öğleden sonra 5 bilye daha dizdi. Zeynep'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mehmet sabah sokakta 5 kek saydı, öğleden sonra 6 kek daha saydı. Mehmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ahmet sabah oyun alanında 5 çiçek şişirdi, öğleden sonra 4 çiçek daha şişirdi. Ahmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Duru sabah sokakta 4 armut saydı, öğleden sonra 6 armut daha saydı. Duru'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 5 mandalina saydı, öğleden sonra 4 mandalina daha saydı. Ece'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 6 mandalina buldu, öğleden sonra 6 mandalina daha buldu. Ece'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Elif sabah deniz kenarında 3 bilye dizdi, öğleden sonra 1 bilye daha dizdi. Elif'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Deniz sabah tatilde 9 kiraz topladı, öğleden sonra 10 kiraz daha topladı. Deniz'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah evde 2 elma dizdi, öğleden sonra 4 elma daha dizdi. Zeynep'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Can sabah oyun alanında 3 taş şişirdi, öğleden sonra 8 taş daha şişirdi. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 9 çiçek saydı, öğleden sonra 7 çiçek daha saydı. Ece'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ali sabah orman kenarında 3 ceviz getirdi, öğleden sonra 6 ceviz daha getirdi. Ali'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Deniz sabah bahçede 7 kalem saydı, öğleden sonra 2 kalem daha saydı. Deniz'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Aslı sabah dağda 10 balon buldu, öğleden sonra 2 balon daha buldu. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Kerem sabah deniz kenarında 5 elma topladı, öğleden sonra 1 elma daha topladı. Kerem'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ali sabah bahçede 2 kalem yaptı, öğleden sonra 4 kalem daha yaptı. Ali'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 1 balon aldı, öğleden sonra 8 balon daha aldı. Eren'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Kerem sabah bahçede 6 balon getirdi, öğleden sonra 4 balon daha getirdi. Kerem'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ahmet sabah tatilde 1 kalem aldı, öğleden sonra 10 kalem daha aldı. Ahmet'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ahmet sabah tatilde 1 kek topladı, öğleden sonra 1 kek daha topladı. Ahmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Deniz sabah bahçede 2 balon yaptı, öğleden sonra 5 balon daha yaptı. Deniz'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 4 muz dizdi, öğleden sonra 8 muz daha dizdi. Duru'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ece sabah tatilde 9 elma kazandı, öğleden sonra 5 elma daha kazandı. Ece'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 7 elma dizdi, öğleden sonra 1 elma daha dizdi. Kerem'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Elif sabah okulda 2 mandalina saydı, öğleden sonra 7 mandalina daha saydı. Elif'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 5 oyuncak aldı, öğleden sonra 8 oyuncak daha aldı. Kerem'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ayşe sabah sokakta 4 muz yaptı, öğleden sonra 9 muz daha yaptı. Ayşe'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Aslı sabah tatilde 5 kiraz getirdi, öğleden sonra 6 kiraz daha getirdi. Aslı'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 2 kitap buldu, öğleden sonra 8 kitap daha buldu. Ayşe'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Mehmet sabah orman kenarında 9 taş kazandı, öğleden sonra 3 taş daha kazandı. Mehmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 1 çiçek şişirdi, öğleden sonra 7 çiçek daha şişirdi. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı sabah orman kenarında 5 ceviz topladı, öğleden sonra 4 ceviz daha topladı. Aslı'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ali sabah orman kenarında 2 taş topladı, öğleden sonra 4 taş daha topladı. Ali'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Kerem sabah okulda 1 bilye yaptı, öğleden sonra 1 bilye daha yaptı. Kerem'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Duru sabah sokakta 7 defter dizdi, öğleden sonra 4 defter daha dizdi. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Deniz sabah parkta 4 kitap buldu, öğleden sonra 6 kitap daha buldu. Deniz'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 5 mandalina buldu, öğleden sonra 5 mandalina daha buldu. Can'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 10 taş buldu, öğleden sonra 10 taş daha buldu. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 8 kalem buldu, öğleden sonra 8 kalem daha buldu. Can'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Duru sabah deniz kenarında 2 defter yaptı, öğleden sonra 5 defter daha yaptı. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Eren sabah sokakta 5 defter kazandı, öğleden sonra 6 defter daha kazandı. Eren'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ahmet sabah tatilde 3 oyuncak topladı, öğleden sonra 4 oyuncak daha topladı. Ahmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 4 top buldu, öğleden sonra 10 top daha buldu. Mehmet'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Eren sabah oyun alanında 10 ceviz saydı, öğleden sonra 5 ceviz daha saydı. Eren'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah orman kenarında 10 çikolata buldu, öğleden sonra 9 çikolata daha buldu. Zeynep'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Eren sabah evde 1 armut saydı, öğleden sonra 10 armut daha saydı. Eren'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem sabah tatilde 5 muz şişirdi, öğleden sonra 9 muz daha şişirdi. Kerem'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 7 mandalina kazandı, öğleden sonra 4 mandalina daha kazandı. Ahmet'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Duru sabah tatilde 6 bilye buldu, öğleden sonra 9 bilye daha buldu. Duru'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Aslı sabah deniz kenarında 4 bilye yaptı, öğleden sonra 4 bilye daha yaptı. Aslı'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 10 oyuncak saydı, öğleden sonra 1 oyuncak daha saydı. Mehmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Zeynep sabah parkta 7 kiraz saydı, öğleden sonra 1 kiraz daha saydı. Zeynep'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 3 defter getirdi, öğleden sonra 10 defter daha getirdi. Ayşe'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mert sabah orman kenarında 5 ceviz şişirdi, öğleden sonra 1 ceviz daha şişirdi. Mert'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 5 kek getirdi, öğleden sonra 10 kek daha getirdi. Can'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Eren sabah dağda 7 bilye şişirdi, öğleden sonra 8 bilye daha şişirdi. Eren'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 1 ceviz buldu, öğleden sonra 4 ceviz daha buldu. Mehmet'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Duru sabah deniz kenarında 6 elma buldu, öğleden sonra 5 elma daha buldu. Duru'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 8 kitap saydı, öğleden sonra 8 kitap daha saydı. Mehmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru sabah okulda 4 defter aldı, öğleden sonra 3 defter daha aldı. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Zeynep sabah dağda 6 muz yaptı, öğleden sonra 1 muz daha yaptı. Zeynep'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah sokakta 4 kitap getirdi, öğleden sonra 2 kitap daha getirdi. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe sabah sokakta 2 çiçek topladı, öğleden sonra 5 çiçek daha topladı. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mert sabah tatilde 5 ceviz getirdi, öğleden sonra 9 ceviz daha getirdi. Mert'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Kerem sabah deniz kenarında 7 kitap şişirdi, öğleden sonra 10 kitap daha şişirdi. Kerem'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru sabah tatilde 7 çikolata buldu, öğleden sonra 4 çikolata daha buldu. Duru'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 7 defter şişirdi, öğleden sonra 9 defter daha şişirdi. Eren'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 6 kalem aldı, öğleden sonra 9 kalem daha aldı. Aslı'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 2 taş yaptı, öğleden sonra 2 taş daha yaptı. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Elif sabah parkta 6 top topladı, öğleden sonra 5 top daha topladı. Elif'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 10 bilye kazandı, öğleden sonra 2 bilye daha kazandı. Can'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Deniz sabah parkta 1 defter kazandı, öğleden sonra 8 defter daha kazandı. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem sabah tatilde 6 taş buldu, öğleden sonra 5 taş daha buldu. Kerem'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 9 çikolata saydı, öğleden sonra 9 çikolata daha saydı. Can'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 4 kek aldı, öğleden sonra 2 kek daha aldı. Mehmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Can sabah bahçede 2 taş yaptı, öğleden sonra 8 taş daha yaptı. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Eren sabah parkta 6 çiçek saydı, öğleden sonra 8 çiçek daha saydı. Eren'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Elif sabah tatilde 9 mandalina topladı, öğleden sonra 9 mandalina daha topladı. Elif'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Mehmet sabah orman kenarında 6 kiraz dizdi, öğleden sonra 6 kiraz daha dizdi. Mehmet'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert sabah bahçede 2 kalem topladı, öğleden sonra 9 kalem daha topladı. Mert'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Elif sabah deniz kenarında 5 elma saydı, öğleden sonra 7 elma daha saydı. Elif'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 2 elma aldı, öğleden sonra 8 elma daha aldı. Mert'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Kerem sabah tatilde 2 bilye kazandı, öğleden sonra 8 bilye daha kazandı. Kerem'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ece sabah parkta 8 mandalina yaptı, öğleden sonra 4 mandalina daha yaptı. Ece'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 10 muz aldı, öğleden sonra 7 muz daha aldı. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Eren sabah dağda 1 çiçek yaptı, öğleden sonra 10 çiçek daha yaptı. Eren'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Kerem sabah oyun alanında 8 elma saydı, öğleden sonra 4 elma daha saydı. Kerem'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 6 mandalina topladı, öğleden sonra 7 mandalina daha topladı. Ayşe'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Mert sabah dağda 3 bilye yaptı, öğleden sonra 9 bilye daha yaptı. Mert'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ece sabah sokakta 2 muz saydı, öğleden sonra 3 muz daha saydı. Ece'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah bahçede 7 mandalina şişirdi, öğleden sonra 7 mandalina daha şişirdi. Mehmet'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Mehmet sabah bahçede 5 top yaptı, öğleden sonra 4 top daha yaptı. Mehmet'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Zeynep sabah oyun alanında 8 kek şişirdi, öğleden sonra 8 kek daha şişirdi. Zeynep'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 7 oyuncak dizdi, öğleden sonra 10 oyuncak daha dizdi. Elif'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Elif sabah okulda 8 kek kazandı, öğleden sonra 1 kek daha kazandı. Elif'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 7 taş yaptı, öğleden sonra 8 taş daha yaptı. Mehmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 6 kitap kazandı, öğleden sonra 2 kitap daha kazandı. Ayşe'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ali sabah bahçede 1 ceviz getirdi, öğleden sonra 4 ceviz daha getirdi. Ali'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Can sabah bahçede 4 ceviz aldı, öğleden sonra 7 ceviz daha aldı. Can'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ali sabah okulda 7 muz aldı, öğleden sonra 3 muz daha aldı. Ali'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 9 bilye aldı, öğleden sonra 2 bilye daha aldı. Mehmet'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Can sabah bahçede 3 ceviz topladı, öğleden sonra 7 ceviz daha topladı. Can'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Deniz sabah oyun alanında 10 çikolata saydı, öğleden sonra 6 çikolata daha saydı. Deniz'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 7 kek kazandı, öğleden sonra 6 kek daha kazandı. Duru'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Deniz sabah tatilde 4 muz yaptı, öğleden sonra 8 muz daha yaptı. Deniz'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 5 kitap buldu, öğleden sonra 4 kitap daha buldu. Mehmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Zeynep sabah sokakta 3 ceviz getirdi, öğleden sonra 8 ceviz daha getirdi. Zeynep'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ece sabah dağda 8 balon şişirdi, öğleden sonra 7 balon daha şişirdi. Ece'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Kerem sabah dağda 2 muz getirdi, öğleden sonra 8 muz daha getirdi. Kerem'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Deniz sabah bahçede 4 çikolata saydı, öğleden sonra 6 çikolata daha saydı. Deniz'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Zeynep sabah sokakta 1 kiraz şişirdi, öğleden sonra 9 kiraz daha şişirdi. Zeynep'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Aslı sabah tatilde 9 ceviz saydı, öğleden sonra 2 ceviz daha saydı. Aslı'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Eren sabah parkta 5 oyuncak buldu, öğleden sonra 7 oyuncak daha buldu. Eren'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Elif sabah parkta 3 armut şişirdi, öğleden sonra 9 armut daha şişirdi. Elif'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 1 bilye saydı, öğleden sonra 9 bilye daha saydı. Deniz'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 5 kek yaptı, öğleden sonra 7 kek daha yaptı. Kerem'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 2 ceviz getirdi, öğleden sonra 5 ceviz daha getirdi. Deniz'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah orman kenarında 2 muz saydı, öğleden sonra 4 muz daha saydı. Zeynep'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 9 elma saydı, öğleden sonra 3 elma daha saydı. Eren'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 5 defter dizdi, öğleden sonra 3 defter daha dizdi. Ayşe'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem sabah okulda 3 kitap yaptı, öğleden sonra 2 kitap daha yaptı. Kerem'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Aslı sabah dağda 6 defter şişirdi, öğleden sonra 5 defter daha şişirdi. Aslı'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 6 balon buldu, öğleden sonra 1 balon daha buldu. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep sabah evde 6 oyuncak saydı, öğleden sonra 6 oyuncak daha saydı. Zeynep'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ayşe sabah parkta 8 ceviz yaptı, öğleden sonra 4 ceviz daha yaptı. Ayşe'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 6 ceviz getirdi, öğleden sonra 8 ceviz daha getirdi. Ahmet'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Aslı sabah tatilde 8 top dizdi, öğleden sonra 1 top daha dizdi. Aslı'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Eren sabah evde 10 defter saydı, öğleden sonra 7 defter daha saydı. Eren'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 6 kiraz buldu, öğleden sonra 7 kiraz daha buldu. Can'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert sabah evde 3 kitap kazandı, öğleden sonra 1 kitap daha kazandı. Mert'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 7 taş kazandı, öğleden sonra 2 taş daha kazandı. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ahmet sabah parkta 10 çiçek aldı, öğleden sonra 6 çiçek daha aldı. Ahmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Elif sabah dağda 7 armut getirdi, öğleden sonra 8 armut daha getirdi. Elif'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 6 kek yaptı, öğleden sonra 4 kek daha yaptı. Eren'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Kerem sabah tatilde 5 kiraz aldı, öğleden sonra 4 kiraz daha aldı. Kerem'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 9 kek yaptı, öğleden sonra 3 kek daha yaptı. Ece'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 8 çikolata aldı, öğleden sonra 5 çikolata daha aldı. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 5 bilye buldu, öğleden sonra 3 bilye daha buldu. Ayşe'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Aslı sabah evde 7 kitap saydı, öğleden sonra 5 kitap daha saydı. Aslı'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 4 balon getirdi, öğleden sonra 3 balon daha getirdi. Ece'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 5 balon aldı, öğleden sonra 2 balon daha aldı. Zeynep'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Can sabah oyun alanında 5 kitap saydı, öğleden sonra 3 kitap daha saydı. Can'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 1 ceviz yaptı, öğleden sonra 1 ceviz daha yaptı. Deniz'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ali sabah okulda 3 elma yaptı, öğleden sonra 5 elma daha yaptı. Ali'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ece sabah deniz kenarında 9 bilye saydı, öğleden sonra 10 bilye daha saydı. Ece'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 4 kitap aldı, öğleden sonra 3 kitap daha aldı. Mert'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 4 kalem yaptı, öğleden sonra 7 kalem daha yaptı. Aslı'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Can sabah parkta 4 defter kazandı, öğleden sonra 1 defter daha kazandı. Can'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 3 kiraz topladı, öğleden sonra 4 kiraz daha topladı. Eren'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert sabah sokakta 8 top dizdi, öğleden sonra 1 top daha dizdi. Mert'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Aslı sabah parkta 10 kalem şişirdi, öğleden sonra 4 kalem daha şişirdi. Aslı'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ahmet sabah parkta 7 oyuncak saydı, öğleden sonra 9 oyuncak daha saydı. Ahmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ahmet sabah okulda 8 armut getirdi, öğleden sonra 5 armut daha getirdi. Ahmet'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ali sabah orman kenarında 4 çiçek dizdi, öğleden sonra 2 çiçek daha dizdi. Ali'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Kerem sabah deniz kenarında 1 elma saydı, öğleden sonra 4 elma daha saydı. Kerem'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Zeynep sabah evde 1 mandalina topladı, öğleden sonra 5 mandalina daha topladı. Zeynep'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Mehmet sabah deniz kenarında 4 çikolata topladı, öğleden sonra 10 çikolata daha topladı. Mehmet'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 10 defter kazandı, öğleden sonra 7 defter daha kazandı. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 8 top saydı, öğleden sonra 10 top daha saydı. Ayşe'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Elif sabah tatilde 3 bilye saydı, öğleden sonra 7 bilye daha saydı. Elif'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Elif sabah sokakta 6 elma dizdi, öğleden sonra 8 elma daha dizdi. Elif'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Eren sabah sokakta 4 kiraz saydı, öğleden sonra 6 kiraz daha saydı. Eren'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Can sabah oyun alanında 3 ceviz kazandı, öğleden sonra 7 ceviz daha kazandı. Can'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 3 kitap buldu, öğleden sonra 6 kitap daha buldu. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 2 kalem aldı, öğleden sonra 5 kalem daha aldı. Ayşe'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ali sabah tatilde 8 çikolata kazandı, öğleden sonra 5 çikolata daha kazandı. Ali'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ayşe sabah sokakta 4 kiraz aldı, öğleden sonra 8 kiraz daha aldı. Ayşe'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ali sabah tatilde 2 mandalina yaptı, öğleden sonra 10 mandalina daha yaptı. Ali'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 2 armut şişirdi, öğleden sonra 9 armut daha şişirdi. Ayşe'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ahmet sabah parkta 7 defter kazandı, öğleden sonra 6 defter daha kazandı. Ahmet'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru sabah parkta 6 balon dizdi, öğleden sonra 1 balon daha dizdi. Duru'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ahmet sabah sokakta 2 çiçek saydı, öğleden sonra 4 çiçek daha saydı. Ahmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Deniz sabah okulda 2 armut saydı, öğleden sonra 8 armut daha saydı. Deniz'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 1 balon buldu, öğleden sonra 4 balon daha buldu. Mehmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Mehmet sabah tatilde 1 kek kazandı, öğleden sonra 2 kek daha kazandı. Mehmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Mert sabah dağda 9 kalem aldı, öğleden sonra 2 kalem daha aldı. Mert'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Can sabah parkta 5 kek şişirdi, öğleden sonra 5 kek daha şişirdi. Can'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 2 bilye şişirdi, öğleden sonra 7 bilye daha şişirdi. Ayşe'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ayşe sabah sokakta 3 çiçek buldu, öğleden sonra 4 çiçek daha buldu. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ece sabah oyun alanında 2 mandalina getirdi, öğleden sonra 4 mandalina daha getirdi. Ece'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 5 çikolata saydı, öğleden sonra 2 çikolata daha saydı. Aslı'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Deniz sabah okulda 8 defter topladı, öğleden sonra 4 defter daha topladı. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mert sabah dağda 9 kek topladı, öğleden sonra 10 kek daha topladı. Mert'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 3 kiraz yaptı, öğleden sonra 7 kiraz daha yaptı. Aslı'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ali sabah sokakta 6 elma şişirdi, öğleden sonra 8 elma daha şişirdi. Ali'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Eren sabah evde 1 kek saydı, öğleden sonra 5 kek daha saydı. Eren'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ali sabah evde 10 çiçek yaptı, öğleden sonra 3 çiçek daha yaptı. Ali'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah tatilde 6 bilye aldı, öğleden sonra 6 bilye daha aldı. Mehmet'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Deniz sabah dağda 4 ceviz getirdi, öğleden sonra 3 ceviz daha getirdi. Deniz'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Can sabah oyun alanında 1 oyuncak getirdi, öğleden sonra 9 oyuncak daha getirdi. Can'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali sabah evde 8 çiçek kazandı, öğleden sonra 4 çiçek daha kazandı. Ali'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Duru sabah bahçede 3 kalem topladı, öğleden sonra 2 kalem daha topladı. Duru'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Can sabah deniz kenarında 10 ceviz topladı, öğleden sonra 3 ceviz daha topladı. Can'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah parkta 4 kitap getirdi, öğleden sonra 7 kitap daha getirdi. Ahmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 10 balon kazandı, öğleden sonra 7 balon daha kazandı. Mehmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Kerem sabah oyun alanında 1 top şişirdi, öğleden sonra 1 top daha şişirdi. Kerem'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 5 çiçek yaptı, öğleden sonra 10 çiçek daha yaptı. Kerem'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mert sabah bahçede 7 elma topladı, öğleden sonra 6 elma daha topladı. Mert'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Kerem sabah parkta 3 muz saydı, öğleden sonra 5 muz daha saydı. Kerem'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Deniz sabah evde 2 taş aldı, öğleden sonra 6 taş daha aldı. Deniz'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 6 bilye topladı, öğleden sonra 10 bilye daha topladı. Can'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Deniz sabah deniz kenarında 1 defter şişirdi, öğleden sonra 1 defter daha şişirdi. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Deniz sabah parkta 6 top aldı, öğleden sonra 8 top daha aldı. Deniz'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Duru sabah orman kenarında 6 oyuncak saydı, öğleden sonra 7 oyuncak daha saydı. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 8 kalem topladı, öğleden sonra 2 kalem daha topladı. Can'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ece sabah sokakta 7 ceviz aldı, öğleden sonra 1 ceviz daha aldı. Ece'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ece sabah sokakta 2 çikolata şişirdi, öğleden sonra 6 çikolata daha şişirdi. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 4 kiraz saydı, öğleden sonra 10 kiraz daha saydı. Eren'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 1 top buldu, öğleden sonra 9 top daha buldu. Ahmet'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ayşe sabah sokakta 8 taş aldı, öğleden sonra 7 taş daha aldı. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ece sabah parkta 2 kiraz saydı, öğleden sonra 4 kiraz daha saydı. Ece'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 9 muz saydı, öğleden sonra 3 muz daha saydı. Ayşe'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 3 mandalina saydı, öğleden sonra 1 mandalina daha saydı. Aslı'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 10 kalem saydı, öğleden sonra 7 kalem daha saydı. Ayşe'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Zeynep sabah parkta 6 muz yaptı, öğleden sonra 7 muz daha yaptı. Zeynep'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Deniz sabah tatilde 1 ceviz buldu, öğleden sonra 1 ceviz daha buldu. Deniz'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Elif sabah tatilde 9 çiçek dizdi, öğleden sonra 10 çiçek daha dizdi. Elif'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah tatilde 2 kalem saydı, öğleden sonra 10 kalem daha saydı. Mehmet'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Kerem sabah sokakta 8 çiçek dizdi, öğleden sonra 7 çiçek daha dizdi. Kerem'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı sabah oyun alanında 7 muz topladı, öğleden sonra 4 muz daha topladı. Aslı'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 6 taş saydı, öğleden sonra 2 taş daha saydı. Eren'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mehmet sabah tatilde 10 bilye kazandı, öğleden sonra 7 bilye daha kazandı. Mehmet'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Deniz sabah evde 5 çiçek topladı, öğleden sonra 4 çiçek daha topladı. Deniz'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah parkta 8 defter dizdi, öğleden sonra 7 defter daha dizdi. Mehmet'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Aslı sabah tatilde 5 ceviz getirdi, öğleden sonra 4 ceviz daha getirdi. Aslı'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 2 kitap buldu, öğleden sonra 4 kitap daha buldu. Ayşe'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 7 çikolata saydı, öğleden sonra 3 çikolata daha saydı. Ayşe'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Elif sabah parkta 4 defter saydı, öğleden sonra 4 defter daha saydı. Elif'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mert sabah okulda 1 kitap saydı, öğleden sonra 2 kitap daha saydı. Mert'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece sabah parkta 5 taş yaptı, öğleden sonra 8 taş daha yaptı. Ece'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Eren sabah bahçede 6 ceviz saydı, öğleden sonra 5 ceviz daha saydı. Eren'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Can sabah parkta 9 ceviz saydı, öğleden sonra 8 ceviz daha saydı. Can'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Deniz sabah tatilde 5 bilye kazandı, öğleden sonra 4 bilye daha kazandı. Deniz'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ece sabah deniz kenarında 8 defter aldı, öğleden sonra 7 defter daha aldı. Ece'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ayşe sabah parkta 6 oyuncak getirdi, öğleden sonra 5 oyuncak daha getirdi. Ayşe'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali sabah parkta 7 balon kazandı, öğleden sonra 9 balon daha kazandı. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Eren sabah dağda 5 defter dizdi, öğleden sonra 2 defter daha dizdi. Eren'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 3 oyuncak saydı, öğleden sonra 2 oyuncak daha saydı. Ayşe'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Duru sabah oyun alanında 4 çiçek aldı, öğleden sonra 6 çiçek daha aldı. Duru'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 8 muz şişirdi, öğleden sonra 5 muz daha şişirdi. Aslı'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 8 kiraz yaptı, öğleden sonra 3 kiraz daha yaptı. Duru'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert sabah dağda 9 ceviz saydı, öğleden sonra 7 ceviz daha saydı. Mert'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ali sabah sokakta 10 balon topladı, öğleden sonra 4 balon daha topladı. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif sabah oyun alanında 9 muz yaptı, öğleden sonra 3 muz daha yaptı. Elif'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 5 oyuncak şişirdi, öğleden sonra 3 oyuncak daha şişirdi. Elif'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali sabah deniz kenarında 4 çiçek dizdi, öğleden sonra 2 çiçek daha dizdi. Ali'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Duru sabah parkta 9 oyuncak buldu, öğleden sonra 5 oyuncak daha buldu. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 2 kiraz saydı, öğleden sonra 4 kiraz daha saydı. Ayşe'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ece sabah evde 8 ceviz topladı, öğleden sonra 3 ceviz daha topladı. Ece'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 7 çiçek buldu, öğleden sonra 1 çiçek daha buldu. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ayşe sabah deniz kenarında 10 çiçek aldı, öğleden sonra 7 çiçek daha aldı. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 8 çikolata yaptı, öğleden sonra 6 çikolata daha yaptı. Deniz'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ece sabah tatilde 10 kek buldu, öğleden sonra 3 kek daha buldu. Ece'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Eren sabah tatilde 2 ceviz saydı, öğleden sonra 2 ceviz daha saydı. Eren'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ali sabah evde 6 kalem dizdi, öğleden sonra 4 kalem daha dizdi. Ali'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Eren sabah evde 2 taş buldu, öğleden sonra 9 taş daha buldu. Eren'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Elif sabah tatilde 10 taş saydı, öğleden sonra 10 taş daha saydı. Elif'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ece sabah evde 9 ceviz şişirdi, öğleden sonra 9 ceviz daha şişirdi. Ece'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Kerem sabah tatilde 1 kiraz buldu, öğleden sonra 7 kiraz daha buldu. Kerem'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Kerem sabah oyun alanında 7 çiçek şişirdi, öğleden sonra 9 çiçek daha şişirdi. Kerem'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Eren sabah dağda 6 bilye getirdi, öğleden sonra 6 bilye daha getirdi. Eren'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 3 top saydı, öğleden sonra 8 top daha saydı. Ahmet'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ece sabah tatilde 3 elma kazandı, öğleden sonra 3 elma daha kazandı. Ece'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mert sabah sokakta 3 kitap topladı, öğleden sonra 8 kitap daha topladı. Mert'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet sabah orman kenarında 8 kek saydı, öğleden sonra 9 kek daha saydı. Ahmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 10 kiraz dizdi, öğleden sonra 6 kiraz daha dizdi. Elif'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah parkta 7 mandalina şişirdi, öğleden sonra 4 mandalina daha şişirdi. Zeynep'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ahmet sabah okulda 6 balon şişirdi, öğleden sonra 7 balon daha şişirdi. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif sabah deniz kenarında 6 defter getirdi, öğleden sonra 4 defter daha getirdi. Elif'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 4 bilye kazandı, öğleden sonra 5 bilye daha kazandı. Ayşe'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Elif sabah bahçede 7 oyuncak buldu, öğleden sonra 1 oyuncak daha buldu. Elif'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 2 çikolata yaptı, öğleden sonra 5 çikolata daha yaptı. Ayşe'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 5 kiraz topladı, öğleden sonra 5 kiraz daha topladı. Kerem'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 6 balon buldu, öğleden sonra 6 balon daha buldu. Mehmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif sabah bahçede 2 kek buldu, öğleden sonra 8 kek daha buldu. Elif'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 5 elma aldı, öğleden sonra 5 elma daha aldı. Zeynep'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mehmet sabah okulda 9 çiçek saydı, öğleden sonra 10 çiçek daha saydı. Mehmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mert sabah parkta 3 çikolata dizdi, öğleden sonra 10 çikolata daha dizdi. Mert'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mehmet sabah oyun alanında 9 elma saydı, öğleden sonra 2 elma daha saydı. Mehmet'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ayşe sabah okulda 2 muz aldı, öğleden sonra 1 muz daha aldı. Ayşe'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Aslı sabah dağda 8 ceviz dizdi, öğleden sonra 1 ceviz daha dizdi. Aslı'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Eren sabah bahçede 9 ceviz buldu, öğleden sonra 5 ceviz daha buldu. Eren'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 10 taş buldu, öğleden sonra 6 taş daha buldu. Zeynep'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 10 kitap buldu, öğleden sonra 8 kitap daha buldu. Eren'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 9 top dizdi, öğleden sonra 9 top daha dizdi. Duru'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 8 kitap getirdi, öğleden sonra 10 kitap daha getirdi. Ahmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 3 muz yaptı, öğleden sonra 4 muz daha yaptı. Kerem'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah oyun alanında 1 taş yaptı, öğleden sonra 5 taş daha yaptı. Mehmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah evde 6 top getirdi, öğleden sonra 9 top daha getirdi. Deniz'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Mert sabah bahçede 1 kiraz yaptı, öğleden sonra 5 kiraz daha yaptı. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Eren sabah okulda 7 çikolata yaptı, öğleden sonra 9 çikolata daha yaptı. Eren'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mert sabah parkta 1 mandalina saydı, öğleden sonra 10 mandalina daha saydı. Mert'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 8 top buldu, öğleden sonra 6 top daha buldu. Elif'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 1 taş yaptı, öğleden sonra 7 taş daha yaptı. Ece'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah sokakta 8 defter saydı, öğleden sonra 10 defter daha saydı. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 9 taş kazandı, öğleden sonra 2 taş daha kazandı. Ece'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 5 defter aldı, öğleden sonra 9 defter daha aldı. Ayşe'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ali sabah tatilde 10 kalem saydı, öğleden sonra 4 kalem daha saydı. Ali'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 6 taş yaptı, öğleden sonra 10 taş daha yaptı. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 8 top saydı, öğleden sonra 1 top daha saydı. Duru'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Aslı sabah parkta 4 kiraz saydı, öğleden sonra 7 kiraz daha saydı. Aslı'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ali sabah deniz kenarında 8 kitap dizdi, öğleden sonra 6 kitap daha dizdi. Ali'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem sabah parkta 7 elma getirdi, öğleden sonra 3 elma daha getirdi. Kerem'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Eren sabah bahçede 4 muz kazandı, öğleden sonra 3 muz daha kazandı. Eren'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 10 kek saydı, öğleden sonra 10 kek daha saydı. Kerem'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Elif sabah tatilde 9 top topladı, öğleden sonra 1 top daha topladı. Elif'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 2 defter getirdi, öğleden sonra 4 defter daha getirdi. Zeynep'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru sabah okulda 10 kitap saydı, öğleden sonra 5 kitap daha saydı. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Eren sabah parkta 9 muz getirdi, öğleden sonra 3 muz daha getirdi. Eren'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ece sabah dağda 2 kitap topladı, öğleden sonra 7 kitap daha topladı. Ece'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece sabah dağda 10 çikolata dizdi, öğleden sonra 8 çikolata daha dizdi. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Can sabah okulda 4 taş getirdi, öğleden sonra 2 taş daha getirdi. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah orman kenarında 9 çiçek topladı, öğleden sonra 4 çiçek daha topladı. Can'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Deniz sabah bahçede 3 kek şişirdi, öğleden sonra 3 kek daha şişirdi. Deniz'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah okulda 7 elma kazandı, öğleden sonra 1 elma daha kazandı. Zeynep'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 8 ceviz yaptı, öğleden sonra 10 ceviz daha yaptı. Ahmet'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Duru sabah okulda 3 oyuncak saydı, öğleden sonra 3 oyuncak daha saydı. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Aslı sabah deniz kenarında 10 muz saydı, öğleden sonra 9 muz daha saydı. Aslı'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah parkta 3 kiraz dizdi, öğleden sonra 4 kiraz daha dizdi. Mehmet'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ali sabah okulda 2 armut yaptı, öğleden sonra 9 armut daha yaptı. Ali'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Zeynep sabah tatilde 6 kitap yaptı, öğleden sonra 8 kitap daha yaptı. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ali sabah okulda 7 taş topladı, öğleden sonra 7 taş daha topladı. Ali'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah okulda 4 balon topladı, öğleden sonra 8 balon daha topladı. Deniz'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ayşe sabah sokakta 9 oyuncak saydı, öğleden sonra 10 oyuncak daha saydı. Ayşe'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 1 oyuncak topladı, öğleden sonra 10 oyuncak daha topladı. Ayşe'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Kerem sabah okulda 6 kalem topladı, öğleden sonra 9 kalem daha topladı. Kerem'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Zeynep sabah parkta 3 bilye kazandı, öğleden sonra 9 bilye daha kazandı. Zeynep'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 7 ceviz buldu, öğleden sonra 7 ceviz daha buldu. Ahmet'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Deniz sabah parkta 3 ceviz kazandı, öğleden sonra 7 ceviz daha kazandı. Deniz'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 10 kek buldu, öğleden sonra 9 kek daha buldu. Ayşe'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah oyun alanında 1 kalem şişirdi, öğleden sonra 6 kalem daha şişirdi. Mehmet'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Zeynep sabah tatilde 7 mandalina yaptı, öğleden sonra 5 mandalina daha yaptı. Zeynep'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ahmet sabah orman kenarında 9 top saydı, öğleden sonra 4 top daha saydı. Ahmet'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 2 muz kazandı, öğleden sonra 2 muz daha kazandı. Aslı'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Deniz sabah oyun alanında 1 kiraz şişirdi, öğleden sonra 1 kiraz daha şişirdi. Deniz'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ece sabah sokakta 1 kek buldu, öğleden sonra 5 kek daha buldu. Ece'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 3 taş getirdi, öğleden sonra 3 taş daha getirdi. Aslı'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 1 balon topladı, öğleden sonra 4 balon daha topladı. Can'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif sabah tatilde 6 armut şişirdi, öğleden sonra 10 armut daha şişirdi. Elif'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Can sabah okulda 10 oyuncak saydı, öğleden sonra 2 oyuncak daha saydı. Can'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Aslı sabah parkta 9 top yaptı, öğleden sonra 8 top daha yaptı. Aslı'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 10 balon saydı, öğleden sonra 4 balon daha saydı. Ayşe'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 10 oyuncak saydı, öğleden sonra 10 oyuncak daha saydı. Can'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Mehmet sabah sokakta 9 bilye şişirdi, öğleden sonra 9 bilye daha şişirdi. Mehmet'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mert sabah tatilde 6 top aldı, öğleden sonra 7 top daha aldı. Mert'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 3 oyuncak kazandı, öğleden sonra 4 oyuncak daha kazandı. Ece'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 2 mandalina buldu, öğleden sonra 10 mandalina daha buldu. Aslı'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Mert sabah tatilde 10 kek buldu, öğleden sonra 4 kek daha buldu. Mert'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 10 bilye getirdi, öğleden sonra 3 bilye daha getirdi. Mert'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 2 oyuncak topladı, öğleden sonra 1 oyuncak daha topladı. Can'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Duru sabah okulda 7 bilye şişirdi, öğleden sonra 10 bilye daha şişirdi. Duru'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mert sabah oyun alanında 7 muz getirdi, öğleden sonra 4 muz daha getirdi. Mert'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Eren sabah parkta 4 bilye topladı, öğleden sonra 4 bilye daha topladı. Eren'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ece sabah deniz kenarında 1 bilye yaptı, öğleden sonra 10 bilye daha yaptı. Ece'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ali sabah dağda 2 ceviz dizdi, öğleden sonra 9 ceviz daha dizdi. Ali'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ece sabah parkta 9 balon dizdi, öğleden sonra 9 balon daha dizdi. Ece'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ali sabah parkta 10 kiraz buldu, öğleden sonra 6 kiraz daha buldu. Ali'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Eren sabah sokakta 10 elma şişirdi, öğleden sonra 9 elma daha şişirdi. Eren'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Elif sabah oyun alanında 1 armut dizdi, öğleden sonra 5 armut daha dizdi. Elif'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 1 kitap dizdi, öğleden sonra 10 kitap daha dizdi. Aslı'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet sabah tatilde 5 mandalina topladı, öğleden sonra 2 mandalina daha topladı. Ahmet'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 10 elma şişirdi, öğleden sonra 10 elma daha şişirdi. Aslı'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Aslı sabah tatilde 5 kitap saydı, öğleden sonra 7 kitap daha saydı. Aslı'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 6 ceviz buldu, öğleden sonra 10 ceviz daha buldu. Ayşe'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Kerem sabah sokakta 7 balon dizdi, öğleden sonra 5 balon daha dizdi. Kerem'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 4 kitap saydı, öğleden sonra 10 kitap daha saydı. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece sabah deniz kenarında 4 kiraz getirdi, öğleden sonra 6 kiraz daha getirdi. Ece'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert sabah evde 10 kalem buldu, öğleden sonra 3 kalem daha buldu. Mert'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ece sabah oyun alanında 1 defter yaptı, öğleden sonra 4 defter daha yaptı. Ece'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 6 taş topladı, öğleden sonra 7 taş daha topladı. Ahmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 5 balon buldu, öğleden sonra 9 balon daha buldu. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ali sabah evde 4 balon getirdi, öğleden sonra 3 balon daha getirdi. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Aslı sabah sokakta 6 kalem şişirdi, öğleden sonra 6 kalem daha şişirdi. Aslı'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Duru sabah orman kenarında 4 ceviz getirdi, öğleden sonra 4 ceviz daha getirdi. Duru'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 3 çikolata kazandı, öğleden sonra 7 çikolata daha kazandı. Ayşe'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 2 taş buldu, öğleden sonra 8 taş daha buldu. Ece'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 1 bilye yaptı, öğleden sonra 8 bilye daha yaptı. Ece'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Deniz sabah evde 9 armut saydı, öğleden sonra 10 armut daha saydı. Deniz'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem sabah bahçede 9 balon getirdi, öğleden sonra 8 balon daha getirdi. Kerem'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 7 mandalina saydı, öğleden sonra 1 mandalina daha saydı. Ayşe'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Duru sabah dağda 2 çikolata saydı, öğleden sonra 10 çikolata daha saydı. Duru'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 4 bilye kazandı, öğleden sonra 4 bilye daha kazandı. Zeynep'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 10 çikolata saydı, öğleden sonra 9 çikolata daha saydı. Ali'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Kerem sabah bahçede 5 taş getirdi, öğleden sonra 5 taş daha getirdi. Kerem'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah oyun alanında 3 elma getirdi, öğleden sonra 8 elma daha getirdi. Can'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ahmet sabah parkta 10 muz getirdi, öğleden sonra 8 muz daha getirdi. Ahmet'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mert sabah evde 3 çikolata yaptı, öğleden sonra 2 çikolata daha yaptı. Mert'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 5 elma getirdi, öğleden sonra 6 elma daha getirdi. Eren'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 10 muz saydı, öğleden sonra 2 muz daha saydı. Zeynep'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 7 muz saydı, öğleden sonra 9 muz daha saydı. Mert'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 6 ceviz şişirdi, öğleden sonra 6 ceviz daha şişirdi. Aslı'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah tatilde 9 kek yaptı, öğleden sonra 5 kek daha yaptı. Zeynep'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ali sabah sokakta 3 taş topladı, öğleden sonra 9 taş daha topladı. Ali'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah tatilde 10 kalem şişirdi, öğleden sonra 3 kalem daha şişirdi. Can'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ali sabah evde 7 kiraz saydı, öğleden sonra 9 kiraz daha saydı. Ali'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 3 kiraz kazandı, öğleden sonra 3 kiraz daha kazandı. Deniz'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Can sabah orman kenarında 4 kek aldı, öğleden sonra 8 kek daha aldı. Can'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah okulda 4 balon kazandı, öğleden sonra 1 balon daha kazandı. Zeynep'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 3 bilye getirdi, öğleden sonra 7 bilye daha getirdi. Ayşe'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ali sabah dağda 6 elma getirdi, öğleden sonra 8 elma daha getirdi. Ali'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Kerem sabah parkta 6 çiçek saydı, öğleden sonra 2 çiçek daha saydı. Kerem'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah dağda 7 defter saydı, öğleden sonra 5 defter daha saydı. Mehmet'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mehmet sabah sokakta 4 kiraz kazandı, öğleden sonra 4 kiraz daha kazandı. Mehmet'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Duru sabah tatilde 8 kiraz şişirdi, öğleden sonra 10 kiraz daha şişirdi. Duru'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Aslı sabah evde 1 elma topladı, öğleden sonra 7 elma daha topladı. Aslı'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ali sabah sokakta 6 çikolata şişirdi, öğleden sonra 2 çikolata daha şişirdi. Ali'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ayşe sabah parkta 9 mandalina aldı, öğleden sonra 9 mandalina daha aldı. Ayşe'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Ali sabah sokakta 9 oyuncak aldı, öğleden sonra 5 oyuncak daha aldı. Ali'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Zeynep sabah dağda 4 ceviz aldı, öğleden sonra 2 ceviz daha aldı. Zeynep'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 5 çiçek buldu, öğleden sonra 3 çiçek daha buldu. Ahmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Can sabah okulda 4 kalem saydı, öğleden sonra 4 kalem daha saydı. Can'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Duru sabah sokakta 10 kek saydı, öğleden sonra 2 kek daha saydı. Duru'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah bahçede 2 armut saydı, öğleden sonra 1 armut daha saydı. Mehmet'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Duru sabah orman kenarında 1 taş topladı, öğleden sonra 7 taş daha topladı. Duru'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ahmet sabah orman kenarında 5 oyuncak buldu, öğleden sonra 1 oyuncak daha buldu. Ahmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Mert sabah sokakta 3 taş aldı, öğleden sonra 2 taş daha aldı. Mert'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Eren sabah deniz kenarında 5 taş kazandı, öğleden sonra 8 taş daha kazandı. Eren'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Kerem sabah orman kenarında 2 kek topladı, öğleden sonra 3 kek daha topladı. Kerem'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ayşe sabah okulda 3 kitap getirdi, öğleden sonra 5 kitap daha getirdi. Ayşe'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe sabah dağda 1 kek dizdi, öğleden sonra 5 kek daha dizdi. Ayşe'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 6 armut yaptı, öğleden sonra 6 armut daha yaptı. Aslı'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 3 bilye kazandı, öğleden sonra 3 bilye daha kazandı. Ali'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Aslı sabah orman kenarında 5 çikolata buldu, öğleden sonra 4 çikolata daha buldu. Aslı'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 4 kitap saydı, öğleden sonra 9 kitap daha saydı. Can'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ali sabah bahçede 7 balon kazandı, öğleden sonra 10 balon daha kazandı. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep sabah oyun alanında 1 armut getirdi, öğleden sonra 8 armut daha getirdi. Zeynep'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Can sabah okulda 6 kiraz kazandı, öğleden sonra 7 kiraz daha kazandı. Can'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 10 taş yaptı, öğleden sonra 9 taş daha yaptı. Ali'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Eren sabah sokakta 3 kalem yaptı, öğleden sonra 7 kalem daha yaptı. Eren'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mert sabah parkta 6 kiraz topladı, öğleden sonra 6 kiraz daha topladı. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Elif sabah okulda 1 oyuncak aldı, öğleden sonra 5 oyuncak daha aldı. Elif'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 3 çiçek yaptı, öğleden sonra 7 çiçek daha yaptı. Deniz'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ahmet sabah parkta 1 bilye topladı, öğleden sonra 6 bilye daha topladı. Ahmet'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Ahmet sabah deniz kenarında 10 mandalina buldu, öğleden sonra 6 mandalina daha buldu. Ahmet'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Kerem sabah oyun alanında 4 taş saydı, öğleden sonra 5 taş daha saydı. Kerem'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Elif sabah deniz kenarında 1 mandalina saydı, öğleden sonra 3 mandalina daha saydı. Elif'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Can sabah evde 2 muz saydı, öğleden sonra 9 muz daha saydı. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Can sabah deniz kenarında 7 bilye şişirdi, öğleden sonra 5 bilye daha şişirdi. Can'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Deniz sabah evde 5 kek saydı, öğleden sonra 5 kek daha saydı. Deniz'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Aslı sabah sokakta 7 balon aldı, öğleden sonra 9 balon daha aldı. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep sabah oyun alanında 9 mandalina saydı, öğleden sonra 4 mandalina daha saydı. Zeynep'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Elif sabah evde 2 bilye saydı, öğleden sonra 6 bilye daha saydı. Elif'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mert sabah orman kenarında 9 çikolata saydı, öğleden sonra 7 çikolata daha saydı. Mert'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ali sabah okulda 7 armut saydı, öğleden sonra 9 armut daha saydı. Ali'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Zeynep sabah dağda 10 kiraz yaptı, öğleden sonra 7 kiraz daha yaptı. Zeynep'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 2 armut kazandı, öğleden sonra 9 armut daha kazandı. Ali'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Duru sabah bahçede 7 defter şişirdi, öğleden sonra 6 defter daha şişirdi. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ali sabah evde 1 balon dizdi, öğleden sonra 5 balon daha dizdi. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ayşe sabah deniz kenarında 2 elma yaptı, öğleden sonra 1 elma daha yaptı. Ayşe'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Duru sabah dağda 1 çikolata aldı, öğleden sonra 1 çikolata daha aldı. Duru'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Duru sabah orman kenarında 6 kiraz yaptı, öğleden sonra 9 kiraz daha yaptı. Duru'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah oyun alanında 8 kiraz getirdi, öğleden sonra 6 kiraz daha getirdi. Ahmet'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Deniz sabah tatilde 7 top getirdi, öğleden sonra 9 top daha getirdi. Deniz'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 3 elma şişirdi, öğleden sonra 3 elma daha şişirdi. Ahmet'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 7 çikolata saydı, öğleden sonra 3 çikolata daha saydı. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mert sabah sokakta 7 ceviz dizdi, öğleden sonra 8 ceviz daha dizdi. Mert'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ece sabah deniz kenarında 1 defter saydı, öğleden sonra 1 defter daha saydı. Ece'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 7 balon aldı, öğleden sonra 9 balon daha aldı. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Eren sabah parkta 2 ceviz saydı, öğleden sonra 8 ceviz daha saydı. Eren'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Zeynep sabah deniz kenarında 3 çikolata kazandı, öğleden sonra 9 çikolata daha kazandı. Zeynep'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ali sabah tatilde 9 kiraz saydı, öğleden sonra 6 kiraz daha saydı. Ali'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah dağda 5 kalem getirdi, öğleden sonra 4 kalem daha getirdi. Ayşe'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Deniz sabah deniz kenarında 6 armut buldu, öğleden sonra 5 armut daha buldu. Deniz'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Aslı sabah deniz kenarında 10 çikolata saydı, öğleden sonra 7 çikolata daha saydı. Aslı'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ahmet sabah orman kenarında 8 çikolata buldu, öğleden sonra 8 çikolata daha buldu. Ahmet'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mert sabah evde 9 muz şişirdi, öğleden sonra 2 muz daha şişirdi. Mert'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ahmet sabah okulda 8 bilye şişirdi, öğleden sonra 1 bilye daha şişirdi. Ahmet'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 4 bilye saydı, öğleden sonra 5 bilye daha saydı. Zeynep'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Aslı sabah evde 8 çiçek yaptı, öğleden sonra 4 çiçek daha yaptı. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ayşe sabah tatilde 1 balon kazandı, öğleden sonra 3 balon daha kazandı. Ayşe'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Deniz sabah sokakta 7 kalem dizdi, öğleden sonra 6 kalem daha dizdi. Deniz'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Aslı sabah parkta 3 çiçek şişirdi, öğleden sonra 3 çiçek daha şişirdi. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Kerem sabah dağda 1 bilye dizdi, öğleden sonra 1 bilye daha dizdi. Kerem'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Mert sabah orman kenarında 7 mandalina getirdi, öğleden sonra 7 mandalina daha getirdi. Mert'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Aslı sabah orman kenarında 1 oyuncak topladı, öğleden sonra 4 oyuncak daha topladı. Aslı'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 5 top yaptı, öğleden sonra 7 top daha yaptı. Ece'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Elif sabah dağda 9 çiçek getirdi, öğleden sonra 7 çiçek daha getirdi. Elif'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ali sabah oyun alanında 3 kek kazandı, öğleden sonra 9 kek daha kazandı. Ali'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Deniz sabah okulda 8 kek buldu, öğleden sonra 7 kek daha buldu. Deniz'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah tatilde 2 ceviz getirdi, öğleden sonra 1 ceviz daha getirdi. Mehmet'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Elif sabah okulda 10 çikolata aldı, öğleden sonra 4 çikolata daha aldı. Elif'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Elif sabah oyun alanında 9 kiraz aldı, öğleden sonra 8 kiraz daha aldı. Elif'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 3 balon getirdi, öğleden sonra 3 balon daha getirdi. Deniz'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Kerem sabah tatilde 4 top topladı, öğleden sonra 10 top daha topladı. Kerem'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 2 kek saydı, öğleden sonra 6 kek daha saydı. Eren'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Ece sabah orman kenarında 10 armut saydı, öğleden sonra 10 armut daha saydı. Ece'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem sabah evde 6 defter kazandı, öğleden sonra 7 defter daha kazandı. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mert sabah oyun alanında 8 kiraz dizdi, öğleden sonra 7 kiraz daha dizdi. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah tatilde 6 mandalina aldı, öğleden sonra 1 mandalina daha aldı. Mehmet'nin toplam kaç mandalina oldu?"
+  },
+  {
+    "soru": "Aslı sabah bahçede 6 top buldu, öğleden sonra 5 top daha buldu. Aslı'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Duru sabah dağda 4 elma buldu, öğleden sonra 9 elma daha buldu. Duru'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mehmet sabah oyun alanında 9 çiçek dizdi, öğleden sonra 6 çiçek daha dizdi. Mehmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Duru sabah deniz kenarında 2 bilye yaptı, öğleden sonra 8 bilye daha yaptı. Duru'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Aslı sabah oyun alanında 2 çikolata şişirdi, öğleden sonra 7 çikolata daha şişirdi. Aslı'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ali sabah orman kenarında 8 top getirdi, öğleden sonra 1 top daha getirdi. Ali'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Eren sabah parkta 7 kiraz saydı, öğleden sonra 9 kiraz daha saydı. Eren'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Can sabah sokakta 2 ceviz buldu, öğleden sonra 7 ceviz daha buldu. Can'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Mert sabah bahçede 7 çikolata yaptı, öğleden sonra 7 çikolata daha yaptı. Mert'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 1 çiçek kazandı, öğleden sonra 9 çiçek daha kazandı. Ece'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 2 kek buldu, öğleden sonra 8 kek daha buldu. Ayşe'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah orman kenarında 4 çikolata buldu, öğleden sonra 6 çikolata daha buldu. Zeynep'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ece sabah evde 8 defter aldı, öğleden sonra 10 defter daha aldı. Ece'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ahmet sabah tatilde 6 top buldu, öğleden sonra 10 top daha buldu. Ahmet'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ayşe sabah parkta 4 kiraz şişirdi, öğleden sonra 8 kiraz daha şişirdi. Ayşe'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Deniz sabah tatilde 6 kitap yaptı, öğleden sonra 5 kitap daha yaptı. Deniz'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 10 elma getirdi, öğleden sonra 7 elma daha getirdi. Ece'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mert sabah dağda 5 armut dizdi, öğleden sonra 1 armut daha dizdi. Mert'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Duru sabah dağda 7 çikolata topladı, öğleden sonra 6 çikolata daha topladı. Duru'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Duru sabah sokakta 2 kalem topladı, öğleden sonra 4 kalem daha topladı. Duru'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 10 ceviz kazandı, öğleden sonra 5 ceviz daha kazandı. Mehmet'nin toplam kaç ceviz oldu?"
+  },
+  {
+    "soru": "Ayşe sabah dağda 1 armut buldu, öğleden sonra 8 armut daha buldu. Ayşe'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Aslı sabah deniz kenarında 7 top kazandı, öğleden sonra 9 top daha kazandı. Aslı'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Deniz sabah sokakta 5 taş getirdi, öğleden sonra 10 taş daha getirdi. Deniz'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz sabah parkta 3 balon saydı, öğleden sonra 7 balon daha saydı. Deniz'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Can sabah dağda 4 bilye topladı, öğleden sonra 7 bilye daha topladı. Can'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Eren sabah parkta 10 kalem saydı, öğleden sonra 3 kalem daha saydı. Eren'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ayşe sabah dağda 2 elma buldu, öğleden sonra 4 elma daha buldu. Ayşe'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ali sabah orman kenarında 1 çikolata yaptı, öğleden sonra 5 çikolata daha yaptı. Ali'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 3 kitap topladı, öğleden sonra 2 kitap daha topladı. Ece'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ali sabah okulda 1 top yaptı, öğleden sonra 1 top daha yaptı. Ali'nin toplam kaç top oldu?"
+  },
+  {
+    "soru": "Ahmet sabah sokakta 8 kek buldu, öğleden sonra 8 kek daha buldu. Ahmet'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Elif sabah bahçede 6 balon şişirdi, öğleden sonra 1 balon daha şişirdi. Elif'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif sabah parkta 9 armut aldı, öğleden sonra 4 armut daha aldı. Elif'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ayşe sabah oyun alanında 4 armut yaptı, öğleden sonra 2 armut daha yaptı. Ayşe'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Mert sabah oyun alanında 3 balon kazandı, öğleden sonra 2 balon daha kazandı. Mert'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Deniz sabah parkta 9 muz saydı, öğleden sonra 10 muz daha saydı. Deniz'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet sabah parkta 6 kitap kazandı, öğleden sonra 5 kitap daha kazandı. Mehmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Zeynep sabah okulda 6 kitap saydı, öğleden sonra 2 kitap daha saydı. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece sabah tatilde 9 çikolata topladı, öğleden sonra 7 çikolata daha topladı. Ece'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 3 elma buldu, öğleden sonra 8 elma daha buldu. Mert'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ahmet sabah oyun alanında 1 çikolata kazandı, öğleden sonra 4 çikolata daha kazandı. Ahmet'nin toplam kaç çikolata oldu?"
+  },
+  {
+    "soru": "Mehmet sabah parkta 5 balon saydı, öğleden sonra 9 balon daha saydı. Mehmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Duru sabah okulda 9 taş yaptı, öğleden sonra 3 taş daha yaptı. Duru'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Zeynep sabah evde 9 bilye topladı, öğleden sonra 3 bilye daha topladı. Zeynep'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Can sabah deniz kenarında 9 bilye aldı, öğleden sonra 9 bilye daha aldı. Can'nin toplam kaç bilye oldu?"
+  },
+  {
+    "soru": "Deniz sabah dağda 6 elma topladı, öğleden sonra 6 elma daha topladı. Deniz'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 6 kitap saydı, öğleden sonra 2 kitap daha saydı. Elif'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Elif sabah tatilde 4 kalem buldu, öğleden sonra 7 kalem daha buldu. Elif'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Kerem sabah deniz kenarında 7 armut saydı, öğleden sonra 5 armut daha saydı. Kerem'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ayşe sabah dağda 3 taş kazandı, öğleden sonra 4 taş daha kazandı. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 1 kalem aldı, öğleden sonra 5 kalem daha aldı. Ahmet'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Elif sabah parkta 5 kek yaptı, öğleden sonra 8 kek daha yaptı. Elif'nin toplam kaç kek oldu?"
+  },
+  {
+    "soru": "Duru sabah okulda 1 balon kazandı, öğleden sonra 5 balon daha kazandı. Duru'nin toplam kaç balon oldu?"
   }
 ]
