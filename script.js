@@ -44,12 +44,14 @@ async function exportPDF(){
   pdf.addImage(img,"PNG",0,0,w,h);
   const d=new Date().toISOString().slice(0,10);
   pdf.save(`ProblemDunyasi_${STATE.sinif}sinif_${STATE.konu}_${d}.pdf`);
+  updateStatsAfterPDF();
 }
 
 // Stats
-")}catch(e){s={}};if(!s.toplamPDF)s.toplamPDF=0;if(!s.siniflar)s.siniflar={};if(!s.populerKonu)s.populerKonu="-";return s}
-;s.siniflar[sn].indirilenPDF++;if(!s.konular)s.konular={};s.konular[STATE.konu]=(s.konular[STATE.konu]||0)+1;let mk="-",mv=-1;Object.entries(s.konular).forEach(([k,v])=>{if(v>mv){mv=v;mk=k}});s.populerKonu=mk;saveStats(s)}
-;by("statTotalPDF",s.toplamPDF||0);by("statPopular",s.populerKonu||"-");by("statS1",s.siniflar?.["1"]?.indirilenPDF||0);by("statS2",s.siniflar?.["2"]?.indirilenPDF||0);by("statS3",s.siniflar?.["3"]?.indirilenPDF||0);by("statS4",s.siniflar?.["4"]?.indirilenPDF||0)}
+function getStats(){let s;try{s=JSON.parse(localStorage.getItem("istatistik")||"{}")}catch(e){s={}};if(!s.toplamPDF)s.toplamPDF=0;if(!s.siniflar)s.siniflar={};if(!s.populerKonu)s.populerKonu="-";return s}
+function saveStats(s){localStorage.setItem("istatistik",JSON.stringify(s))}
+function updateStatsAfterPDF(){const s=getStats();s.toplamPDF++;const sn=String(STATE.sinif);if(!s.siniflar[sn])s.siniflar[sn]={indirilenPDF:0};s.siniflar[sn].indirilenPDF++;if(!s.konular)s.konular={};s.konular[STATE.konu]=(s.konular[STATE.konu]||0)+1;let mk="-",mv=-1;Object.entries(s.konular).forEach(([k,v])=>{if(v>mv){mv=v;mk=k}});s.populerKonu=mk;saveStats(s)}
+function renderIndexStats(){const s=getStats();const by=(id,v)=>{const el=document.getElementById(id); if(el) el.textContent=v};by("statTotalPDF",s.toplamPDF||0);by("statPopular",s.populerKonu||"-");by("statS1",s.siniflar?.["1"]?.indirilenPDF||0);by("statS2",s.siniflar?.["2"]?.indirilenPDF||0);by("statS3",s.siniflar?.["3"]?.indirilenPDF||0);by("statS4",s.siniflar?.["4"]?.indirilenPDF||0)}
 
 // Feedback & Add Problem
 function openFeedback(){const to="superrhoca@gmail.com";const subject="Problem Dünyası – Geri Bildirim";const body="Merhaba,%0D%0A%0D%0A(Görüşlerinizi yazın)%0D%0A";window.open(`mailto:${to}?subject=${subject}&body=${body}`,"_blank")}
@@ -76,5 +78,5 @@ async function initSayfa(){
   document.getElementById("closeModal")?.addEventListener("click",()=>document.getElementById("cevapModal")?.classList.add("hidden"));
   await regenerate();
 }
-function initIndex(){
-document.getElementById("ap_kaydet")?.addEventListener("click",saveUserProblem);window.initSayfa=initSayfa; window.initIndex=initIndex;
+function initIndex(){renderIndexStats();document.getElementById("ap_kaydet")?.addEventListener("click",saveUserProblem);document.getElementById("feedbackBtn")?.addEventListener("click",openFeedback)}
+window.initSayfa=initSayfa; window.initIndex=initIndex;
