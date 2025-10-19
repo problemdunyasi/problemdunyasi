@@ -1,3 +1,31 @@
+/* === Güvenli yol oluşturucu & güvenli JSON yükleyici === */
+function basePath() {
+  // Örn: https://kullanici.github.io/problemdunyasi/sayfa.html
+  // path: /problemdunyasi/sayfa.html  → root: /problemdunyasi/
+  const parts = location.pathname.split("/").filter(Boolean);
+  // GitHub Pages repo adı varsa 1. parça root kabul edilir
+  if (parts.length >= 1) return "/" + parts[0] + "/";
+  return "/"; // düz kök
+}
+const ROOT = basePath();
+
+function pathJoin(p) {
+  // 'veritabani/...' → '/<repo>/veritabani/...'
+  return (ROOT + p.replace(/^\/+/, "")).replace(/\/{2,}/g, "/");
+}
+
+async function safeJson(url) {
+  const full = url.startsWith("http") ? url : pathJoin(url);
+  try {
+    const r = await fetch(full + (full.includes("?") ? "&" : "?") + "t=" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return await r.json();
+  } catch (e) {
+    console.error("[safeJson] Yüklenemedi:", full, e);
+    return null;
+  }
+}
+
 // v6 – A4 sabit render: html2canvas + jsPDF
 const THEMES={1:{name:"1. Sınıf"},2:{name:"2. Sınıf"},3:{name:"3. Sınıf"},4:{name:"4. Sınıf"}};
 let STATE={sinif:1,konu:null,zorluk:"orta",topics:[],questions:[],adSoyad:"",tarih:"",okul:""};
