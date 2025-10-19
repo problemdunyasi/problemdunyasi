@@ -6,194 +6,92 @@
   <title>Çalışma Kâğıdı - Problem Dünyası</title>
   <link rel="stylesheet" href="stil.css" />
   <style>
-    /* ===== SAYFAYA ÖZEL STİL ===== */
-    body { background: #f2f4f7; }
+    /* sayfa özel küçük dokunuşlar */
+    .controls { display:grid; gap:14px; grid-template-columns: repeat(4, minmax(0,1fr)); align-items:end; margin: 20px auto 12px; max-width: 980px; padding: 0 16px; }
+    .field { display:grid; gap:6px; }
+    .field label { font-weight:700; }
+    .field input, .field select { height:40px; border-radius:12px; border:1px solid rgba(0,0,0,.12); padding:8px 10px; background:#fff; color:#111; }
+    .actions { grid-column:1/-1; display:flex; gap:10px; flex-wrap:wrap; }
 
-    .container {
-      max-width: 980px;
-      margin: 24px auto;
-      padding: 0 16px;
-    }
+    .paper { background:#fff; color:#000; border:1px solid rgba(0,0,0,.08); border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,.08); padding:16mm 12mm; max-width:980px; margin: 0 auto 28px; }
+    .pdf-header { text-align:center; border-bottom:2px solid rgba(0,0,0,.08); padding-bottom:6mm; margin-bottom:8mm; }
+    .pdf-header .title { font-size:20pt; font-weight:800; }
+    .pdf-header .sub { margin-top:4px; font-size:12pt; }
 
-    /* — Kontroller (ekranda; baskıda gizli) — */
-    .controls.no-print {
-      display: grid;
-      gap: 14px;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      align-items: end;
-      margin-bottom: 14px;
-    }
-    .controls .field { display: grid; gap: 6px; }
-    .controls label { font-weight: 700; }
-    .controls input, .controls select {
-      height: 40px; padding: 8px 10px; border-radius: 12px;
-      border: 1px solid rgba(0,0,0,.12); background: #fff; color: #111;
-    }
+    .questions-grid { display:grid; grid-template-columns:1fr 1fr; gap:8mm 10mm; }
+    .qbox { border:1px dashed rgba(0,0,0,.25); border-radius:10px; padding:6mm; min-height:34mm; display:grid; grid-template-rows:auto 1fr; gap:5mm; }
+    .qtext { font-size:13pt; line-height:1.45; word-break:break-word; }
+    .answer-lines { display:grid; row-gap:4mm; }
+    .answer-lines .line { border-bottom:1px solid rgba(0,0,0,.35); height:0; }
 
-    /* — Renkli/efektli butonlar (index uyumlu modern stil) — */
-    .actions { display:flex; gap:10px; flex-wrap:wrap; }
-    .btn {
-      position: relative;
-      padding: 10px 16px;
-      border-radius: 14px;
-      border: 0;
-      color: #fff;
-      font-weight: 700;
-      letter-spacing: .2px;
-      cursor: pointer;
-      transition: transform .12s ease, box-shadow .15s ease, filter .15s ease;
-      box-shadow: 0 8px 18px rgba(0,0,0,.15);
-      user-select: none;
-    }
-    .btn:active { transform: translateY(1px) scale(.995); filter: saturate(.9); }
-
-    .btn-primary {
-      background: linear-gradient(135deg, #6a5bfd, #2cb4ff);
-    }
-    .btn-accent {
-      background: linear-gradient(135deg, #ff7a59, #ffb33d);
-    }
-    .btn-neutral {
-      background: linear-gradient(135deg, #7f8c8d, #95a5a6);
-    }
-    .btn:hover { box-shadow: 0 12px 26px rgba(0,0,0,.18); }
-
-    /* — Baskıya/PDF'e gidecek beyaz alan — */
-    .paper {
-      background:#fff; color:#000;
-      border-radius: 14px;
-      border: 1px solid rgba(0,0,0,.08);
-      box-shadow: 0 6px 20px rgba(0,0,0,.08);
-      padding: 16mm 12mm; /* PDF için mm */
-    }
-
-    /* — PDF başlığı — */
-    .pdf-header {
-      text-align:center;
-      border-bottom: 2px solid rgba(0,0,0,.08);
-      padding-bottom: 6mm;
-      margin-bottom: 8mm;
-    }
-    .pdf-header .title { font-size: 20pt; font-weight: 800; }
-    .pdf-header .sub   { margin-top: 4px; font-size: 12pt; }
-
-    /* — 10 soru: 2 sütun (5 sol + 5 sağ) — */
-    .questions-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8mm 10mm;
-    }
-    .qbox {
-      border: 1px dashed rgba(0,0,0,.25);
-      border-radius: 10px;
-      padding: 6mm;
-      min-height: 34mm;
-      display: grid;
-      grid-template-rows: auto 1fr;
-      gap: 5mm;
-    }
-    .qtext { font-size: 13pt; line-height: 1.45; word-break: break-word; }
-    .answer-lines { display: grid; row-gap: 4mm; }
-    .answer-lines .line { border-bottom: 1px solid rgba(0,0,0,.35); height: 0; }
-
-    /* — Ana sayfa yuvarlak ikon — */
-    .home-btn {
-      position: fixed;
-      left: 16px; bottom: 16px;
-      width: 46px; height: 46px;
-      border-radius: 999px;
-      display: inline-flex; align-items: center; justify-content: center;
-      text-decoration: none;
-      background: rgba(255,255,255,0.85);
-      border: 1px solid rgba(0,0,0,0.08);
-      box-shadow: 0 6px 18px rgba(0,0,0,0.10);
-      backdrop-filter: blur(6px);
-      transition: transform .15s ease, background .2s ease, box-shadow .2s ease;
-      z-index: 9999;
-      color: #111;
-    }
-    .home-btn:hover { transform: translateY(-2px); background: rgba(255,255,255,0.95); box-shadow: 0 10px 24px rgba(0,0,0,0.14); }
-    .home-btn svg { width: 22px; height: 22px; }
-
-    /* — Yazdır: sadece beyaz alan çıksın — */
+    /* yazdır: yalnız .paper */
     @media print {
       body { background:#fff !important; }
-      .no-print, .home-btn { display: none !important; }
-      .paper {
-        box-shadow: none !important; border-radius: 0 !important;
-        width: 210mm; min-height: 297mm; margin: 0 !important; padding: 16mm 12mm;
-        page-break-inside: avoid;
-      }
-      .container { max-width: unset; margin: 0; padding: 0; }
+      .controls, .home-btn { display:none !important; }
+      .paper { box-shadow:none !important; border-radius:0 !important; width:210mm; min-height:297mm; margin:0 !important; padding:16mm 12mm; page-break-inside:avoid; }
     }
 
-    /* — Responsive — */
-    @media (max-width: 780px) { .controls.no-print { grid-template-columns: 1fr 1fr; } }
-    @media (max-width: 520px) { .controls.no-print { grid-template-columns: 1fr; } }
+    /* responsive */
+    @media (max-width:780px){ .controls{ grid-template-columns:1fr 1fr; } }
+    @media (max-width:520px){ .controls{ grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
 
-  <main class="container">
+  <!-- KONTROLLER (başlığın üstünde, yazdırda görünmez) -->
+  <section class="controls no-print" aria-label="Ayarlar">
+    <div class="field">
+      <label for="sinif">Sınıf</label>
+      <select id="sinif" aria-label="Sınıf">
+        <option value="1">1. Sınıf</option>
+        <option value="2">2. Sınıf</option>
+        <option value="3">3. Sınıf</option>
+        <option value="4">4. Sınıf</option>
+      </select>
+    </div>
 
-    <!-- 1) KONTROLLER (Başlığın ÜSTÜNDE, yazdırda gizli) -->
-    <section class="controls no-print" aria-label="Çalışma ayarları">
-      <div class="field">
-        <label for="sinif">Sınıf</label>
-        <select id="sinif" aria-label="Sınıf seçin">
-          <option value="1">1. Sınıf</option>
-          <option value="2">2. Sınıf</option>
-          <option value="3">3. Sınıf</option>
-          <option value="4">4. Sınıf</option>
-        </select>
-      </div>
+    <div class="field">
+      <label for="konu">Konu</label>
+      <select id="konu" aria-label="Konu">
+        <option value="">Konu yükleniyor…</option>
+      </select>
+    </div>
 
-      <div class="field">
-        <label for="konu">Konu</label>
-        <select id="konu" aria-label="Konu seçin">
-          <option value="">Konu yükleniyor…</option>
-        </select>
-      </div>
+    <div class="field">
+      <label for="adsoyad">Ad Soyad</label>
+      <input id="adsoyad" type="text" placeholder="Örn: Ali Veli" aria-label="Ad Soyad" />
+    </div>
 
-      <div class="field">
-        <label for="adsoyad">Ad Soyad</label>
-        <input id="adsoyad" type="text" placeholder="Örn: Ali Veli" aria-label="Ad Soyad girin" />
-      </div>
+    <div class="field">
+      <label for="tarih">Tarih</label>
+      <input id="tarih" type="date" aria-label="Tarih" />
+    </div>
 
-      <div class="field">
-        <label for="tarih">Tarih</label>
-        <input id="tarih" type="date" aria-label="Tarih seçin" />
-      </div>
+    <div class="actions">
+      <button id="btnOlustur" class="btn btn-primary" type="button">Soruları Yükle</button>
+      <button id="btnPDF" class="btn btn-accent" type="button">PDF İndir</button>
+      <button id="btnYazdir" class="btn btn-neutral" type="button">Yazdır</button>
+    </div>
+  </section>
 
-      <div class="actions" style="grid-column: 1 / -1;">
-        <button id="btnOlustur" class="btn btn-primary" type="button" aria-label="Soruları veritabanından yükle">Soruları Yükle</button>
-        <button id="btnPDF" class="btn btn-accent" type="button" aria-label="PDF indir">PDF İndir</button>
-        <button id="btnYazdir" class="btn btn-neutral" type="button" aria-label="Yazdır">Yazdır</button>
-      </div>
-    </section>
+  <!-- SADECE BEYAZ ALAN (yazdır/PDF) -->
+  <section class="paper" id="paper">
+    <header class="pdf-header">
+      <div class="title" id="hdrTitle">1. Sınıf – Konu</div>
+      <div class="sub"><span id="hdrName">Ad Soyad</span> • <span id="hdrDate">__/__/____</span></div>
+    </header>
 
-    <!-- 2) PDF/Yazdır’a gidecek beyaz alan -->
-    <section class="paper" id="paper">
-      <header class="pdf-header">
-        <div class="title" id="hdrTitle">1. Sınıf – Konu</div>
-        <div class="sub"><span id="hdrName">Ad Soyad</span> • <span id="hdrDate">__/__/____</span></div>
-      </header>
+    <div class="questions-grid" id="questions">
+      <!-- JS tam 10 kutu yerleştirir -->
+    </div>
+  </section>
 
-      <div class="questions-grid" id="questions">
-        <!-- JS tam 10 kutu yerleştirir -->
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Ana sayfa simgesi (her zaman görünür, yazdırda gizli) -->
+  <!-- Ana sayfa simgesi -->
   <a class="home-btn" href="index.html" aria-label="Ana sayfa">
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/>
-    </svg>
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/></svg>
   </a>
 
-  <!-- === SCRIPTLER (sıra önemli) === -->
+  <!-- Scriptler -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="script.js"></script>
