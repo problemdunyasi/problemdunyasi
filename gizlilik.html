@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gizlilik Politikası - Problem Dünyası</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<!-- Ana sayfa simgesi -->
+<a class="home-btn" href="index.html" aria-label="Ana sayfa">
+  <!-- Inline SVG ev ikonu (harici dosya gerektirmez) -->
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/>
+  </svg>
+</a>
+<body>
+  <main class="policy-page">
+    <h1>Gizlilik Politikası</h1>
+    
+        <p>Problem Dünyası'nda kişisel verilerinizi yalnızca hizmetin çalışması için gerekli olduğu ölçüde işleriz.
+        Site çerez kullanım detayları için <a href="cerezler.html">Çerez Politikası</a>'na bakınız.</p>
+        <h2>Toplanan Veriler</h2>
+        <ul>
+          <li>Gönüllü olarak gönderdiğiniz geri bildirim mesajları (feedback.html).</li>
+          <li>Anonim kullanım istatistikleri (varsa).</li>
+        </ul>
+        <h2>Veri Saklama</h2>
+        <p>Yasal süreler veya amaç ortadan kalktığında veriler silinir ya da anonimleştirilir.</p>
+        <h2>Haklarınız</h2>
+        <p>KVKK kapsamındaki haklarınız için <a href="kvkk.html">KVKK Aydınlatma Metni</a>'ni inceleyiniz.</p>
+        
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <nav class="footer-links">
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="cerezler.html">Çerezler</a>
+        <a href="kvkk.html">KVKK</a>
+        <a href="feedback.html">İletişim</a>
+      </nav>
+      <p class="copyright">© <span id="yil"></span> Problem Dünyası</p>
+    </div>
+    <script>document.getElementById('yil').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
