@@ -1,16 +1,12 @@
-/* === Güvenli yol oluşturucu & güvenli JSON yükleyici === */
+/* === Güvenli yol & JSON yükleyici (GitHub Pages alt dizini desteği) === */
 function basePath() {
-  // Örn: https://kullanici.github.io/problemdunyasi/sayfa.html
-  // path: /problemdunyasi/sayfa.html  → root: /problemdunyasi/
   const parts = location.pathname.split("/").filter(Boolean);
-  // GitHub Pages repo adı varsa 1. parça root kabul edilir
   if (parts.length >= 1) return "/" + parts[0] + "/";
-  return "/"; // düz kök
+  return "/";
 }
 const ROOT = basePath();
 
 function pathJoin(p) {
-  // 'veritabani/...' → '/<repo>/veritabani/...'
   return (ROOT + p.replace(/^\/+/, "")).replace(/\/{2,}/g, "/");
 }
 
@@ -26,21 +22,177 @@ async function safeJson(url) {
   }
 }
 
-// v6 – A4 sabit render: html2canvas + jsPDF
-const THEMES={1:{name:"1. Sınıf"},2:{name:"2. Sınıf"},3:{name:"3. Sınıf"},4:{name:"4. Sınıf"}};
-let STATE={sinif:1,konu:null,zorluk:"orta",topics:[],questions:[],adSoyad:"",tarih:"",okul:""};
-function getParam(n){try{return new URL(window.location.href).searchParams.get(n)}catch{return null}}
-function randInt(a,b){return Math.floor(Math.random()*(b-a+1))+a}
-function pick(a){return a[Math.floor(Math.random()*a.length)]}
-function shuffle(a){const arr=a.slice();for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
-async function safeJson(url){try{const r=await fetch(url+(url.includes('?')?'&':'?')+'v='+Date.now());if(!r.ok)throw 0;return await r.json()}catch(e){return null}}
-async function loadTopics(s){const d=await safeJson(`veritabani/${s}sinif_konular.json`);if(Array.isArray(d)&&d.length)return d;return[{key:"toplama",label:"Toplama"},{key:"cikarma",label:"Çıkarma"},{key:"zaman",label:"Zaman"}]}
-async function tryLoadPool(s,k){const d=await safeJson(`veritabani/${s}sinif_${k}.json`);return Array.isArray(d)&&d.length?d:null}
-function genProblem(topic,lvl){const isim=["Ali","Ayşe","Can","Elif","İpek","Ömer","Deniz","Mira","Yusuf","Duru"];const nesne=["elma","kalem","kitap","balon","defter","bilet","simit","çikolata","silgi","oyuncak"];const n=pick(isim),it=pick(nesne),a=randInt(1,8*lvl),b=randInt(1,8*lvl);switch(topic){case"carpma":return`${n}, her pakette ${a} ${it} olan ${b} paket aldı. Toplam kaç ${it} vardır?`;case"bolme":return`${n}, ${a*b} ${it}i ${b} arkadaşına eşit paylaştırdı. Kişi başı kaç ${it} düşer?`;case"zaman":return`${n}, derse ${a} dk kala çıktı ve ${b} dk yürüdü. Derse yetişti mi?`;case"uzunluk":return`${n}, ${a} cm kurdele ile ${b} cm kurdeleyi birleştirdi. Toplam uzunluk kaç cm olur?`;case"paralarimiz":return`${n}'in ${a} TL'si vardı. ${b} TL harcadı. Kaç TL'si kaldı?`;case"kesirler":return`Bir pastanın ${a}/8'i yenildi, ${b}/8'i kaldı. Kalan ne kadardır?`;default:return`${n}, ${a} ${it} aldı, sonra ${b} tane daha aldı. Toplam kaç ${it} oldu?`;}}
-function build(topic,level="orta",count=10){const lvl=level==="kolay"?1:level==="zor"?3:2;const out=[];for(let i=0;i<count;i++)out.push({soru:genProblem(topic,lvl)});return out}
-async function regenerate(){let pool=null;if(STATE.sinif&&STATE.konu)pool=await tryLoadPool(STATE.sinif,STATE.konu);STATE.questions=(pool&&pool.length)?shuffle(pool).slice(0,10):build(STATE.konu,STATE.zorluk,10);render();updateHeader()}
-function render(){const ol=document.getElementById("soruListe");if(!ol)return;ol.innerHTML="";for(let i=0;i<10;i++){const q=STATE.questions[i]?.soru||"";const li=document.createElement("li");li.className="qbox";const t=document.createElement("div");t.className="qtitle";t.textContent=`${i+1})`;const tx=document.createElement("div");tx.className="qtext";tx.textContent=q;const ls=document.createElement("div");ls.className="qlines";for(let k=0;k<5;k++){const l=document.createElement("div");l.className="qline";ls.appendChild(l)};li.appendChild(t);li.appendChild(tx);li.appendChild(ls);ol.appendChild(li)}}
-function updateHeader(){const lbl=STATE.topics.find(t=>t.key===STATE.konu)?.label||STATE.konu||"";document.getElementById("h_ad").textContent=STATE.adSoyad||"";document.getElementById("h_tarih").textContent=STATE.tarih||"";document.getElementById("h_okul").textContent=STATE.okul||"";document.getElementById("h_sinifKonu").textContent=`${THEMES[STATE.sinif].name} / ${lbl}`;document.getElementById("h_zorluk").textContent=(STATE.zorluk||"orta").toUpperCase()}
-async function exportPDF(){const el=document.getElementById("printArea");if(!el)return;const canvas=await html2canvas(el,{scale:2});const img=canvas.toDataURL("image/png");const {jsPDF}=window.jspdf;const pdf=new jsPDF("p","mm","a4");const w=pdf.internal.pageSize.getWidth();const h=pdf.internal.pageSize.getHeight();pdf.addImage(img,"PNG",0,0,w,h);pdf.save(`ProblemDünyası_${STATE.sinif}sinif_${STATE.konu||"genel"}.pdf`)}
-async function initSayfa(){const s=parseInt(getParam("sinif")||"1",10);STATE.sinif=s;document.getElementById("baslik").textContent=THEMES[s].name;const ts=await loadTopics(s);STATE.topics=ts||[];STATE.konu=STATE.topics[0]?.key||"toplama";const sel=document.getElementById("konuSelect");sel.innerHTML="";STATE.topics.forEach(t=>{const op=document.createElement("option");op.value=t.key;op.textContent=t.label;sel.appendChild(op)});sel.value=STATE.konu;sel.addEventListener("change",e=>{STATE.konu=e.target.value;regenerate()});document.getElementById("zorluk").addEventListener("change",e=>STATE.zorluk=e.target.value);["adSoyad","tarih","okul"].forEach(id=>{document.getElementById(id).addEventListener("input",()=>{STATE.adSoyad=document.getElementById("adSoyad").value||"";STATE.tarih=document.getElementById("tarih").value||"";STATE.okul=document.getElementById("okul").value||"";updateHeader()})});document.getElementById("olusturBtn").addEventListener("click",regenerate);document.getElementById("pdfBtn").addEventListener("click",exportPDF);document.getElementById("printBtn").addEventListener("click",()=>{updateHeader();window.print()});await regenerate()}
-window.initSayfa=initSayfa;
+/* === Basit yardımcılar === */
+function todayISO() {
+  const d = new Date();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${d.getFullYear()}-${m}-${day}`;
+}
+function $(sel) { return document.querySelector(sel); }
+function setText(id, txt) { const el = document.getElementById(id); if (el) el.textContent = txt; }
+
+/* === Konu listesi yükleme === */
+async function loadKonular(sinif) {
+  // Örn: veritabani/1sinif_konular.json
+  const list = await safeJson(`veritabani/${sinif}sinif_konular.json`);
+  const sel = $("#konu");
+  sel.innerHTML = "";
+  if (list && Array.isArray(list) && list.length) {
+    for (const k of list) {
+      const opt = document.createElement("option");
+      opt.value = k.deger || k.value || k; // farklı şema destek
+      opt.textContent = k.baslik || k.label || k.toString();
+      sel.appendChild(opt);
+    }
+  } else {
+    // Yedek konular
+    ["Toplama","Çıkarma","Karışık İşlemler"].forEach(k=>{
+      const opt = document.createElement("option");
+      opt.value = k; opt.textContent = k; sel.appendChild(opt);
+    });
+  }
+}
+
+/* === Soru kaynağı ===
+   Eğer veritabanında konuya özel soru dosyası varsa onu kullan,
+   yoksa basit bir jeneratör doldursun. */
+async function getSorular(sinif, konu) {
+  // Örn: veritabani/1/Toplama.json (senin şemana göre gerekirse değiştir)
+  // Önce düz isim: "veritabani/1/Toplama.json"
+  let db = await safeJson(`veritabani/${sinif}/${encodeURIComponent(konu)}.json`);
+  if (db && Array.isArray(db) && db.length) return db;
+
+  // Alternatif adlar (küçük harf, alt çizgi)
+  const alt = konu.toLowerCase().replace(/\s+/g, "_");
+  db = await safeJson(`veritabani/${sinif}/${alt}.json`);
+  if (db && Array.isArray(db) && db.length) return db;
+
+  // Yedek üretici (4 işlemden toplama/çıkarma ağırlıklı basit sorular)
+  const arr = [];
+  const N = 20; // 2 sütun * 10 satır gibi
+  for (let i=0;i<N;i++){
+    const a = Math.floor(Math.random()*20)+1;
+    const b = Math.floor(Math.random()*20)+1;
+    const op = /top|add/i.test(konu) ? "+" : /çıkar|cikar|eksilt|minus/i.test(konu) ? "-" :
+               Math.random()<0.5 ? "+" : "-";
+    arr.push({soru: `${a} ${op} ${b} = ______`});
+  }
+  return arr;
+}
+
+/* === Soruları DOM'a bas === */
+function renderSorular(list) {
+  const wrap = $("#questions");
+  wrap.innerHTML = "";
+  list.forEach((item, idx) => {
+    const d = document.createElement("div");
+    d.className = "q";
+    d.textContent = item.soru || item.text || String(item);
+    wrap.appendChild(d);
+  });
+}
+
+/* === PDF oluşturma (üstte büyük başlık + alt başlık) === */
+async function createPDF() {
+  const { jsPDF } = window.jspdf;
+
+  const sinif = $("#sinif").value;
+  const konuSel = $("#konu");
+  const konu = konuSel.options[konuSel.selectedIndex]?.text || konuSel.value || "Konu";
+  const adsoyad = $("#adsoyad").value.trim() || "Ad Soyad";
+  const tarih = $("#tarih").value || todayISO();
+
+  // Sayfa boyutu: A4 dikey (mm)
+  const doc = new jsPDF({ unit: "mm", format: "a4", orientation: "portrait" });
+  const W = doc.internal.pageSize.getWidth();
+
+  // --- ÜST BAŞLIK ---
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(20);
+  const title = `${sinif}. Sınıf – ${konu}`;
+  doc.text(title, W/2, 18, { align: "center" });
+
+  // Ad Soyad & Tarih
+  doc.setFont("helvetica", "normal");
+  doc.setFontSize(12);
+  const sub = `${adsoyad}   •   ${tarih.split("-").reverse().join(".")}`;
+  doc.text(sub, W/2, 26, { align: "center" });
+
+  // --- Sorular bölümünü görüntü olarak ekle ---
+  // Sorular kapsayıcısını canvas'a çevir
+  const qEl = document.getElementById("questions");
+  if (!qEl || !qEl.children.length) {
+    alert("Önce soruları oluştur.");
+    return;
+  }
+  const canvas = await html2canvas(qEl, { scale: 2 });
+  const img = canvas.toDataURL("image/png");
+
+  // Görseli sayfaya en üste yakın (başlığın altına) yerleştir
+  // Başlıklar toplam ~30mm kullanıyor, 32mm'den başlayalım
+  const yStart = 32;
+  const usableW = W - 20; // sağ-sol 10mm boşluk
+  const imgW = usableW;
+  const imgH = (canvas.height / canvas.width) * imgW;
+
+  doc.addImage(img, "PNG", 10, yStart, imgW, imgH, undefined, "FAST");
+
+  // Dosya adı örn: 1sinif_Toplama_2025-10-19.pdf
+  const fname = `${sinif}sinif_${(konu||"Konu").replace(/\s+/g,"")}_${tarih}.pdf`;
+  doc.save(fname);
+}
+
+/* === Sayfa init === */
+async function initSayfa() {
+  // Varsayılan tarih
+  const tarih = $("#tarih");
+  if (tarih && !tarih.value) tarih.value = todayISO();
+
+  // Konu listesi ilk yükleme
+  const sinifSel = $("#sinif");
+  await loadKonular(sinifSel.value);
+
+  // Önizleme başlıklarını senkron tut
+  function syncHeader() {
+    const s = $("#sinif").value;
+    const konuSel = $("#konu");
+    const k = konuSel.options[konuSel.selectedIndex]?.text || konuSel.value || "Konu";
+    const ad = $("#adsoyad").value.trim() || "Ad Soyad";
+    const t = ($("#tarih").value || todayISO()).split("-").reverse().join(".");
+    setText("hdrTitle", `${s}. Sınıf – ${k}`);
+    setText("hdrName", ad);
+    setText("hdrDate", t);
+  }
+  ["change","input"].forEach(evt => {
+    $("#sinif").addEventListener(evt, async e => {
+      await loadKonular(e.target.value);
+      syncHeader();
+    });
+    $("#konu").addEventListener(evt, syncHeader);
+    $("#adsoyad").addEventListener(evt, syncHeader);
+    $("#tarih").addEventListener(evt, syncHeader);
+  });
+  syncHeader();
+
+  // Butonlar
+  $("#btnOlustur").addEventListener("click", async () => {
+    const s = $("#sinif").value;
+    const konuSel = $("#konu");
+    const k = konuSel.options[konuSel.selectedIndex]?.text || konuSel.value || "Konu";
+    const list = await getSorular(s, k);
+    renderSorular(list);
+    // başlık önizlemesini güncel tut
+    const ad = $("#adsoyad").value.trim() || "Ad Soyad";
+    const t = ($("#tarih").value || todayISO()).split("-").reverse().join(".");
+    setText("hdrTitle", `${s}. Sınıf – ${k}`);
+    setText("hdrName", ad);
+    setText("hdrDate", t);
+  });
+
+  $("#btnPDF").addEventListener("click", createPDF);
+  $("#btnYazdir").addEventListener("click", () => window.print());
+}
+
+/* Global'e aç */
+window.initSayfa = initSayfa;
