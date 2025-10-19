@@ -1,8 +1,7 @@
-/* ==== GÖRELİ (RELATIVE) JSON YÜKLEYİCİ — GITHUB PAGES UYUMLU ==== */
-/* ÖNEMLİ: veritabani/ klasörü, sayfa.html ile AYNI klasörde olmalı. */
-// (Mevcut safeJson'unu bununla değiştir)
-async function safeJson(relPath, { silent = false } = {}) {
-  const url = String(relPath || "").replace(/^\/+/, "");
+/* ===== GÖRELİ (RELATIVE) JSON YÜKLEYİCİ =====
+   ÖNEMLİ: veritabani/ klasörü sayfa.html ile AYNI klasörde olmalı. */
+async function safeJson(relPath) {
+  const url = String(relPath || "").replace(/^\/+/, ""); // baştaki /'ları kaldır
   try {
     const r = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), { cache: "no-store" });
     console.log("[safeJson] GET:", r.url, r.status);
@@ -10,24 +9,29 @@ async function safeJson(relPath, { silent = false } = {}) {
     return await r.json();
   } catch (e) {
     console.error("[safeJson] HATA:", url, e);
-    if (!silent) alert("Veri yüklenemedi: " + url + "\nLütfen veritabani yolu/isimlerini kontrol edin.");
+    alert("Veri yüklenemedi: " + url + "\nLütfen veritabani yolu/isimlerini kontrol edin.");
     return null;
   }
 }
 
-
-/* ==== Yardımcılar ==== */
+/* ===== Yardımcılar ===== */
 function todayISO() {
   const d = new Date();
   const m = String(d.getMonth() + 1).padStart(2, "0");
   const day = String(d.getDate()).padStart(2, "0");
   return `${d.getFullYear()}-${m}-${day}`;
 }
-function $(sel) { return document.querySelector(sel); }
-function setText(id, txt) { const el = document.getElementById(id); if (el) el.textContent = txt; }
+function $(sel){ return document.querySelector(sel); }
+function setText(id, txt){ const el = document.getElementById(id); if (el) el.textContent = txt; }
 
-/* ==== Konu listesi (VERİTABANI) ==== */
-/* Beklenen dosya: veritabani/1sinif_konular.json, 2sinif_konular.json, ... */
+/* ===== URL parametresiyle sinif ön seçimi ===== */
+function getParam(name){
+  const m = new URLSearchParams(location.search).get(name);
+  return m ? decodeURIComponent(m) : null;
+}
+
+/* ===== Konu listesi (VERİTABANI) =====
+   Beklenen dosya: veritabani/1sinif_konular.json ... */
 async function loadKonular(sinif) {
   const list = await safeJson(`veritabani/${sinif}sinif_konular.json`);
   const sel = $("#konu");
@@ -47,94 +51,31 @@ async function loadKonular(sinif) {
   }
 }
 
-// Türkçe karakterleri dosya adına uygun dönüştür (ı→i, İ→I, ş→s, ç→c, ğ→g, ö→o, ü→u)
-function normalizeTr(text) {
-  const map = { 'ı':'i','İ':'I','ş':'s','Ş':'S','ç':'c','Ç':'C','ğ':'g','Ğ':'G','ö':'o','Ö':'O','ü':'u','Ü':'U' };
-  return text.replace(/[ıİşŞçÇğĞöÖüÜ]/g, ch => map[ch] || ch);
-}
-
-/* ==== Sorular: SADECE veritabanından (çoklu deneme) ==== */
+/* ===== Sorular: SADECE veritabanından =====
+   Beklenen dosyalar (sırayla denenir):
+   1) veritabani/<sinif>/<KonuAdı>.json
+   2) veritabani/<sinif>/<konu_adı_küçük>.json  */
 async function getSorularFromDB(sinif, konuText) {
-  // 1) Baz adları hazırla
-  const original = (konuText || "").trim();
-  const noTr     = normalizeTr(original);
-  const lower    = original.toLowerCase();
-  const lowerNoTr= normalizeTr(lower);
+  // 1) Orijinal adıyla
+  let db = await safeJson(`veritabani/${sinif}/${encodeURIComponent(konuText)}.json`);
+  if (db && Array.isArray(db) && db.length) return db;
 
-  // Boşluk / ayraç varyasyonları
-  const variants = new Set([
-    original,
-    original.replace(/\s+/g, "_"),
-    original.replace(/\s+/g, "-"),
+  // 2) küçük harf + alt çizgi
+  const alt = konuText.toLowerCase().replace(/\s+/g, "_");
+  db = await safeJson(`veritabani/${sinif}/${alt}.json`);
+  if (db && Array.isArray(db) && db.length) return db;
 
-    noTr,
-    noTr.replace(/\s+/g, "_"),
-    noTr.replace(/\s+/g, "-"),
-
-    lower,
-    lower.replace(/\s+/g, "_"),
-    lower.replace(/\s+/g, "-"),
-
-    lowerNoTr,
-    lowerNoTr.replace(/\s+/g, "_"),
-    lowerNoTr.replace(/\s+/g, "-"),
-
-    // Noktalama ve fazla karakterleri temizleyen
-    lowerNoTr.replace(/[^\w\-]+/g, "_"),
-    lowerNoTr.replace(/[^\w\-]+/g, "-")
-  ]);
-
-  // 2) Klasör varyasyonları (senin yapına göre ikisi de denenir)
-  const classDirs = [
-    `veritabani/${sinif}/`,
-    `veritabani/${sinif}sinif/`
-  ];
-
-  // 3) Uzantı / büyük-küçük
-  const exts = [".json", ".JSON"];
-
-  // 4) Sırayla hepsini dene (sessiz: true — pop-up yağmasın)
-  for (const dir of classDirs) {
-    // Önce "orijinal metni URL kodlayarak" dene (boşluk varsa %20)
-    const encodedTry = await safeJson(`${dir}${encodeURIComponent(original)}.json`, { silent: true });
-    if (encodedTry && Array.isArray(encodedTry) && encodedTry.length) return encodedTry;
-
-    for (const base of variants) {
-      for (const ext of exts) {
-        const path = `${dir}${base}${ext}`;
-        const data = await safeJson(path, { silent: true });
-        if (data && Array.isArray(data) && data.length) {
-          console.log("[DB bulundu] →", path);
-          return data;
-        }
-      }
-    }
-  }
-
-  // 5) Hâlâ yoksa, en son bir kez net uyarı ver
-  alert(
-    `Veritabanında soru dosyası bulunamadı.\n` +
-    `Sınıf: ${sinif}\nKonu: ${konuText}\n\n` +
-    `Denediğimiz örnek yollar:\n` +
-    `- veritabani/${sinif}/${encodeURIComponent(original)}.json\n` +
-    `- veritabani/${sinif}/${normalizeTr(lower).replace(/[^\w\-]+/g,"_")}.json\n` +
-    `- veritabani/${sinif}sinif/${encodeURIComponent(original)}.json\n` +
-    `- veritabani/${sinif}sinif/${normalizeTr(lower).replace(/[^\w\-]+/g,"_")}.json\n\n` +
-    `Lütfen dosya adını/klasörünü buna uygun düzenleyin.`
-  );
   return null;
 }
 
-
-/* ==== 10 kutu (5 sol + 5 sağ) ==== */
+/* ===== 10 kutu (5 sol + 5 sağ) ===== */
 function render10Questions(list) {
   const wrap = $("#questions");
   wrap.innerHTML = "";
 
   const arr = (list || []).slice(0, 10);
-
   if (arr.length < 10) {
-    alert("Bu konu için veritabanında yeterli (10) soru yok. Lütfen veritabanını kontrol edin.");
+    alert("Bu konu için veritabanında yeterli (10) soru yok. Lütfen veritabani dosyasını kontrol edin.");
   }
 
   for (let i = 0; i < 10; i++) {
@@ -162,7 +103,7 @@ function render10Questions(list) {
   }
 }
 
-/* ==== PDF: SADECE .paper alanını al ==== */
+/* ===== PDF: sadece .paper alanını al ===== */
 async function createPDF() {
   const { jsPDF } = window.jspdf;
   const paper = document.getElementById("paper");
@@ -187,20 +128,27 @@ async function createPDF() {
 
   const sEl = $("#sinif"), kEl = $("#konu");
   const sinifTxt = sEl ? (sEl.options[sEl.selectedIndex]?.text || sEl.value || "Sinif") : "Sinif";
-  const konuTxt  = kEl ? (kEl.options[kEl.selectedIndex]?.text  || kEl.value  || "Konu")  : "Konu";
+  const konuTxt  = kEl ? (kEl.options[kEl.selectedIndex]?.text || kEl.value || "Konu") : "Konu";
   const tarihISO = $("#tarih")?.value || todayISO();
 
   const fname = `${sinifTxt.replace(/\s+/g,"")}_${(konuTxt||"Konu").replace(/\s+/g,"")}_${tarihISO}.pdf`;
   doc.save(fname);
 }
 
-/* ==== Sayfa init ==== */
+/* ===== Sayfa init ===== */
 async function initSayfa() {
+  // URL ile sınıf ön seçim (sayfa.html?sinif=2 gibi)
+  const pSinif = getParam("sinif");
+  if (pSinif && ["1","2","3","4"].includes(pSinif)) {
+    const s = $("#sinif");
+    if (s) s.value = pSinif;
+  }
+
   // Varsayılan tarih
   const t = $("#tarih");
   if (t && !t.value) t.value = todayISO();
 
-  // Konu listesini veritabanından çek
+  // Konu listesi
   const sinifSel = $("#sinif");
   await loadKonular(sinifSel.value);
 
@@ -238,7 +186,7 @@ async function initSayfa() {
       alert(`"${sinif}. sınıf / ${konuText}" için veritabanında soru bulunamadı.
 Beklenen yollar:
 - veritabani/${sinif}/${konuText}.json
-- veritabani/${sinif}/${konuText.toLowerCase().replace(/\s+/g, "_")}.json`);
+- veritabani/${sinif}/${konuText.toLowerCase().replace(/\s+/g,"_")}.json`);
       $("#questions").innerHTML = "";
       return;
     }
