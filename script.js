@@ -1,21 +1,20 @@
 /* ==== GÖRELİ (RELATIVE) JSON YÜKLEYİCİ — GITHUB PAGES UYUMLU ==== */
 /* ÖNEMLİ: veritabani/ klasörü, sayfa.html ile AYNI klasörde olmalı. */
-async function safeJson(relPath) {
-  // Leading slash varsa kaldır (mutlaka göreli kullanalım)
+// (Mevcut safeJson'unu bununla değiştir)
+async function safeJson(relPath, { silent = false } = {}) {
   const url = String(relPath || "").replace(/^\/+/, "");
   try {
-    const r = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), {
-      cache: "no-store",
-    });
+    const r = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), { cache: "no-store" });
     console.log("[safeJson] GET:", r.url, r.status);
     if (!r.ok) throw new Error("HTTP " + r.status + " for " + url);
     return await r.json();
   } catch (e) {
     console.error("[safeJson] HATA:", url, e);
-    alert("Veri yüklenemedi: " + url + "\nLütfen veritabani yolu/isimlerini kontrol edin.");
+    if (!silent) alert("Veri yüklenemedi: " + url + "\nLütfen veritabani yolu/isimlerini kontrol edin.");
     return null;
   }
 }
+
 
 /* ==== Yardımcılar ==== */
 function todayISO() {
@@ -48,23 +47,84 @@ async function loadKonular(sinif) {
   }
 }
 
-/* ==== Sorular: SADECE veritabanından ==== */
-/* Beklenen dosyalar (sırayla denenir):
-   1) veritabani/<sinif>/<KonuAdı>.json  (örn: veritabani/1/Toplama.json)
-   2) veritabani/<sinif>/<konu_adı_küçük>.json (örn: veritabani/1/toplama.json)
-*/
+// Türkçe karakterleri dosya adına uygun dönüştür (ı→i, İ→I, ş→s, ç→c, ğ→g, ö→o, ü→u)
+function normalizeTr(text) {
+  const map = { 'ı':'i','İ':'I','ş':'s','Ş':'S','ç':'c','Ç':'C','ğ':'g','Ğ':'G','ö':'o','Ö':'O','ü':'u','Ü':'U' };
+  return text.replace(/[ıİşŞçÇğĞöÖüÜ]/g, ch => map[ch] || ch);
+}
+
+/* ==== Sorular: SADECE veritabanından (çoklu deneme) ==== */
 async function getSorularFromDB(sinif, konuText) {
-  // 1) Orijinal konu adıyla
-  let db = await safeJson(`veritabani/${sinif}/${encodeURIComponent(konuText)}.json`);
-  if (db && Array.isArray(db) && db.length) return db;
+  // 1) Baz adları hazırla
+  const original = (konuText || "").trim();
+  const noTr     = normalizeTr(original);
+  const lower    = original.toLowerCase();
+  const lowerNoTr= normalizeTr(lower);
 
-  // 2) küçük harf + alt çizgi
-  const alt = konuText.toLowerCase().replace(/\s+/g, "_");
-  db = await safeJson(`veritabani/${sinif}/${alt}.json`);
-  if (db && Array.isArray(db) && db.length) return db;
+  // Boşluk / ayraç varyasyonları
+  const variants = new Set([
+    original,
+    original.replace(/\s+/g, "_"),
+    original.replace(/\s+/g, "-"),
 
+    noTr,
+    noTr.replace(/\s+/g, "_"),
+    noTr.replace(/\s+/g, "-"),
+
+    lower,
+    lower.replace(/\s+/g, "_"),
+    lower.replace(/\s+/g, "-"),
+
+    lowerNoTr,
+    lowerNoTr.replace(/\s+/g, "_"),
+    lowerNoTr.replace(/\s+/g, "-"),
+
+    // Noktalama ve fazla karakterleri temizleyen
+    lowerNoTr.replace(/[^\w\-]+/g, "_"),
+    lowerNoTr.replace(/[^\w\-]+/g, "-")
+  ]);
+
+  // 2) Klasör varyasyonları (senin yapına göre ikisi de denenir)
+  const classDirs = [
+    `veritabani/${sinif}/`,
+    `veritabani/${sinif}sinif/`
+  ];
+
+  // 3) Uzantı / büyük-küçük
+  const exts = [".json", ".JSON"];
+
+  // 4) Sırayla hepsini dene (sessiz: true — pop-up yağmasın)
+  for (const dir of classDirs) {
+    // Önce "orijinal metni URL kodlayarak" dene (boşluk varsa %20)
+    const encodedTry = await safeJson(`${dir}${encodeURIComponent(original)}.json`, { silent: true });
+    if (encodedTry && Array.isArray(encodedTry) && encodedTry.length) return encodedTry;
+
+    for (const base of variants) {
+      for (const ext of exts) {
+        const path = `${dir}${base}${ext}`;
+        const data = await safeJson(path, { silent: true });
+        if (data && Array.isArray(data) && data.length) {
+          console.log("[DB bulundu] →", path);
+          return data;
+        }
+      }
+    }
+  }
+
+  // 5) Hâlâ yoksa, en son bir kez net uyarı ver
+  alert(
+    `Veritabanında soru dosyası bulunamadı.\n` +
+    `Sınıf: ${sinif}\nKonu: ${konuText}\n\n` +
+    `Denediğimiz örnek yollar:\n` +
+    `- veritabani/${sinif}/${encodeURIComponent(original)}.json\n` +
+    `- veritabani/${sinif}/${normalizeTr(lower).replace(/[^\w\-]+/g,"_")}.json\n` +
+    `- veritabani/${sinif}sinif/${encodeURIComponent(original)}.json\n` +
+    `- veritabani/${sinif}sinif/${normalizeTr(lower).replace(/[^\w\-]+/g,"_")}.json\n\n` +
+    `Lütfen dosya adını/klasörünü buna uygun düzenleyin.`
+  );
   return null;
 }
+
 
 /* ==== 10 kutu (5 sol + 5 sağ) ==== */
 function render10Questions(list) {
