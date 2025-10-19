@@ -93,55 +93,93 @@ function renderSorular(list) {
   });
 }
 
-/* === PDF oluşturma (üstte büyük başlık + alt başlık) === */
+/* === PDF oluşturma: ORİJİNAL GÖRÜNÜMÜ KORUR + Üst Başlık Ekler === */
 async function createPDF() {
   const { jsPDF } = window.jspdf;
-
-  const sinif = $("#sinif").value;
-  const konuSel = $("#konu");
-  const konu = konuSel.options[konuSel.selectedIndex]?.text || konuSel.value || "Konu";
-  const adsoyad = $("#adsoyad").value.trim() || "Ad Soyad";
-  const tarih = $("#tarih").value || todayISO();
-
-  // Sayfa boyutu: A4 dikey (mm)
   const doc = new jsPDF({ unit: "mm", format: "a4", orientation: "portrait" });
+
   const W = doc.internal.pageSize.getWidth();
+  const H = doc.internal.pageSize.getHeight();
 
-  // --- ÜST BAŞLIK ---
+  // Form değerleri (mevcut seçicilere göre metni al)
+  const sinifSel = document.getElementById("sinif");
+  const konuSel  = document.getElementById("konu");
+  const sinif = sinifSel ? (sinifSel.options[sinifSel.selectedIndex]?.text || sinifSel.value || "Sınıf") : "Sınıf";
+  const konu  = konuSel  ? (konuSel.options[konuSel.selectedIndex]?.text  || konuSel.value  || "Konu")  : "Konu";
+
+  const adsoyad = (document.getElementById("adsoyad")?.value || "Ad Soyad").trim();
+  const tarihISO = document.getElementById("tarih")?.value || (new Date()).toISOString().slice(0,10);
+  const tarihTR  = tarihISO.split("-").reverse().join(".");
+
+  // --- ÜST BAŞLIK (PDF'e yazı) ---
+  // Bu kısım yalnızca PDF'e çizilir; sayfandaki HTML/CSS'e dokunmaz.
+  let y = 14; // üst marj
   doc.setFont("helvetica", "bold");
-  doc.setFontSize(20);
-  const title = `${sinif}. Sınıf – ${konu}`;
-  doc.text(title, W/2, 18, { align: "center" });
+  doc.setFontSize(18);
+  doc.text(`${sinif} – ${konu}`, W/2, y, { align: "center" });
 
-  // Ad Soyad & Tarih
+  y += 7;
   doc.setFont("helvetica", "normal");
-  doc.setFontSize(12);
-  const sub = `${adsoyad}   •   ${tarih.split("-").reverse().join(".")}`;
-  doc.text(sub, W/2, 26, { align: "center" });
+  doc.setFontSize(11);
+  doc.text(`${adsoyad}   •   ${tarihTR}`, W/2, y, { align: "center" });
 
-  // --- Sorular bölümünü görüntü olarak ekle ---
-  // Sorular kapsayıcısını canvas'a çevir
-  const qEl = document.getElementById("questions");
-  if (!qEl || !qEl.children.length) {
-    alert("Önce soruları oluştur.");
+  y += 5;
+  doc.setDrawColor(0);
+  doc.setLineWidth(0.2);
+  doc.line(10, y, W - 10, y); // ince ayraç
+  y += 3; // başlık bloğu toplam ~15–17 mm yer kaplar
+
+  // --- ORİJİNAL GÖRÜNÜMÜN EKRAN GÖRÜNTÜSÜ ---
+  // Sende hangi kapsayıcı kullanılıyorsa onu bulalım.
+  // Sık kullanılan adayları sırayla dener; ilk bulduğunu kullanır.
+  const candidates = [
+    "#pdf-root",
+    "#kagit",
+    "#a4",
+    "#questions",
+    ".questions-grid",
+    ".paper"
+  ];
+  let target = null;
+  for (const sel of candidates) {
+    const el = document.querySelector(sel);
+    if (el && el.children && el.children.length) { target = el; break; }
+  }
+  // Hiçbiri bulunmazsa kullanıcıyı uyar.
+  if (!target) {
+    alert("PDF için içerik bulunamadı. Lütfen soru alanının olduğu kapsayıcı seçiciyi kontrol edin (örn. #questions).");
     return;
   }
-  const canvas = await html2canvas(qEl, { scale: 2 });
+
+  // html2canvas ile hedefi görüntüye çevir (ORİJİNAL stil korunur)
+  const canvas = await html2canvas(target, { scale: 2 });
   const img = canvas.toDataURL("image/png");
 
-  // Görseli sayfaya en üste yakın (başlığın altına) yerleştir
-  // Başlıklar toplam ~30mm kullanıyor, 32mm'den başlayalım
-  const yStart = 32;
-  const usableW = W - 20; // sağ-sol 10mm boşluk
-  const imgW = usableW;
-  const imgH = (canvas.height / canvas.width) * imgW;
+  // Görseli sayfaya sığdır (başlık alanından sonra kalan alana)
+  const leftMargin = 10;          // sol boşluk
+  const rightMargin = 10;         // sağ boşluk
+  const usableW = W - leftMargin - rightMargin;
 
-  doc.addImage(img, "PNG", 10, yStart, imgW, imgH, undefined, "FAST");
+  const remainH = H - y - 10;     // alt 10 mm boşluk bırak
+  let imgW = usableW;
+  let imgH = (canvas.height / canvas.width) * imgW;
 
-  // Dosya adı örn: 1sinif_Toplama_2025-10-19.pdf
-  const fname = `${sinif}sinif_${(konu||"Konu").replace(/\s+/g,"")}_${tarih}.pdf`;
+  // Yüksekliği taşarsa, oranlı küçült
+  if (imgH > remainH) {
+    const scale = remainH / imgH;
+    imgW = imgW * scale;
+    imgH = imgH * scale;
+  }
+
+  // Görseli ekle (ORİJİNAL grid/çizgiler/boşluklar aynen kalır)
+  doc.addImage(img, "PNG", leftMargin, y, imgW, imgH, undefined, "FAST");
+
+  // Dosya adı: 1Sinif_Toplama_2025.10.19.pdf gibi
+  const temizKonu = (konu || "Konu").toString().replace(/\s+/g, "");
+  const fname = `${(sinif || "Sinif").toString().replace(/\s+/g,"")}_${temizKonu}_${tarihISO}.pdf`;
   doc.save(fname);
 }
+
 
 /* === Sayfa init === */
 async function initSayfa() {
