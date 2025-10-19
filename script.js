@@ -1,6 +1,7 @@
-/* === Güvenli yol & JSON yükleyici (GitHub Pages alt dizini desteği) === */
+/* ==== GÜVENLİ YOL & JSON YÜKLEYİCİ (GitHub Pages alt dizini desteği) ==== */
 function basePath() {
   const parts = location.pathname.split("/").filter(Boolean);
+  // Örn: /problemdunyasi/sayfa.html → /problemdunyasi/
   if (parts.length >= 1) return "/" + parts[0] + "/";
   return "/";
 }
@@ -22,7 +23,7 @@ async function safeJson(url) {
   }
 }
 
-/* === Basit yardımcılar === */
+/* ==== Yardımcılar ==== */
 function todayISO() {
   const d = new Date();
   const m = String(d.getMonth() + 1).padStart(2, "0");
@@ -32,175 +33,137 @@ function todayISO() {
 function $(sel) { return document.querySelector(sel); }
 function setText(id, txt) { const el = document.getElementById(id); if (el) el.textContent = txt; }
 
-/* === Konu listesi yükleme === */
+/* ==== Konu listesi yükleme (veritabanından) ==== */
 async function loadKonular(sinif) {
-  // Örn: veritabani/1sinif_konular.json
+  // Örn: veritabani/1sinif_konular.json  (Senin mevcut şeman)
   const list = await safeJson(`veritabani/${sinif}sinif_konular.json`);
   const sel = $("#konu");
   sel.innerHTML = "";
   if (list && Array.isArray(list) && list.length) {
     for (const k of list) {
       const opt = document.createElement("option");
-      opt.value = k.deger || k.value || k; // farklı şema destek
-      opt.textContent = k.baslik || k.label || k.toString();
+      opt.value = (k.deger || k.value || k).toString();
+      opt.textContent = (k.baslik || k.label || k).toString();
       sel.appendChild(opt);
     }
   } else {
-    // Yedek konular
-    ["Toplama","Çıkarma","Karışık İşlemler"].forEach(k=>{
-      const opt = document.createElement("option");
-      opt.value = k; opt.textContent = k; sel.appendChild(opt);
-    });
+    // Konu dosyası yoksa asla uydurma üretme
+    const opt = document.createElement("option");
+    opt.value = ""; opt.textContent = "Konu bulunamadı";
+    sel.appendChild(opt);
   }
 }
 
-/* === Soru kaynağı ===
-   Eğer veritabanında konuya özel soru dosyası varsa onu kullan,
-   yoksa basit bir jeneratör doldursun. */
-async function getSorular(sinif, konu) {
-  // Örn: veritabani/1/Toplama.json (senin şemana göre gerekirse değiştir)
-  // Önce düz isim: "veritabani/1/Toplama.json"
-  let db = await safeJson(`veritabani/${sinif}/${encodeURIComponent(konu)}.json`);
+/* ==== Soruları veritabanından al (ASLA otomatik üretme) ==== */
+async function getSorularFromDB(sinif, konuText) {
+  // En çok kullanılan iki isim varyantını dene:
+  // 1) veritabani/1/Toplama.json
+  let db = await safeJson(`veritabani/${sinif}/${encodeURIComponent(konuText)}.json`);
   if (db && Array.isArray(db) && db.length) return db;
 
-  // Alternatif adlar (küçük harf, alt çizgi)
-  const alt = konu.toLowerCase().replace(/\s+/g, "_");
+  // 2) veritabani/1/toplama.json (küçük harf/alt çizgi)
+  const alt = konuText.toLowerCase().replace(/\s+/g, "_");
   db = await safeJson(`veritabani/${sinif}/${alt}.json`);
   if (db && Array.isArray(db) && db.length) return db;
 
-  // Yedek üretici (4 işlemden toplama/çıkarma ağırlıklı basit sorular)
-  const arr = [];
-  const N = 20; // 2 sütun * 10 satır gibi
-  for (let i=0;i<N;i++){
-    const a = Math.floor(Math.random()*20)+1;
-    const b = Math.floor(Math.random()*20)+1;
-    const op = /top|add/i.test(konu) ? "+" : /çıkar|cikar|eksilt|minus/i.test(konu) ? "-" :
-               Math.random()<0.5 ? "+" : "-";
-    arr.push({soru: `${a} ${op} ${b} = ______`});
-  }
-  return arr;
+  return null; // bulunamadı
 }
 
-/* === Soruları DOM'a bas === */
-function renderSorular(list) {
+/* ==== Soruları DOM'a yerleştir (tam 10 kutu, 5 sol + 5 sağ) ==== */
+function render10Questions(list) {
   const wrap = $("#questions");
   wrap.innerHTML = "";
-  list.forEach((item, idx) => {
-    const d = document.createElement("div");
-    d.className = "q";
-    d.textContent = item.soru || item.text || String(item);
-    wrap.appendChild(d);
-  });
+
+  // İlk 10’u al; 10’dan azsa uyar ve doldurma
+  const arr = (list || []).slice(0, 10);
+
+  if (arr.length < 10) {
+    alert("Bu konu için veritabanında yeterli (10) soru yok. Lütfen veritabanını kontrol edin.");
+  }
+
+  // 10 kutuyu sabit oluştur (elde yoksa boş kutu bırak)
+  for (let i = 0; i < 10; i++) {
+    const item = arr[i];
+    const text = item ? (item.soru || item.text || String(item)) : "";
+
+    const q = document.createElement("div");
+    q.className = "qbox";
+
+    const qText = document.createElement("div");
+    qText.className = "qtext";
+    qText.textContent = text;
+
+    // Cevap yazma çizgileri (3 satır)
+    const lines = document.createElement("div");
+    lines.className = "answer-lines";
+    for (let k = 0; k < 3; k++) {
+      const line = document.createElement("div");
+      line.className = "line";
+      lines.appendChild(line);
+    }
+
+    q.appendChild(qText);
+    q.appendChild(lines);
+    wrap.appendChild(q);
+  }
 }
 
-/* === PDF oluşturma: ORİJİNAL GÖRÜNÜMÜ KORUR + Üst Başlık Ekler === */
+/* ==== PDF oluşturma: yalnızca beyaz alan (paper) ==== */
 async function createPDF() {
   const { jsPDF } = window.jspdf;
-  const doc = new jsPDF({ unit: "mm", format: "a4", orientation: "portrait" });
+  const paper = document.getElementById("paper");
+  if (!paper) { alert("Yazdırılacak alan bulunamadı."); return; }
 
+  const canvas = await html2canvas(paper, { scale: 2 });
+  const img = canvas.toDataURL("image/png");
+
+  const doc = new jsPDF({ unit: "mm", format: "a4", orientation: "portrait" });
   const W = doc.internal.pageSize.getWidth();
   const H = doc.internal.pageSize.getHeight();
 
-  // Form değerleri (mevcut seçicilere göre metni al)
-  const sinifSel = document.getElementById("sinif");
-  const konuSel  = document.getElementById("konu");
-  const sinif = sinifSel ? (sinifSel.options[sinifSel.selectedIndex]?.text || sinifSel.value || "Sınıf") : "Sınıf";
-  const konu  = konuSel  ? (konuSel.options[konuSel.selectedIndex]?.text  || konuSel.value  || "Konu")  : "Konu";
-
-  const adsoyad = (document.getElementById("adsoyad")?.value || "Ad Soyad").trim();
-  const tarihISO = document.getElementById("tarih")?.value || (new Date()).toISOString().slice(0,10);
-  const tarihTR  = tarihISO.split("-").reverse().join(".");
-
-  // --- ÜST BAŞLIK (PDF'e yazı) ---
-  // Bu kısım yalnızca PDF'e çizilir; sayfandaki HTML/CSS'e dokunmaz.
-  let y = 14; // üst marj
-  doc.setFont("helvetica", "bold");
-  doc.setFontSize(18);
-  doc.text(`${sinif} – ${konu}`, W/2, y, { align: "center" });
-
-  y += 7;
-  doc.setFont("helvetica", "normal");
-  doc.setFontSize(11);
-  doc.text(`${adsoyad}   •   ${tarihTR}`, W/2, y, { align: "center" });
-
-  y += 5;
-  doc.setDrawColor(0);
-  doc.setLineWidth(0.2);
-  doc.line(10, y, W - 10, y); // ince ayraç
-  y += 3; // başlık bloğu toplam ~15–17 mm yer kaplar
-
-  // --- ORİJİNAL GÖRÜNÜMÜN EKRAN GÖRÜNTÜSÜ ---
-  // Sende hangi kapsayıcı kullanılıyorsa onu bulalım.
-  // Sık kullanılan adayları sırayla dener; ilk bulduğunu kullanır.
-  const candidates = [
-    "#pdf-root",
-    "#kagit",
-    "#a4",
-    "#questions",
-    ".questions-grid",
-    ".paper"
-  ];
-  let target = null;
-  for (const sel of candidates) {
-    const el = document.querySelector(sel);
-    if (el && el.children && el.children.length) { target = el; break; }
-  }
-  // Hiçbiri bulunmazsa kullanıcıyı uyar.
-  if (!target) {
-    alert("PDF için içerik bulunamadı. Lütfen soru alanının olduğu kapsayıcı seçiciyi kontrol edin (örn. #questions).");
-    return;
+  // Kenarlardan 0 taşırmadan sığdır
+  const imgW = W;
+  const imgH = (canvas.height / canvas.width) * imgW;
+  let y = 0;
+  if (imgH > H) {
+    // Aşarsa eşit oranda küçült
+    const scale = H / imgH;
+    doc.addImage(img, "PNG", 0, 0, imgW * scale, H, undefined, "FAST");
+  } else {
+    // Ortala (isteğe bağlı): üstten başlayalım
+    doc.addImage(img, "PNG", 0, y, imgW, imgH, undefined, "FAST");
   }
 
-  // html2canvas ile hedefi görüntüye çevir (ORİJİNAL stil korunur)
-  const canvas = await html2canvas(target, { scale: 2 });
-  const img = canvas.toDataURL("image/png");
+  // Dosya adı: 1Sinif_Toplama_YYYY-MM-DD.pdf
+  const sinifSel = $("#sinif");
+  const konuSel  = $("#konu");
+  const sinifTxt = sinifSel ? (sinifSel.options[sinifSel.selectedIndex]?.text || sinifSel.value || "Sinif") : "Sinif";
+  const konuTxt  = konuSel  ? (konuSel.options[konuSel.selectedIndex]?.text  || konuSel.value  || "Konu")  : "Konu";
+  const tarihISO = $("#tarih")?.value || todayISO();
 
-  // Görseli sayfaya sığdır (başlık alanından sonra kalan alana)
-  const leftMargin = 10;          // sol boşluk
-  const rightMargin = 10;         // sağ boşluk
-  const usableW = W - leftMargin - rightMargin;
-
-  const remainH = H - y - 10;     // alt 10 mm boşluk bırak
-  let imgW = usableW;
-  let imgH = (canvas.height / canvas.width) * imgW;
-
-  // Yüksekliği taşarsa, oranlı küçült
-  if (imgH > remainH) {
-    const scale = remainH / imgH;
-    imgW = imgW * scale;
-    imgH = imgH * scale;
-  }
-
-  // Görseli ekle (ORİJİNAL grid/çizgiler/boşluklar aynen kalır)
-  doc.addImage(img, "PNG", leftMargin, y, imgW, imgH, undefined, "FAST");
-
-  // Dosya adı: 1Sinif_Toplama_2025.10.19.pdf gibi
-  const temizKonu = (konu || "Konu").toString().replace(/\s+/g, "");
-  const fname = `${(sinif || "Sinif").toString().replace(/\s+/g,"")}_${temizKonu}_${tarihISO}.pdf`;
+  const fname = `${sinifTxt.replace(/\s+/g,"")}_${(konuTxt||"Konu").replace(/\s+/g,"")}_${tarihISO}.pdf`;
   doc.save(fname);
 }
 
-
-/* === Sayfa init === */
+/* ==== Sayfa init ==== */
 async function initSayfa() {
   // Varsayılan tarih
-  const tarih = $("#tarih");
-  if (tarih && !tarih.value) tarih.value = todayISO();
+  const t = $("#tarih");
+  if (t && !t.value) t.value = todayISO();
 
-  // Konu listesi ilk yükleme
+  // Konu listesi ilklendirme
   const sinifSel = $("#sinif");
   await loadKonular(sinifSel.value);
 
-  // Önizleme başlıklarını senkron tut
+  // Başlık senkron
   function syncHeader() {
-    const s = $("#sinif").value;
-    const konuSel = $("#konu");
-    const k = konuSel.options[konuSel.selectedIndex]?.text || konuSel.value || "Konu";
-    const ad = $("#adsoyad").value.trim() || "Ad Soyad";
-    const t = ($("#tarih").value || todayISO()).split("-").reverse().join(".");
-    setText("hdrTitle", `${s}. Sınıf – ${k}`);
+    const sTxt = $("#sinif").options[$("#sinif").selectedIndex]?.text || $("#sinif").value || "Sınıf";
+    const kTxt = $("#konu").options[$("#konu").selectedIndex]?.text || $("#konu").value || "Konu";
+    const ad   = $("#adsoyad").value.trim() || "Ad Soyad";
+    const dt   = ($("#tarih").value || todayISO()).split("-").reverse().join(".");
+    setText("hdrTitle", `${sTxt} – ${kTxt}`);
     setText("hdrName", ad);
-    setText("hdrDate", t);
+    setText("hdrDate", dt);
   }
   ["change","input"].forEach(evt => {
     $("#sinif").addEventListener(evt, async e => {
@@ -213,24 +176,27 @@ async function initSayfa() {
   });
   syncHeader();
 
-  // Butonlar
+  // Soruları YÜKLE (yalnız veritabanından)
   $("#btnOlustur").addEventListener("click", async () => {
-    const s = $("#sinif").value;
+    const sinif = $("#sinif").value;
     const konuSel = $("#konu");
-    const k = konuSel.options[konuSel.selectedIndex]?.text || konuSel.value || "Konu";
-    const list = await getSorular(s, k);
-    renderSorular(list);
-    // başlık önizlemesini güncel tut
-    const ad = $("#adsoyad").value.trim() || "Ad Soyad";
-    const t = ($("#tarih").value || todayISO()).split("-").reverse().join(".");
-    setText("hdrTitle", `${s}. Sınıf – ${k}`);
-    setText("hdrName", ad);
-    setText("hdrDate", t);
+    const konuText = konuSel.options[konuSel.selectedIndex]?.text || konuSel.value;
+
+    const list = await getSorularFromDB(sinif, konuText);
+    if (!list || !list.length) {
+      alert(`"${sinif}. sınıf / ${konuText}" için veritabanında soru bulunamadı.`);
+      $("#questions").innerHTML = "";
+      return;
+    }
+    render10Questions(list);
+    // Başlık güncelle
+    syncHeader();
   });
 
+  // PDF / Yazdır
   $("#btnPDF").addEventListener("click", createPDF);
   $("#btnYazdir").addEventListener("click", () => window.print());
 }
 
-/* Global'e aç */
+/* Global */
 window.initSayfa = initSayfa;
