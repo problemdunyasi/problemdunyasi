@@ -1,39 +1,34 @@
 <!DOCTYPE html>
-
 <html lang="tr">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>🧮 Problem Dünyası</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
-<link href="stil.css" rel="stylesheet"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Problem Dünyası</title>
+  <link rel="stylesheet" href="stil.css" />
 </head>
 <body data-page="home">
-<header class="hero gradient">
-<div class="hero-inner">
-<h1>🧮 Problem Dünyası</h1>
-<p>İlkokul 1–4. sınıflar için müfredata uygun <strong>klasik</strong> problem kâğıdı oluştur.</p>
-</div>
-<div class="wave"></div>
-</header>
-<main class="grid">
-<a class="card s1" href="sayfa.html?sinif=1"><span class="chip">1. Sınıf</span><h2>8 Konu</h2></a>
-<a class="card s2" href="sayfa.html?sinif=2"><span class="chip">2. Sınıf</span><h2>11 Konu</h2></a>
-<a class="card s3" href="sayfa.html?sinif=3"><span class="chip">3. Sınıf</span><h2>11 Konu</h2></a>
-<a class="card s4" href="sayfa.html?sinif=4"><span class="chip">4. Sınıf</span><h2>11 Konu</h2></a>
-</main>
- <footer class="site-footer">
+  <header class="site-header">
+    <h1>Problem Dünyası</h1>
+    <p>1–4. sınıflar için yazdırılabilir çalışma kâğıtları</p>
+  </header>
+
+  <main class="container home-grid">
+    <a class="grade-card g1" href="sayfa.html?sinif=1"><span>1. Sınıf</span></a>
+    <a class="grade-card g2" href="sayfa.html?sinif=2"><span>2. Sınıf</span></a>
+    <a class="grade-card g3" href="sayfa.html?sinif=3"><span>3. Sınıf</span></a>
+    <a class="grade-card g4" href="sayfa.html?sinif=4"><span>4. Sınıf</span></a>
+  </main>
+
+  <footer class="site-footer">
     <div class="footer-inner">
       <nav class="footer-links">
-        <a href="hakkimizda.html" aria-label="Hakkımızda">Hakkımızda</a>
-        <a href="gizlilik.html" aria-label="Gizlilik">Gizlilik</a>
-        <a href="cerezler.html" aria-label="Çerezler">Çerezler</a>
-        <a href="kvkk.html" aria-label="KVKK Aydınlatma Metni">KVKK</a>
-        <a href="feedback.html" aria-label="İletişim">İletişim</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="cerezler.html">Çerezler</a>
+        <a href="kvkk.html">KVKK</a>
+        <a href="feedback.html">İletişim</a>
       </nav>
-      <p class="copyright">© <span id="yil"></span> Problem Dünyası</p>
+      <p class="copy">© <span id="yil"></span> Problem Dünyası</p>
     </div>
     <script>document.getElementById('yil').textContent = new Date().getFullYear();</script>
   </footer>
