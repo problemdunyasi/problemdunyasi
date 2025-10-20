@@ -232,8 +232,8 @@ async function exportPDF(){
   let y = 14;
   pdf.setFont("helvetica", "bold");
   pdf.setFontSize(18);
-pdf.text(`${sinifName} / ${konuLabel} Problemleri`, W/2, y, { align: "center" });
-   
+  pdf.text(`${sinifName} / ${konuLabel} Problemleri`, W/2, y, { align: "center" });
+ 
   y += 7;
   pdf.setFont("helvetica", "normal");
   pdf.setFontSize(11);
