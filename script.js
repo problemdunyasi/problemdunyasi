@@ -17,6 +17,36 @@ async function safeJson(relPath) {
     return null;
   }
 }
+// Havuzdan rastgele 10 soru seç (tekrarsız). Soru metnine göre benzersizleştirir.
+function sampleRandom10(pool) {
+  // 1) Aynı soru metni varsa tekilleştir
+  const unique = Array.from(
+    new Map(
+      (pool || []).map(item => [ (item?.soru ?? String(item)).trim(), item ])
+    ).values()
+  );
+
+  // 2) Fisher–Yates karıştır
+  const arr = unique.slice();
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+
+  // 3) İlk 10’u dön (havuz 10’dan küçükse eldeki kadar)
+  return arr.slice(0, Math.min(10, arr.length));
+}
+
+// Son set ile yeni set aynıysa tekrar denemek için basit karşılaştırma
+function sameSet(a = [], b = []) {
+  if (a.length !== b.length) return false;
+  for (let i = 0; i < a.length; i++) {
+    const sa = (a[i]?.soru ?? String(a[i])).trim();
+    const sb = (b[i]?.soru ?? String(b[i])).trim();
+    if (sa !== sb) return false;
+  }
+  return true;
+}
 
 /* === Tema ve durum === */
 const THEMES = { 1:{name:"1. Sınıf"}, 2:{name:"2. Sınıf"}, 3:{name:"3. Sınıf"}, 4:{name:"4. Sınıf"} };
@@ -60,21 +90,37 @@ async function tryLoadPool(sinif, konuKey){
   return (Array.isArray(d) && d.length) ? d : null;
 }
 
-/* === 2) Sadece veritabanından sorular (otomatik üretim YOK) === */
 async function regenerate(){
   if (!STATE.sinif || !STATE.konu) {
     alert("Sınıf ve konu seçiniz.");
     return;
   }
-  const pool = await tryLoadPool(STATE.sinif, STATE.konu);
-  if (!pool) {
-    alert(`Veritabanında soru bulunamadı:\nveritabani/${STATE.sinif}sinif_${STATE.konu}.json`);
-    STATE.questions = [];
-    render();
-    updateHeader();
-    return;
+
+  // Havuzu aynı konu/sınıf için bellekte tut (gereksiz tekrar yüklemeyelim)
+  const poolKey = `${STATE.sinif}:${STATE.konu}`;
+  if (!STATE._pool || STATE._poolKey !== poolKey) {
+    const path = `veritabani/${STATE.sinif}sinif_${STATE.konu}.json`;
+    const pool = await safeJson(path);
+    if (!Array.isArray(pool) || !pool.length) {
+      alert(`Veritabanında soru bulunamadı:\n${path}`);
+      STATE.questions = [];
+      render();
+      updateHeader();
+      return;
+    }
+    STATE._pool = pool;
+    STATE._poolKey = poolKey;
   }
-  STATE.questions = pool.slice(0, 10); // ilk 10
+
+  // Havuzdan rastgele 10 seç; önceki setle aynıysa birkaç kez daha dene
+  let next = sampleRandom10(STATE._pool);
+  let tries = 0;
+  while (sameSet(next, STATE.questions) && tries < 5) {
+    next = sampleRandom10(STATE._pool);
+    tries++;
+  }
+
+  STATE.questions = next;
   render();
   updateHeader();
 }
