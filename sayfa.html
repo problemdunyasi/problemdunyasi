@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Çalışma Kâğıdı Oluştur</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="stil.css" rel="stylesheet"/>
+</head>
+<!-- Ana sayfa simgesi -->
+<a class="home-btn" href="index.html" aria-label="Ana sayfa">
+  <!-- Inline SVG ev ikonu (harici dosya gerektirmez) -->
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/>
+  </svg>
+</a>
+<body class="page">
+<header class="page-header">
+<a class="back" href="index.html">← Ana sayfa</a>
+<h1 id="baslik">Sınıf</h1>
+</header>
+<section class="controls glass">
+<div class="control-row">
+<label class="control-tile">Konu: <select id="konuSelect"></select></label>
+<label class="control-tile">Zorluk: 
+        <select id="zorluk">
+<option value="kolay">Kolay</option>
+<option selected="" value="orta">Orta</option>
+<option value="zor">Zor</option>
+</select>
+</label>
+<label class="control-tile">Ad Soyad: <input id="adSoyad" placeholder="Öğrenci adı"/></label>
+<label class="control-tile">Tarih: <input id="tarih" type="date"/></label>
+<label class="control-tile">Okul: <input id="okul" placeholder="Okul adı"/></label>
+</div>
+<div class="control-row">
+<button class="btn primary" id="olusturBtn">🎲 Yeni Kağıt Oluştur</button>
+<button class="btn" id="pdfBtn">📄 PDF İndir</button>
+<button class="btn" id="printBtn">🖨️ Yazdır</button>
+</div>
+</section>
+<section class="questions shadow paper" id="printArea">
+<header class="paper-header">
+<div><strong>Adı Soyadı:</strong> <span id="h_ad"></span></div>
+<div><strong>Tarih:</strong> <span id="h_tarih"></span></div>
+<div><strong>Okulu:</strong> <span id="h_okul"></span></div>
+<div><strong>Sınıf/Konu:</strong> <span id="h_sinifKonu"></span></div>
+<div><strong>Zorluk:</strong> <span id="h_zorluk"></span></div>
+</header>
+<div class="paper-body">
+<ol class="two-col" id="soruListe"></ol>
+</div>
+<footer class="paper-footer">Problem Dünyası • Sayfa 1/1</footer>
+</section>
+ <footer class="site-footer">
+    <div class="footer-inner">
+      <nav class="footer-links">
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="cerezler.html">Çerezler</a>
+        <a href="kvkk.html">KVKK</a>
+        <a href="feedback.html">İletişim</a>
+      </nav>
+      <p class="copyright">© <span id="yil"></span> Problem Dünyası</p>
+    </div>
+    <script>document.getElementById('yil').textContent = new Date().getFullYear();</script>
+  </footer>
+
+  <script src="script.js"></script>
+    <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <nav class="footer-links">
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="cerezler.html">Çerezler</a>
+        <a href="kvkk.html">KVKK</a>
+        <a href="feedback.html">İletişim</a>
+      </nav>
+      <p class="copyright">© <span id="yil"></span> Problem Dünyası</p>
+    </div>
+    <script>document.getElementById('yil').textContent = new Date().getFullYear();</script>
+  </footer>
+
+  <!-- Ana sayfa simgesi -->
+  <a class="home-btn" href="index.html" aria-label="Ana sayfa">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/>
+    </svg>
+  </a>
+
+  <!-- === SCRIPTLER (sıra önemli) === -->
+  <!-- 1) Harici kütüphaneler -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- 2) Proje kodu -->
+  <script src="script.js"></script>
+
+  <!-- 3) Sayfayı başlat -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => window.initSayfa?.());
+  </script>
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+[
+  {
+    "key": "toplama",
+    "label": "Toplama Problemleri"
+  },
+  {
+    "key": "cikarma",
+    "label": "Çıkarma Problemleri"
+  },
+   {
+    "key": "toplama_cikarma",
+    "label": "Toplama ve Çıkarma Problemleri"
+  }, 
+  {
+    "key": "carpma",
+    "label": "Çarpma Problemleri"
+  },
+  {
+    "key": "bolme",
+    "label": "Bölme Problemleri"
+  },
+  {
+    "key": "kesir",
+    "label": "Kesir Problemleri"
+  },
+  {
+    "key": "zaman",
+    "label": "Zaman Problemleri"
+  },
+  {
+    "key": "uzunluk",
+    "label": "Uzunluk Ölçme Problemleri"
+  },
+  {
+    "key": "cevre",
+    "label": "Çevre Problemleri"
+  },
+  {
+    "key": "alan",
+    "label": "Alan Problemleri"
+  },
+   {
+    "key": "sivi",
+    "label": "Sıvı Ölçme Problemleri"
+  }
+]
