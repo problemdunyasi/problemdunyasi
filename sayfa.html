@@ -1,100 +1,111 @@
 <!DOCTYPE html>
+
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Çalışma Kâğıdı - Problem Dünyası</title>
-  <link rel="stylesheet" href="stil.css" />
-  <style>
-    /* sayfa özel küçük dokunuşlar */
-    .controls { display:grid; gap:14px; grid-template-columns: repeat(4, minmax(0,1fr)); align-items:end; margin: 20px auto 12px; max-width: 980px; padding: 0 16px; }
-    .field { display:grid; gap:6px; }
-    .field label { font-weight:700; }
-    .field input, .field select { height:40px; border-radius:12px; border:1px solid rgba(0,0,0,.12); padding:8px 10px; background:#fff; color:#111; }
-    .actions { grid-column:1/-1; display:flex; gap:10px; flex-wrap:wrap; }
-
-    .paper { background:#fff; color:#000; border:1px solid rgba(0,0,0,.08); border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,.08); padding:16mm 12mm; max-width:980px; margin: 0 auto 28px; }
-    .pdf-header { text-align:center; border-bottom:2px solid rgba(0,0,0,.08); padding-bottom:6mm; margin-bottom:8mm; }
-    .pdf-header .title { font-size:20pt; font-weight:800; }
-    .pdf-header .sub { margin-top:4px; font-size:12pt; }
-
-    .questions-grid { display:grid; grid-template-columns:1fr 1fr; gap:8mm 10mm; }
-    .qbox { border:1px dashed rgba(0,0,0,.25); border-radius:10px; padding:6mm; min-height:34mm; display:grid; grid-template-rows:auto 1fr; gap:5mm; }
-    .qtext { font-size:13pt; line-height:1.45; word-break:break-word; }
-    .answer-lines { display:grid; row-gap:4mm; }
-    .answer-lines .line { border-bottom:1px solid rgba(0,0,0,.35); height:0; }
-
-    /* yazdır: yalnız .paper */
-    @media print {
-      body { background:#fff !important; }
-      .controls, .home-btn { display:none !important; }
-      .paper { box-shadow:none !important; border-radius:0 !important; width:210mm; min-height:297mm; margin:0 !important; padding:16mm 12mm; page-break-inside:avoid; }
-    }
-
-    /* responsive */
-    @media (max-width:780px){ .controls{ grid-template-columns:1fr 1fr; } }
-    @media (max-width:520px){ .controls{ grid-template-columns:1fr; } }
-  </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Çalışma Kâğıdı Oluştur</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="stil.css" rel="stylesheet"/>
 </head>
-<body>
-
-  <!-- KONTROLLER (başlığın üstünde, yazdırda görünmez) -->
-  <section class="controls no-print" aria-label="Ayarlar">
-    <div class="field">
-      <label for="sinif">Sınıf</label>
-      <select id="sinif" aria-label="Sınıf">
-        <option value="1">1. Sınıf</option>
-        <option value="2">2. Sınıf</option>
-        <option value="3">3. Sınıf</option>
-        <option value="4">4. Sınıf</option>
-      </select>
+<!-- Ana sayfa simgesi -->
+<a class="home-btn" href="index.html" aria-label="Ana sayfa">
+  <!-- Inline SVG ev ikonu (harici dosya gerektirmez) -->
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/>
+  </svg>
+</a>
+<body class="page">
+<header class="page-header">
+<a class="back" href="index.html">← Ana sayfa</a>
+<h1 id="baslik">Sınıf</h1>
+</header>
+<section class="controls glass">
+<div class="control-row">
+<label class="control-tile">Konu: <select id="konuSelect"></select></label>
+<label class="control-tile">Zorluk: 
+        <select id="zorluk">
+<option value="kolay">Kolay</option>
+<option selected="" value="orta">Orta</option>
+<option value="zor">Zor</option>
+</select>
+</label>
+<label class="control-tile">Ad Soyad: <input id="adSoyad" placeholder="Öğrenci adı"/></label>
+<label class="control-tile">Tarih: <input id="tarih" type="date"/></label>
+<label class="control-tile">Okul: <input id="okul" placeholder="Okul adı"/></label>
+</div>
+<div class="control-row">
+<button class="btn primary" id="olusturBtn">🎲 Yeni Kağıt Oluştur</button>
+<button class="btn" id="pdfBtn">📄 PDF İndir</button>
+<button class="btn" id="printBtn">🖨️ Yazdır</button>
+</div>
+</section>
+<section class="questions shadow paper" id="printArea">
+<header class="paper-header">
+<div><strong>Adı Soyadı:</strong> <span id="h_ad"></span></div>
+<div><strong>Tarih:</strong> <span id="h_tarih"></span></div>
+<div><strong>Okulu:</strong> <span id="h_okul"></span></div>
+<div><strong>Sınıf/Konu:</strong> <span id="h_sinifKonu"></span></div>
+<div><strong>Zorluk:</strong> <span id="h_zorluk"></span></div>
+</header>
+<div class="paper-body">
+<ol class="two-col" id="soruListe"></ol>
+</div>
+<footer class="paper-footer">Problem Dünyası • Sayfa 1/1</footer>
+</section>
+ <footer class="site-footer">
+    <div class="footer-inner">
+      <nav class="footer-links">
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="cerezler.html">Çerezler</a>
+        <a href="kvkk.html">KVKK</a>
+        <a href="feedback.html">İletişim</a>
+      </nav>
+      <p class="copyright">© <span id="yil"></span> Problem Dünyası</p>
     </div>
+    <script>document.getElementById('yil').textContent = new Date().getFullYear();</script>
+  </footer>
 
-    <div class="field">
-      <label for="konu">Konu</label>
-      <select id="konu" aria-label="Konu">
-        <option value="">Konu yükleniyor…</option>
-      </select>
+  <script src="script.js"></script>
+    <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <nav class="footer-links">
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="cerezler.html">Çerezler</a>
+        <a href="kvkk.html">KVKK</a>
+        <a href="feedback.html">İletişim</a>
+      </nav>
+      <p class="copyright">© <span id="yil"></span> Problem Dünyası</p>
     </div>
-
-    <div class="field">
-      <label for="adsoyad">Ad Soyad</label>
-      <input id="adsoyad" type="text" placeholder="Örn: Ali Veli" aria-label="Ad Soyad" />
-    </div>
-
-    <div class="field">
-      <label for="tarih">Tarih</label>
-      <input id="tarih" type="date" aria-label="Tarih" />
-    </div>
-
-    <div class="actions">
-      <button id="btnOlustur" class="btn btn-primary" type="button">Soruları Yükle</button>
-      <button id="btnPDF" class="btn btn-accent" type="button">PDF İndir</button>
-      <button id="btnYazdir" class="btn btn-neutral" type="button">Yazdır</button>
-    </div>
-  </section>
-
-  <!-- SADECE BEYAZ ALAN (yazdır/PDF) -->
-  <section class="paper" id="paper">
-    <header class="pdf-header">
-      <div class="title" id="hdrTitle">1. Sınıf – Konu</div>
-      <div class="sub"><span id="hdrName">Ad Soyad</span> • <span id="hdrDate">__/__/____</span></div>
-    </header>
-
-    <div class="questions-grid" id="questions">
-      <!-- JS tam 10 kutu yerleştirir -->
-    </div>
-  </section>
+    <script>document.getElementById('yil').textContent = new Date().getFullYear();</script>
+  </footer>
 
   <!-- Ana sayfa simgesi -->
   <a class="home-btn" href="index.html" aria-label="Ana sayfa">
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/></svg>
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/>
+    </svg>
   </a>
 
-  <!-- Scriptler -->
+  <!-- === SCRIPTLER (sıra önemli) === -->
+  <!-- 1) Harici kütüphaneler -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- 2) Proje kodu -->
   <script src="script.js"></script>
-  <script>window.addEventListener('DOMContentLoaded', () => window.initSayfa?.());</script>
+
+  <!-- 3) Sayfayı başlat -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => window.initSayfa?.());
+  </script>
+</body>
+</html>
+
 </body>
 </html>
