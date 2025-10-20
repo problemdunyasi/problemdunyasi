@@ -19,7 +19,7 @@
     <h1 id="baslik">Sınıf</h1>
   </header>
 
-  <!-- Kontroller (ekranda; yazdırda gizli) -->
+  <!-- Kontroller (sadece KONu ve TARİH) -->
   <section class="controls glass">
     <div class="control-row">
       <label class="control-tile">
@@ -28,27 +28,8 @@
       </label>
 
       <label class="control-tile">
-        Zorluk:
-        <select id="zorluk">
-          <option value="kolay">Kolay</option>
-          <option value="orta" selected>Orta</option>
-          <option value="zor">Zor</option>
-        </select>
-      </label>
-
-      <label class="control-tile">
-        Ad Soyad:
-        <input id="adSoyad" placeholder="Öğrenci adı" />
-      </label>
-
-      <label class="control-tile">
         Tarih:
         <input id="tarih" type="date" />
-      </label>
-
-      <label class="control-tile">
-        Okul:
-        <input id="okul" placeholder="Okul adı" />
       </label>
     </div>
 
@@ -64,8 +45,7 @@
     <header class="paper-header">
       <div><strong>Adı Soyadı:</strong> <span id="h_ad"></span></div>
       <div><strong>Tarih:</strong> <span id="h_tarih"></span></div>
-      <div><strong>Sınıf/Konu:</strong> <span id="h_sinifKonu"></span></div>
-      <!-- NOT: “Okulu” ve “Zorluk” satırları kaldırıldı -->
+      <!-- Sınıf/Konu satırı kaldırıldı -->
     </header>
 
     <div class="paper-body">
@@ -75,7 +55,7 @@
     <footer class="paper-footer">Problem Dünyası • Sayfa 1/1</footer>
   </section>
 
-  <!-- Site altbilgi (tek kopya) -->
+  <!-- Site altbilgi -->
   <footer class="site-footer">
     <div class="footer-inner">
       <nav class="footer-links">
@@ -85,29 +65,22 @@
         <a href="kvkk.html">KVKK</a>
         <a href="feedback.html">İletişim</a>
       </nav>
-      <p class="copyright">
-        © <span id="yil"></span> Problem Dünyası
-      </p>
+      <p class="copyright">© <span id="yil"></span> Problem Dünyası</p>
     </div>
     <script>document.getElementById('yil').textContent = new Date().getFullYear();</script>
   </footer>
 
-  <!-- Ana sayfa simgesi (doğru yer: body kapanışından hemen önce) -->
+  <!-- Ana sayfa simgesi -->
   <a class="home-btn" href="index.html" aria-label="Ana sayfa">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
       <path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/>
     </svg>
   </a>
 
-  <!-- === SCRIPTLER (sıra önemli) === -->
-  <!-- 1) Harici kütüphaneler -->
+  <!-- Kütüphaneler + Proje kodu -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
-  <!-- 2) Proje kodu (tek kopya) -->
   <script src="script.js"></script>
-
-  <!-- 3) Sayfayı başlat -->
   <script>
     window.addEventListener('DOMContentLoaded', () => window.initSayfa?.());
   </script>
