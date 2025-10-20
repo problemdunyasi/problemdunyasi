@@ -212,54 +212,67 @@ async function regenerate(){
   updateHeader();
 }
 
-/* --- PDF: Orijinal görünümü koru + üst başlık (boş çizgili) --- */
+// === PDF: önce sayfa görüntüsü, sonra üste beyaz şerit + başlık (her zaman görünür) ===
 async function exportPDF(){
-  const root = document.getElementById("printArea") || document.getElementById("paper") || document.getElementById("questions") || document.querySelector(".questions-grid");
+  const root =
+    document.getElementById("printArea") ||
+    document.getElementById("paper") ||
+    document.getElementById("questions") ||
+    document.querySelector(".questions-grid");
+
   if (!root){ alert("PDF için içerik bulunamadı (printArea)."); return; }
 
+  // 1) Ekrandaki alanı görüntüye çevir
   const canvas = await html2canvas(root, { scale: 2 });
   const img = canvas.toDataURL("image/png");
 
+  // 2) PDF hazırla
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF({ unit: "mm", format: "a4", orientation: "portrait" });
   const W = pdf.internal.pageSize.getWidth();
   const H = pdf.internal.pageSize.getHeight();
 
-  // Üst başlık (öğrenci yazsın diye boş çizgiler)
-  const sinifName = THEMES[STATE.sinif]?.name || `${STATE.sinif}. Sınıf`;
-  const konuLabel = STATE.topics.find(t => t.key === STATE.konu)?.label || STATE.konu || "Konu";
+  // 3) Görüntüyü sayfaya sığdır (tam genişlik)
+  let imgW = W;
+  let imgH = (canvas.height / canvas.width) * imgW;
+  if (imgH > H) {
+    const scale = H / imgH;
+    imgW *= scale; imgH *= scale;
+  }
+  pdf.addImage(img, "PNG", 0, 0, imgW, imgH, undefined, "FAST");
 
-  let y = 14;
+  // 4) Üste beyaz şerit + başlık (hep üste gelir)
+  const sinifName = THEMES[STATE.sinif]?.name || `${STATE.sinif}. Sınıf`;
+  const konuLabel = (STATE.topics.find(t => t.key === STATE.konu)?.label || STATE.konu || "Konu") + " Problemleri";
+
+  const bannerTop = 8;         // şerit üst kenarı (mm)
+  const bannerH   = 20;        // şerit yüksekliği (mm)
+
+  pdf.setFillColor(255, 255, 255);
+  pdf.rect(0, bannerTop, W, bannerH, "F");   // beyaz şerit
+
+  let y = bannerTop + 6.5; // ilk satır
   pdf.setFont("helvetica", "bold");
   pdf.setFontSize(18);
-  pdf.text(`${sinifName} / ${konuLabel} Problemleri`, W/2, y, { align: "center" });
- 
+  pdf.text(`${sinifName} / ${konuLabel}`, W/2, y, { align: "center" });
+
+  // İkinci satır: Ad Soyad • Tarih (boşluklu)
   y += 7;
   pdf.setFont("helvetica", "normal");
   pdf.setFontSize(11);
   pdf.text(`Ad Soyad:  ..................................................        Tarih:  ......./....../......`, W/2, y, { align: "center" });
 
-  y += 5;
+  // Alt çizgi
+  y += 4;
   pdf.setDrawColor(0);
   pdf.setLineWidth(0.2);
-  pdf.line(10, y, W-10, y);
-  y += 3;
+  pdf.line(10, y, W - 10, y);
 
-  // Görseli başlığın altına sığdır
-  const left = 10, right = 10, bottom = 10;
-  const usableW = W - left - right;
-  const remainH = H - y - bottom;
-  let imgW = usableW;
-  let imgH = (canvas.height / canvas.width) * imgW;
-  if (imgH > remainH) {
-    const scale = remainH / imgH;
-    imgW *= scale; imgH *= scale;
-  }
-  pdf.addImage(img, "PNG", left, y, imgW, imgH, undefined, "FAST");
-
+  // 5) Kaydet
   const fname = `${sinifName.replace(/\s+/g,"")}_${(STATE.konu||"Konu").toString().replace(/\s+/g,"")}_${(STATE.tarih||todayISO())}.pdf`;
   pdf.save(fname);
 }
+
 
 /* --- Başlat --- */
 async function initSayfa(){
