@@ -217,8 +217,16 @@ async function regenerate(){
   updateHeader();
 }
 
-/* --- PDF: Üstte BAŞLIK, altında içerik görüntüsü
-   NOT: PDF çekerken .paper-header geçici gizlenir (çift görünmesini önler) --- */
+/* --- PDF yardımcıları --- */
+async function waitForFonts() {
+  // Poppins gibi web fontlarının yüklenmesini bekle
+  if (document.fonts && document.fonts.ready) {
+    try { await document.fonts.ready; } catch {}
+  }
+}
+
+/* --- PDF: Üstte BAŞLIK (HTML görüntüsüyle, Türkçe karakter sorunsuz), altında içerik görüntüsü
+   NOT: PDF çekerken .paper-header geçici gizlenir (çift görünmeyi önler) --- */
 async function exportPDF(){
   const root =
     document.getElementById("printArea") ||
@@ -228,62 +236,78 @@ async function exportPDF(){
 
   if (!root){ alert("PDF için içerik bulunamadı (printArea)."); return; }
 
-  // Başlık metnini güncelle ve DOM’un boyanmasını bekle
-  syncPrintBanner();
+  // Güncel metinler
+  const sinifName = THEMES[STATE.sinif]?.name || `${STATE.sinif}. Sınıf`;
+  const konuLabel = (STATE.topics.find(t => t.key === STATE.konu)?.label || STATE.konu || "Konu") + " Problemleri";
 
-  // .paper-header'ı geçici gizle (PDF'te çift bilgiyi önlemek için)
+  // 1) Başlığı HTML olarak off-screen üret (Poppins ile), sonra görsel al
+  await waitForFonts();
+
+  const banner = document.createElement("div");
+  banner.style.position = "fixed";
+  banner.style.left = "-9999px";
+  banner.style.top = "0";
+  banner.style.width = "1000px";            // geniş tuval
+  banner.style.background = "#fff";
+  banner.style.color = "#000";
+  banner.style.textAlign = "center";
+  banner.style.padding = "6px 0 4px";
+  banner.style.fontFamily = "'Poppins', Arial, sans-serif";
+  banner.innerHTML = `
+    <div style="font-weight:800;font-size:22px;line-height:1.2;">
+      ${sinifName} / ${konuLabel}
+    </div>
+    <div style="font-size:13px;margin-top:6px;">
+      Ad Soyad:  .................................................. &nbsp;&nbsp;&nbsp;&nbsp;
+      Tarih:  ......./....../......
+    </div>
+    <div style="border-top:1px solid #000;margin:8px 40px 0;"></div>
+  `;
+  document.body.appendChild(banner);
+
+  const bannerCanvas = await html2canvas(banner, { scale: 3, backgroundColor: "#ffffff" });
+  const bannerImg = bannerCanvas.toDataURL("image/png");
+  document.body.removeChild(banner);
+
+  // 2) PDF alanını görüntüye çevirirken .paper-header'ı gizle (çift bilgi olmasın)
   const ph = root.querySelector(".paper-header");
   const prevDisp = ph ? ph.style.display : null;
   if (ph) ph.style.display = "none";
 
-  // Birkaç kare bekle ki gizleme kesin uygulansın
+  // DOM boyansın
   await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
 
-  // İçeriği görüntüye çevir
   const canvas = await html2canvas(root, { scale: 2 });
   const img = canvas.toDataURL("image/png");
 
   // Gizlemeyi geri al
   if (ph) ph.style.display = prevDisp ?? "";
 
+  // 3) PDF oluştur ve resimleri yerleştir
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF({ unit: "mm", format: "a4", orientation: "portrait" });
   const W = pdf.internal.pageSize.getWidth();
   const H = pdf.internal.pageSize.getHeight();
 
-  const sinifName = THEMES[STATE.sinif]?.name || `${STATE.sinif}. Sınıf`;
-  const konuLabel = (STATE.topics.find(t => t.key === STATE.konu)?.label || STATE.konu || "Konu") + " Problemleri";
-
   const left = 10, right = 10, bottom = 10;
-  const headerTop = 10, headerH = 18, ruleGap = 3; // biraz daha ince başlık
+  const topMargin = 10;     // sayfa üst boşluğu
+  const gap = 3;            // başlık ile içerik arası
 
-  // Başlık bloğu
-  pdf.setFillColor(255,255,255);
-  pdf.rect(0, headerTop - 3, W, headerH + 6, "F");
-
-  let y = headerTop + 2;
-  pdf.setTextColor(0,0,0);
-  pdf.setFont("helvetica", "bold"); pdf.setFontSize(16); // punto biraz küçültüldü
-  pdf.text(`${sinifName} / ${konuLabel}`, W/2, y, { align: "center" });
-
-  y += 6;
-  pdf.setFont("helvetica", "normal"); pdf.setFontSize(10);
-  pdf.text(`Ad Soyad:  ..................................................        Tarih:  ......./....../......`, W/2, y, { align: "center" });
-
-  y += 4;
-  pdf.setDrawColor(0); pdf.setLineWidth(0.2);
-  pdf.line(left, y, W - right, y);
-
-  // Görüntü başlığın ALTINA
-  const imgTop = y + ruleGap;
+  // Başlık görselini yerleştir (sayfanın üstünde, Türkçe tam destek)
   const usableW = W - left - right;
-  const maxH = H - imgTop - bottom;
+  let bannerW = usableW;
+  let bannerH = (bannerCanvas.height / bannerCanvas.width) * bannerW;
+  pdf.addImage(bannerImg, "PNG", left, topMargin, bannerW, bannerH, undefined, "FAST");
 
+  // İçerik görselini başlığın altına
+  const remainH = H - (topMargin + bannerH + gap) - bottom;
   let imgW = usableW;
   let imgH = (canvas.height / canvas.width) * imgW;
-  if (imgH > maxH) { const scale = maxH / imgH; imgW *= scale; imgH *= scale; }
-
-  pdf.addImage(img, "PNG", left, imgTop, imgW, imgH, undefined, "FAST");
+  if (imgH > remainH) {
+    const scale = remainH / imgH;
+    imgW *= scale; imgH *= scale;
+  }
+  pdf.addImage(img, "PNG", left, topMargin + bannerH + gap, imgW, imgH, undefined, "FAST");
 
   const fname = `${sinifName.replace(/\s+/g,"")}_${(STATE.konu||"Konu").toString().replace(/\s+/g,"")}_${(STATE.tarih||todayISO())}.pdf`;
   pdf.save(fname);
