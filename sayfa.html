@@ -41,13 +41,13 @@
       .konu-btn { padding: 7px 10px; font-size: 14px; }
     }
 
-    /* Yalnız yazdırda görünen büyük başlık */
+    /* Yalnız yazdırda görünen büyük başlık — inceltilmiş */
     .print-banner { display: none; }
     @media print {
       .controls, .home-btn, .page-header, .site-footer { display: none !important; }
-      .print-banner { display: block; text-align: center; margin: 10mm 0 5mm; }
-      .print-banner .pb-title { font-weight: 800; font-size: 18pt; }
-      .print-banner .pb-rule { border: 0; border-top: 1px solid #000; margin: 4mm 10mm 0; }
+      .print-banner { display: block; text-align: center; margin: 4mm 0 2mm; }
+      .print-banner .pb-title { font-weight: 800; font-size: 14pt; }
+      .print-banner .pb-rule { border: 0; border-top: 1px solid #000; margin: 2mm 8mm 0; }
       #printArea { box-shadow: none !important; border: 0 !important; padding-top: 0 !important; }
     }
   </style>
@@ -130,7 +130,7 @@
   <!-- Kütüphaneler + Proje kodu -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="script.js?v=5"></script>
+  <script src="script.js?v=6"></script>
   <script>
     window.addEventListener('DOMContentLoaded', () => window.initSayfa?.());
   </script>
