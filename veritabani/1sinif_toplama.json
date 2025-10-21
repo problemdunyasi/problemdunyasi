@@ -1,0 +1,3002 @@
+[
+  {
+    "soru": "Ahmet bir gün bahçeden 1 armut getirdi. Daha sonra 3 armut daha getirdi. Ahmet'in toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ahmet bir gün bahçede 10 kuş gördü. Daha sonra 10 kuş daha gördü. Ahmet toplam kaç kuş gördü?"
+  },
+  {
+    "soru": "Ahmet bir gün bahçede 5 kelebek saydı. Daha sonra 6 kelebek daha kondu. Ahmet toplam kaç kelebek gördü?"
+  },
+  {
+    "soru": "Ahmet bir gün bahçede 9 çiçek topladı. Daha sonra 4 çiçek daha topladı. Ahmet'in toplam kaç çiçeği oldu?"
+  },
+  {
+    "soru": "Ahmet bir gün evde 7 kuş gördü. Daha sonra 4 kuş daha gördü. Ahmet'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Ahmet bir gün evde 9 araba buldu. Daha sonra 1 araba daha buldu. Ahmet'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Ahmet bir gün odasında 6 balon saydı. Daha sonra 9 balon daha saydı. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ahmet bir gün parkta 6 tavşan sevdi. Daha sonra 10 tavşan daha sevdi. Ahmet'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ahmet bir gün pazarda 5 portakal yedi. Daha sonra 1 portakal daha yedi. Ahmet'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Ahmet bir gün sınıfta 10 kitap buldu. Daha sonra 3 kitap daha buldu. Ahmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet bir gün sınıfta 6 defter buldu. Daha sonra 3 defter daha buldu. Ahmet'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ahmet hafta sonu evde 1 tavşan saydı. Daha sonra 7 tavşan daha saydı. Ahmet'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ahmet hafta sonu evde 4 balık sevdi. Daha sonra 9 balık daha sevdi. Ahmet'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Ahmet hafta sonu evde 9 oyuncak saydı. Daha sonra 2 oyuncak daha saydı. Ahmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ahmet hafta sonu odasında 3 balon saydı. Daha sonra 6 balon daha saydı. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ahmet hafta sonu odasında 4 lego buldu. Daha sonra 2 lego daha buldu. Ahmet'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ahmet hafta sonu okulda 10 silgi aldı. Daha sonra 10 silgi daha aldı. Ahmet'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Ahmet okuldan sonra bahçede 2 muz topladı. Daha sonra 9 muz daha topladı. Ahmet'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ahmet okuldan sonra evde 6 araba şişirdi. Daha sonra 6 araba daha şişirdi. Ahmet'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Ahmet okuldan sonra evde 9 balon saydı. Daha sonra 4 balon daha saydı. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ahmet okuldan sonra odasında 9 balon oynadı. Daha sonra 2 balon daha oynadı. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ahmet okuldan sonra odasında 9 bebek şişirdi. Daha sonra 4 bebek daha şişirdi. Ahmet'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ahmet okuldan sonra okulda 6 silgi getirdi. Daha sonra 4 silgi daha getirdi. Ahmet'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Ahmet okuldan sonra okulda 7 kitap buldu. Daha sonra 6 kitap daha buldu. Ahmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet okuldan sonra parkta 3 tavşan saydı. Daha sonra 8 tavşan daha saydı. Ahmet'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ahmet okuldan sonra sınıfta 2 kitap aldı. Daha sonra 3 kitap daha aldı. Ahmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet sabah bahçede 10 köpek saydı. Daha sonra 7 köpek daha saydı. Ahmet'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Ahmet sabah evde 4 bebek şişirdi. Daha sonra 9 bebek daha şişirdi. Ahmet'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ahmet sabah odasında 9 bebek saydı. Daha sonra 5 bebek daha saydı. Ahmet'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ahmet sabah orman kenarında 5 taş topladı. Daha sonra 9 taş daha topladı. Ahmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ahmet sabah pazarda 8 muz aldı. Daha sonra 4 muz daha aldı. Ahmet'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde deniz kenarında 2 yaprak getirdi. Daha sonra 10 yaprak daha getirdi. Ahmet'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde evde 3 bebek saydı. Daha sonra 6 bebek daha saydı. Ahmet'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde evde 6 balon saydı. Daha sonra 10 balon daha saydı. Ahmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde evde 7 balık besledi. Daha sonra 4 balık daha besledi. Ahmet'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde mutfakta 5 muz topladı. Daha sonra 8 muz daha topladı. Ahmet'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde okulda 8 kitap aldı. Daha sonra 3 kitap daha aldı. Ahmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde parkta 9 köpek gördü. Daha sonra 3 köpek daha gördü. Ahmet'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde pazarda 6 portakal yedi. Daha sonra 1 portakal daha yedi. Ahmet'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde sınıfta 6 kitap saydı. Daha sonra 2 kitap daha saydı. Ahmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet tatilde sınıfta 7 kitap aldı. Daha sonra 2 kitap daha aldı. Ahmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ahmet öğleden sonra bahçede 4 taş buldu. Daha sonra 6 taş daha buldu. Ahmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ahmet öğleden sonra bahçede 8 kedi besledi. Daha sonra 1 kedi daha besledi. Ahmet'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Ahmet öğleden sonra bahçede 8 tavşan saydı. Daha sonra 1 tavşan daha saydı. Ahmet'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ahmet öğleden sonra deniz kenarında 10 yaprak buldu. Daha sonra 6 yaprak daha buldu. Ahmet'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ahmet öğleden sonra evde 8 oyuncak oynadı. Daha sonra 10 oyuncak daha oynadı. Ahmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ahmet öğleden sonra mutfakta 1 elma getirdi. Daha sonra 9 elma daha getirdi. Ahmet'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ahmet öğleden sonra pazarda 2 çilek yedi. Daha sonra 9 çilek daha yedi. Ahmet'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Ahmet öğleden sonra sınıfta 6 defter saydı. Daha sonra 1 defter daha saydı. Ahmet'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ali bir gün evde 2 kedi sevdi. Daha sonra 7 kedi daha sevdi. Ali'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Ali bir gün evde 2 oyuncak şişirdi. Daha sonra 7 oyuncak daha şişirdi. Ali'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali bir gün evde 3 kuş besledi. Daha sonra 2 kuş daha besledi. Ali'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Ali bir gün evde 5 köpek gördü. Daha sonra 3 köpek daha gördü. Ali'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Ali bir gün evde 7 balık saydı. Daha sonra 4 balık daha saydı. Ali'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Ali bir gün odasında 2 balon oynadı. Daha sonra 7 balon daha oynadı. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ali bir gün orman kenarında 8 yaprak getirdi. Daha sonra 8 yaprak daha getirdi. Ali'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ali bir gün parkta 1 tavşan saydı. Daha sonra 9 tavşan daha saydı. Ali'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ali bir gün parkta 5 taş saydı. Daha sonra 9 taş daha saydı. Ali'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ali bir gün parkta 9 balık gördü. Daha sonra 9 balık daha gördü. Ali'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Ali bir gün pazarda 3 armut yedi. Daha sonra 8 armut daha yedi. Ali'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ali hafta sonu bahçede 1 kelebek buldu. Daha sonra 7 kelebek daha buldu. Ali'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Ali hafta sonu bahçede 5 kelebek buldu. Daha sonra 9 kelebek daha buldu. Ali'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Ali hafta sonu deniz kenarında 10 çiçek topladı. Daha sonra 7 çiçek daha topladı. Ali'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ali hafta sonu evde 8 kuş gördü. Daha sonra 10 kuş daha gördü. Ali'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Ali hafta sonu odasında 1 oyuncak oynadı. Daha sonra 4 oyuncak daha oynadı. Ali'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali hafta sonu odasında 10 bebek oynadı. Daha sonra 10 bebek daha oynadı. Ali'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ali hafta sonu odasında 3 lego saydı. Daha sonra 5 lego daha saydı. Ali'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ali hafta sonu odasında 6 lego saydı. Daha sonra 9 lego daha saydı. Ali'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ali hafta sonu pazarda 10 çilek topladı. Daha sonra 8 çilek daha topladı. Ali'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Ali okuldan sonra bahçede 1 portakal getirdi. Daha sonra 8 portakal daha getirdi. Ali'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Ali okuldan sonra bahçede 8 balık gördü. Daha sonra 4 balık daha gördü. Ali'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Ali okuldan sonra deniz kenarında 5 deniz kabuğu getirdi. Daha sonra 10 deniz kabuğu daha getirdi. Ali'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Ali okuldan sonra evde 1 kedi besledi. Daha sonra 1 kedi daha besledi. Ali'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Ali okuldan sonra parkta 1 tavşan gördü. Daha sonra 3 tavşan daha gördü. Ali'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ali okuldan sonra parkta 5 çiçek topladı. Daha sonra 4 çiçek daha topladı. Ali'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ali okuldan sonra parkta 6 köpek gördü. Daha sonra 1 köpek daha gördü. Ali'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Ali okuldan sonra sınıfta 3 kitap buldu. Daha sonra 2 kitap daha buldu. Ali'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ali okuldan sonra sınıfta 6 kitap getirdi. Daha sonra 5 kitap daha getirdi. Ali'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ali sabah bahçede 1 muz aldı. Daha sonra 5 muz daha aldı. Ali'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ali sabah bahçede 2 çilek aldı. Daha sonra 10 çilek daha aldı. Ali'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Ali sabah deniz kenarında 6 yaprak topladı. Daha sonra 6 yaprak daha topladı. Ali'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ali sabah mutfakta 7 çilek aldı. Daha sonra 9 çilek daha aldı. Ali'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Ali sabah okulda 2 silgi saydı. Daha sonra 6 silgi daha saydı. Ali'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Ali sabah sınıfta 4 defter buldu. Daha sonra 5 defter daha buldu. Ali'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ali sabah sınıfta 9 kitap getirdi. Daha sonra 8 kitap daha getirdi. Ali'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ali tatilde bahçede 1 tavşan sevdi. Daha sonra 4 tavşan daha sevdi. Ali'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ali tatilde bahçede 7 elma aldı. Daha sonra 8 elma daha aldı. Ali'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ali tatilde bahçede 7 köpek sevdi. Daha sonra 7 köpek daha sevdi. Ali'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Ali tatilde evde 10 kuş saydı. Daha sonra 1 kuş daha saydı. Ali'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Ali tatilde evde 3 kuş gördü. Daha sonra 3 kuş daha gördü. Ali'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Ali tatilde okulda 3 silgi getirdi. Daha sonra 4 silgi daha getirdi. Ali'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Ali tatilde okulda 7 defter getirdi. Daha sonra 2 defter daha getirdi. Ali'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ali tatilde pazarda 4 elma getirdi. Daha sonra 9 elma daha getirdi. Ali'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra bahçede 3 armut aldı. Daha sonra 5 armut daha aldı. Ali'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra evde 10 oyuncak buldu. Daha sonra 5 oyuncak daha buldu. Ali'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra evde 3 kuş gördü. Daha sonra 1 kuş daha gördü. Ali'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra evde 4 kuş sevdi. Daha sonra 3 kuş daha sevdi. Ali'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra evde 6 lego buldu. Daha sonra 5 lego daha buldu. Ali'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra evde 8 lego oynadı. Daha sonra 2 lego daha oynadı. Ali'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra odasında 2 balon saydı. Daha sonra 6 balon daha saydı. Ali'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra odasında 3 lego saydı. Daha sonra 1 lego daha saydı. Ali'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra okulda 7 kalem aldı. Daha sonra 3 kalem daha aldı. Ali'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra okulda 9 silgi saydı. Daha sonra 8 silgi daha saydı. Ali'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Ali öğleden sonra sınıfta 8 defter aldı. Daha sonra 3 defter daha aldı. Ali'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Aslı bir gün bahçede 10 portakal aldı. Daha sonra 1 portakal daha aldı. Aslı'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Aslı bir gün bahçede 8 köpek gördü. Daha sonra 3 köpek daha gördü. Aslı'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Aslı bir gün evde 2 bebek buldu. Daha sonra 10 bebek daha buldu. Aslı'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Aslı bir gün mutfakta 7 armut getirdi. Daha sonra 8 armut daha getirdi. Aslı'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Aslı bir gün okulda 3 silgi getirdi. Daha sonra 6 silgi daha getirdi. Aslı'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Aslı bir gün parkta 2 kedi sevdi. Daha sonra 3 kedi daha sevdi. Aslı'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Aslı bir gün pazarda 6 muz getirdi. Daha sonra 5 muz daha getirdi. Aslı'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Aslı bir gün pazarda 9 elma aldı. Daha sonra 7 elma daha aldı. Aslı'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Aslı hafta sonu deniz kenarında 3 yaprak getirdi. Daha sonra 5 yaprak daha getirdi. Aslı'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Aslı hafta sonu evde 4 balon saydı. Daha sonra 4 balon daha saydı. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Aslı hafta sonu orman kenarında 6 taş getirdi. Daha sonra 3 taş daha getirdi. Aslı'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Aslı hafta sonu orman kenarında 7 taş topladı. Daha sonra 7 taş daha topladı. Aslı'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Aslı hafta sonu parkta 9 yaprak buldu. Daha sonra 7 yaprak daha buldu. Aslı'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Aslı hafta sonu pazarda 6 portakal getirdi. Daha sonra 4 portakal daha getirdi. Aslı'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra evde 1 balon şişirdi. Daha sonra 8 balon daha şişirdi. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra evde 1 kuş besledi. Daha sonra 2 kuş daha besledi. Aslı'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra evde 10 tavşan besledi. Daha sonra 10 tavşan daha besledi. Aslı'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra evde 9 bebek saydı. Daha sonra 3 bebek daha saydı. Aslı'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra odasında 5 araba saydı. Daha sonra 6 araba daha saydı. Aslı'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra okulda 1 silgi getirdi. Daha sonra 3 silgi daha getirdi. Aslı'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra okulda 10 defter getirdi. Daha sonra 9 defter daha getirdi. Aslı'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra okulda 2 silgi getirdi. Daha sonra 4 silgi daha getirdi. Aslı'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra orman kenarında 3 çiçek topladı. Daha sonra 1 çiçek daha topladı. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra orman kenarında 5 çiçek getirdi. Daha sonra 6 çiçek daha getirdi. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra parkta 10 kelebek buldu. Daha sonra 5 kelebek daha buldu. Aslı'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra pazarda 1 elma yedi. Daha sonra 9 elma daha yedi. Aslı'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra pazarda 10 kiraz topladı. Daha sonra 10 kiraz daha topladı. Aslı'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra pazarda 10 portakal yedi. Daha sonra 6 portakal daha yedi. Aslı'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra pazarda 8 kiraz yedi. Daha sonra 8 kiraz daha yedi. Aslı'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Aslı okuldan sonra sınıfta 2 kitap saydı. Daha sonra 10 kitap daha saydı. Aslı'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Aslı sabah deniz kenarında 5 çiçek saydı. Daha sonra 3 çiçek daha saydı. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı sabah evde 2 balon şişirdi. Daha sonra 3 balon daha şişirdi. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Aslı sabah evde 2 oyuncak saydı. Daha sonra 7 oyuncak daha saydı. Aslı'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Aslı sabah odasında 5 balon buldu. Daha sonra 9 balon daha buldu. Aslı'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Aslı sabah okulda 8 silgi saydı. Daha sonra 3 silgi daha saydı. Aslı'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Aslı sabah parkta 7 kuş besledi. Daha sonra 4 kuş daha besledi. Aslı'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Aslı sabah pazarda 2 armut yedi. Daha sonra 7 armut daha yedi. Aslı'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Aslı sabah sınıfta 2 kalem getirdi. Daha sonra 6 kalem daha getirdi. Aslı'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Aslı tatilde bahçede 3 çiçek getirdi. Daha sonra 8 çiçek daha getirdi. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı tatilde bahçede 5 kuş saydı. Daha sonra 3 kuş daha saydı. Aslı'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Aslı tatilde bahçede 5 tavşan besledi. Daha sonra 10 tavşan daha besledi. Aslı'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Aslı tatilde evde 2 bebek oynadı. Daha sonra 2 bebek daha oynadı. Aslı'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Aslı tatilde evde 2 oyuncak şişirdi. Daha sonra 3 oyuncak daha şişirdi. Aslı'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Aslı tatilde evde 7 araba şişirdi. Daha sonra 9 araba daha şişirdi. Aslı'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Aslı tatilde okulda 4 kitap saydı. Daha sonra 1 kitap daha saydı. Aslı'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Aslı tatilde okulda 6 defter aldı. Daha sonra 8 defter daha aldı. Aslı'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Aslı tatilde orman kenarında 2 çiçek buldu. Daha sonra 6 çiçek daha buldu. Aslı'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Aslı tatilde parkta 1 deniz kabuğu saydı. Daha sonra 7 deniz kabuğu daha saydı. Aslı'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Aslı tatilde parkta 10 köpek sevdi. Daha sonra 5 köpek daha sevdi. Aslı'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Aslı öğleden sonra bahçede 5 deniz kabuğu saydı. Daha sonra 8 deniz kabuğu daha saydı. Aslı'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Aslı öğleden sonra bahçede 6 kuş besledi. Daha sonra 4 kuş daha besledi. Aslı'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Aslı öğleden sonra evde 1 oyuncak oynadı. Daha sonra 7 oyuncak daha oynadı. Aslı'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Aslı öğleden sonra evde 10 kedi sevdi. Daha sonra 10 kedi daha sevdi. Aslı'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Aslı öğleden sonra odasında 4 bebek oynadı. Daha sonra 7 bebek daha oynadı. Aslı'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Aslı öğleden sonra okulda 4 kitap buldu. Daha sonra 4 kitap daha buldu. Aslı'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Aslı öğleden sonra orman kenarında 5 yaprak saydı. Daha sonra 8 yaprak daha saydı. Aslı'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Aslı öğleden sonra parkta 10 kelebek buldu. Daha sonra 8 kelebek daha buldu. Aslı'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Aslı öğleden sonra sınıfta 6 kalem aldı. Daha sonra 7 kalem daha aldı. Aslı'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ayşe bir gün bahçede 1 deniz kabuğu topladı. Daha sonra 3 deniz kabuğu daha topladı. Ayşe'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Ayşe bir gün bahçede 4 köpek sevdi. Daha sonra 8 köpek daha sevdi. Ayşe'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Ayşe bir gün bahçede 9 çiçek saydı. Daha sonra 10 çiçek daha saydı. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ayşe bir gün evde 5 tavşan gördü. Daha sonra 7 tavşan daha gördü. Ayşe'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ayşe bir gün evde 9 balık besledi. Daha sonra 6 balık daha besledi. Ayşe'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Ayşe bir gün mutfakta 5 armut aldı. Daha sonra 9 armut daha aldı. Ayşe'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ayşe bir gün okulda 7 kitap getirdi. Daha sonra 3 kitap daha getirdi. Ayşe'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe bir gün sınıfta 7 silgi aldı. Daha sonra 1 silgi daha aldı. Ayşe'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Ayşe hafta sonu evde 7 lego saydı. Daha sonra 7 lego daha saydı. Ayşe'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ayşe hafta sonu okulda 5 silgi buldu. Daha sonra 8 silgi daha buldu. Ayşe'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Ayşe hafta sonu pazarda 4 portakal yedi. Daha sonra 4 portakal daha yedi. Ayşe'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Ayşe hafta sonu pazarda 4 çilek topladı. Daha sonra 6 çilek daha topladı. Ayşe'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Ayşe hafta sonu sınıfta 10 defter buldu. Daha sonra 9 defter daha buldu. Ayşe'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra bahçede 10 tavşan besledi. Daha sonra 8 tavşan daha besledi. Ayşe'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra bahçede 4 balık sevdi. Daha sonra 8 balık daha sevdi. Ayşe'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra bahçede 6 portakal getirdi. Daha sonra 7 portakal daha getirdi. Ayşe'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra bahçede 7 armut topladı. Daha sonra 3 armut daha topladı. Ayşe'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra bahçede 8 portakal getirdi. Daha sonra 9 portakal daha getirdi. Ayşe'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra evde 1 kedi gördü. Daha sonra 1 kedi daha gördü. Ayşe'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra evde 10 kedi besledi. Daha sonra 1 kedi daha besledi. Ayşe'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra evde 8 lego buldu. Daha sonra 8 lego daha buldu. Ayşe'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra mutfakta 8 muz yedi. Daha sonra 1 muz daha yedi. Ayşe'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra okulda 2 kitap buldu. Daha sonra 2 kitap daha buldu. Ayşe'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra okulda 4 kalem saydı. Daha sonra 9 kalem daha saydı. Ayşe'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra okulda 5 kitap buldu. Daha sonra 3 kitap daha buldu. Ayşe'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra orman kenarında 3 çiçek saydı. Daha sonra 8 çiçek daha saydı. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra orman kenarında 6 yaprak topladı. Daha sonra 2 yaprak daha topladı. Ayşe'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra parkta 2 balık gördü. Daha sonra 10 balık daha gördü. Ayşe'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra sınıfta 7 kitap aldı. Daha sonra 6 kitap daha aldı. Ayşe'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ayşe okuldan sonra sınıfta 8 silgi buldu. Daha sonra 3 silgi daha buldu. Ayşe'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Ayşe sabah bahçede 7 taş topladı. Daha sonra 10 taş daha topladı. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 5 araba saydı. Daha sonra 8 araba daha saydı. Ayşe'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Ayşe sabah evde 6 oyuncak şişirdi. Daha sonra 4 oyuncak daha şişirdi. Ayşe'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ayşe sabah okulda 2 kalem aldı. Daha sonra 6 kalem daha aldı. Ayşe'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ayşe sabah okulda 3 defter saydı. Daha sonra 1 defter daha saydı. Ayşe'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 1 taş topladı. Daha sonra 2 taş daha topladı. Ayşe'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ayşe sabah orman kenarında 1 çiçek getirdi. Daha sonra 4 çiçek daha getirdi. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ayşe tatilde evde 10 balon oynadı. Daha sonra 1 balon daha oynadı. Ayşe'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ayşe tatilde evde 2 bebek buldu. Daha sonra 3 bebek daha buldu. Ayşe'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ayşe tatilde evde 7 tavşan gördü. Daha sonra 2 tavşan daha gördü. Ayşe'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ayşe tatilde evde 8 lego oynadı. Daha sonra 4 lego daha oynadı. Ayşe'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ayşe tatilde okulda 7 defter saydı. Daha sonra 10 defter daha saydı. Ayşe'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ayşe tatilde parkta 7 çiçek buldu. Daha sonra 3 çiçek daha buldu. Ayşe'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ayşe öğleden sonra bahçede 5 tavşan sevdi. Daha sonra 1 tavşan daha sevdi. Ayşe'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ayşe öğleden sonra evde 6 oyuncak saydı. Daha sonra 4 oyuncak daha saydı. Ayşe'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ayşe öğleden sonra evde 7 araba şişirdi. Daha sonra 7 araba daha şişirdi. Ayşe'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Ayşe öğleden sonra odasında 5 lego saydı. Daha sonra 10 lego daha saydı. Ayşe'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ayşe öğleden sonra parkta 10 tavşan sevdi. Daha sonra 4 tavşan daha sevdi. Ayşe'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ayşe öğleden sonra parkta 5 kuş saydı. Daha sonra 4 kuş daha saydı. Ayşe'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Can bir gün bahçede 10 taş getirdi. Daha sonra 7 taş daha getirdi. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can bir gün bahçede 8 tavşan saydı. Daha sonra 3 tavşan daha saydı. Can'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Can bir gün evde 9 lego şişirdi. Daha sonra 8 lego daha şişirdi. Can'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Can bir gün okulda 3 kalem saydı. Daha sonra 9 kalem daha saydı. Can'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Can bir gün okulda 7 silgi saydı. Daha sonra 7 silgi daha saydı. Can'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Can bir gün parkta 8 köpek besledi. Daha sonra 2 köpek daha besledi. Can'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Can bir gün pazarda 2 armut aldı. Daha sonra 7 armut daha aldı. Can'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Can bir gün pazarda 2 portakal yedi. Daha sonra 9 portakal daha yedi. Can'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Can bir gün sınıfta 4 defter buldu. Daha sonra 1 defter daha buldu. Can'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Can hafta sonu bahçede 1 tavşan sevdi. Daha sonra 4 tavşan daha sevdi. Can'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Can hafta sonu bahçede 5 kedi saydı. Daha sonra 5 kedi daha saydı. Can'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Can hafta sonu deniz kenarında 1 yaprak buldu. Daha sonra 5 yaprak daha buldu. Can'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Can hafta sonu deniz kenarında 3 yaprak saydı. Daha sonra 9 yaprak daha saydı. Can'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Can hafta sonu mutfakta 2 çilek topladı. Daha sonra 5 çilek daha topladı. Can'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Can hafta sonu odasında 5 araba oynadı. Daha sonra 6 araba daha oynadı. Can'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Can hafta sonu okulda 2 kitap aldı. Daha sonra 7 kitap daha aldı. Can'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Can hafta sonu orman kenarında 9 yaprak buldu. Daha sonra 2 yaprak daha buldu. Can'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Can hafta sonu parkta 1 yaprak saydı. Daha sonra 6 yaprak daha saydı. Can'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Can hafta sonu pazarda 10 muz getirdi. Daha sonra 5 muz daha getirdi. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Can hafta sonu pazarda 4 muz getirdi. Daha sonra 4 muz daha getirdi. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Can hafta sonu pazarda 6 elma topladı. Daha sonra 7 elma daha topladı. Can'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra bahçede 5 muz topladı. Daha sonra 6 muz daha topladı. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra evde 10 araba buldu. Daha sonra 6 araba daha buldu. Can'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra evde 10 lego oynadı. Daha sonra 1 lego daha oynadı. Can'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra evde 3 köpek besledi. Daha sonra 6 köpek daha besledi. Can'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra mutfakta 1 armut getirdi. Daha sonra 9 armut daha getirdi. Can'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra mutfakta 7 elma yedi. Daha sonra 1 elma daha yedi. Can'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra odasında 7 bebek oynadı. Daha sonra 7 bebek daha oynadı. Can'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra okulda 9 defter aldı. Daha sonra 8 defter daha aldı. Can'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra parkta 4 deniz kabuğu buldu. Daha sonra 9 deniz kabuğu daha buldu. Can'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra pazarda 5 muz topladı. Daha sonra 9 muz daha topladı. Can'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Can okuldan sonra sınıfta 7 defter saydı. Daha sonra 10 defter daha saydı. Can'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Can sabah bahçede 1 kedi gördü. Daha sonra 10 kedi daha gördü. Can'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Can sabah bahçede 1 taş topladı. Daha sonra 3 taş daha topladı. Can'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Can sabah bahçede 9 kuş saydı. Daha sonra 7 kuş daha saydı. Can'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Can sabah odasında 5 oyuncak saydı. Daha sonra 2 oyuncak daha saydı. Can'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Can sabah odasında 8 araba oynadı. Daha sonra 6 araba daha oynadı. Can'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Can sabah okulda 2 kitap buldu. Daha sonra 5 kitap daha buldu. Can'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Can sabah okulda 8 silgi getirdi. Daha sonra 4 silgi daha getirdi. Can'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Can sabah orman kenarında 2 kelebek topladı. Daha sonra 3 kelebek daha topladı. Can'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Can sabah parkta 10 köpek sevdi. Daha sonra 3 köpek daha sevdi. Can'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Can sabah parkta 6 kelebek getirdi. Daha sonra 2 kelebek daha getirdi. Can'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Can sabah parkta 7 tavşan besledi. Daha sonra 8 tavşan daha besledi. Can'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Can sabah sınıfta 10 silgi buldu. Daha sonra 8 silgi daha buldu. Can'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Can tatilde evde 1 oyuncak saydı. Daha sonra 5 oyuncak daha saydı. Can'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Can tatilde evde 6 oyuncak oynadı. Daha sonra 9 oyuncak daha oynadı. Can'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Can tatilde mutfakta 3 kiraz yedi. Daha sonra 1 kiraz daha yedi. Can'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Can tatilde okulda 4 defter aldı. Daha sonra 5 defter daha aldı. Can'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Can tatilde orman kenarında 10 deniz kabuğu topladı. Daha sonra 6 deniz kabuğu daha topladı. Can'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Can tatilde sınıfta 5 silgi saydı. Daha sonra 1 silgi daha saydı. Can'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra deniz kenarında 1 çiçek saydı. Daha sonra 2 çiçek daha saydı. Can'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra deniz kenarında 10 yaprak buldu. Daha sonra 9 yaprak daha buldu. Can'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra evde 10 balon saydı. Daha sonra 3 balon daha saydı. Can'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra evde 3 bebek saydı. Daha sonra 9 bebek daha saydı. Can'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra evde 8 araba buldu. Daha sonra 2 araba daha buldu. Can'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra evde 9 bebek saydı. Daha sonra 8 bebek daha saydı. Can'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra mutfakta 6 çilek getirdi. Daha sonra 8 çilek daha getirdi. Can'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra odasında 10 balon buldu. Daha sonra 10 balon daha buldu. Can'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra okulda 1 defter buldu. Daha sonra 2 defter daha buldu. Can'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra okulda 4 kalem buldu. Daha sonra 3 kalem daha buldu. Can'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra parkta 2 deniz kabuğu topladı. Daha sonra 7 deniz kabuğu daha topladı. Can'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Can öğleden sonra pazarda 6 kiraz getirdi. Daha sonra 2 kiraz daha getirdi. Can'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Deniz bir gün bahçede 3 balık saydı. Daha sonra 8 balık daha saydı. Deniz'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Deniz bir gün bahçede 4 kelebek getirdi. Daha sonra 2 kelebek daha getirdi. Deniz'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Deniz bir gün bahçede 9 taş getirdi. Daha sonra 6 taş daha getirdi. Deniz'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz bir gün deniz kenarında 1 yaprak getirdi. Daha sonra 10 yaprak daha getirdi. Deniz'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Deniz bir gün evde 10 tavşan sevdi. Daha sonra 4 tavşan daha sevdi. Deniz'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Deniz bir gün evde 3 köpek saydı. Daha sonra 3 köpek daha saydı. Deniz'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Deniz bir gün evde 5 lego şişirdi. Daha sonra 1 lego daha şişirdi. Deniz'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Deniz bir gün evde 8 kedi sevdi. Daha sonra 2 kedi daha sevdi. Deniz'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Deniz bir gün mutfakta 7 elma yedi. Daha sonra 9 elma daha yedi. Deniz'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Deniz bir gün odasında 2 balon buldu. Daha sonra 5 balon daha buldu. Deniz'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Deniz bir gün okulda 3 silgi getirdi. Daha sonra 4 silgi daha getirdi. Deniz'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Deniz bir gün okulda 3 silgi getirdi. Daha sonra 9 silgi daha getirdi. Deniz'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Deniz bir gün okulda 8 kitap saydı. Daha sonra 7 kitap daha saydı. Deniz'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Deniz bir gün orman kenarında 3 yaprak getirdi. Daha sonra 5 yaprak daha getirdi. Deniz'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Deniz bir gün parkta 6 deniz kabuğu buldu. Daha sonra 9 deniz kabuğu daha buldu. Deniz'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Deniz bir gün parkta 9 kuş saydı. Daha sonra 1 kuş daha saydı. Deniz'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Deniz bir gün sınıfta 1 kitap buldu. Daha sonra 9 kitap daha buldu. Deniz'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Deniz bir gün sınıfta 2 kalem buldu. Daha sonra 3 kalem daha buldu. Deniz'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Deniz hafta sonu bahçede 4 köpek gördü. Daha sonra 7 köpek daha gördü. Deniz'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Deniz hafta sonu deniz kenarında 2 kelebek buldu. Daha sonra 5 kelebek daha buldu. Deniz'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Deniz hafta sonu deniz kenarında 5 yaprak buldu. Daha sonra 6 yaprak daha buldu. Deniz'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Deniz hafta sonu evde 1 oyuncak şişirdi. Daha sonra 7 oyuncak daha şişirdi. Deniz'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Deniz hafta sonu evde 10 araba buldu. Daha sonra 9 araba daha buldu. Deniz'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Deniz hafta sonu okulda 10 defter saydı. Daha sonra 1 defter daha saydı. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Deniz hafta sonu orman kenarında 2 çiçek buldu. Daha sonra 2 çiçek daha buldu. Deniz'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Deniz hafta sonu orman kenarında 5 kelebek getirdi. Daha sonra 7 kelebek daha getirdi. Deniz'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Deniz hafta sonu pazarda 6 çilek yedi. Daha sonra 8 çilek daha yedi. Deniz'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Deniz okuldan sonra bahçede 5 portakal topladı. Daha sonra 7 portakal daha topladı. Deniz'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Deniz okuldan sonra bahçede 7 kuş sevdi. Daha sonra 7 kuş daha sevdi. Deniz'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Deniz okuldan sonra evde 2 köpek saydı. Daha sonra 7 köpek daha saydı. Deniz'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Deniz okuldan sonra evde 2 lego şişirdi. Daha sonra 1 lego daha şişirdi. Deniz'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Deniz okuldan sonra odasında 4 bebek oynadı. Daha sonra 3 bebek daha oynadı. Deniz'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Deniz okuldan sonra okulda 2 silgi buldu. Daha sonra 3 silgi daha buldu. Deniz'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Deniz okuldan sonra orman kenarında 3 çiçek saydı. Daha sonra 10 çiçek daha saydı. Deniz'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Deniz okuldan sonra sınıfta 7 defter saydı. Daha sonra 1 defter daha saydı. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Deniz sabah bahçede 5 çiçek saydı. Daha sonra 5 çiçek daha saydı. Deniz'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Deniz sabah evde 7 balık gördü. Daha sonra 2 balık daha gördü. Deniz'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Deniz sabah evde 9 kuş saydı. Daha sonra 9 kuş daha saydı. Deniz'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Deniz sabah odasında 6 lego saydı. Daha sonra 8 lego daha saydı. Deniz'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Deniz sabah okulda 1 kitap saydı. Daha sonra 8 kitap daha saydı. Deniz'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Deniz sabah orman kenarında 1 yaprak buldu. Daha sonra 8 yaprak daha buldu. Deniz'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Deniz sabah pazarda 4 armut aldı. Daha sonra 8 armut daha aldı. Deniz'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Deniz sabah pazarda 6 portakal aldı. Daha sonra 7 portakal daha aldı. Deniz'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Deniz sabah sınıfta 7 defter buldu. Daha sonra 8 defter daha buldu. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Deniz sabah sınıfta 9 defter getirdi. Daha sonra 10 defter daha getirdi. Deniz'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Deniz tatilde bahçede 8 taş topladı. Daha sonra 10 taş daha topladı. Deniz'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Deniz tatilde odasında 5 lego saydı. Daha sonra 5 lego daha saydı. Deniz'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Deniz tatilde okulda 8 silgi aldı. Daha sonra 1 silgi daha aldı. Deniz'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Deniz tatilde okulda 9 silgi getirdi. Daha sonra 9 silgi daha getirdi. Deniz'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Deniz tatilde orman kenarında 4 kelebek getirdi. Daha sonra 6 kelebek daha getirdi. Deniz'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Deniz tatilde sınıfta 2 kalem aldı. Daha sonra 5 kalem daha aldı. Deniz'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Deniz öğleden sonra bahçede 1 yaprak topladı. Daha sonra 6 yaprak daha topladı. Deniz'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Deniz öğleden sonra bahçede 2 köpek sevdi. Daha sonra 6 köpek daha sevdi. Deniz'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Deniz öğleden sonra bahçede 4 tavşan saydı. Daha sonra 7 tavşan daha saydı. Deniz'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Deniz öğleden sonra evde 2 araba oynadı. Daha sonra 4 araba daha oynadı. Deniz'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Deniz öğleden sonra sınıfta 2 silgi buldu. Daha sonra 8 silgi daha buldu. Deniz'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Duru bir gün bahçede 10 portakal getirdi. Daha sonra 8 portakal daha getirdi. Duru'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Duru bir gün bahçede 3 kelebek saydı. Daha sonra 1 kelebek daha saydı. Duru'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Duru bir gün bahçede 3 yaprak topladı. Daha sonra 6 yaprak daha topladı. Duru'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Duru bir gün evde 7 oyuncak buldu. Daha sonra 4 oyuncak daha buldu. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Duru bir gün evde 7 oyuncak saydı. Daha sonra 4 oyuncak daha saydı. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Duru bir gün evde 9 kuş gördü. Daha sonra 9 kuş daha gördü. Duru'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Duru bir gün odasında 9 lego buldu. Daha sonra 7 lego daha buldu. Duru'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Duru bir gün okulda 1 defter saydı. Daha sonra 6 defter daha saydı. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru bir gün okulda 2 kitap buldu. Daha sonra 4 kitap daha buldu. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru bir gün okulda 2 kitap buldu. Daha sonra 6 kitap daha buldu. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru bir gün orman kenarında 3 yaprak buldu. Daha sonra 5 yaprak daha buldu. Duru'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Duru bir gün orman kenarında 6 kelebek buldu. Daha sonra 9 kelebek daha buldu. Duru'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Duru bir gün parkta 10 kelebek topladı. Daha sonra 6 kelebek daha topladı. Duru'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Duru bir gün sınıfta 4 defter saydı. Daha sonra 1 defter daha saydı. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu bahçede 6 elma yedi. Daha sonra 9 elma daha yedi. Duru'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu bahçede 8 kuş sevdi. Daha sonra 9 kuş daha sevdi. Duru'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu deniz kenarında 5 kelebek buldu. Daha sonra 3 kelebek daha buldu. Duru'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu deniz kenarında 9 kelebek buldu. Daha sonra 1 kelebek daha buldu. Duru'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu evde 5 balık sevdi. Daha sonra 2 balık daha sevdi. Duru'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu odasında 10 bebek şişirdi. Daha sonra 5 bebek daha şişirdi. Duru'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu okulda 2 kitap saydı. Daha sonra 4 kitap daha saydı. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu orman kenarında 10 deniz kabuğu topladı. Daha sonra 5 deniz kabuğu daha topladı. Duru'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu orman kenarında 10 kelebek saydı. Daha sonra 5 kelebek daha saydı. Duru'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu orman kenarında 9 taş saydı. Daha sonra 4 taş daha saydı. Duru'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu parkta 8 tavşan sevdi. Daha sonra 10 tavşan daha sevdi. Duru'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu pazarda 9 muz getirdi. Daha sonra 6 muz daha getirdi. Duru'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Duru hafta sonu sınıfta 1 kalem getirdi. Daha sonra 1 kalem daha getirdi. Duru'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Duru okuldan sonra bahçede 2 çilek yedi. Daha sonra 4 çilek daha yedi. Duru'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Duru okuldan sonra bahçede 7 muz yedi. Daha sonra 6 muz daha yedi. Duru'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Duru okuldan sonra deniz kenarında 3 deniz kabuğu topladı. Daha sonra 2 deniz kabuğu daha topladı. Duru'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Duru okuldan sonra mutfakta 10 armut yedi. Daha sonra 2 armut daha yedi. Duru'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Duru okuldan sonra okulda 10 kitap buldu. Daha sonra 3 kitap daha buldu. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru okuldan sonra okulda 8 kalem getirdi. Daha sonra 6 kalem daha getirdi. Duru'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Duru okuldan sonra parkta 9 çiçek saydı. Daha sonra 10 çiçek daha saydı. Duru'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Duru okuldan sonra sınıfta 7 defter aldı. Daha sonra 6 defter daha aldı. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru okuldan sonra sınıfta 7 defter getirdi. Daha sonra 7 defter daha getirdi. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru sabah bahçede 10 çilek getirdi. Daha sonra 8 çilek daha getirdi. Duru'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Duru sabah evde 4 tavşan besledi. Daha sonra 4 tavşan daha besledi. Duru'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Duru sabah mutfakta 8 kiraz yedi. Daha sonra 8 kiraz daha yedi. Duru'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Duru sabah odasında 1 oyuncak buldu. Daha sonra 6 oyuncak daha buldu. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Duru sabah odasında 7 oyuncak buldu. Daha sonra 4 oyuncak daha buldu. Duru'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Duru sabah okulda 1 silgi aldı. Daha sonra 1 silgi daha aldı. Duru'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Duru sabah orman kenarında 2 çiçek topladı. Daha sonra 3 çiçek daha topladı. Duru'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Duru sabah parkta 10 balık saydı. Daha sonra 9 balık daha saydı. Duru'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Duru sabah pazarda 8 portakal yedi. Daha sonra 8 portakal daha yedi. Duru'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Duru tatilde bahçede 6 balık gördü. Daha sonra 9 balık daha gördü. Duru'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Duru tatilde deniz kenarında 2 taş buldu. Daha sonra 7 taş daha buldu. Duru'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Duru tatilde evde 2 bebek saydı. Daha sonra 4 bebek daha saydı. Duru'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Duru tatilde evde 5 köpek sevdi. Daha sonra 6 köpek daha sevdi. Duru'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Duru tatilde mutfakta 7 muz yedi. Daha sonra 5 muz daha yedi. Duru'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Duru tatilde okulda 10 silgi aldı. Daha sonra 1 silgi daha aldı. Duru'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Duru tatilde okulda 3 kitap saydı. Daha sonra 3 kitap daha saydı. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru tatilde okulda 5 kitap aldı. Daha sonra 9 kitap daha aldı. Duru'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Duru tatilde parkta 10 kuş sevdi. Daha sonra 9 kuş daha sevdi. Duru'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Duru tatilde sınıfta 4 defter aldı. Daha sonra 6 defter daha aldı. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru öğleden sonra evde 1 balık saydı. Daha sonra 4 balık daha saydı. Duru'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Duru öğleden sonra mutfakta 1 kiraz topladı. Daha sonra 5 kiraz daha topladı. Duru'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Duru öğleden sonra okulda 1 defter getirdi. Daha sonra 1 defter daha getirdi. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru öğleden sonra okulda 2 defter buldu. Daha sonra 7 defter daha buldu. Duru'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Duru öğleden sonra orman kenarında 7 yaprak saydı. Daha sonra 9 yaprak daha saydı. Duru'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Duru öğleden sonra pazarda 10 kiraz topladı. Daha sonra 10 kiraz daha topladı. Duru'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Duru öğleden sonra sınıfta 4 kalem saydı. Daha sonra 1 kalem daha saydı. Duru'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ece bir gün bahçede 7 elma aldı. Daha sonra 9 elma daha aldı. Ece'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ece bir gün deniz kenarında 6 deniz kabuğu topladı. Daha sonra 6 deniz kabuğu daha topladı. Ece'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Ece bir gün deniz kenarında 8 yaprak topladı. Daha sonra 10 yaprak daha topladı. Ece'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ece bir gün evde 6 kedi sevdi. Daha sonra 9 kedi daha sevdi. Ece'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Ece bir gün mutfakta 10 armut getirdi. Daha sonra 8 armut daha getirdi. Ece'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Ece bir gün odasında 7 bebek oynadı. Daha sonra 6 bebek daha oynadı. Ece'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ece bir gün odasında 9 balon buldu. Daha sonra 8 balon daha buldu. Ece'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ece bir gün orman kenarında 9 kelebek topladı. Daha sonra 7 kelebek daha topladı. Ece'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Ece bir gün sınıfta 9 kalem buldu. Daha sonra 1 kalem daha buldu. Ece'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu bahçede 6 kuş gördü. Daha sonra 6 kuş daha gördü. Ece'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu deniz kenarında 4 yaprak getirdi. Daha sonra 1 yaprak daha getirdi. Ece'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu evde 2 araba oynadı. Daha sonra 1 araba daha oynadı. Ece'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu evde 2 kedi besledi. Daha sonra 4 kedi daha besledi. Ece'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu evde 9 balık besledi. Daha sonra 2 balık daha besledi. Ece'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu odasında 4 bebek saydı. Daha sonra 2 bebek daha saydı. Ece'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu okulda 9 kalem saydı. Daha sonra 3 kalem daha saydı. Ece'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu parkta 1 çiçek topladı. Daha sonra 9 çiçek daha topladı. Ece'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu parkta 4 kedi sevdi. Daha sonra 8 kedi daha sevdi. Ece'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu parkta 6 kuş sevdi. Daha sonra 4 kuş daha sevdi. Ece'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu pazarda 9 muz yedi. Daha sonra 6 muz daha yedi. Ece'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu sınıfta 2 kalem getirdi. Daha sonra 1 kalem daha getirdi. Ece'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ece hafta sonu sınıfta 2 kalem getirdi. Daha sonra 6 kalem daha getirdi. Ece'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Ece okuldan sonra bahçede 1 yaprak buldu. Daha sonra 9 yaprak daha buldu. Ece'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ece okuldan sonra okulda 2 kitap buldu. Daha sonra 7 kitap daha buldu. Ece'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece okuldan sonra parkta 1 tavşan besledi. Daha sonra 9 tavşan daha besledi. Ece'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Ece okuldan sonra parkta 2 yaprak topladı. Daha sonra 8 yaprak daha topladı. Ece'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ece okuldan sonra parkta 4 kelebek buldu. Daha sonra 7 kelebek daha buldu. Ece'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 2 yaprak saydı. Daha sonra 9 yaprak daha saydı. Ece'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ece sabah bahçede 4 kelebek topladı. Daha sonra 10 kelebek daha topladı. Ece'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Ece sabah deniz kenarında 2 yaprak getirdi. Daha sonra 9 yaprak daha getirdi. Ece'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Ece sabah evde 3 araba buldu. Daha sonra 7 araba daha buldu. Ece'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Ece sabah odasında 1 bebek saydı. Daha sonra 10 bebek daha saydı. Ece'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ece sabah odasında 6 lego saydı. Daha sonra 6 lego daha saydı. Ece'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ece sabah odasında 8 bebek buldu. Daha sonra 5 bebek daha buldu. Ece'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ece sabah odasında 9 araba şişirdi. Daha sonra 2 araba daha şişirdi. Ece'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Ece sabah okulda 9 defter getirdi. Daha sonra 5 defter daha getirdi. Ece'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ece sabah pazarda 10 kiraz aldı. Daha sonra 9 kiraz daha aldı. Ece'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ece sabah sınıfta 1 silgi aldı. Daha sonra 7 silgi daha aldı. Ece'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Ece tatilde bahçede 3 kiraz yedi. Daha sonra 6 kiraz daha yedi. Ece'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Ece tatilde deniz kenarında 7 çiçek getirdi. Daha sonra 1 çiçek daha getirdi. Ece'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Ece tatilde evde 3 balon şişirdi. Daha sonra 2 balon daha şişirdi. Ece'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ece tatilde evde 9 oyuncak saydı. Daha sonra 7 oyuncak daha saydı. Ece'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ece tatilde odasında 10 lego oynadı. Daha sonra 4 lego daha oynadı. Ece'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Ece tatilde okulda 4 kitap saydı. Daha sonra 4 kitap daha saydı. Ece'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Ece tatilde parkta 4 köpek besledi. Daha sonra 8 köpek daha besledi. Ece'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Ece tatilde pazarda 7 elma topladı. Daha sonra 6 elma daha topladı. Ece'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ece öğleden sonra bahçede 8 elma topladı. Daha sonra 3 elma daha topladı. Ece'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Ece öğleden sonra deniz kenarında 8 taş saydı. Daha sonra 5 taş daha saydı. Ece'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Ece öğleden sonra evde 6 balon buldu. Daha sonra 9 balon daha buldu. Ece'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Ece öğleden sonra evde 8 oyuncak buldu. Daha sonra 5 oyuncak daha buldu. Ece'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Ece öğleden sonra odasında 10 bebek saydı. Daha sonra 5 bebek daha saydı. Ece'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Ece öğleden sonra okulda 4 defter aldı. Daha sonra 10 defter daha aldı. Ece'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Ece öğleden sonra orman kenarında 6 kelebek getirdi. Daha sonra 3 kelebek daha getirdi. Ece'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Elif bir gün bahçede 6 kuş saydı. Daha sonra 8 kuş daha saydı. Elif'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Elif bir gün deniz kenarında 4 kelebek topladı. Daha sonra 9 kelebek daha topladı. Elif'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Elif bir gün mutfakta 4 armut aldı. Daha sonra 9 armut daha aldı. Elif'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Elif bir gün odasında 2 araba buldu. Daha sonra 6 araba daha buldu. Elif'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Elif bir gün odasında 7 lego şişirdi. Daha sonra 5 lego daha şişirdi. Elif'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Elif bir gün parkta 10 kedi besledi. Daha sonra 9 kedi daha besledi. Elif'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Elif bir gün sınıfta 3 kalem buldu. Daha sonra 6 kalem daha buldu. Elif'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu bahçede 10 tavşan gördü. Daha sonra 5 tavşan daha gördü. Elif'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu bahçede 2 elma aldı. Daha sonra 1 elma daha aldı. Elif'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu deniz kenarında 8 kelebek getirdi. Daha sonra 3 kelebek daha getirdi. Elif'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu evde 2 balık sevdi. Daha sonra 10 balık daha sevdi. Elif'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu mutfakta 6 muz topladı. Daha sonra 4 muz daha topladı. Elif'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu odasında 3 balon oynadı. Daha sonra 7 balon daha oynadı. Elif'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu odasında 5 lego oynadı. Daha sonra 8 lego daha oynadı. Elif'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu okulda 5 kalem saydı. Daha sonra 3 kalem daha saydı. Elif'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu okulda 5 kitap saydı. Daha sonra 2 kitap daha saydı. Elif'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu parkta 10 balık sevdi. Daha sonra 2 balık daha sevdi. Elif'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu parkta 5 taş saydı. Daha sonra 2 taş daha saydı. Elif'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Elif hafta sonu sınıfta 2 silgi saydı. Daha sonra 4 silgi daha saydı. Elif'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra bahçede 2 köpek sevdi. Daha sonra 1 köpek daha sevdi. Elif'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra bahçede 8 köpek gördü. Daha sonra 7 köpek daha gördü. Elif'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra bahçede 8 muz yedi. Daha sonra 6 muz daha yedi. Elif'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra deniz kenarında 2 kelebek saydı. Daha sonra 8 kelebek daha saydı. Elif'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra deniz kenarında 6 deniz kabuğu getirdi. Daha sonra 9 deniz kabuğu daha getirdi. Elif'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra mutfakta 1 armut getirdi. Daha sonra 4 armut daha getirdi. Elif'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra mutfakta 10 elma yedi. Daha sonra 6 elma daha yedi. Elif'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra mutfakta 3 muz topladı. Daha sonra 9 muz daha topladı. Elif'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra mutfakta 6 portakal getirdi. Daha sonra 3 portakal daha getirdi. Elif'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra odasında 3 oyuncak saydı. Daha sonra 6 oyuncak daha saydı. Elif'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra okulda 3 defter aldı. Daha sonra 1 defter daha aldı. Elif'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra orman kenarında 1 kelebek saydı. Daha sonra 7 kelebek daha saydı. Elif'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra orman kenarında 1 taş topladı. Daha sonra 1 taş daha topladı. Elif'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra parkta 8 balık besledi. Daha sonra 3 balık daha besledi. Elif'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Elif okuldan sonra sınıfta 1 kitap aldı. Daha sonra 4 kitap daha aldı. Elif'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Elif sabah bahçede 4 kuş besledi. Daha sonra 4 kuş daha besledi. Elif'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Elif sabah bahçede 5 deniz kabuğu buldu. Daha sonra 6 deniz kabuğu daha buldu. Elif'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Elif sabah okulda 4 kalem aldı. Daha sonra 2 kalem daha aldı. Elif'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Elif sabah okulda 5 silgi buldu. Daha sonra 6 silgi daha buldu. Elif'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Elif sabah okulda 9 kalem getirdi. Daha sonra 7 kalem daha getirdi. Elif'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Elif sabah orman kenarında 9 yaprak getirdi. Daha sonra 6 yaprak daha getirdi. Elif'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Elif sabah parkta 2 kuş gördü. Daha sonra 7 kuş daha gördü. Elif'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Elif tatilde bahçede 3 tavşan besledi. Daha sonra 10 tavşan daha besledi. Elif'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Elif tatilde evde 10 kuş besledi. Daha sonra 1 kuş daha besledi. Elif'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Elif tatilde mutfakta 6 portakal aldı. Daha sonra 1 portakal daha aldı. Elif'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Elif tatilde odasında 2 oyuncak şişirdi. Daha sonra 2 oyuncak daha şişirdi. Elif'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Elif tatilde okulda 1 kalem getirdi. Daha sonra 8 kalem daha getirdi. Elif'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Elif tatilde okulda 4 silgi buldu. Daha sonra 3 silgi daha buldu. Elif'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Elif tatilde pazarda 10 çilek aldı. Daha sonra 7 çilek daha aldı. Elif'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Elif tatilde pazarda 7 çilek aldı. Daha sonra 6 çilek daha aldı. Elif'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra bahçede 5 kelebek saydı. Daha sonra 8 kelebek daha saydı. Elif'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra bahçede 6 kedi gördü. Daha sonra 2 kedi daha gördü. Elif'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra bahçede 8 çilek getirdi. Daha sonra 3 çilek daha getirdi. Elif'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra evde 1 kedi besledi. Daha sonra 9 kedi daha besledi. Elif'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra evde 10 lego saydı. Daha sonra 2 lego daha saydı. Elif'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra evde 9 bebek buldu. Daha sonra 3 bebek daha buldu. Elif'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra mutfakta 9 portakal yedi. Daha sonra 9 portakal daha yedi. Elif'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra odasında 2 balon buldu. Daha sonra 6 balon daha buldu. Elif'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra okulda 2 defter saydı. Daha sonra 5 defter daha saydı. Elif'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra parkta 2 yaprak getirdi. Daha sonra 9 yaprak daha getirdi. Elif'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra parkta 3 kuş gördü. Daha sonra 9 kuş daha gördü. Elif'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra parkta 5 kedi besledi. Daha sonra 8 kedi daha besledi. Elif'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra parkta 9 deniz kabuğu getirdi. Daha sonra 4 deniz kabuğu daha getirdi. Elif'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra parkta 9 yaprak getirdi. Daha sonra 1 yaprak daha getirdi. Elif'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Elif öğleden sonra sınıfta 8 defter saydı. Daha sonra 5 defter daha saydı. Elif'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Emir bir gün bahçede 10 deniz kabuğu getirdi. Daha sonra 9 deniz kabuğu daha getirdi. Emir'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Emir bir gün bahçede 10 kuş gördü. Daha sonra 3 kuş daha gördü. Emir'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Emir bir gün bahçede 7 kelebek buldu. Daha sonra 4 kelebek daha buldu. Emir'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Emir bir gün evde 1 lego saydı. Daha sonra 3 lego daha saydı. Emir'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Emir bir gün evde 2 tavşan gördü. Daha sonra 5 tavşan daha gördü. Emir'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Emir bir gün evde 8 balon oynadı. Daha sonra 2 balon daha oynadı. Emir'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Emir bir gün okulda 7 defter buldu. Daha sonra 5 defter daha buldu. Emir'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Emir hafta sonu bahçede 1 kuş gördü. Daha sonra 5 kuş daha gördü. Emir'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Emir hafta sonu bahçede 3 yaprak saydı. Daha sonra 10 yaprak daha saydı. Emir'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Emir hafta sonu bahçede 8 çilek getirdi. Daha sonra 2 çilek daha getirdi. Emir'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Emir hafta sonu evde 7 kedi sevdi. Daha sonra 8 kedi daha sevdi. Emir'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Emir hafta sonu odasında 1 araba buldu. Daha sonra 4 araba daha buldu. Emir'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Emir hafta sonu odasında 7 bebek şişirdi. Daha sonra 2 bebek daha şişirdi. Emir'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Emir hafta sonu parkta 5 köpek besledi. Daha sonra 6 köpek daha besledi. Emir'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Emir okuldan sonra bahçede 1 kelebek getirdi. Daha sonra 1 kelebek daha getirdi. Emir'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Emir okuldan sonra odasında 6 balon oynadı. Daha sonra 3 balon daha oynadı. Emir'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Emir okuldan sonra okulda 6 kitap aldı. Daha sonra 9 kitap daha aldı. Emir'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Emir okuldan sonra sınıfta 2 kitap saydı. Daha sonra 6 kitap daha saydı. Emir'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Emir sabah bahçede 4 balık sevdi. Daha sonra 4 balık daha sevdi. Emir'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Emir sabah bahçede 7 elma topladı. Daha sonra 9 elma daha topladı. Emir'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Emir sabah bahçede 9 taş buldu. Daha sonra 9 taş daha buldu. Emir'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Emir sabah evde 8 lego buldu. Daha sonra 4 lego daha buldu. Emir'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Emir sabah mutfakta 7 portakal getirdi. Daha sonra 6 portakal daha getirdi. Emir'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Emir sabah mutfakta 9 portakal getirdi. Daha sonra 4 portakal daha getirdi. Emir'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Emir sabah odasında 9 balon buldu. Daha sonra 2 balon daha buldu. Emir'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Emir sabah orman kenarında 10 yaprak topladı. Daha sonra 9 yaprak daha topladı. Emir'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Emir sabah orman kenarında 3 çiçek saydı. Daha sonra 1 çiçek daha saydı. Emir'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Emir sabah parkta 6 kuş gördü. Daha sonra 1 kuş daha gördü. Emir'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Emir sabah parkta 6 tavşan sevdi. Daha sonra 4 tavşan daha sevdi. Emir'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Emir tatilde bahçede 10 armut topladı. Daha sonra 2 armut daha topladı. Emir'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Emir tatilde bahçede 10 kiraz aldı. Daha sonra 10 kiraz daha aldı. Emir'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Emir tatilde bahçede 3 balık gördü. Daha sonra 8 balık daha gördü. Emir'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Emir tatilde bahçede 5 çilek aldı. Daha sonra 3 çilek daha aldı. Emir'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Emir tatilde evde 10 bebek buldu. Daha sonra 8 bebek daha buldu. Emir'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Emir tatilde evde 5 kuş sevdi. Daha sonra 2 kuş daha sevdi. Emir'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Emir tatilde orman kenarında 4 kelebek getirdi. Daha sonra 4 kelebek daha getirdi. Emir'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Emir tatilde orman kenarında 5 yaprak saydı. Daha sonra 3 yaprak daha saydı. Emir'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Emir tatilde orman kenarında 5 çiçek topladı. Daha sonra 4 çiçek daha topladı. Emir'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Emir tatilde orman kenarında 9 yaprak buldu. Daha sonra 10 yaprak daha buldu. Emir'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Emir tatilde parkta 9 kuş gördü. Daha sonra 1 kuş daha gördü. Emir'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Emir tatilde sınıfta 4 kalem buldu. Daha sonra 4 kalem daha buldu. Emir'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Emir tatilde sınıfta 9 kalem getirdi. Daha sonra 1 kalem daha getirdi. Emir'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Emir öğleden sonra bahçede 2 portakal yedi. Daha sonra 1 portakal daha yedi. Emir'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Emir öğleden sonra bahçede 6 muz getirdi. Daha sonra 2 muz daha getirdi. Emir'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Emir öğleden sonra evde 10 tavşan gördü. Daha sonra 3 tavşan daha gördü. Emir'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Emir öğleden sonra evde 8 balık gördü. Daha sonra 5 balık daha gördü. Emir'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Emir öğleden sonra okulda 7 kitap saydı. Daha sonra 6 kitap daha saydı. Emir'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Emir öğleden sonra orman kenarında 1 çiçek topladı. Daha sonra 10 çiçek daha topladı. Emir'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Emir öğleden sonra orman kenarında 4 taş buldu. Daha sonra 5 taş daha buldu. Emir'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Emir öğleden sonra pazarda 2 kiraz yedi. Daha sonra 7 kiraz daha yedi. Emir'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Eren bir gün bahçede 4 elma topladı. Daha sonra 3 elma daha topladı. Eren'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Eren bir gün bahçede 5 balık saydı. Daha sonra 7 balık daha saydı. Eren'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Eren bir gün bahçede 8 balık gördü. Daha sonra 7 balık daha gördü. Eren'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Eren bir gün deniz kenarında 2 çiçek topladı. Daha sonra 4 çiçek daha topladı. Eren'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Eren bir gün evde 1 kedi besledi. Daha sonra 9 kedi daha besledi. Eren'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Eren bir gün evde 10 balık gördü. Daha sonra 6 balık daha gördü. Eren'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Eren bir gün evde 10 kedi besledi. Daha sonra 4 kedi daha besledi. Eren'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Eren bir gün evde 4 kedi sevdi. Daha sonra 10 kedi daha sevdi. Eren'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Eren bir gün parkta 10 deniz kabuğu buldu. Daha sonra 9 deniz kabuğu daha buldu. Eren'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Eren bir gün parkta 10 tavşan besledi. Daha sonra 1 tavşan daha besledi. Eren'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Eren bir gün sınıfta 10 silgi buldu. Daha sonra 9 silgi daha buldu. Eren'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu bahçede 10 balık sevdi. Daha sonra 1 balık daha sevdi. Eren'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu bahçede 7 muz yedi. Daha sonra 5 muz daha yedi. Eren'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu deniz kenarında 3 yaprak getirdi. Daha sonra 7 yaprak daha getirdi. Eren'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu evde 3 araba şişirdi. Daha sonra 2 araba daha şişirdi. Eren'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu mutfakta 9 armut getirdi. Daha sonra 10 armut daha getirdi. Eren'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu odasında 1 lego buldu. Daha sonra 2 lego daha buldu. Eren'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu odasında 3 araba buldu. Daha sonra 1 araba daha buldu. Eren'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu odasında 9 araba şişirdi. Daha sonra 8 araba daha şişirdi. Eren'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu parkta 2 taş saydı. Daha sonra 3 taş daha saydı. Eren'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Eren hafta sonu sınıfta 2 kitap saydı. Daha sonra 6 kitap daha saydı. Eren'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra bahçede 10 muz getirdi. Daha sonra 8 muz daha getirdi. Eren'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra bahçede 6 kiraz getirdi. Daha sonra 2 kiraz daha getirdi. Eren'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra bahçede 6 yaprak saydı. Daha sonra 6 yaprak daha saydı. Eren'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra bahçede 7 yaprak saydı. Daha sonra 5 yaprak daha saydı. Eren'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra evde 3 oyuncak saydı. Daha sonra 8 oyuncak daha saydı. Eren'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra odasında 10 lego buldu. Daha sonra 3 lego daha buldu. Eren'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra odasında 5 balon saydı. Daha sonra 9 balon daha saydı. Eren'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra odasında 8 araba oynadı. Daha sonra 5 araba daha oynadı. Eren'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra okulda 5 kalem saydı. Daha sonra 2 kalem daha saydı. Eren'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra orman kenarında 10 deniz kabuğu buldu. Daha sonra 4 deniz kabuğu daha buldu. Eren'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Eren okuldan sonra parkta 10 kelebek topladı. Daha sonra 9 kelebek daha topladı. Eren'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Eren sabah bahçede 2 çilek yedi. Daha sonra 6 çilek daha yedi. Eren'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Eren sabah evde 10 köpek saydı. Daha sonra 6 köpek daha saydı. Eren'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Eren sabah odasında 6 araba oynadı. Daha sonra 2 araba daha oynadı. Eren'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Eren sabah odasında 7 balon buldu. Daha sonra 5 balon daha buldu. Eren'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Eren sabah orman kenarında 4 yaprak getirdi. Daha sonra 3 yaprak daha getirdi. Eren'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Eren tatilde bahçede 2 köpek sevdi. Daha sonra 10 köpek daha sevdi. Eren'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Eren tatilde evde 1 balık saydı. Daha sonra 9 balık daha saydı. Eren'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Eren tatilde evde 2 bebek şişirdi. Daha sonra 9 bebek daha şişirdi. Eren'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Eren tatilde evde 9 oyuncak buldu. Daha sonra 3 oyuncak daha buldu. Eren'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Eren tatilde mutfakta 4 kiraz aldı. Daha sonra 6 kiraz daha aldı. Eren'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Eren tatilde odasında 8 bebek buldu. Daha sonra 1 bebek daha buldu. Eren'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Eren tatilde okulda 9 kitap buldu. Daha sonra 3 kitap daha buldu. Eren'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Eren tatilde parkta 9 taş saydı. Daha sonra 3 taş daha saydı. Eren'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Eren tatilde pazarda 2 armut topladı. Daha sonra 6 armut daha topladı. Eren'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Eren tatilde sınıfta 4 defter saydı. Daha sonra 2 defter daha saydı. Eren'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Eren tatilde sınıfta 5 defter buldu. Daha sonra 2 defter daha buldu. Eren'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra bahçede 3 balık besledi. Daha sonra 6 balık daha besledi. Eren'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra bahçede 9 çiçek topladı. Daha sonra 9 çiçek daha topladı. Eren'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra deniz kenarında 10 deniz kabuğu buldu. Daha sonra 4 deniz kabuğu daha buldu. Eren'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra deniz kenarında 3 taş topladı. Daha sonra 2 taş daha topladı. Eren'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra deniz kenarında 3 çiçek saydı. Daha sonra 1 çiçek daha saydı. Eren'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra deniz kenarında 5 kelebek buldu. Daha sonra 3 kelebek daha buldu. Eren'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra okulda 10 kitap aldı. Daha sonra 2 kitap daha aldı. Eren'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra okulda 2 kalem aldı. Daha sonra 10 kalem daha aldı. Eren'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra orman kenarında 2 deniz kabuğu saydı. Daha sonra 7 deniz kabuğu daha saydı. Eren'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Eren öğleden sonra sınıfta 3 kitap saydı. Daha sonra 10 kitap daha saydı. Eren'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem bir gün mutfakta 8 armut getirdi. Daha sonra 4 armut daha getirdi. Kerem'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem bir gün parkta 5 kelebek buldu. Daha sonra 10 kelebek daha buldu. Kerem'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Kerem bir gün parkta 6 köpek saydı. Daha sonra 10 köpek daha saydı. Kerem'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Kerem bir gün pazarda 5 armut topladı. Daha sonra 7 armut daha topladı. Kerem'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem bir gün pazarda 6 elma getirdi. Daha sonra 10 elma daha getirdi. Kerem'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Kerem bir gün sınıfta 3 kalem saydı. Daha sonra 10 kalem daha saydı. Kerem'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu bahçede 7 yaprak getirdi. Daha sonra 8 yaprak daha getirdi. Kerem'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu bahçede 8 armut aldı. Daha sonra 10 armut daha aldı. Kerem'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu evde 1 oyuncak oynadı. Daha sonra 3 oyuncak daha oynadı. Kerem'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu evde 2 köpek saydı. Daha sonra 3 köpek daha saydı. Kerem'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu evde 9 balon oynadı. Daha sonra 2 balon daha oynadı. Kerem'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu odasında 6 oyuncak oynadı. Daha sonra 4 oyuncak daha oynadı. Kerem'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu okulda 1 kitap aldı. Daha sonra 4 kitap daha aldı. Kerem'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu okulda 3 defter saydı. Daha sonra 2 defter daha saydı. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu okulda 8 defter getirdi. Daha sonra 6 defter daha getirdi. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu parkta 6 kedi gördü. Daha sonra 8 kedi daha gördü. Kerem'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu parkta 9 balık besledi. Daha sonra 10 balık daha besledi. Kerem'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Kerem hafta sonu sınıfta 8 kitap aldı. Daha sonra 2 kitap daha aldı. Kerem'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem okuldan sonra bahçede 6 kedi besledi. Daha sonra 8 kedi daha besledi. Kerem'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Kerem okuldan sonra bahçede 9 yaprak saydı. Daha sonra 8 yaprak daha saydı. Kerem'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Kerem okuldan sonra bahçede 9 çiçek buldu. Daha sonra 10 çiçek daha buldu. Kerem'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Kerem okuldan sonra okulda 3 defter saydı. Daha sonra 10 defter daha saydı. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem okuldan sonra okulda 5 defter getirdi. Daha sonra 5 defter daha getirdi. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem okuldan sonra orman kenarında 8 taş getirdi. Daha sonra 5 taş daha getirdi. Kerem'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Kerem okuldan sonra sınıfta 8 defter buldu. Daha sonra 8 defter daha buldu. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem sabah bahçede 4 kiraz topladı. Daha sonra 3 kiraz daha topladı. Kerem'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Kerem sabah bahçede 5 kedi sevdi. Daha sonra 9 kedi daha sevdi. Kerem'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Kerem sabah okulda 4 kitap aldı. Daha sonra 6 kitap daha aldı. Kerem'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem sabah parkta 10 kedi besledi. Daha sonra 9 kedi daha besledi. Kerem'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Kerem sabah parkta 3 köpek sevdi. Daha sonra 2 köpek daha sevdi. Kerem'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Kerem sabah pazarda 3 çilek topladı. Daha sonra 10 çilek daha topladı. Kerem'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Kerem tatilde bahçede 10 taş getirdi. Daha sonra 10 taş daha getirdi. Kerem'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Kerem tatilde bahçede 4 armut yedi. Daha sonra 5 armut daha yedi. Kerem'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem tatilde bahçede 5 portakal topladı. Daha sonra 2 portakal daha topladı. Kerem'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Kerem tatilde bahçede 9 kelebek saydı. Daha sonra 6 kelebek daha saydı. Kerem'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Kerem tatilde deniz kenarında 4 deniz kabuğu getirdi. Daha sonra 10 deniz kabuğu daha getirdi. Kerem'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Kerem tatilde evde 6 lego saydı. Daha sonra 5 lego daha saydı. Kerem'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Kerem tatilde evde 9 oyuncak buldu. Daha sonra 10 oyuncak daha buldu. Kerem'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Kerem tatilde parkta 10 kedi besledi. Daha sonra 8 kedi daha besledi. Kerem'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Kerem tatilde parkta 5 balık gördü. Daha sonra 7 balık daha gördü. Kerem'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Kerem tatilde pazarda 5 portakal aldı. Daha sonra 9 portakal daha aldı. Kerem'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Kerem tatilde sınıfta 3 kitap saydı. Daha sonra 2 kitap daha saydı. Kerem'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem tatilde sınıfta 7 kitap buldu. Daha sonra 2 kitap daha buldu. Kerem'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra bahçede 1 kiraz topladı. Daha sonra 3 kiraz daha topladı. Kerem'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra bahçede 2 elma yedi. Daha sonra 6 elma daha yedi. Kerem'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra bahçede 3 tavşan besledi. Daha sonra 3 tavşan daha besledi. Kerem'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra deniz kenarında 1 taş buldu. Daha sonra 1 taş daha buldu. Kerem'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra deniz kenarında 2 yaprak topladı. Daha sonra 6 yaprak daha topladı. Kerem'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra evde 7 tavşan gördü. Daha sonra 7 tavşan daha gördü. Kerem'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra evde 8 balık gördü. Daha sonra 10 balık daha gördü. Kerem'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra mutfakta 8 armut aldı. Daha sonra 8 armut daha aldı. Kerem'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra odasında 8 lego oynadı. Daha sonra 6 lego daha oynadı. Kerem'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra odasında 9 araba buldu. Daha sonra 9 araba daha buldu. Kerem'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra okulda 1 defter aldı. Daha sonra 6 defter daha aldı. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Kerem öğleden sonra sınıfta 7 defter aldı. Daha sonra 6 defter daha aldı. Kerem'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mehmet bir gün deniz kenarında 7 kelebek saydı. Daha sonra 10 kelebek daha saydı. Mehmet'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Mehmet bir gün evde 2 balon buldu. Daha sonra 5 balon daha buldu. Mehmet'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Mehmet bir gün parkta 3 balık gördü. Daha sonra 10 balık daha gördü. Mehmet'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Mehmet bir gün parkta 9 kedi sevdi. Daha sonra 10 kedi daha sevdi. Mehmet'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Mehmet bir gün pazarda 6 muz aldı. Daha sonra 6 muz daha aldı. Mehmet'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet bir gün sınıfta 2 kitap aldı. Daha sonra 3 kitap daha aldı. Mehmet'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Mehmet hafta sonu bahçede 10 çilek aldı. Daha sonra 10 çilek daha aldı. Mehmet'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Mehmet hafta sonu deniz kenarında 2 çiçek topladı. Daha sonra 3 çiçek daha topladı. Mehmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mehmet hafta sonu evde 9 balık gördü. Daha sonra 4 balık daha gördü. Mehmet'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Mehmet hafta sonu orman kenarında 4 yaprak buldu. Daha sonra 8 yaprak daha buldu. Mehmet'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Mehmet hafta sonu parkta 10 yaprak buldu. Daha sonra 1 yaprak daha buldu. Mehmet'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra bahçede 6 armut yedi. Daha sonra 9 armut daha yedi. Mehmet'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra bahçede 8 kedi sevdi. Daha sonra 2 kedi daha sevdi. Mehmet'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra bahçede 8 çilek topladı. Daha sonra 3 çilek daha topladı. Mehmet'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra bahçede 9 kedi sevdi. Daha sonra 9 kedi daha sevdi. Mehmet'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra deniz kenarında 9 çiçek getirdi. Daha sonra 5 çiçek daha getirdi. Mehmet'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra mutfakta 5 portakal aldı. Daha sonra 7 portakal daha aldı. Mehmet'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra odasında 4 lego oynadı. Daha sonra 3 lego daha oynadı. Mehmet'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra okulda 8 defter aldı. Daha sonra 10 defter daha aldı. Mehmet'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra orman kenarında 2 taş saydı. Daha sonra 10 taş daha saydı. Mehmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra sınıfta 5 kalem aldı. Daha sonra 9 kalem daha aldı. Mehmet'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mehmet okuldan sonra sınıfta 8 kalem aldı. Daha sonra 10 kalem daha aldı. Mehmet'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mehmet sabah bahçede 7 armut yedi. Daha sonra 2 armut daha yedi. Mehmet'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 5 balık sevdi. Daha sonra 3 balık daha sevdi. Mehmet'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Mehmet sabah evde 6 köpek gördü. Daha sonra 4 köpek daha gördü. Mehmet'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Mehmet sabah mutfakta 1 armut yedi. Daha sonra 1 armut daha yedi. Mehmet'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Mehmet sabah odasında 5 lego saydı. Daha sonra 3 lego daha saydı. Mehmet'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde bahçede 7 armut getirdi. Daha sonra 1 armut daha getirdi. Mehmet'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde bahçede 8 yaprak buldu. Daha sonra 1 yaprak daha buldu. Mehmet'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde deniz kenarında 5 taş saydı. Daha sonra 9 taş daha saydı. Mehmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde evde 5 kuş sevdi. Daha sonra 2 kuş daha sevdi. Mehmet'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde evde 7 bebek oynadı. Daha sonra 3 bebek daha oynadı. Mehmet'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde orman kenarında 5 kelebek saydı. Daha sonra 8 kelebek daha saydı. Mehmet'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde orman kenarında 7 kelebek saydı. Daha sonra 10 kelebek daha saydı. Mehmet'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde pazarda 1 çilek aldı. Daha sonra 3 çilek daha aldı. Mehmet'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde pazarda 2 çilek getirdi. Daha sonra 9 çilek daha getirdi. Mehmet'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde pazarda 7 elma aldı. Daha sonra 7 elma daha aldı. Mehmet'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mehmet tatilde sınıfta 4 silgi getirdi. Daha sonra 4 silgi daha getirdi. Mehmet'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Mehmet öğleden sonra bahçede 5 muz yedi. Daha sonra 5 muz daha yedi. Mehmet'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mehmet öğleden sonra bahçede 5 taş topladı. Daha sonra 2 taş daha topladı. Mehmet'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mehmet öğleden sonra deniz kenarında 7 yaprak saydı. Daha sonra 1 yaprak daha saydı. Mehmet'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Mehmet öğleden sonra deniz kenarında 8 deniz kabuğu topladı. Daha sonra 5 deniz kabuğu daha topladı. Mehmet'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Mehmet öğleden sonra evde 10 köpek besledi. Daha sonra 3 köpek daha besledi. Mehmet'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Mehmet öğleden sonra evde 2 oyuncak şişirdi. Daha sonra 3 oyuncak daha şişirdi. Mehmet'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Mehmet öğleden sonra mutfakta 9 elma yedi. Daha sonra 3 elma daha yedi. Mehmet'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mehmet öğleden sonra sınıfta 3 kalem saydı. Daha sonra 8 kalem daha saydı. Mehmet'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mehmet öğleden sonra sınıfta 7 silgi getirdi. Daha sonra 3 silgi daha getirdi. Mehmet'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Mert bir gün bahçede 2 deniz kabuğu saydı. Daha sonra 10 deniz kabuğu daha saydı. Mert'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Mert bir gün evde 3 köpek sevdi. Daha sonra 7 köpek daha sevdi. Mert'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Mert bir gün evde 5 balon oynadı. Daha sonra 3 balon daha oynadı. Mert'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Mert bir gün mutfakta 7 elma topladı. Daha sonra 8 elma daha topladı. Mert'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mert bir gün odasında 8 lego buldu. Daha sonra 7 lego daha buldu. Mert'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Mert bir gün okulda 7 kitap getirdi. Daha sonra 9 kitap daha getirdi. Mert'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Mert bir gün parkta 3 köpek sevdi. Daha sonra 6 köpek daha sevdi. Mert'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Mert bir gün parkta 7 kedi gördü. Daha sonra 7 kedi daha gördü. Mert'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Mert bir gün pazarda 2 elma topladı. Daha sonra 6 elma daha topladı. Mert'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mert bir gün pazarda 4 muz aldı. Daha sonra 9 muz daha aldı. Mert'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu bahçede 2 kelebek getirdi. Daha sonra 10 kelebek daha getirdi. Mert'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu bahçede 4 muz aldı. Daha sonra 5 muz daha aldı. Mert'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu bahçede 8 elma yedi. Daha sonra 6 elma daha yedi. Mert'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu deniz kenarında 1 yaprak buldu. Daha sonra 6 yaprak daha buldu. Mert'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu odasında 2 oyuncak saydı. Daha sonra 3 oyuncak daha saydı. Mert'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu okulda 7 kalem getirdi. Daha sonra 6 kalem daha getirdi. Mert'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu okulda 8 kitap getirdi. Daha sonra 5 kitap daha getirdi. Mert'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu parkta 3 kedi saydı. Daha sonra 4 kedi daha saydı. Mert'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu pazarda 5 kiraz yedi. Daha sonra 7 kiraz daha yedi. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert hafta sonu sınıfta 10 silgi aldı. Daha sonra 4 silgi daha aldı. Mert'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Mert okuldan sonra bahçede 2 deniz kabuğu saydı. Daha sonra 2 deniz kabuğu daha saydı. Mert'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Mert okuldan sonra bahçede 9 kiraz aldı. Daha sonra 9 kiraz daha aldı. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert okuldan sonra orman kenarında 10 deniz kabuğu getirdi. Daha sonra 7 deniz kabuğu daha getirdi. Mert'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Mert okuldan sonra orman kenarında 4 taş saydı. Daha sonra 3 taş daha saydı. Mert'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mert okuldan sonra orman kenarında 8 yaprak topladı. Daha sonra 4 yaprak daha topladı. Mert'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Mert sabah bahçede 8 elma getirdi. Daha sonra 4 elma daha getirdi. Mert'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Mert sabah bahçede 9 kiraz aldı. Daha sonra 8 kiraz daha aldı. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert sabah deniz kenarında 9 taş buldu. Daha sonra 3 taş daha buldu. Mert'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mert sabah evde 8 araba şişirdi. Daha sonra 10 araba daha şişirdi. Mert'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Mert sabah okulda 1 defter saydı. Daha sonra 6 defter daha saydı. Mert'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mert sabah orman kenarında 6 taş getirdi. Daha sonra 9 taş daha getirdi. Mert'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mert sabah pazarda 6 portakal topladı. Daha sonra 6 portakal daha topladı. Mert'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Mert sabah sınıfta 3 kalem aldı. Daha sonra 6 kalem daha aldı. Mert'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mert tatilde bahçede 10 çilek getirdi. Daha sonra 9 çilek daha getirdi. Mert'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Mert tatilde bahçede 3 kiraz yedi. Daha sonra 7 kiraz daha yedi. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert tatilde bahçede 9 yaprak buldu. Daha sonra 3 yaprak daha buldu. Mert'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Mert tatilde deniz kenarında 1 kelebek buldu. Daha sonra 2 kelebek daha buldu. Mert'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Mert tatilde evde 4 araba buldu. Daha sonra 1 araba daha buldu. Mert'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Mert tatilde evde 6 kuş gördü. Daha sonra 2 kuş daha gördü. Mert'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Mert tatilde evde 9 lego şişirdi. Daha sonra 1 lego daha şişirdi. Mert'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Mert tatilde mutfakta 6 muz getirdi. Daha sonra 2 muz daha getirdi. Mert'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mert tatilde odasında 10 oyuncak saydı. Daha sonra 8 oyuncak daha saydı. Mert'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Mert tatilde parkta 8 çiçek topladı. Daha sonra 1 çiçek daha topladı. Mert'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mert tatilde pazarda 3 muz getirdi. Daha sonra 3 muz daha getirdi. Mert'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Mert tatilde sınıfta 10 kitap aldı. Daha sonra 8 kitap daha aldı. Mert'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Mert tatilde sınıfta 8 defter buldu. Daha sonra 5 defter daha buldu. Mert'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra bahçede 10 çiçek getirdi. Daha sonra 7 çiçek daha getirdi. Mert'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra bahçede 5 tavşan saydı. Daha sonra 2 tavşan daha saydı. Mert'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra bahçede 8 deniz kabuğu getirdi. Daha sonra 10 deniz kabuğu daha getirdi. Mert'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra deniz kenarında 4 taş saydı. Daha sonra 7 taş daha saydı. Mert'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra evde 2 tavşan sevdi. Daha sonra 7 tavşan daha sevdi. Mert'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra evde 8 köpek sevdi. Daha sonra 8 köpek daha sevdi. Mert'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra odasında 7 bebek şişirdi. Daha sonra 5 bebek daha şişirdi. Mert'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra odasında 8 bebek saydı. Daha sonra 5 bebek daha saydı. Mert'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra parkta 4 kuş besledi. Daha sonra 7 kuş daha besledi. Mert'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra pazarda 3 kiraz aldı. Daha sonra 4 kiraz daha aldı. Mert'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra sınıfta 4 kalem aldı. Daha sonra 10 kalem daha aldı. Mert'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Mert öğleden sonra sınıfta 6 kalem aldı. Daha sonra 3 kalem daha aldı. Mert'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Selin bir gün bahçede 2 armut topladı. Daha sonra 8 armut daha topladı. Selin'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Selin bir gün bahçede 9 çiçek saydı. Daha sonra 3 çiçek daha saydı. Selin'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Selin bir gün deniz kenarında 3 yaprak buldu. Daha sonra 2 yaprak daha buldu. Selin'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Selin bir gün mutfakta 7 kiraz aldı. Daha sonra 9 kiraz daha aldı. Selin'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Selin bir gün mutfakta 8 portakal aldı. Daha sonra 2 portakal daha aldı. Selin'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Selin bir gün okulda 3 silgi buldu. Daha sonra 7 silgi daha buldu. Selin'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Selin bir gün okulda 7 kalem getirdi. Daha sonra 1 kalem daha getirdi. Selin'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Selin bir gün parkta 3 çiçek topladı. Daha sonra 3 çiçek daha topladı. Selin'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Selin bir gün pazarda 5 kiraz getirdi. Daha sonra 7 kiraz daha getirdi. Selin'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Selin bir gün pazarda 7 armut yedi. Daha sonra 6 armut daha yedi. Selin'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Selin bir gün sınıfta 4 silgi buldu. Daha sonra 9 silgi daha buldu. Selin'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Selin bir gün sınıfta 7 kitap getirdi. Daha sonra 3 kitap daha getirdi. Selin'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu bahçede 5 köpek gördü. Daha sonra 4 köpek daha gördü. Selin'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu evde 3 balon saydı. Daha sonra 2 balon daha saydı. Selin'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu evde 3 köpek besledi. Daha sonra 9 köpek daha besledi. Selin'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu odasında 8 balon oynadı. Daha sonra 9 balon daha oynadı. Selin'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu okulda 4 defter buldu. Daha sonra 8 defter daha buldu. Selin'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu orman kenarında 8 çiçek buldu. Daha sonra 5 çiçek daha buldu. Selin'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu pazarda 2 portakal aldı. Daha sonra 1 portakal daha aldı. Selin'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu pazarda 9 muz aldı. Daha sonra 8 muz daha aldı. Selin'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu sınıfta 10 defter saydı. Daha sonra 10 defter daha saydı. Selin'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Selin hafta sonu sınıfta 5 kitap buldu. Daha sonra 10 kitap daha buldu. Selin'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Selin okuldan sonra evde 10 tavşan saydı. Daha sonra 6 tavşan daha saydı. Selin'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Selin okuldan sonra parkta 10 deniz kabuğu saydı. Daha sonra 4 deniz kabuğu daha saydı. Selin'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Selin okuldan sonra pazarda 3 armut topladı. Daha sonra 6 armut daha topladı. Selin'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Selin okuldan sonra sınıfta 2 defter getirdi. Daha sonra 1 defter daha getirdi. Selin'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Selin okuldan sonra sınıfta 3 kitap getirdi. Daha sonra 7 kitap daha getirdi. Selin'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Selin sabah bahçede 1 köpek gördü. Daha sonra 7 köpek daha gördü. Selin'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Selin sabah bahçede 10 kelebek getirdi. Daha sonra 6 kelebek daha getirdi. Selin'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Selin sabah bahçede 4 armut getirdi. Daha sonra 8 armut daha getirdi. Selin'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Selin sabah bahçede 4 deniz kabuğu buldu. Daha sonra 1 deniz kabuğu daha buldu. Selin'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Selin sabah bahçede 9 deniz kabuğu buldu. Daha sonra 4 deniz kabuğu daha buldu. Selin'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Selin sabah deniz kenarında 1 deniz kabuğu getirdi. Daha sonra 3 deniz kabuğu daha getirdi. Selin'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Selin sabah evde 1 lego buldu. Daha sonra 2 lego daha buldu. Selin'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Selin sabah evde 3 araba oynadı. Daha sonra 3 araba daha oynadı. Selin'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Selin sabah mutfakta 4 elma aldı. Daha sonra 7 elma daha aldı. Selin'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Selin sabah odasında 4 bebek şişirdi. Daha sonra 1 bebek daha şişirdi. Selin'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Selin sabah okulda 10 kalem buldu. Daha sonra 4 kalem daha buldu. Selin'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Selin tatilde bahçede 1 balık gördü. Daha sonra 6 balık daha gördü. Selin'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Selin tatilde bahçede 1 elma yedi. Daha sonra 10 elma daha yedi. Selin'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Selin tatilde bahçede 10 balık gördü. Daha sonra 7 balık daha gördü. Selin'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Selin tatilde bahçede 2 kiraz topladı. Daha sonra 5 kiraz daha topladı. Selin'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Selin tatilde bahçede 6 muz topladı. Daha sonra 6 muz daha topladı. Selin'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Selin tatilde odasında 1 bebek şişirdi. Daha sonra 7 bebek daha şişirdi. Selin'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Selin tatilde odasında 2 bebek şişirdi. Daha sonra 9 bebek daha şişirdi. Selin'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Selin tatilde odasında 5 lego buldu. Daha sonra 5 lego daha buldu. Selin'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Selin tatilde okulda 1 kitap buldu. Daha sonra 8 kitap daha buldu. Selin'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Selin tatilde okulda 7 silgi aldı. Daha sonra 8 silgi daha aldı. Selin'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Selin tatilde parkta 9 köpek saydı. Daha sonra 10 köpek daha saydı. Selin'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Selin tatilde sınıfta 6 silgi buldu. Daha sonra 1 silgi daha buldu. Selin'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Selin tatilde sınıfta 7 kitap getirdi. Daha sonra 5 kitap daha getirdi. Selin'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Selin tatilde sınıfta 7 silgi buldu. Daha sonra 6 silgi daha buldu. Selin'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra bahçede 2 muz yedi. Daha sonra 7 muz daha yedi. Selin'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra bahçede 7 tavşan saydı. Daha sonra 3 tavşan daha saydı. Selin'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra bahçede 9 muz yedi. Daha sonra 6 muz daha yedi. Selin'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra evde 3 bebek saydı. Daha sonra 1 bebek daha saydı. Selin'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra evde 6 lego oynadı. Daha sonra 7 lego daha oynadı. Selin'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra odasında 2 oyuncak buldu. Daha sonra 8 oyuncak daha buldu. Selin'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra odasında 5 lego saydı. Daha sonra 9 lego daha saydı. Selin'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra okulda 5 silgi getirdi. Daha sonra 6 silgi daha getirdi. Selin'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra parkta 8 kedi gördü. Daha sonra 4 kedi daha gördü. Selin'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra parkta 9 kuş gördü. Daha sonra 2 kuş daha gördü. Selin'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra pazarda 5 kiraz getirdi. Daha sonra 4 kiraz daha getirdi. Selin'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra pazarda 7 muz yedi. Daha sonra 7 muz daha yedi. Selin'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Selin öğleden sonra sınıfta 3 silgi buldu. Daha sonra 2 silgi daha buldu. Selin'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Umut bir gün bahçede 2 çiçek getirdi. Daha sonra 4 çiçek daha getirdi. Umut'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Umut bir gün bahçede 5 çiçek saydı. Daha sonra 4 çiçek daha saydı. Umut'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Umut bir gün deniz kenarında 1 deniz kabuğu topladı. Daha sonra 2 deniz kabuğu daha topladı. Umut'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Umut bir gün deniz kenarında 5 taş getirdi. Daha sonra 7 taş daha getirdi. Umut'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Umut bir gün deniz kenarında 9 deniz kabuğu buldu. Daha sonra 2 deniz kabuğu daha buldu. Umut'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Umut bir gün evde 5 araba buldu. Daha sonra 7 araba daha buldu. Umut'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Umut bir gün odasında 1 bebek buldu. Daha sonra 1 bebek daha buldu. Umut'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Umut bir gün okulda 2 kalem getirdi. Daha sonra 1 kalem daha getirdi. Umut'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Umut bir gün parkta 6 kedi besledi. Daha sonra 7 kedi daha besledi. Umut'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Umut bir gün sınıfta 8 defter saydı. Daha sonra 2 defter daha saydı. Umut'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Umut hafta sonu bahçede 6 armut getirdi. Daha sonra 5 armut daha getirdi. Umut'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Umut hafta sonu deniz kenarında 7 deniz kabuğu getirdi. Daha sonra 7 deniz kabuğu daha getirdi. Umut'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Umut hafta sonu evde 5 köpek gördü. Daha sonra 3 köpek daha gördü. Umut'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Umut hafta sonu mutfakta 2 çilek topladı. Daha sonra 6 çilek daha topladı. Umut'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Umut hafta sonu mutfakta 6 armut topladı. Daha sonra 6 armut daha topladı. Umut'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Umut hafta sonu okulda 9 defter saydı. Daha sonra 6 defter daha saydı. Umut'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Umut hafta sonu sınıfta 3 defter saydı. Daha sonra 10 defter daha saydı. Umut'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Umut okuldan sonra bahçede 3 çiçek getirdi. Daha sonra 5 çiçek daha getirdi. Umut'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Umut okuldan sonra deniz kenarında 3 deniz kabuğu buldu. Daha sonra 9 deniz kabuğu daha buldu. Umut'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Umut okuldan sonra evde 4 oyuncak buldu. Daha sonra 5 oyuncak daha buldu. Umut'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Umut okuldan sonra evde 6 kuş saydı. Daha sonra 10 kuş daha saydı. Umut'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Umut okuldan sonra evde 6 kuş sevdi. Daha sonra 10 kuş daha sevdi. Umut'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Umut okuldan sonra odasında 8 bebek oynadı. Daha sonra 5 bebek daha oynadı. Umut'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Umut okuldan sonra okulda 2 kitap buldu. Daha sonra 2 kitap daha buldu. Umut'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Umut okuldan sonra pazarda 3 elma getirdi. Daha sonra 1 elma daha getirdi. Umut'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Umut sabah deniz kenarında 2 yaprak topladı. Daha sonra 7 yaprak daha topladı. Umut'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Umut sabah deniz kenarında 8 yaprak saydı. Daha sonra 6 yaprak daha saydı. Umut'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Umut sabah mutfakta 4 çilek getirdi. Daha sonra 2 çilek daha getirdi. Umut'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Umut sabah mutfakta 7 kiraz aldı. Daha sonra 10 kiraz daha aldı. Umut'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Umut sabah orman kenarında 10 kelebek buldu. Daha sonra 2 kelebek daha buldu. Umut'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Umut sabah orman kenarında 5 deniz kabuğu getirdi. Daha sonra 3 deniz kabuğu daha getirdi. Umut'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Umut sabah orman kenarında 5 çiçek getirdi. Daha sonra 6 çiçek daha getirdi. Umut'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Umut sabah parkta 3 kelebek buldu. Daha sonra 5 kelebek daha buldu. Umut'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Umut tatilde bahçede 3 balık gördü. Daha sonra 7 balık daha gördü. Umut'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Umut tatilde bahçede 3 kedi sevdi. Daha sonra 9 kedi daha sevdi. Umut'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Umut tatilde bahçede 9 kelebek saydı. Daha sonra 10 kelebek daha saydı. Umut'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Umut tatilde evde 8 balık gördü. Daha sonra 8 balık daha gördü. Umut'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Umut tatilde odasında 2 bebek buldu. Daha sonra 3 bebek daha buldu. Umut'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Umut tatilde odasında 8 balon oynadı. Daha sonra 4 balon daha oynadı. Umut'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Umut tatilde sınıfta 1 defter aldı. Daha sonra 5 defter daha aldı. Umut'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Umut tatilde sınıfta 1 defter getirdi. Daha sonra 2 defter daha getirdi. Umut'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Umut tatilde sınıfta 4 defter buldu. Daha sonra 3 defter daha buldu. Umut'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Umut öğleden sonra bahçede 10 kedi saydı. Daha sonra 7 kedi daha saydı. Umut'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "Umut öğleden sonra bahçede 2 armut topladı. Daha sonra 3 armut daha topladı. Umut'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Umut öğleden sonra bahçede 6 armut yedi. Daha sonra 9 armut daha yedi. Umut'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Umut öğleden sonra evde 6 bebek buldu. Daha sonra 2 bebek daha buldu. Umut'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Umut öğleden sonra evde 9 tavşan sevdi. Daha sonra 2 tavşan daha sevdi. Umut'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Umut öğleden sonra mutfakta 4 portakal getirdi. Daha sonra 10 portakal daha getirdi. Umut'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Umut öğleden sonra okulda 2 silgi aldı. Daha sonra 1 silgi daha aldı. Umut'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Umut öğleden sonra sınıfta 10 defter aldı. Daha sonra 4 defter daha aldı. Umut'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Zeynep bir gün bahçede 4 armut aldı. Daha sonra 3 armut daha aldı. Zeynep'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Zeynep bir gün bahçede 8 kiraz aldı. Daha sonra 5 kiraz daha aldı. Zeynep'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Zeynep bir gün deniz kenarında 3 çiçek buldu. Daha sonra 10 çiçek daha buldu. Zeynep'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "Zeynep bir gün odasında 8 balon şişirdi. Daha sonra 5 balon daha şişirdi. Zeynep'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep bir gün okulda 1 silgi getirdi. Daha sonra 7 silgi daha getirdi. Zeynep'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Zeynep bir gün pazarda 8 portakal yedi. Daha sonra 9 portakal daha yedi. Zeynep'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Zeynep bir gün pazarda 9 elma aldı. Daha sonra 1 elma daha aldı. Zeynep'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Zeynep bir gün sınıfta 3 kitap aldı. Daha sonra 4 kitap daha aldı. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Zeynep bir gün sınıfta 6 silgi getirdi. Daha sonra 8 silgi daha getirdi. Zeynep'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Zeynep hafta sonu bahçede 5 yaprak saydı. Daha sonra 3 yaprak daha saydı. Zeynep'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "Zeynep hafta sonu bahçede 8 elma topladı. Daha sonra 9 elma daha topladı. Zeynep'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "Zeynep hafta sonu evde 10 balık saydı. Daha sonra 1 balık daha saydı. Zeynep'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Zeynep hafta sonu evde 7 lego şişirdi. Daha sonra 6 lego daha şişirdi. Zeynep'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Zeynep hafta sonu evde 8 araba saydı. Daha sonra 2 araba daha saydı. Zeynep'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "Zeynep hafta sonu okulda 10 defter buldu. Daha sonra 10 defter daha buldu. Zeynep'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Zeynep hafta sonu okulda 4 kalem getirdi. Daha sonra 6 kalem daha getirdi. Zeynep'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Zeynep hafta sonu orman kenarında 4 taş getirdi. Daha sonra 5 taş daha getirdi. Zeynep'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "Zeynep hafta sonu parkta 6 balık gördü. Daha sonra 5 balık daha gördü. Zeynep'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Zeynep okuldan sonra bahçede 9 çilek aldı. Daha sonra 8 çilek daha aldı. Zeynep'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Zeynep okuldan sonra evde 6 bebek buldu. Daha sonra 8 bebek daha buldu. Zeynep'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Zeynep okuldan sonra okulda 6 kalem getirdi. Daha sonra 2 kalem daha getirdi. Zeynep'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Zeynep okuldan sonra parkta 3 tavşan sevdi. Daha sonra 5 tavşan daha sevdi. Zeynep'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 1 tavşan saydı. Daha sonra 7 tavşan daha saydı. Zeynep'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 10 kuş saydı. Daha sonra 10 kuş daha saydı. Zeynep'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Zeynep sabah bahçede 8 köpek saydı. Daha sonra 9 köpek daha saydı. Zeynep'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah evde 10 tavşan sevdi. Daha sonra 5 tavşan daha sevdi. Zeynep'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "Zeynep sabah evde 5 kuş saydı. Daha sonra 1 kuş daha saydı. Zeynep'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Zeynep sabah evde 6 oyuncak şişirdi. Daha sonra 2 oyuncak daha şişirdi. Zeynep'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Zeynep sabah mutfakta 2 çilek aldı. Daha sonra 7 çilek daha aldı. Zeynep'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Zeynep sabah odasında 6 lego buldu. Daha sonra 4 lego daha buldu. Zeynep'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Zeynep sabah okulda 5 kalem saydı. Daha sonra 9 kalem daha saydı. Zeynep'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "Zeynep sabah sınıfta 5 silgi getirdi. Daha sonra 4 silgi daha getirdi. Zeynep'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "Zeynep tatilde bahçede 1 balık sevdi. Daha sonra 5 balık daha sevdi. Zeynep'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "Zeynep tatilde deniz kenarında 3 deniz kabuğu getirdi. Daha sonra 2 deniz kabuğu daha getirdi. Zeynep'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "Zeynep tatilde evde 1 balon şişirdi. Daha sonra 1 balon daha şişirdi. Zeynep'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "Zeynep tatilde evde 1 bebek şişirdi. Daha sonra 7 bebek daha şişirdi. Zeynep'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Zeynep tatilde orman kenarında 9 kelebek getirdi. Daha sonra 7 kelebek daha getirdi. Zeynep'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "Zeynep tatilde parkta 8 köpek gördü. Daha sonra 10 köpek daha gördü. Zeynep'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "Zeynep tatilde pazarda 1 kiraz yedi. Daha sonra 2 kiraz daha yedi. Zeynep'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra bahçede 3 portakal getirdi. Daha sonra 10 portakal daha getirdi. Zeynep'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra evde 3 lego buldu. Daha sonra 10 lego daha buldu. Zeynep'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra evde 9 bebek buldu. Daha sonra 8 bebek daha buldu. Zeynep'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra mutfakta 9 armut yedi. Daha sonra 5 armut daha yedi. Zeynep'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra odasında 5 bebek oynadı. Daha sonra 1 bebek daha oynadı. Zeynep'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra odasında 7 oyuncak oynadı. Daha sonra 9 oyuncak daha oynadı. Zeynep'nin toplam kaç oyuncak oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra okulda 2 defter getirdi. Daha sonra 4 defter daha getirdi. Zeynep'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra parkta 3 kuş sevdi. Daha sonra 3 kuş daha sevdi. Zeynep'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra pazarda 10 muz topladı. Daha sonra 2 muz daha topladı. Zeynep'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra pazarda 3 çilek yedi. Daha sonra 10 çilek daha yedi. Zeynep'nin toplam kaç çilek oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra sınıfta 10 kitap getirdi. Daha sonra 5 kitap daha getirdi. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "Zeynep öğleden sonra sınıfta 10 kitap saydı. Daha sonra 7 kitap daha saydı. Zeynep'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "İpek bir gün deniz kenarında 4 yaprak saydı. Daha sonra 10 yaprak daha saydı. İpek'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "İpek bir gün mutfakta 4 armut yedi. Daha sonra 3 armut daha yedi. İpek'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "İpek bir gün okulda 7 silgi buldu. Daha sonra 5 silgi daha buldu. İpek'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "İpek bir gün orman kenarında 5 kelebek topladı. Daha sonra 3 kelebek daha topladı. İpek'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "İpek bir gün parkta 6 yaprak topladı. Daha sonra 7 yaprak daha topladı. İpek'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "İpek bir gün parkta 8 kuş gördü. Daha sonra 2 kuş daha gördü. İpek'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "İpek bir gün pazarda 4 muz yedi. Daha sonra 9 muz daha yedi. İpek'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "İpek bir gün pazarda 9 portakal yedi. Daha sonra 8 portakal daha yedi. İpek'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "İpek bir gün sınıfta 1 silgi getirdi. Daha sonra 1 silgi daha getirdi. İpek'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "İpek bir gün sınıfta 9 silgi saydı. Daha sonra 9 silgi daha saydı. İpek'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "İpek hafta sonu deniz kenarında 2 çiçek buldu. Daha sonra 6 çiçek daha buldu. İpek'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "İpek hafta sonu evde 2 lego buldu. Daha sonra 9 lego daha buldu. İpek'nin toplam kaç lego oldu?"
+  },
+  {
+    "soru": "İpek hafta sonu orman kenarında 10 kelebek buldu. Daha sonra 7 kelebek daha buldu. İpek'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "İpek hafta sonu orman kenarında 3 yaprak topladı. Daha sonra 10 yaprak daha topladı. İpek'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "İpek hafta sonu orman kenarında 9 deniz kabuğu buldu. Daha sonra 8 deniz kabuğu daha buldu. İpek'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "İpek hafta sonu sınıfta 1 kalem buldu. Daha sonra 8 kalem daha buldu. İpek'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra bahçede 8 köpek sevdi. Daha sonra 5 köpek daha sevdi. İpek'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra deniz kenarında 2 kelebek buldu. Daha sonra 6 kelebek daha buldu. İpek'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra deniz kenarında 9 taş getirdi. Daha sonra 10 taş daha getirdi. İpek'nin toplam kaç taş oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra evde 4 araba oynadı. Daha sonra 3 araba daha oynadı. İpek'nin toplam kaç araba oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra evde 9 balık besledi. Daha sonra 7 balık daha besledi. İpek'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra mutfakta 8 muz yedi. Daha sonra 8 muz daha yedi. İpek'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra odasında 10 balon şişirdi. Daha sonra 4 balon daha şişirdi. İpek'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra parkta 8 balık saydı. Daha sonra 9 balık daha saydı. İpek'nin toplam kaç balık oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra sınıfta 1 kalem buldu. Daha sonra 6 kalem daha buldu. İpek'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra sınıfta 6 silgi aldı. Daha sonra 6 silgi daha aldı. İpek'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "İpek okuldan sonra sınıfta 7 defter getirdi. Daha sonra 8 defter daha getirdi. İpek'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "İpek sabah bahçede 3 kelebek buldu. Daha sonra 10 kelebek daha buldu. İpek'nin toplam kaç kelebek oldu?"
+  },
+  {
+    "soru": "İpek sabah bahçede 5 kedi besledi. Daha sonra 7 kedi daha besledi. İpek'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "İpek sabah bahçede 7 kedi sevdi. Daha sonra 10 kedi daha sevdi. İpek'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "İpek sabah deniz kenarında 6 çiçek buldu. Daha sonra 9 çiçek daha buldu. İpek'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "İpek sabah evde 6 tavşan sevdi. Daha sonra 1 tavşan daha sevdi. İpek'nin toplam kaç tavşan oldu?"
+  },
+  {
+    "soru": "İpek sabah evde 8 kedi gördü. Daha sonra 9 kedi daha gördü. İpek'nin toplam kaç kedi oldu?"
+  },
+  {
+    "soru": "İpek sabah odasında 3 balon şişirdi. Daha sonra 2 balon daha şişirdi. İpek'nin toplam kaç balon oldu?"
+  },
+  {
+    "soru": "İpek sabah okulda 3 kalem saydı. Daha sonra 6 kalem daha saydı. İpek'nin toplam kaç kalem oldu?"
+  },
+  {
+    "soru": "İpek sabah okulda 4 silgi saydı. Daha sonra 6 silgi daha saydı. İpek'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "İpek sabah pazarda 10 muz getirdi. Daha sonra 7 muz daha getirdi. İpek'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "İpek sabah sınıfta 2 kitap buldu. Daha sonra 9 kitap daha buldu. İpek'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "İpek sabah sınıfta 4 kitap buldu. Daha sonra 3 kitap daha buldu. İpek'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "İpek tatilde bahçede 10 kuş saydı. Daha sonra 4 kuş daha saydı. İpek'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "İpek tatilde bahçede 9 köpek saydı. Daha sonra 7 köpek daha saydı. İpek'nin toplam kaç köpek oldu?"
+  },
+  {
+    "soru": "İpek tatilde deniz kenarında 7 yaprak getirdi. Daha sonra 1 yaprak daha getirdi. İpek'nin toplam kaç yaprak oldu?"
+  },
+  {
+    "soru": "İpek tatilde deniz kenarında 9 deniz kabuğu topladı. Daha sonra 4 deniz kabuğu daha topladı. İpek'nin toplam kaç deniz kabuğu oldu?"
+  },
+  {
+    "soru": "İpek tatilde odasında 7 bebek oynadı. Daha sonra 4 bebek daha oynadı. İpek'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "İpek tatilde parkta 1 kuş gördü. Daha sonra 10 kuş daha gördü. İpek'nin toplam kaç kuş oldu?"
+  },
+  {
+    "soru": "İpek tatilde pazarda 9 armut topladı. Daha sonra 2 armut daha topladı. İpek'nin toplam kaç armut oldu?"
+  },
+  {
+    "soru": "İpek tatilde sınıfta 3 kitap buldu. Daha sonra 4 kitap daha buldu. İpek'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "İpek tatilde sınıfta 8 defter saydı. Daha sonra 7 defter daha saydı. İpek'nin toplam kaç defter oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra bahçede 1 portakal aldı. Daha sonra 7 portakal daha aldı. İpek'nin toplam kaç portakal oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra bahçede 3 muz yedi. Daha sonra 1 muz daha yedi. İpek'nin toplam kaç muz oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra evde 7 bebek şişirdi. Daha sonra 6 bebek daha şişirdi. İpek'nin toplam kaç bebek oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra mutfakta 5 kiraz aldı. Daha sonra 10 kiraz daha aldı. İpek'nin toplam kaç kiraz oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra okulda 1 silgi saydı. Daha sonra 10 silgi daha saydı. İpek'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra okulda 7 kitap saydı. Daha sonra 1 kitap daha saydı. İpek'nin toplam kaç kitap oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra okulda 7 silgi aldı. Daha sonra 4 silgi daha aldı. İpek'nin toplam kaç silgi oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra orman kenarında 5 çiçek saydı. Daha sonra 1 çiçek daha saydı. İpek'nin toplam kaç çiçek oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra pazarda 1 elma aldı. Daha sonra 10 elma daha aldı. İpek'nin toplam kaç elma oldu?"
+  },
+  {
+    "soru": "İpek öğleden sonra sınıfta 7 kitap buldu. Daha sonra 10 kitap daha buldu. İpek'nin toplam kaç kitap oldu?"
+  }
+]
