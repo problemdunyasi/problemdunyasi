@@ -1,6 +1,6 @@
 /* =========================
    Problem Dünyası – script.js
-   (Konu menü butonları + veritabanı-only + tükenince devam + PDF başlık)
+   (Konu menü butonları + veritabanı-only + tükenince devam + Yazdır/PDF başlık)
    ========================= */
 
 /* --- JSON yükleyici (göreli yol; GitHub Pages uyumlu) --- */
@@ -46,15 +46,21 @@ function normQ(item){
   return txt.toLowerCase().replace(/\s+/g, " ");
 }
 
-/* --- Konular (veritabanından) ---
-   Beklenen: veritabani/1sinif_konular.json, 2sinif_konular.json, ... */
+/* --- Yazdır başlığını senkronla --- */
+function syncPrintBanner(){
+  const sinifName = THEMES[STATE.sinif]?.name || `${STATE.sinif}. Sınıf`;
+  const konuLabel = (STATE.topics.find(t => t.key === STATE.konu)?.label || STATE.konu || "Konu") + " Problemleri";
+  const el = document.getElementById("pbTitle");
+  if (el) el.textContent = `${sinifName} / ${konuLabel}`;
+}
+
+/* --- Konular (veritabanından) --- */
 async function loadTopics(sinif){
   const d = await safeJson(`veritabani/${sinif}sinif_konular.json`);
   return (Array.isArray(d) && d.length) ? d : [];
 }
 
-/* --- Havuz yükleme (yalnız veritabanı) ---
-   Beklenen: veritabani/<sinif>sinif_<konu>.json  (örn: 1sinif_toplama.json) */
+/* --- Havuz yükleme (yalnız veritabanı) --- */
 async function loadPool(sinif, konuKey){
   const path = `veritabani/${sinif}sinif_${konuKey}.json`;
   const d = await safeJson(path);
@@ -96,14 +102,12 @@ function render(){
   }
 }
 
-/* --- Başlık (ekrandaki önizleme) --- */
+/* --- Başlık (ekran önizleme) --- */
 function updateHeader(){
-  const lbl = STATE.topics.find(t => t.key === STATE.konu)?.label || STATE.konu || "";
-  // sayfa üstündeki ana başlık
   setText("baslik", THEMES[STATE.sinif].name);
-  // PDF başlığı alt metinleri (ekranda görünenler)
-  setText("h_ad", STATE.adSoyad || "");
   setText("h_tarih", STATE.tarih || "");
+  // Ad soyad için input yok; boş bırakıyoruz (öğrenci baskıda yazar)
+  syncPrintBanner();
 }
 
 /* --- Konu menüsünü butonlarla çiz --- */
@@ -120,16 +124,16 @@ function renderKonuMenu(){
     btn.dataset.key = t.key;
 
     btn.addEventListener("click", async () => {
-      // aktiflik
       STATE.konu = t.key;
       [...nav.querySelectorAll(".konu-btn")].forEach(b => b.classList.toggle("active", b.dataset.key === t.key));
       // havuz/used reset
       STATE._pool = null;
       STATE._poolKey = null;
       STATE.questions = [];
+      updateHeader();
       // seçilen konuya ait 10 soru
       await regenerate();
-      // seçilen buton görünür olsun
+      // buton görünür halde kalsın
       btn.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
     });
 
@@ -139,14 +143,9 @@ function renderKonuMenu(){
 
 /* --- Yeni Kağıt: yalnız veritabanı + tükenince devam --- */
 async function regenerate(){
-  if (!STATE.sinif || !STATE.konu) {
-    alert("Konu seçiniz.");
-    return;
-  }
-
+  if (!STATE.sinif || !STATE.konu) { alert("Konu seçiniz."); return; }
   const poolKey = `${STATE.sinif}:${STATE.konu}`;
 
-  // Havuzu yükle (konu/sınıf değiştiyse)
   if (!STATE._pool || STATE._poolKey !== poolKey) {
     const pool = await loadPool(STATE.sinif, STATE.konu);
     if (!pool) {
@@ -163,7 +162,7 @@ async function regenerate(){
   const used = STATE._used[poolKey];
   const lastKeys = new Set(STATE.questions.map(normQ));
 
-  // Kullanılmayanları çıkar
+  // Kullanılmayanlar
   const available = [];
   for (const it of STATE._pool) {
     const key = normQ(it);
@@ -210,7 +209,7 @@ async function regenerate(){
     }
   }
 
-  // Kullanılmışlara ekle (yalnız yeni seçilenleri)
+  // Kullanılmışlara ekle
   for (const it of out) used.add(normQ(it));
 
   STATE.questions = out;
@@ -218,11 +217,21 @@ async function regenerate(){
   updateHeader();
 }
 
-/* --- PDF: Üstte başlık, altında içerik görüntüsü --- */
+/* --- PDF: Üstte BAŞLIK, altında içerik görüntüsü --- */
 async function exportPDF(){
-  const root = document.getElementById("printArea") || document.getElementById("paper") || document.getElementById("questions") || document.querySelector(".questions-grid");
+  const root =
+    document.getElementById("printArea") ||
+    document.getElementById("paper") ||
+    document.getElementById("questions") ||
+    document.querySelector(".questions-grid");
+
   if (!root){ alert("PDF için içerik bulunamadı (printArea)."); return; }
 
+  // Başlık metnini güncelle ve DOM boyansın (eski görünüm sorunu için)
+  syncPrintBanner();
+  await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+
+  // İçeriği görüntüye çevir
   const canvas = await html2canvas(root, { scale: 2 });
   const img = canvas.toDataURL("image/png");
 
@@ -292,8 +301,6 @@ async function initSayfa(){
   document.getElementById("printBtn")?.addEventListener("click", () => { updateHeader(); window.print(); });
 
   updateHeader();
-  // İstersen açılışta otomatik soru getirmek için şunu aç:
-  // await regenerate();
 }
 
 /* Global */
