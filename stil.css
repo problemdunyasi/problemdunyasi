@@ -347,4 +347,79 @@ h3 { font-size: var(--step-2); line-height: 1.25; }
   flex-wrap: wrap;
   gap: clamp(8px, 1.6vw, 16px);
 }
+/* ===========================
+   PDF/YAZDIR DÜZENİ — SORU NUMARASI YANINDA METİN, DAHA BÜYÜK KUTU
+   =========================== */
+
+/* İki sütun ve güvenli akış */
+#printArea .two-col{
+  column-count: 2;
+  column-gap: 10mm;          /* sütun aralığı */
+  margin: 0;
+  padding: 0;
+}
+#printArea .two-col > li{
+  list-style: none;
+  break-inside: avoid;       /* soru ortadan bölünmesin */
+  -webkit-column-break-inside: avoid;
+  margin: 0 0 6mm;
+  padding: 0;
+}
+
+/* Soru kalıbı: grid ile "numara | içerik" yan yana */
+#printArea .qbox{
+  display: grid;
+  grid-template-columns: 11mm 1fr; /* solda sabit numara, sağda esnek alan */
+  align-items: start;
+  gap: 2mm 4mm;                     /* satır ve sütun boşlukları */
+  border: 1px solid #e7e7e7;        /* kutu görünümü */
+  border-radius: 4px;
+  padding: 3mm;                     /* kutu içi boşluk */
+  min-height: 38mm;                 /* ~5 soru/sütun sığması için önerilen alt limit */
+  box-sizing: border-box;
+}
+
+/* Numara: sağa hizalı, üstten hafif boşluk */
+#printArea .qtitle{
+  font-weight: 700;
+  text-align: right;
+  padding-top: 1mm;
+  font-size: 12pt;
+  line-height: 1;
+}
+
+/* Metin: numaranın hemen yanında başlar */
+#printArea .qtext{
+  font-size: 11pt;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* Cevap alanı (çizgiler) — taşma olmasın diye kutu içinde alt satır */
+#printArea .qlines{
+  grid-column: 1 / -1;  /* tüm genişliği kaplasın; istersen 2 / -1 yaparak sadece metin altına alabilirsin */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2mm;             /* satırlar arası boşluk */
+  margin-top: 3mm;
+}
+
+#printArea .qline{
+  height: 9mm;          /* cevap yazma alanı daha büyük */
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* Yazdırda biraz daha sıkılaştır (daha iyi sığsın) */
+@media print{
+  #printArea .qbox{
+    padding: 2.5mm;
+    min-height: 36mm;   /* satır uzunluğuna göre istersen 34–40mm arası oynatabilirsin */
+    margin-bottom: 5mm;
+  }
+  #printArea .qtitle{ font-size: 11.5pt; }
+  #printArea .qtext{  font-size: 10.5pt; }
+  #printArea .qline{  height: 8.5mm; }
+}
 
