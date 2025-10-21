@@ -231,4 +231,82 @@ h1,h2,h3{font-family:'Baloo 2','Poppins',sans-serif;margin:0}
 
 /* İstersen ana sayfada simgeyi gizle: 
 body[data-page="home"] .home-btn { display:none } */
+/* ========== FLUID TİPOGRAFİ + BUTONLAR ========== */
+/* Temel ölçek: min 14px, aralıklar viewport genişliğine göre artar */
+:root{
+  --step--1: clamp(0.82rem, 0.78rem + 0.2vw, 0.9rem);   /* küçük metin */
+  --step-0:  clamp(0.95rem, 0.90rem + 0.4vw, 1.05rem);  /* gövde metni */
+  --step-1:  clamp(1.10rem, 1.00rem + 0.8vw, 1.30rem);  /* alt başlık */
+  --step-2:  clamp(1.35rem, 1.10rem + 1.6vw, 1.70rem);  /* bölüm başlık */
+  --step-3:  clamp(1.70rem, 1.20rem + 2.6vw, 2.20rem);  /* sayfa başlık */
+  --step-4:  clamp(2.10rem, 1.40rem + 3.6vw, 2.80rem);  /* kahraman/hero */
+
+  /* Buton ve kutu dolguları da orantılı olsun */
+  --pad-y: clamp(0.5rem, 0.35rem + 0.6vw, 0.9rem);
+  --pad-x: clamp(0.8rem, 0.6rem + 1.0vw, 1.4rem);
+  --radius: 999px; /* kapsül butonlar */
+}
+
+/* Gövde metni biraz büyütülüp akışkan yapıldı */
+html { font-size: 100%; } /* 16px temel */
+body {
+  font-size: var(--step-0);
+  line-height: 1.6;
+}
+
+/* Başlıklar — otomatik ölçek */
+h1, .hero-title, .page-header h1 { font-size: var(--step-4); line-height: 1.15; }
+h2, .section-title { font-size: var(--step-3); line-height: 1.2; }
+h3 { font-size: var(--step-2); line-height: 1.25; }
+.small, .muted { font-size: var(--step--1); opacity: .85; }
+
+/* Ana sayfa kutularında başlık/paragraf varsa dengeli görünsün */
+.tile-title, .card-title { font-size: var(--step-2); font-weight: 700; }
+.tile-desc, .card-desc { font-size: var(--step-0); }
+
+/* BUTONLAR — hem yazı boyu hem padding akışkan */
+.btn {
+  font-size: clamp(0.95rem, 0.8rem + 0.6vw, 1.1rem);
+  padding: var(--pad-y) var(--pad-x);
+  border-radius: var(--radius);
+  min-height: clamp(40px, 34px + 2.5vw, 56px); /* dokunmatik hedef */
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: .5em;
+}
+
+/* Birincil/ikincil beraber ölçeklensin (renkler sizde nasıl ise dokunmayın) */
+.btn.primary { font-weight: 700; }
+
+/* Ana sayfadaki büyük eylem butonları için (varsa) */
+.btn.hero, .btn-large {
+  font-size: clamp(1.05rem, 0.9rem + 0.9vw, 1.25rem);
+  padding: calc(var(--pad-y) * 1.1) calc(var(--pad-x) * 1.25);
+  min-height: clamp(48px, 40px + 3vw, 64px);
+}
+
+/* Menü gibi küçük butonlar (ör. konu şeridi) aşırı büyümesin */
+.konu-btn {
+  font-size: clamp(0.9rem, 0.8rem + 0.4vw, 1rem);
+  padding: calc(var(--pad-y) * .7) calc(var(--pad-x) * .8);
+  border-radius: var(--radius);
+}
+
+/* Grid/kartlar dar ekranda nefes alsın, genişte sıkılaşsın (opsiyonel) */
+.grid, .cards {
+  --gap: clamp(10px, 6px + 1.2vw, 24px);
+  gap: var(--gap);
+}
+
+/* Sayfa başlığının etrafındaki boşluklar da orantılı */
+.page-header { padding-block: clamp(10px, 6px + 2vw, 28px); }
+.controls { gap: clamp(8px, 4px + 1.2vw, 16px); }
+.control-row { gap: clamp(6px, 4px + 1vw, 12px); }
+
+/* Ana sayfa yazıları (ör. hero paragraf) */
+.hero-text { font-size: var(--step-1); }
+
+/* Hareketi azaltanlar için animasyonları kıs */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
 
