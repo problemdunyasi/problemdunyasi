@@ -312,7 +312,7 @@ h3 { font-size: var(--step-2); line-height: 1.25; }
 /* === ANA SAYFA (home) düzeni === */
 .home .page-header{
   /* Başlığı sayfanın üstünden biraz aşağı al */
-  padding-top: clamp(40px, 14vh, 140px);
+  padding-top: clamp(40px, 18vh, 140px);
   padding-bottom: clamp(8px, 3vh, 24px);
   text-align: center;            /* başlık ortalı */
 }
