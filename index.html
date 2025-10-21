@@ -1,185 +1,41 @@
 <!DOCTYPE html>
+
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Çalışma Kâğıdı Oluştur</title>
-
-  <!-- Yazı tipi ve genel stil -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="stil.css" />
-
-  <!-- Sayfaya özel minik stiller -->
-  <style>
-    /* === SABİT TİPOGRAFİ (fluid iptal) === */
-    html { font-size: 16px; }
-    body { font-size: 16px; line-height: 1.6; }
-    h1, .page-header h1 { font-size: 36px; line-height: 1.15; margin: 0 0 8px; }
-    h2 { font-size: 28px; line-height: 1.2; margin: 0 0 8px; }
-    h3 { font-size: 22px; line-height: 1.25; margin: 0 0 6px; }
-
-    /* Konu menüsü */
-    .konu-wrap { display: grid; gap: 8px; }
-    .konu-menu {
-      display: flex; gap: 8px; align-items: center;
-      overflow-x: auto; padding: 6px 2px; scrollbar-width: thin;
-    }
-    .konu-btn {
-      border: 1px solid rgba(0,0,0,.12);
-      background: #fff; border-radius: 999px;
-      padding: 8px 12px; font-weight: 600; cursor: pointer; white-space: nowrap;
-      transition: transform .12s ease, box-shadow .15s ease, filter .15s ease, background .2s ease;
-      font-size: 15px;
-    }
-    .konu-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0,0,0,.12); }
-    .konu-btn.active {
-      color: #fff; border-color: transparent;
-      background: linear-gradient(135deg, #6a5bfd, #2cb4ff); box-shadow: 0 8px 18px rgba(0,0,0,.18);
-    }
-    @media (max-width: 520px){
-      .konu-menu { gap: 6px; }
-      .konu-btn { padding: 7px 10px; font-size: 14px; }
-    }
-
-    /* Butonlar — sabit ölçü */
-    .btn { font-size: 16px; padding: 10px 16px; border-radius: 999px; min-height: 44px; display: inline-flex; align-items: center; gap: 8px; }
-    .btn.primary { font-weight: 700; }
-
-    /* Yazdır başlığı (ince) */
-    .print-banner { display: none; }
-    @media print {
-      .controls, .home-btn, .page-header, .site-footer { display: none !important; }
-      .print-banner { display: block; text-align: center; margin: 4mm 0 2mm; }
-      .print-banner .pb-title { font-weight: 800; font-size: 14pt; }
-      .print-banner .pb-rule { border: 0; border-top: 1px solid #000; margin: 2mm 8mm 0; }
-      #printArea { box-shadow: none !important; border: 0 !important; padding-top: 0 !important; }
-    }
-
-    /* === PDF/Yazdır düzeni: iki sütun, numara yanında metin, taşma yok === */
-    #printArea .two-col{
-      column-count: 2;
-      column-gap: 10mm;
-      margin: 0; padding: 0;
-    }
-    #printArea .two-col > li{
-      list-style: none;
-      break-inside: avoid; -webkit-column-break-inside: avoid;
-      margin: 0 0 6mm; padding: 0;
-    }
-    /* Kutu ve içerik düzeni */
-    #printArea .qbox{
-      display: grid;
-      grid-template-columns: 12mm 1fr;  /* solda numara, sağda metin */
-      align-items: start;
-      gap: 3mm 4mm;
-      border: 1px solid #e6e6e6; border-radius: 4px;
-      padding: 3mm; min-height: 38mm; box-sizing: border-box;
-    }
-    #printArea .qtitle{
-      font-weight: 700; text-align: right; padding-top: 1mm;
-      font-size: 12pt; line-height: 1;
-    }
-    #printArea .qtext{
-      font-size: 11pt; line-height: 1.35; margin: 0;
-    }
-    #printArea .qlines{
-      grid-column: 1 / -1; /* tüm genişlik boyunca */
-      display: grid; grid-template-columns: 1fr;
-      gap: 2mm; margin-top: 3mm;
-    }
-    #printArea .qline{
-      height: 9mm; border: 1px solid #bdbdbd; border-radius: 3px; box-sizing: border-box;
-    }
-    @media print{
-      #printArea .qbox{ padding: 2.5mm; min-height: 36mm; margin-bottom: 5mm; }
-      #printArea .qtitle{ font-size: 11.5pt; }
-      #printArea .qtext{  font-size: 10.5pt; }
-      #printArea .qline{  height: 8.5mm; }
-    }
-  </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>🧮 Problem Dünyası</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="stil.css" rel="stylesheet"/>
 </head>
-<body class="page">
-
-  <!-- Üst başlık -->
-  <header class="page-header">
-    <a class="back" href="index.html">← Ana sayfa</a>
-    <h1 id="baslik">Sınıf</h1>
-  </header>
-
-  <!-- Kontroller (KONU MENÜSÜ + TARİH) -->
-  <section class="controls glass">
-    <div class="control-row">
-      <div class="control-tile konu-wrap">
-        <label style="font-weight:700">Konu:</label>
-        <nav id="konuMenu" class="konu-menu" aria-label="Konular">
-          <!-- script.js butonları burada oluşturur -->
-        </nav>
-      </div>
-
-      <label class="control-tile">
-        Tarih:
-        <input id="tarih" type="date" />
-      </label>
-    </div>
-
-    <div class="control-row">
-      <button id="olusturBtn" class="btn primary">🎲 Yeni Kağıt Oluştur</button>
-      <button id="pdfBtn" class="btn">📄 PDF İndir</button>
-      <button id="printBtn" class="btn">🖨️ Yazdır</button>
-    </div>
-  </section>
-
-  <!-- Yazdır/PDF alanı -->
-  <section id="printArea" class="questions shadow paper">
-
-    <!-- Yalnız yazdırda gözüken başlık -->
-    <div id="printBanner" class="print-banner" aria-hidden="true">
-      <div id="pbTitle" class="pb-title">1. Sınıf / Konu Problemleri</div>
-      <hr class="pb-rule"/>
-    </div>
-
-    <header class="paper-header">
-      <div><strong>Adı Soyadı:</strong> <span id="h_ad"></span></div>
-      <div><strong>Tarih:</strong> <span id="h_tarih"></span></div>
-    </header>
-
-    <div class="paper-body">
-      <ol id="soruListe" class="two-col"></ol>
-    </div>
-
-    <footer class="paper-footer">Problem Dünyası • Sayfa 1/1</footer>
-  </section>
-
-  <!-- Site altbilgi -->
-  <footer class="site-footer">
+<body data-page="home">
+<header class="hero gradient">
+<div class="hero-inner">
+<h1>🧮 Problem Dünyası</h1>
+<p>İlkokul 1–4. sınıflar için müfredata uygun <strong>klasik</strong> problem kâğıdı oluştur.</p>
+</div>
+<div class="wave"></div>
+</header>
+<main class="grid">
+<a class="card s1" href="sayfa.html?sinif=1"><span class="chip">1. Sınıf</span><h2>8 Konu</h2></a>
+<a class="card s2" href="sayfa.html?sinif=2"><span class="chip">2. Sınıf</span><h2>11 Konu</h2></a>
+<a class="card s3" href="sayfa.html?sinif=3"><span class="chip">3. Sınıf</span><h2>11 Konu</h2></a>
+<a class="card s4" href="sayfa.html?sinif=4"><span class="chip">4. Sınıf</span><h2>11 Konu</h2></a>
+</main>
+ <footer class="site-footer">
     <div class="footer-inner">
       <nav class="footer-links">
-        <a href="hakkimizda.html">Hakkımızda</a>
-        <a href="gizlilik.html">Gizlilik</a>
-        <a href="cerezler.html">Çerezler</a>
-        <a href="kvkk.html">KVKK</a>
-        <a href="feedback.html">İletişim</a>
+        <a href="hakkimizda.html" aria-label="Hakkımızda">Hakkımızda</a>
+        <a href="gizlilik.html" aria-label="Gizlilik">Gizlilik</a>
+        <a href="cerezler.html" aria-label="Çerezler">Çerezler</a>
+        <a href="kvkk.html" aria-label="KVKK Aydınlatma Metni">KVKK</a>
+        <a href="feedback.html" aria-label="İletişim">İletişim</a>
       </nav>
       <p class="copyright">© <span id="yil"></span> Problem Dünyası</p>
     </div>
     <script>document.getElementById('yil').textContent = new Date().getFullYear();</script>
   </footer>
-
-  <!-- Ana sayfa simgesi -->
-  <a class="home-btn" href="index.html" aria-label="Ana sayfa">
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M10.707 2.293a1 1 0 0 1 1.414 0l8.586 8.586a1 1 0 0 1-1.414 1.414L20 11.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-4H11v4a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-8.586l-.293.293A1 1 0 0 1 2.293 10.88l8.414-8.586Z"/>
-    </svg>
-  </a>
-
-  <!-- Kütüphaneler + Proje kodu -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="script.js?v=8"></script>
-  <script>
-    window.addEventListener('DOMContentLoaded', () => window.initSayfa?.());
-  </script>
 </body>
 </html>
