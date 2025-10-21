@@ -1,6 +1,6 @@
 /* =========================
    Problem Dünyası – script.js
-   (Veritabanı-only + tükenince devam + PDF başlık)
+   (Konu menü butonları + veritabanı-only + tükenince devam + PDF başlık)
    ========================= */
 
 /* --- JSON yükleyici (göreli yol; GitHub Pages uyumlu) --- */
@@ -61,77 +61,6 @@ async function loadPool(sinif, konuKey){
   return (Array.isArray(d) && d.length) ? d : null;
 }
 
-/* --- Havuzdan kullanılmayanlardan mümkünse 10 seç, eksik kalırsa havuzdan doldur --- */
-function pick10WithContinue(pool, usedSet, lastSetKeys = null) {
-  // 1) Kullanılmayanları listele
-  const available = [];
-  for (const it of pool || []) {
-    const key = normQ(it);
-    if (!usedSet.has(key)) available.push({ it, key });
-  }
-
-  // 2) Karıştır
-  for (let i = available.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [available[i], available[j]] = [available[j], available[i]];
-  }
-
-  // 3) Önce kullanılmayanlardan al
-  const out = [];
-  const outKeys = new Set();
-  while (out.length < 10 && available.length) {
-    const x = available.pop();
-    if (!outKeys.has(x.key)) { out.push(x.it); outKeys.add(x.key); }
-  }
-
-  // 4) Eksikse: tüm havuzdan (tekrar olabilir) doldur ama 10 içinde tekrarsız olsun
-  if (out.length < 10 && Array.isArray(pool) && pool.length) {
-    // Havuzu karıştır ve sırayla doldur
-    const bag = pool.slice();
-    for (let i = bag.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [bag[i], bag[j]] = [bag[j], bag[i]];
-    }
-    for (const it of bag) {
-      const key = normQ(it);
-      if (!outKeys.has(key)) {
-        out.push(it); outKeys.add(key);
-        if (out.length >= 10) break;
-      }
-    }
-  }
-
-  // 5) Çok ekstrem durumda hâlâ az kalırsa (havuz çok küçükse) tekrar da olsa doldur
-  while (out.length < 10 && Array.isArray(pool) && pool.length) {
-    out.push(pool[Math.floor(Math.random() * pool.length)]);
-  }
-
-  // 6) Son set ile birebir aynı 10’lu olmasın diye küçük kontrol
-  if (lastSetKeys && lastSetKeys.size === 10) {
-    const nowKeys = new Set(out.map(normQ));
-    let allSame = true;
-    for (const k of nowKeys) { if (!lastSetKeys.has(k)) { allSame = false; break; } }
-    if (allSame) {
-      // Bir daha karıştırıp küçük değişiklik yap
-      const bag = pool.slice();
-      for (let i = bag.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [bag[i], bag[j]] = [bag[j], bag[i]];
-      }
-      // İlk elemanı değiştir
-      for (const it of bag) {
-        const key = normQ(it);
-        if (!nowKeys.has(key)) {
-          out[0] = it;
-          break;
-        }
-      }
-    }
-  }
-
-  return out;
-}
-
 /* --- 10 kutuyu DOM’a bas --- */
 function render(){
   const ol = document.getElementById("soruListe");
@@ -170,15 +99,48 @@ function render(){
 /* --- Başlık (ekrandaki önizleme) --- */
 function updateHeader(){
   const lbl = STATE.topics.find(t => t.key === STATE.konu)?.label || STATE.konu || "";
-  setText("h_sinifKonu", `${THEMES[STATE.sinif].name} / ${lbl}`);
+  // sayfa üstündeki ana başlık
+  setText("baslik", THEMES[STATE.sinif].name);
+  // PDF başlığı alt metinleri (ekranda görünenler)
   setText("h_ad", STATE.adSoyad || "");
   setText("h_tarih", STATE.tarih || "");
+}
+
+/* --- Konu menüsünü butonlarla çiz --- */
+function renderKonuMenu(){
+  const nav = document.getElementById("konuMenu");
+  if (!nav) return;
+
+  nav.innerHTML = "";
+  STATE.topics.forEach(t => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "konu-btn" + (STATE.konu === t.key ? " active" : "");
+    btn.textContent = t.label;
+    btn.dataset.key = t.key;
+
+    btn.addEventListener("click", async () => {
+      // aktiflik
+      STATE.konu = t.key;
+      [...nav.querySelectorAll(".konu-btn")].forEach(b => b.classList.toggle("active", b.dataset.key === t.key));
+      // havuz/used reset
+      STATE._pool = null;
+      STATE._poolKey = null;
+      STATE.questions = [];
+      // seçilen konuya ait 10 soru
+      await regenerate();
+      // seçilen buton görünür olsun
+      btn.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
+    });
+
+    nav.appendChild(btn);
+  });
 }
 
 /* --- Yeni Kağıt: yalnız veritabanı + tükenince devam --- */
 async function regenerate(){
   if (!STATE.sinif || !STATE.konu) {
-    alert("Sınıf ve konu seçiniz.");
+    alert("Konu seçiniz.");
     return;
   }
 
@@ -201,28 +163,66 @@ async function regenerate(){
   const used = STATE._used[poolKey];
   const lastKeys = new Set(STATE.questions.map(normQ));
 
-  // Kullanılmayanlardan seç; eksik kalırsa havuzdan doldur
-  const next = pick10WithContinue(STATE._pool, used, lastKeys);
+  // Kullanılmayanları çıkar
+  const available = [];
+  for (const it of STATE._pool) {
+    const key = normQ(it);
+    if (!used.has(key)) available.push({ it, key });
+  }
+  // Karıştır
+  for (let i = available.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [available[i], available[j]] = [available[j], available[i]];
+  }
+  // Önce kullanılmayanlardan doldur
+  const out = [];
+  const outKeys = new Set();
+  while (out.length < 10 && available.length) {
+    const x = available.pop();
+    if (!outKeys.has(x.key)) { out.push(x.it); outKeys.add(x.key); }
+  }
+  // Eksikse: havuzdan (tekrar olabilir) doldur, 10 içinde tekrarsız
+  if (out.length < 10) {
+    const bag = STATE._pool.slice();
+    for (let i = bag.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [bag[i], bag[j]] = [bag[j], bag[i]];
+    }
+    for (const it of bag) {
+      const k = normQ(it);
+      if (!outKeys.has(k)) { out.push(it); outKeys.add(k); if (out.length >= 10) break; }
+    }
+  }
+  // Çok küçük havuz ise yine de 10'a tamamla
+  while (out.length < 10 && STATE._pool.length) {
+    out.push(STATE._pool[Math.floor(Math.random() * STATE._pool.length)]);
+  }
 
-  // Kullanılmışlara ekle (yalnız yeni seçtiklerimizi işaretleyelim)
-  for (const it of next) used.add(normQ(it));
+  // Son set tamamen aynıysa küçük değişiklik yap
+  const nowKeys = new Set(out.map(normQ));
+  let allSame = (lastKeys.size === 10);
+  if (allSame) for (const k of nowKeys) { if (!lastKeys.has(k)) { allSame = false; break; } }
+  if (allSame) {
+    const bag = STATE._pool.slice().sort(() => Math.random() - 0.5);
+    for (const it of bag) {
+      const k = normQ(it);
+      if (!nowKeys.has(k)) { out[0] = it; break; }
+    }
+  }
 
-  STATE.questions = next;
+  // Kullanılmışlara ekle (yalnız yeni seçilenleri)
+  for (const it of out) used.add(normQ(it));
+
+  STATE.questions = out;
   render();
   updateHeader();
 }
 
-// === PDF: Üstte BAŞLIK, altında içerik görüntüsü (çakışma yok) ===
+/* --- PDF: Üstte başlık, altında içerik görüntüsü --- */
 async function exportPDF(){
-  const root =
-    document.getElementById("printArea") ||
-    document.getElementById("paper") ||
-    document.getElementById("questions") ||
-    document.querySelector(".questions-grid");
-
+  const root = document.getElementById("printArea") || document.getElementById("paper") || document.getElementById("questions") || document.querySelector(".questions-grid");
   if (!root){ alert("PDF için içerik bulunamadı (printArea)."); return; }
 
-  // Ekrandaki alanı görüntüye çevir
   const canvas = await html2canvas(root, { scale: 2 });
   const img = canvas.toDataURL("image/png");
 
@@ -231,52 +231,44 @@ async function exportPDF(){
   const W = pdf.internal.pageSize.getWidth();
   const H = pdf.internal.pageSize.getHeight();
 
-  // === Başlık bloğu
   const sinifName = THEMES[STATE.sinif]?.name || `${STATE.sinif}. Sınıf`;
   const konuLabel = (STATE.topics.find(t => t.key === STATE.konu)?.label || STATE.konu || "Konu") + " Problemleri";
 
   const left = 10, right = 10, bottom = 10;
-  const headerTop = 10;      // sayfanın üstünden 10mm boşluk
-  const headerH   = 22;      // başlık bloğu yüksekliği (mm)
-  const ruleGap   = 3;       // başlık-alt çizgi sonrası boşluk (mm)
+  const headerTop = 10, headerH = 22, ruleGap = 3;
 
-  // Başlık alanı (opsiyonel beyaz arka plan; içerik oraya gelmeyecek ama temiz dursun)
+  // Başlık bloğu
   pdf.setFillColor(255,255,255);
   pdf.rect(0, headerTop - 4, W, headerH + 8, "F");
 
   let y = headerTop + 2;
   pdf.setTextColor(0,0,0);
-  pdf.setFont("helvetica", "bold");
-  pdf.setFontSize(18);
+  pdf.setFont("helvetica", "bold"); pdf.setFontSize(18);
   pdf.text(`${sinifName} / ${konuLabel}`, W/2, y, { align: "center" });
 
   y += 7;
-  pdf.setFont("helvetica", "normal");
-  pdf.setFontSize(11);
+  pdf.setFont("helvetica", "normal"); pdf.setFontSize(11);
   pdf.text(`Ad Soyad:  ..................................................        Tarih:  ......./....../......`, W/2, y, { align: "center" });
 
   y += 4;
-  pdf.setDrawColor(0);
-  pdf.setLineWidth(0.2);
+  pdf.setDrawColor(0); pdf.setLineWidth(0.2);
   pdf.line(left, y, W - right, y);
 
-  // === Görüntüyü BAŞLIĞIN ALTINA yerleştir
-  const imgTop = y + ruleGap;                         // resmin başlayacağı Y
+  // Görüntü başlığın ALTINA
+  const imgTop = y + ruleGap;
   const usableW = W - left - right;
-  const maxH    = H - imgTop - bottom;
+  const maxH = H - imgTop - bottom;
 
   let imgW = usableW;
   let imgH = (canvas.height / canvas.width) * imgW;
-  if (imgH > maxH) {
-    const scale = maxH / imgH;
-    imgW *= scale; imgH *= scale;
-  }
+  if (imgH > maxH) { const scale = maxH / imgH; imgW *= scale; imgH *= scale; }
 
   pdf.addImage(img, "PNG", left, imgTop, imgW, imgH, undefined, "FAST");
 
   const fname = `${sinifName.replace(/\s+/g,"")}_${(STATE.konu||"Konu").toString().replace(/\s+/g,"")}_${(STATE.tarih||todayISO())}.pdf`;
   pdf.save(fname);
 }
+
 /* --- Başlat --- */
 async function initSayfa(){
   // URL ile sınıf
@@ -284,43 +276,23 @@ async function initSayfa(){
   if ([1,2,3,4].includes(pSinif)) STATE.sinif = pSinif;
   setText("baslik", THEMES[STATE.sinif].name);
 
-  // Konular
-  STATE.topics = await loadTopics(STATE.sinif);
-  STATE.konu = STATE.topics[0]?.key || null;
-
-  // Form kancaları
-  const selKonu = document.getElementById("konuSelect");
-  if (selKonu) {
-    selKonu.innerHTML = "";
-    STATE.topics.forEach(t => {
-      const op = document.createElement("option");
-      op.value = t.key; op.textContent = t.label;
-      selKonu.appendChild(op);
-    });
-    if (STATE.konu) selKonu.value = STATE.konu;
-    selKonu.addEventListener("change", e => {
-      STATE.konu = e.target.value;
-      // Konu değişince havuz/sayaç sıfırlansın
-      STATE._pool = null;
-      STATE._poolKey = null;
-      STATE.questions = [];
-      render(); updateHeader();
-    });
-  }
-
-  const adEl = document.getElementById("adSoyad");
+  // Tarih default
   const trEl = document.getElementById("tarih");
   if (trEl && !trEl.value) trEl.value = todayISO();
+  trEl?.addEventListener("input", () => { STATE.tarih = trEl.value || ""; updateHeader(); });
 
-  adEl?.addEventListener("input", () => { STATE.adSoyad = adEl.value || ""; updateHeader(); });
-  trEl?.addEventListener("input", () => { STATE.tarih   = trEl.value   || ""; updateHeader(); });
+  // Konuları yükle ve menüyü çiz
+  STATE.topics = await loadTopics(STATE.sinif);
+  STATE.konu = STATE.topics[0]?.key || null;
+  renderKonuMenu();
 
+  // Butonlar
   document.getElementById("olusturBtn")?.addEventListener("click", regenerate);
   document.getElementById("pdfBtn")?.addEventListener("click", exportPDF);
   document.getElementById("printBtn")?.addEventListener("click", () => { updateHeader(); window.print(); });
 
   updateHeader();
-  // İlk yüklemede otomatik çekmek istersen aç:
+  // İstersen açılışta otomatik soru getirmek için şunu aç:
   // await regenerate();
 }
 
