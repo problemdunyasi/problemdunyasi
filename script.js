@@ -217,7 +217,8 @@ async function regenerate(){
   updateHeader();
 }
 
-/* --- PDF: Üstte BAŞLIK, altında içerik görüntüsü --- */
+/* --- PDF: Üstte BAŞLIK, altında içerik görüntüsü
+   NOT: PDF çekerken .paper-header geçici gizlenir (çift görünmesini önler) --- */
 async function exportPDF(){
   const root =
     document.getElementById("printArea") ||
@@ -227,13 +228,23 @@ async function exportPDF(){
 
   if (!root){ alert("PDF için içerik bulunamadı (printArea)."); return; }
 
-  // Başlık metnini güncelle ve DOM boyansın (eski görünüm sorunu için)
+  // Başlık metnini güncelle ve DOM’un boyanmasını bekle
   syncPrintBanner();
+
+  // .paper-header'ı geçici gizle (PDF'te çift bilgiyi önlemek için)
+  const ph = root.querySelector(".paper-header");
+  const prevDisp = ph ? ph.style.display : null;
+  if (ph) ph.style.display = "none";
+
+  // Birkaç kare bekle ki gizleme kesin uygulansın
   await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
 
   // İçeriği görüntüye çevir
   const canvas = await html2canvas(root, { scale: 2 });
   const img = canvas.toDataURL("image/png");
+
+  // Gizlemeyi geri al
+  if (ph) ph.style.display = prevDisp ?? "";
 
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF({ unit: "mm", format: "a4", orientation: "portrait" });
@@ -244,19 +255,19 @@ async function exportPDF(){
   const konuLabel = (STATE.topics.find(t => t.key === STATE.konu)?.label || STATE.konu || "Konu") + " Problemleri";
 
   const left = 10, right = 10, bottom = 10;
-  const headerTop = 10, headerH = 22, ruleGap = 3;
+  const headerTop = 10, headerH = 18, ruleGap = 3; // biraz daha ince başlık
 
   // Başlık bloğu
   pdf.setFillColor(255,255,255);
-  pdf.rect(0, headerTop - 4, W, headerH + 8, "F");
+  pdf.rect(0, headerTop - 3, W, headerH + 6, "F");
 
   let y = headerTop + 2;
   pdf.setTextColor(0,0,0);
-  pdf.setFont("helvetica", "bold"); pdf.setFontSize(18);
+  pdf.setFont("helvetica", "bold"); pdf.setFontSize(16); // punto biraz küçültüldü
   pdf.text(`${sinifName} / ${konuLabel}`, W/2, y, { align: "center" });
 
-  y += 7;
-  pdf.setFont("helvetica", "normal"); pdf.setFontSize(11);
+  y += 6;
+  pdf.setFont("helvetica", "normal"); pdf.setFontSize(10);
   pdf.text(`Ad Soyad:  ..................................................        Tarih:  ......./....../......`, W/2, y, { align: "center" });
 
   y += 4;
