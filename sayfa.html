@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="stil.css" />
 
-  <!-- Konu menü şeridi için minimal stil -->
+  <!-- Konu menü şeridi + yazdır başlığı için minimal ek stil -->
   <style>
     .konu-wrap { display: grid; gap: 8px; }
     .konu-menu {
@@ -36,10 +36,19 @@
       background: linear-gradient(135deg, #6a5bfd, #2cb4ff);
       box-shadow: 0 8px 18px rgba(0,0,0,.18);
     }
-    /* küçük ekranlarda satır kaymasın */
     @media (max-width: 520px){
       .konu-menu { gap: 6px; }
       .konu-btn { padding: 7px 10px; font-size: 14px; }
+    }
+
+    /* Yalnız yazdırda görünen büyük başlık */
+    .print-banner { display: none; }
+    @media print {
+      .controls, .home-btn, .page-header, .site-footer { display: none !important; }
+      .print-banner { display: block; text-align: center; margin: 10mm 0 5mm; }
+      .print-banner .pb-title { font-weight: 800; font-size: 18pt; }
+      .print-banner .pb-rule { border: 0; border-top: 1px solid #000; margin: 4mm 10mm 0; }
+      #printArea { box-shadow: none !important; border: 0 !important; padding-top: 0 !important; }
     }
   </style>
 </head>
@@ -76,6 +85,13 @@
 
   <!-- Yazdır/PDF alanı -->
   <section id="printArea" class="questions shadow paper">
+
+    <!-- Yalnız yazdırda gözüken başlık -->
+    <div id="printBanner" class="print-banner" aria-hidden="true">
+      <div id="pbTitle" class="pb-title">1. Sınıf / Konu Problemleri</div>
+      <hr class="pb-rule"/>
+    </div>
+
     <header class="paper-header">
       <div><strong>Adı Soyadı:</strong> <span id="h_ad"></span></div>
       <div><strong>Tarih:</strong> <span id="h_tarih"></span></div>
@@ -114,7 +130,7 @@
   <!-- Kütüphaneler + Proje kodu -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="script.js"></script>
+  <script src="script.js?v=5"></script>
   <script>
     window.addEventListener('DOMContentLoaded', () => window.initSayfa?.());
   </script>
