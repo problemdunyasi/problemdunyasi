@@ -309,4 +309,42 @@ h3 { font-size: var(--step-2); line-height: 1.25; }
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
+/* === ANA SAYFA (home) düzeni === */
+.home .page-header{
+  /* Başlığı sayfanın üstünden biraz aşağı al */
+  padding-top: clamp(40px, 14vh, 140px);
+  padding-bottom: clamp(8px, 3vh, 24px);
+  text-align: center;            /* başlık ortalı */
+}
+
+.home .page-header h1{
+  margin: 0 0 6px;
+  /* varsa fluid tipografi değişkenlerimizden faydalan */
+  font-size: var(--step-4, clamp(2rem, 1.4rem + 3.6vw, 2.8rem));
+  line-height: 1.1;
+}
+
+.home .page-header p,
+.home .hero-text,
+.home main,        /* ana içerik */
+.home section{     /* ana sayfa bölümleri */
+  text-align: center;            /* tüm yazılar ortalı */
+}
+
+/* İsteğe bağlı: ana sayfa ana içeriğini da ortala */
+.home main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(12px, 2vh, 24px);
+}
+
+/* Buton grupları da ortalansın */
+.home .btn-row,
+.home .actions{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(8px, 1.6vw, 16px);
+}
 
