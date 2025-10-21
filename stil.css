@@ -347,3 +347,29 @@ h3 { font-size: var(--step-2); line-height: 1.25; }
   flex-wrap: wrap;
   gap: clamp(8px, 1.6vw, 16px);
 }
+/* === SABİT TİPOGRAFİ (fluid iptal) === */
+html { font-size: 16px; }   /* temel */
+body { font-size: 16px; line-height: 1.6; }
+
+h1, .page-header h1 { font-size: 36px; line-height: 1.15; margin: 0 0 8px; }
+h2 { font-size: 28px; line-height: 1.2; margin: 0 0 8px; }
+h3 { font-size: 22px; line-height: 1.25; margin: 0 0 6px; }
+.small, .muted { font-size: 14px; }
+
+/* Butonlar — sabit ölçü */
+.btn {
+  font-size: 16px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  min-height: 44px;
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 8px;
+}
+.btn.primary { font-weight: 700; }
+
+/* Konu menüsü butonları — sabit */
+.konu-btn {
+  font-size: 15px;
+  padding: 8px 12px;
+  border-radius: 999px;
+}
