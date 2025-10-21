@@ -5,11 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Çalışma Kâğıdı Oluştur</title>
 
-  <!-- Yazı tipi ve stil -->
+  <!-- Yazı tipi ve genel stil -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="stil.css" />
+
+  <!-- Konu menü şeridi için minimal stil -->
+  <style>
+    .konu-wrap { display: grid; gap: 8px; }
+    .konu-menu {
+      display: flex; gap: 8px; align-items: center;
+      overflow-x: auto; padding: 6px 2px;
+      scrollbar-width: thin;
+    }
+    .konu-btn {
+      border: 1px solid rgba(0,0,0,.12);
+      background: #fff;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: transform .12s ease, box-shadow .15s ease, filter .15s ease, background .2s ease;
+    }
+    .konu-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0,0,0,.12); }
+    .konu-btn.active {
+      color: #fff;
+      border-color: transparent;
+      background: linear-gradient(135deg, #6a5bfd, #2cb4ff);
+      box-shadow: 0 8px 18px rgba(0,0,0,.18);
+    }
+    /* küçük ekranlarda satır kaymasın */
+    @media (max-width: 520px){
+      .konu-menu { gap: 6px; }
+      .konu-btn { padding: 7px 10px; font-size: 14px; }
+    }
+  </style>
 </head>
 <body class="page">
 
@@ -19,13 +51,15 @@
     <h1 id="baslik">Sınıf</h1>
   </header>
 
-  <!-- Kontroller (sadece KONu ve TARİH) -->
+  <!-- Kontroller (KONU MENÜSÜ + TARİH) -->
   <section class="controls glass">
     <div class="control-row">
-      <label class="control-tile">
-        Konu:
-        <select id="konuSelect"></select>
-      </label>
+      <div class="control-tile konu-wrap">
+        <label style="font-weight:700">Konu:</label>
+        <nav id="konuMenu" class="konu-menu" aria-label="Konular">
+          <!-- script.js butonları burada oluşturur -->
+        </nav>
+      </div>
 
       <label class="control-tile">
         Tarih:
@@ -45,7 +79,7 @@
     <header class="paper-header">
       <div><strong>Adı Soyadı:</strong> <span id="h_ad"></span></div>
       <div><strong>Tarih:</strong> <span id="h_tarih"></span></div>
-      <!-- Sınıf/Konu satırı kaldırıldı -->
+      <!-- “Sınıf/Konu” satırı kaldırıldı -->
     </header>
 
     <div class="paper-body">
