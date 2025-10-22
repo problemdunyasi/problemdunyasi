@@ -231,4 +231,20 @@ h1,h2,h3{font-family:'Baloo 2','Poppins',sans-serif;margin:0}
 
 /* İstersen ana sayfada simgeyi gizle: 
 body[data-page="home"] .home-btn { display:none } */
+/* === ANA SAYFA HERO AYARI (yazıyı biraz aşağı + ortalı) === */
+.home .hero{
+  padding-top: 120px;   /* metni aşağı indirir (eskisi 60px idi) */
+  padding-bottom: 28px;
+  text-align: center;   /* güvene al: ortalı */
+}
+.home .hero .hero-inner{
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;   /* başlık ve alt yazı ortalı */
+}
 
+/* Küçük ekranlarda biraz daha az boşluk verelim */
+@media (max-width: 600px){
+  .home .hero{ padding-top: 96px; }
+  .home .hero h1{ font-size: 40px; } /* başlık telefonda taşmasın */
+}
